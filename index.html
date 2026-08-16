@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>The Floor — Territory Trivia</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="app">
+
+    <!-- SETUP: PLAYER COUNT -->
+    <section id="setup-count-screen" class="screen">
+      <h1>THE FLOOR</h1>
+      <p class="subtitle">Multiplayer territory trivia showdown</p>
+      <h3 class="setup-heading">How many players?</h3>
+      <div class="count-grid" id="count-grid"></div>
+      <div class="rules">
+        <h3>How to play</h3>
+        <ul>
+          <li>The floor is a grid with one square per player, each showing their chosen area of expertise.</li>
+          <li>On your turn, challenge any <strong>opponent's square</strong> that touches your territory — each category can only ever be challenged once.</li>
+          <li>Each duel gives both players a 45-second life clock. Only the active player's clock runs.</li>
+          <li>Say your guess out loud — the Game Master marks it Correct (switch turns) or Pass (-3s, same player continues).</li>
+          <li>Whoever's clock hits zero first loses — and is eliminated on the spot, along with <strong>all</strong> of their territory, which the winner inherits.</li>
+          <li>Win a duel and choose to keep playing, or pass — a randomizer picks someone who hasn't gone yet.</li>
+          <li>Last player standing controls the whole floor and wins.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- SETUP: ROSTER -->
+    <section id="setup-roster-screen" class="screen hidden">
+      <h1>THE FLOOR</h1>
+      <p class="subtitle">Enter each player's name and area of expertise</p>
+      <div class="roster-form" id="roster-form"></div>
+      <p class="setup-error hidden" id="roster-error">Every player needs a unique area of expertise.</p>
+      <div class="setup-actions">
+        <button id="roster-back-btn" class="secondary-btn">← Back</button>
+        <button id="roster-start-btn" class="primary-btn">Start Game</button>
+      </div>
+    </section>
+
+    <!-- RANDOMIZER REVEAL -->
+    <section id="randomizer-overlay" class="overlay hidden">
+      <div class="duel-box randomizer-box">
+        <div class="randomizer-title">🎲 Choosing who starts...</div>
+        <div class="randomizer-name" id="randomizer-name">?</div>
+        <button id="randomizer-continue-btn" class="primary-btn hidden">Continue</button>
+      </div>
+    </section>
+
+    <!-- GAME SCREEN -->
+    <section id="game-screen" class="screen hidden">
+      <div class="turn-indicator" id="turn-indicator">Player 1's turn</div>
+      <div class="roster-bar" id="roster-bar"></div>
+      <p class="hint" id="hint-text">Select a highlighted square to challenge it.</p>
+      <div id="grid" class="grid"></div>
+    </section>
+
+    <!-- DUEL OVERLAY -->
+    <section id="duel-overlay" class="overlay hidden">
+      <div class="duel-box">
+        <div class="duel-header">
+          <div class="duel-category" id="duel-category">Category</div>
+        </div>
+
+        <div class="life-timers">
+          <div class="life-timer" id="life-challenger">
+            <span class="life-name" id="life-challenger-name">Player 1</span>
+            <div class="life-seconds-wrap"><span class="life-seconds" id="life-challenger-seconds">45.0</span></div>
+            <div class="life-track"><div class="life-fill" id="life-challenger-fill"></div></div>
+          </div>
+          <div class="life-timer" id="life-defender">
+            <span class="life-name" id="life-defender-name">Player 2</span>
+            <div class="life-seconds-wrap"><span class="life-seconds" id="life-defender-seconds">45.0</span></div>
+            <div class="life-track"><div class="life-fill" id="life-defender-fill"></div></div>
+          </div>
+        </div>
+
+        <div class="clue-prompt">What is this?</div>
+        <div class="clue-media" id="clue-media">
+          <img id="question-image" class="clue-image hidden" alt="Guess what this is" />
+          <div id="image-placeholder" class="image-placeholder hidden">
+            <span class="placeholder-icon">🖼️</span>
+            <span>Image not added yet</span>
+            <code id="placeholder-path"></code>
+          </div>
+        </div>
+
+        <div class="duel-log" id="duel-log"></div>
+
+        <div class="host-panel">
+          <div class="host-panel-label">Game Master controls</div>
+          <div class="host-answer" id="host-answer" title="Click to reveal/hide">
+            <span class="host-answer-icon">🙈</span>
+            <span id="host-answer-text" class="host-answer-text blurred">Answer</span>
+          </div>
+          <div class="host-buttons">
+            <button id="correct-btn" class="host-btn correct-btn">✅ Correct <kbd>C</kbd></button>
+            <button id="pass-btn" class="host-btn pass-btn">⏭️ Pass (-3s) <kbd>P</kbd></button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TURN CHOICE OVERLAY -->
+    <section id="turn-choice-overlay" class="overlay hidden">
+      <div class="duel-box turn-choice-box">
+        <div class="turn-choice-title" id="turn-choice-title">Player 1 wins the square!</div>
+        <div class="turn-choice-buttons">
+          <button id="keep-playing-btn" class="host-btn correct-btn">▶️ Keep Playing</button>
+          <button id="pass-turn-btn" class="host-btn pass-btn">🎲 Pass Turn</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- GAME OVER -->
+    <section id="gameover-screen" class="screen hidden">
+      <h1 id="winner-title">Player 1 wins!</h1>
+      <p id="winner-sub">They control the entire floor.</p>
+      <button id="play-again-btn" class="primary-btn">Play Again</button>
+    </section>
+
+  </div>
+
+  <script src="questions.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
