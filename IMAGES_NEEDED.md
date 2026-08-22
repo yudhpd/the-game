@@ -1,8 +1,13 @@
 # Images needed
 
 The app shows an image as the only clue — no text question — then contestants
-guess what it is from 4 options. Drop your own image files into the paths
-below (create the folders as you go; none exist yet).
+guess what it is from 4 options. Drop your own image **files** into the paths
+below (create each category folder as you go).
+
+Checked items below already have a file in place — thumbnails are inlined so
+you can eyeball them here without opening the folder. This checklist itself
+never contains image data; it just links to the real files sitting in
+`images/<category>/`.
 
 **Format:** any of `.jpg` `.jpeg` `.png` `.webp` `.gif` — just match the filename
 before the extension. The app tries each extension in order and shows a
@@ -13,161 +18,4561 @@ these gradually and playtest as you go.
 (not cropped) inside a 260px-tall box.
 
 ## Movies (`images/movies/`)
-- `1-star-wars` — Star Wars (poster, lightsaber, or iconic scene)
-- `2-titanic` — Titanic (ship / iconic scene)
-- `3-wizard-of-oz` — The Wizard of Oz (yellow brick road / ruby slippers)
-- `4-jurassic-park` — Jurassic Park (T-Rex or park gate)
-- `5-lion-king` — The Lion King
-- `6-home-alone` — Home Alone
+- [x] <img src="images/movies/1-star-wars.jpg" width="80"> `1-star-wars` — Star Wars
+- [x] <img src="images/movies/2-titanic.webp" width="80"> `2-titanic` — Titanic
+- [x] <img src="images/movies/3-wizard-of-oz.webp" width="80"> `3-wizard-of-oz` — The Wizard of Oz
+- [x] <img src="images/movies/4-jurassic-park.jpg" width="80"> `4-jurassic-park` — Jurassic Park
+- [x] <img src="images/movies/5-lion-king.jpg" width="80"> `5-lion-king` — The Lion King
+- [x] <img src="images/movies/6-home-alone.jpg" width="80"> `6-home-alone` — Home Alone
+- [ ] `7-the-matrix` — The Matrix
+- [ ] `8-back-to-the-future` — Back to the Future
+- [ ] `9-et-the-extra-terrestrial` — E.T. the Extra-Terrestrial
+- [ ] `10-jaws` — Jaws
+- [ ] `11-the-godfather` — The Godfather
+- [ ] `12-forrest-gump` — Forrest Gump
+- [ ] `13-rocky` — Rocky
+- [ ] `14-frozen` — Frozen
+- [ ] `15-finding-nemo` — Finding Nemo
+- [ ] `16-toy-story` — Toy Story
+- [ ] `17-the-avengers` — The Avengers
+- [ ] `18-harry-potter-and-the-sorcerers-stone` — Harry Potter and the Sorcerer's Stone
+- [ ] `19-pirates-of-the-caribbean` — Pirates of the Caribbean
+- [ ] `20-the-dark-knight` — The Dark Knight
+- [ ] `21-avatar` — Avatar
+- [ ] `22-gladiator` — Gladiator
+- [ ] `23-king-kong` — King Kong
+- [ ] `24-casablanca` — Casablanca
+- [ ] `25-grease` — Grease
+- [ ] `26-the-sound-of-music` — The Sound of Music
+- [ ] `27-indiana-jones` — Indiana Jones
+- [ ] `28-shrek` — Shrek
+- [ ] `29-spider-man` — Spider-Man
+- [ ] `30-the-terminator` — The Terminator
+- [ ] `31-alien` — Alien
+- [ ] `32-mary-poppins` — Mary Poppins
+- [ ] `33-batman` — Batman
+- [ ] `34-star-trek` — Star Trek
+- [ ] `35-the-shawshank-redemption` — The Shawshank Redemption
+- [ ] `36-up` — Up
 
 ## Music (`images/music/`)
-- `1-electric-guitar`
-- `2-grand-piano`
-- `3-drum-kit`
-- `4-saxophone`
-- `5-vinyl-record`
-- `6-violin`
+- [x] <img src="images/music/1-electric-guitar.jpg" width="80"> `1-electric-guitar` — Electric guitar
+- [x] <img src="images/music/2-grand-piano.webp" width="80"> `2-grand-piano` — Grand piano
+- [x] <img src="images/music/3-drum-kit.jpg" width="80"> `3-drum-kit` — Drum kit
+- [x] <img src="images/music/4-saxophone.jpg" width="80"> `4-saxophone` — Saxophone
+- [x] <img src="images/music/5-vinyl-record.jpg" width="80"> `5-vinyl-record` — Vinyl record
+- [x] <img src="images/music/6-violin.jpg" width="80"> `6-violin` — Violin
+- [ ] `7-trumpet` — Trumpet
+- [ ] `8-flute` — Flute
+- [ ] `9-cello` — Cello
+- [ ] `10-harp` — Harp
+- [ ] `11-acoustic-guitar` — Acoustic guitar
+- [ ] `12-microphone` — Microphone
+- [ ] `13-headphones` — Headphones
+- [ ] `14-dj-turntables` — DJ turntables
+- [ ] `15-sheet-music` — Sheet music
+- [ ] `16-tambourine` — Tambourine
+- [ ] `17-xylophone` — Xylophone
+- [ ] `18-clarinet` — Clarinet
+- [ ] `19-trombone` — Trombone
+- [ ] `20-double-bass` — Double bass
+- [ ] `21-ukulele` — Ukulele
+- [ ] `22-bagpipes` — Bagpipes
+- [ ] `23-harmonica` — Harmonica
+- [ ] `24-conductors-baton` — Conductor's baton
+- [ ] `25-marching-band` — Marching band
+- [ ] `26-choir` — Choir
+- [ ] `27-opera-singer` — Opera singer
+- [ ] `28-karaoke` — Karaoke
+- [ ] `29-boombox` — Boombox
+- [ ] `30-cassette-tape` — Cassette tape
+- [ ] `31-orchestra` — Orchestra
+- [ ] `32-rock-band-on-stage` — Rock band on stage
+- [ ] `33-piano-keys` — Piano keys
+- [ ] `34-guitar-pick` — Guitar pick
+- [ ] `35-metronome` — Metronome
+- [ ] `36-music-festival-stage` — Music festival stage
 
 ## Sports (`images/sports/`)
-- `1-basketball`
-- `2-tennis`
-- `3-soccer`
-- `4-golf`
-- `5-swimming`
-- `6-boxing`
+- [ ] `1-basketball` — Basketball
+- [ ] `2-tennis` — Tennis
+- [ ] `3-soccer` — Soccer / Football
+- [ ] `4-golf` — Golf
+- [ ] `5-swimming` — Swimming
+- [ ] `6-boxing` — Boxing
+- [ ] `7-baseball` — Baseball
+- [ ] `8-american-football` — American Football
+- [ ] `9-volleyball` — Volleyball
+- [ ] `10-cricket` — Cricket
+- [ ] `11-rugby` — Rugby
+- [ ] `12-ice-hockey` — Ice Hockey
+- [ ] `13-table-tennis` — Table Tennis
+- [ ] `14-badminton` — Badminton
+- [ ] `15-bowling` — Bowling
+- [ ] `16-cycling` — Cycling
+- [ ] `17-gymnastics` — Gymnastics
+- [ ] `18-track-and-field` — Track and Field
+- [ ] `19-wrestling` — Wrestling
+- [ ] `20-handball` — Handball
+- [ ] `21-water-polo` — Water Polo
+- [ ] `22-rowing` — Rowing
+- [ ] `23-skiing` — Skiing
+- [ ] `24-snowboarding` — Snowboarding
+- [ ] `25-surfing` — Surfing
+- [ ] `26-skateboarding` — Skateboarding
+- [ ] `27-darts` — Darts
+- [ ] `28-snooker` — Snooker
+- [ ] `29-field-hockey` — Field Hockey
+- [ ] `30-rock-climbing` — Rock Climbing
+- [ ] `31-fencing` — Fencing
+- [ ] `32-archery` — Archery
+- [ ] `33-weightlifting` — Weightlifting
+- [ ] `34-horse-racing` — Horse Racing
+- [ ] `35-marathon-running` — Marathon Running
+- [ ] `36-curling` — Curling
 
 ## Geography (`images/geography/`)
-- `1-eiffel-tower`
-- `2-pyramids-giza`
-- `3-mount-everest`
-- `4-sahara-desert`
-- `5-great-barrier-reef`
-- `6-amazon-rainforest`
+- [ ] `1-eiffel-tower` — Paris
+- [ ] `2-pyramids-giza` — Egypt
+- [ ] `3-mount-everest` — Nepal
+- [ ] `4-sahara-desert` — Sahara Desert
+- [ ] `5-great-barrier-reef` — Australia
+- [ ] `6-amazon-rainforest` — Amazon Rainforest
+- [ ] `7-grand-canyon` — Grand Canyon
+- [ ] `8-niagara-falls` — Niagara Falls
+- [ ] `9-mount-fuji` — Mount Fuji
+- [ ] `10-venice` — Venice
+- [ ] `11-machu-picchu` — Machu Picchu
+- [ ] `12-taj-mahal` — Taj Mahal
+- [ ] `13-victoria-falls` — Victoria Falls
+- [ ] `14-dead-sea` — Dead Sea
+- [ ] `15-iceland` — Iceland
+- [ ] `16-swiss-alps` — Swiss Alps
+- [ ] `17-serengeti` — Serengeti
+- [ ] `18-antarctica` — Antarctica
+- [ ] `19-uluru` — Uluru
+- [ ] `20-norwegian-fjords` — Norwegian Fjords
+- [ ] `21-petra` — Petra
+- [ ] `22-angel-falls` — Angel Falls
+- [ ] `23-galapagos-islands` — Galápagos Islands
+- [ ] `24-death-valley` — Death Valley
+- [ ] `25-yellowstone-national-park` — Yellowstone National Park
+- [ ] `26-mount-kilimanjaro` — Mount Kilimanjaro
+- [ ] `27-loch-ness` — Loch Ness
+- [ ] `28-matterhorn` — Matterhorn
+- [ ] `29-bali` — Bali
+- [ ] `30-santorini` — Santorini
+- [ ] `31-great-rift-valley` — Great Rift Valley
+- [ ] `32-iguazu-falls` — Iguazu Falls
+- [ ] `33-ha-long-bay` — Ha Long Bay
+- [ ] `34-salar-de-uyuni` — Salar de Uyuni
+- [ ] `35-antelope-canyon` — Antelope Canyon
+- [ ] `36-mont-saint-michel` — Mont Saint-Michel
 
 ## History (`images/history/`)
-- `1-great-wall-china`
-- `2-colosseum`
-- `3-statue-of-liberty`
-- `4-stonehenge`
-- `5-terracotta-army`
-- `6-viking-longship`
+- [ ] `1-great-wall-china` — China
+- [ ] `2-colosseum` — Rome
+- [ ] `3-statue-of-liberty` — Statue of Liberty
+- [ ] `4-stonehenge` — Stonehenge
+- [ ] `5-terracotta-army` — Terracotta Army
+- [ ] `6-viking-longship` — Viking longship
+- [ ] `7-tutankhamuns-golden-mask` — Tutankhamun's Golden Mask
+- [ ] `8-the-great-sphinx-of-giza` — The Great Sphinx of Giza
+- [ ] `9-julius-caesar` — Julius Caesar
+- [ ] `10-napoleon-bonaparte` — Napoleon Bonaparte
+- [ ] `11-medieval-knight-in-armor` — Medieval Knight in Armor
+- [ ] `12-samurai-armor` — Samurai Armor
+- [ ] `13-the-berlin-wall` — The Berlin Wall
+- [ ] `14-world-war-ii-tank` — World War II Tank
+- [ ] `15-roman-aqueduct` — Roman Aqueduct
+- [ ] `16-the-parthenon` — The Parthenon
+- [ ] `17-egyptian-hieroglyphics` — Egyptian Hieroglyphics
+- [ ] `18-medieval-castle-siege` — Medieval Castle Siege
+- [ ] `19-the-magna-carta` — The Magna Carta
+- [ ] `20-christopher-columbuss-ships` — Christopher Columbus's Ships
+- [ ] `21-the-wright-brothers-first-flight` — The Wright Brothers' First Flight
+- [ ] `22-viking-runestone` — Viking Runestone
+- [ ] `23-illuminated-manuscript` — Illuminated Manuscript
+- [ ] `24-the-great-fire-of-london` — The Great Fire of London
+- [ ] `25-ellis-island` — Ellis Island
+- [ ] `26-silk-road-camel-caravan` — Silk Road Camel Caravan
+- [ ] `27-roman-legionary-soldier` — Roman Legionary Soldier
+- [ ] `28-genghis-khan` — Genghis Khan
+- [ ] `29-gutenberg-printing-press` — Gutenberg Printing Press
+- [ ] `30-the-rosetta-stone` — The Rosetta Stone
+- [ ] `31-angkor-wat` — Angkor Wat
+- [ ] `32-pompeii-ruins` — Pompeii Ruins
+- [ ] `33-american-wild-west-cowboy` — American Wild West Cowboy
+- [ ] `34-ishtar-gate-of-babylon` — Ishtar Gate of Babylon
+- [ ] `35-the-apollo-moon-landing` — The Apollo Moon Landing
+- [ ] `36-the-sistine-chapel-ceiling` — The Sistine Chapel Ceiling
 
 ## Science (`images/science/`)
-- `1-dna-helix`
-- `2-periodic-table`
-- `3-microscope`
-- `4-solar-system`
-- `5-chemistry-lab`
-- `6-human-skeleton`
+- [ ] `1-dna-helix` — DNA
+- [ ] `2-periodic-table` — Periodic table
+- [ ] `3-microscope` — Microscope
+- [ ] `4-solar-system` — Solar system
+- [ ] `5-chemistry-lab` — Chemistry lab
+- [ ] `6-human-skeleton` — Skeleton
+- [ ] `7-telescope` — Telescope
+- [ ] `8-atomic-model` — Atomic Model
+- [ ] `9-volcano-eruption` — Volcano Eruption
+- [ ] `10-human-brain` — Human Brain
+- [ ] `11-human-heart` — Human Heart
+- [ ] `12-bacteria-under-a-microscope` — Bacteria Under a Microscope
+- [ ] `13-test-tubes` — Test Tubes
+- [ ] `14-bunsen-burner` — Bunsen Burner
+- [ ] `15-magnet-and-iron-filings` — Magnet and Iron Filings
+- [ ] `16-electric-circuit` — Electric Circuit
+- [ ] `17-fossil` — Fossil
+- [ ] `18-crystal-formation` — Crystal Formation
+- [ ] `19-water-cycle-diagram` — Water Cycle Diagram
+- [ ] `20-photosynthesis-diagram` — Photosynthesis Diagram
+- [ ] `21-black-hole-illustration` — Black Hole Illustration
+- [ ] `22-lightning-static-electricity` — Lightning / Static Electricity
+- [ ] `23-newtons-apple-and-gravity` — Newton's Apple and Gravity
+- [ ] `24-prism-and-light-spectrum` — Prism and Light Spectrum
+- [ ] `25-robotics-lab` — Robotics Lab
+- [ ] `26-vaccine-syringe` — Vaccine Syringe
+- [ ] `27-x-ray-image` — X-Ray Image
+- [ ] `28-thermometer` — Thermometer
+- [ ] `29-pendulum` — Pendulum
+- [ ] `30-stem-cell` — Stem Cell
+- [ ] `31-nuclear-reactor` — Nuclear Reactor
+- [ ] `32-wind-turbine` — Wind Turbine
+- [ ] `33-solar-panel` — Solar Panel
+- [ ] `34-chemical-reaction-in-a-beaker` — Chemical Reaction in a Beaker
+- [ ] `35-human-eye-anatomy` — Human Eye Anatomy
+- [ ] `36-dolly-the-cloned-sheep` — Dolly the Cloned Sheep
 
 ## Food & Drink (`images/food-drink/`)
-- `1-pizza`
-- `2-sushi`
-- `3-croissant`
-- `4-taco`
-- `5-coffee`
-- `6-cupcake`
+- [ ] `1-pizza` — Pizza
+- [ ] `2-sushi` — Sushi
+- [ ] `3-croissant` — Croissant
+- [ ] `4-taco` — Taco
+- [ ] `5-coffee` — Coffee
+- [ ] `6-cupcake` — Cupcake
+- [ ] `7-hamburger` — Hamburger
+- [ ] `8-spaghetti` — Spaghetti
+- [ ] `9-ramen` — Ramen
+- [ ] `10-curry` — Curry
+- [ ] `11-pad-thai` — Pad Thai
+- [ ] `12-paella` — Paella
+- [ ] `13-fish-and-chips` — Fish and Chips
+- [ ] `14-burrito` — Burrito
+- [ ] `15-dumplings` — Dumplings
+- [ ] `16-pretzel` — Pretzel
+- [ ] `17-ice-cream-cone` — Ice Cream Cone
+- [ ] `18-pancakes` — Pancakes
+- [ ] `19-bagel` — Bagel
+- [ ] `20-wine` — Wine
+- [ ] `21-beer` — Beer
+- [ ] `22-champagne` — Champagne
+- [ ] `23-milkshake` — Milkshake
+- [ ] `24-smoothie` — Smoothie
+- [ ] `25-guacamole` — Guacamole
+- [ ] `26-hummus` — Hummus
+- [ ] `27-bbq-ribs` — BBQ Ribs
+- [ ] `28-roast-turkey` — Roast Turkey
+- [ ] `29-lobster` — Lobster
+- [ ] `30-oysters` — Oysters
+- [ ] `31-cheese-platter` — Cheese Platter
+- [ ] `32-pasta-carbonara` — Pasta Carbonara
+- [ ] `33-waffles` — Waffles
+- [ ] `34-hot-chocolate` — Hot Chocolate
+- [ ] `35-matcha-tea-ceremony` — Matcha Tea Ceremony
+- [ ] `36-popcorn` — Popcorn
 
 ## Animals (`images/animals/`)
-- `1-octopus`
-- `2-platypus`
-- `3-cheetah`
-- `4-parrot`
-- `5-whale-shark`
-- `6-kangaroo`
+- [ ] `1-octopus` — Octopus
+- [ ] `2-platypus` — Platypus
+- [ ] `3-cheetah` — Cheetah
+- [ ] `4-parrot` — Parrot
+- [ ] `5-whale-shark` — Whale shark
+- [ ] `6-kangaroo` — Kangaroo
+- [ ] `7-elephant` — Elephant
+- [ ] `8-giraffe` — Giraffe
+- [ ] `9-lion` — Lion
+- [ ] `10-gorilla` — Gorilla
+- [ ] `11-panda` — Panda
+- [ ] `12-polar-bear` — Polar Bear
+- [ ] `13-koala` — Koala
+- [ ] `14-sloth` — Sloth
+- [ ] `15-zebra` — Zebra
+- [ ] `16-rhinoceros` — Rhinoceros
+- [ ] `17-hippopotamus` — Hippopotamus
+- [ ] `18-wolf` — Wolf
+- [ ] `19-fox` — Fox
+- [ ] `20-raccoon` — Raccoon
+- [ ] `21-bat` — Bat
+- [ ] `22-armadillo` — Armadillo
+- [ ] `23-meerkat` — Meerkat
+- [ ] `24-otter` — Otter
+- [ ] `25-squirrel` — Squirrel
+- [ ] `26-hedgehog` — Hedgehog
+- [ ] `27-camel` — Camel
+- [ ] `28-bison` — Bison
+- [ ] `29-moose` — Moose
+- [ ] `30-orangutan` — Orangutan
+- [ ] `31-chimpanzee` — Chimpanzee
+- [ ] `32-tiger` — Tiger
+- [ ] `33-leopard` — Leopard
+- [ ] `34-red-panda` — Red Panda
+- [ ] `35-wombat` — Wombat
+- [ ] `36-tasmanian-devil` — Tasmanian Devil
 
 ## TV Shows (`images/tv-shows/`)
-- `1-game-of-thrones`
-- `2-the-simpsons`
-- `3-stranger-things`
-- `4-breaking-bad`
-- `5-friends`
-- `6-doctor-who`
+- [ ] `1-game-of-thrones` — Game of Thrones
+- [ ] `2-the-simpsons` — The Simpsons
+- [ ] `3-stranger-things` — Stranger Things
+- [ ] `4-breaking-bad` — Breaking Bad
+- [ ] `5-friends` — Friends
+- [ ] `6-doctor-who` — Doctor Who
+- [ ] `7-the-office` — The Office
+- [ ] `8-seinfeld` — Seinfeld
+- [ ] `9-spongebob-squarepants` — SpongeBob SquarePants
+- [ ] `10-the-big-bang-theory` — The Big Bang Theory
+- [ ] `11-sherlock` — Sherlock
+- [ ] `12-the-walking-dead` — The Walking Dead
+- [ ] `13-greys-anatomy` — Grey's Anatomy
+- [ ] `14-the-crown` — The Crown
+- [ ] `15-peaky-blinders` — Peaky Blinders
+- [ ] `16-rick-and-morty` — Rick and Morty
+- [ ] `17-south-park` — South Park
+- [ ] `18-family-guy` — Family Guy
+- [ ] `19-star-trek-the-original-series` — Star Trek: The Original Series
+- [ ] `20-the-x-files` — The X-Files
+- [ ] `21-downton-abbey` — Downton Abbey
+- [ ] `22-sesame-street` — Sesame Street
+- [ ] `23-scooby-doo` — Scooby-Doo
+- [ ] `24-power-rangers` — Power Rangers
+- [ ] `25-pokemon-anime` — Pokémon (Anime)
+- [ ] `26-avatar-the-last-airbender` — Avatar: The Last Airbender
+- [ ] `27-mr-bean` — Mr. Bean
+- [ ] `28-baywatch` — Baywatch
+- [ ] `29-american-idol` — American Idol
+- [ ] `30-saturday-night-live` — Saturday Night Live
+- [ ] `31-the-muppet-show` — The Muppet Show
+- [ ] `32-teletubbies` — Teletubbies
+- [ ] `33-mythbusters` — MythBusters
+- [ ] `34-survivor` — Survivor
+- [ ] `35-the-masked-singer` — The Masked Singer
+- [ ] `36-wheel-of-fortune` — Wheel of Fortune
 
 ## Video Games (`images/video-games/`)
-- `1-super-mario`
-- `2-minecraft`
-- `3-game-controller`
-- `4-legend-of-zelda`
-- `5-fortnite`
-- `6-pac-man`
+- [ ] `1-super-mario` — Super Mario
+- [ ] `2-minecraft` — Minecraft
+- [ ] `3-game-controller` — Video game controller
+- [ ] `4-legend-of-zelda` — The Legend of Zelda
+- [ ] `5-fortnite` — Fortnite
+- [ ] `6-pac-man` — Pac-Man
+- [ ] `7-tetris` — Tetris
+- [ ] `8-sonic-the-hedgehog` — Sonic the Hedgehog
+- [ ] `9-grand-theft-auto` — Grand Theft Auto
+- [ ] `10-call-of-duty` — Call of Duty
+- [ ] `11-the-sims` — The Sims
+- [ ] `12-pokemon` — Pokémon
+- [ ] `13-angry-birds` — Angry Birds
+- [ ] `14-candy-crush-saga` — Candy Crush Saga
+- [ ] `15-world-of-warcraft` — World of Warcraft
+- [ ] `16-overwatch` — Overwatch
+- [ ] `17-league-of-legends` — League of Legends
+- [ ] `18-street-fighter` — Street Fighter
+- [ ] `19-mortal-kombat` — Mortal Kombat
+- [ ] `20-halo` — Halo
+- [ ] `21-assassins-creed` — Assassin's Creed
+- [ ] `22-among-us` — Among Us
+- [ ] `23-roblox` — Roblox
+- [ ] `24-fifa` — FIFA
+- [ ] `25-tomb-raider` — Tomb Raider
+- [ ] `26-resident-evil` — Resident Evil
+- [ ] `27-final-fantasy` — Final Fantasy
+- [ ] `28-animal-crossing` — Animal Crossing
+- [ ] `29-space-invaders` — Space Invaders
+- [ ] `30-donkey-kong` — Donkey Kong
+- [ ] `31-kirby` — Kirby
+- [ ] `32-metroid` — Metroid
+- [ ] `33-portal` — Portal
+- [ ] `34-fallout` — Fallout
+- [ ] `35-diablo` — Diablo
+- [ ] `36-half-life` — Half-Life
 
 ## Art (`images/art/`)
-- `1-mona-lisa`
-- `2-starry-night`
-- `3-the-scream`
-- `4-statue-of-david`
-- `5-paint-palette`
-- `6-pop-art-soup-can`
+- [ ] `1-mona-lisa` — Mona Lisa
+- [ ] `2-starry-night` — Starry Night
+- [ ] `3-the-scream` — The Scream
+- [ ] `4-statue-of-david` — David
+- [ ] `5-paint-palette` — Painting
+- [ ] `6-pop-art-soup-can` — Pop Art
+- [ ] `7-the-last-supper` — The Last Supper
+- [ ] `8-girl-with-a-pearl-earring` — Girl with a Pearl Earring
+- [ ] `9-guernica` — Guernica
+- [ ] `10-american-gothic` — American Gothic
+- [ ] `11-the-persistence-of-memory` — The Persistence of Memory
+- [ ] `12-water-lilies` — Water Lilies
+- [ ] `13-whistlers-mother` — Whistler's Mother
+- [ ] `14-the-birth-of-venus` — The Birth of Venus
+- [ ] `15-impressionist-landscape-painting` — Impressionist Landscape Painting
+- [ ] `16-cubist-painting` — Cubist Painting
+- [ ] `17-pointillism` — Pointillism
+- [ ] `18-watercolor-painting` — Watercolor Painting
+- [ ] `19-charcoal-sketching` — Charcoal Sketching
+- [ ] `20-graffiti-mural` — Graffiti Mural
+- [ ] `21-bronze-sculpture` — Bronze Sculpture
+- [ ] `22-stained-glass-window` — Stained Glass Window
+- [ ] `23-renaissance-fresco` — Renaissance Fresco
+- [ ] `24-van-gogh-self-portrait` — Van Gogh Self-Portrait
+- [ ] `25-andy-warhols-marilyn-monroe` — Andy Warhol's Marilyn Monroe
+- [ ] `26-origami` — Origami
+- [ ] `27-calligraphy` — Calligraphy
+- [ ] `28-abstract-expressionist-painting` — Abstract Expressionist Painting
+- [ ] `29-art-deco-design` — Art Deco Design
+- [ ] `30-renaissance-portrait` — Renaissance Portrait
+- [ ] `31-ceramic-pottery` — Ceramic Pottery
+- [ ] `32-ice-sculpture` — Ice Sculpture
+- [ ] `33-sand-sculpture` — Sand Sculpture
+- [ ] `34-graffiti-spray-paint-can` — Graffiti Spray Paint Can
+- [ ] `35-easel-and-canvas` — Easel and Canvas
+- [ ] `36-mosaic-art` — Mosaic Art
 
 ## Literature (`images/literature/`)
-- `1-open-book`
-- `2-harry-potter`
-- `3-moby-dick-whale`
-- `4-dystopian-eye`
-- `5-regency-house`
-- `6-greek-scroll`
+- [ ] `1-open-book` — Classic literature
+- [ ] `2-harry-potter` — Harry Potter
+- [ ] `3-moby-dick-whale` — Moby-Dick
+- [ ] `4-dystopian-eye` — 1984
+- [ ] `5-regency-house` — Pride and Prejudice
+- [ ] `6-greek-scroll` — The Odyssey
+- [ ] `7-romeo-and-juliet` — Romeo and Juliet
+- [ ] `8-sherlock-holmes` — Sherlock Holmes
+- [ ] `9-alice-in-wonderland` — Alice in Wonderland
+- [ ] `10-the-great-gatsby` — The Great Gatsby
+- [ ] `11-to-kill-a-mockingbird` — To Kill a Mockingbird
+- [ ] `12-the-lord-of-the-rings` — The Lord of the Rings
+- [ ] `13-frankenstein` — Frankenstein
+- [ ] `14-dracula` — Dracula
+- [ ] `15-the-hobbit` — The Hobbit
+- [ ] `16-charlottes-web` — Charlotte's Web
+- [ ] `17-the-chronicles-of-narnia` — The Chronicles of Narnia
+- [ ] `18-peter-pan` — Peter Pan
+- [ ] `19-don-quixote` — Don Quixote
+- [ ] `20-war-and-peace` — War and Peace
+- [ ] `21-little-women` — Little Women
+- [ ] `22-the-adventures-of-huckleberry-finn` — The Adventures of Huckleberry Finn
+- [ ] `23-a-christmas-carol` — A Christmas Carol
+- [ ] `24-the-catcher-in-the-rye` — The Catcher in the Rye
+- [ ] `25-anne-of-green-gables` — Anne of Green Gables
+- [ ] `26-the-adventures-of-tom-sawyer` — The Adventures of Tom Sawyer
+- [ ] `27-robinson-crusoe` — Robinson Crusoe
+- [ ] `28-gullivers-travels` — Gulliver's Travels
+- [ ] `29-the-picture-of-dorian-gray` — The Picture of Dorian Gray
+- [ ] `30-wuthering-heights` — Wuthering Heights
+- [ ] `31-jane-eyre` — Jane Eyre
+- [ ] `32-the-wind-in-the-willows` — The Wind in the Willows
+- [ ] `33-treasure-island` — Treasure Island
+- [ ] `34-fahrenheit-451` — Fahrenheit 451
+- [ ] `35-the-jungle-book` — The Jungle Book
+- [ ] `36-grimms-fairy-tales` — Grimm's Fairy Tales
 
 ## Space (`images/space/`)
-- `1-the-sun`
-- `2-saturn-rings`
-- `3-moon-landing`
-- `4-milky-way`
-- `5-hubble-telescope`
-- `6-rocket-launch`
+- [ ] `1-the-sun` — The Sun
+- [ ] `2-saturn-rings` — Saturn
+- [ ] `3-moon-landing` — Moon landing
+- [ ] `4-milky-way` — Milky Way
+- [ ] `5-hubble-telescope` — Hubble Space Telescope
+- [ ] `6-rocket-launch` — Rocket launch
+- [ ] `7-mars` — Mars
+- [ ] `8-jupiter` — Jupiter
+- [ ] `9-neptune` — Neptune
+- [ ] `10-venus` — Venus
+- [ ] `11-mercury` — Mercury
+- [ ] `12-uranus` — Uranus
+- [ ] `13-pluto` — Pluto
+- [ ] `14-black-hole` — Black Hole
+- [ ] `15-comet` — Comet
+- [ ] `16-meteor-shower` — Meteor Shower
+- [ ] `17-andromeda-galaxy` — Andromeda Galaxy
+- [ ] `18-space-shuttle` — Space Shuttle
+- [ ] `19-satellite` — Satellite
+- [ ] `20-solar-eclipse` — Solar Eclipse
+- [ ] `21-lunar-eclipse` — Lunar Eclipse
+- [ ] `22-international-space-station` — International Space Station
+- [ ] `23-nebula` — Nebula
+- [ ] `24-asteroid-belt` — Asteroid Belt
+- [ ] `25-james-webb-space-telescope` — James Webb Space Telescope
+- [ ] `26-astronaut` — Astronaut
+- [ ] `27-space-suit` — Space Suit
+- [ ] `28-moon-phases` — Moon Phases
+- [ ] `29-aurora-borealis` — Aurora Borealis
+- [ ] `30-orion-nebula` — Orion Nebula
+- [ ] `31-supernova` — Supernova
+- [ ] `32-meteorite` — Meteorite
+- [ ] `33-mars-rover` — Mars Rover
+- [ ] `34-space-shuttle-launch` — Space Shuttle Launch
+- [ ] `35-star-cluster` — Star Cluster
+- [ ] `36-spiral-galaxy` — Spiral Galaxy
 
 ## Technology (`images/technology/`)
-- `1-circuit-board`
-- `2-apple-logo`
-- `3-android-robot`
-- `4-wifi-router`
-- `5-robot-ai`
-- `6-first-iphone`
+- [ ] `1-circuit-board` — CPU
+- [ ] `2-apple-logo` — Apple
+- [ ] `3-android-robot` — Android
+- [ ] `4-wifi-router` — Wifi router
+- [ ] `5-robot-ai` — Artificial intelligence
+- [ ] `6-first-iphone` — First iPhone (2007)
+- [ ] `7-laptop` — Laptop
+- [ ] `8-smartphone` — Smartphone
+- [ ] `9-smartwatch` — Smartwatch
+- [ ] `10-bluetooth-headphones` — Bluetooth Headphones
+- [ ] `11-usb-flash-drive` — USB Flash Drive
+- [ ] `12-solid-state-drive` — Solid State Drive
+- [ ] `13-graphics-card` — Graphics Card
+- [ ] `14-motherboard` — Motherboard
+- [ ] `15-server-rack` — Server Rack
+- [ ] `16-data-center` — Data Center
+- [ ] `17-virtual-reality-headset` — Virtual Reality Headset
+- [ ] `18-augmented-reality-glasses` — Augmented Reality Glasses
+- [ ] `19-3d-printer` — 3D Printer
+- [ ] `20-drone` — Drone
+- [ ] `21-self-driving-car` — Self-Driving Car
+- [ ] `22-quantum-computer` — Quantum Computer
+- [ ] `23-fingerprint-scanner` — Fingerprint Scanner
+- [ ] `24-facial-recognition-camera` — Facial Recognition Camera
+- [ ] `25-qr-code` — QR Code
+- [ ] `26-barcode-scanner` — Barcode Scanner
+- [ ] `27-cloud-computing-server-farm` — Cloud Computing (Server Farm)
+- [ ] `28-solar-panel` — Solar Panel
+- [ ] `29-ev-charging-station` — EV Charging Station
+- [ ] `30-smart-speaker` — Smart Speaker
+- [ ] `31-wireless-earbuds` — Wireless Earbuds
+- [ ] `32-touchscreen-tablet` — Touchscreen Tablet
+- [ ] `33-mechanical-keyboard` — Mechanical Keyboard
+- [ ] `34-webcam` — Webcam
+- [ ] `35-microchip` — Microchip
+- [ ] `36-power-bank` — Power Bank
 
 ## Mythology (`images/mythology/`)
-- `1-zeus-lightning`
-- `2-thor-hammer`
-- `3-medusa`
-- `4-ra-sun-god`
-- `5-icarus-wings`
-- `6-trojan-horse`
+- [ ] `1-zeus-lightning` — Zeus
+- [ ] `2-thor-hammer` — Thor
+- [ ] `3-medusa` — Medusa
+- [ ] `4-ra-sun-god` — Ra
+- [ ] `5-icarus-wings` — Icarus
+- [ ] `6-trojan-horse` — Trojan Horse
+- [ ] `7-poseidon` — Poseidon
+- [ ] `8-hades` — Hades
+- [ ] `9-athena` — Athena
+- [ ] `10-apollo` — Apollo
+- [ ] `11-aphrodite` — Aphrodite
+- [ ] `12-ares` — Ares
+- [ ] `13-hermes` — Hermes
+- [ ] `14-artemis` — Artemis
+- [ ] `15-hercules` — Hercules
+- [ ] `16-achilles` — Achilles
+- [ ] `17-odin` — Odin
+- [ ] `18-loki` — Loki
+- [ ] `19-freya` — Freya
+- [ ] `20-valkyrie` — Valkyrie
+- [ ] `21-anubis` — Anubis
+- [ ] `22-osiris` — Osiris
+- [ ] `23-isis` — Isis
+- [ ] `24-sphinx` — Sphinx
+- [ ] `25-pegasus` — Pegasus
+- [ ] `26-minotaur` — Minotaur
+- [ ] `27-cerberus` — Cerberus
+- [ ] `28-cyclops` — Cyclops
+- [ ] `29-phoenix` — Phoenix
+- [ ] `30-griffin` — Griffin
+- [ ] `31-centaur` — Centaur
+- [ ] `32-pandoras-box` — Pandora's Box
+- [ ] `33-cupid` — Cupid
+- [ ] `34-hydra` — Hydra
+- [ ] `35-kraken` — Kraken
+- [ ] `36-yggdrasil-world-tree` — Yggdrasil (World Tree)
 
 ## Cars (`images/cars/`)
-- `1-jaguar-logo`
-- `2-ford-mustang`
-- `3-bmw-logo`
-- `4-tesla`
-- `5-ferrari-logo`
-- `6-vw-logo`
+- [ ] `1-jaguar-logo` — Jaguar
+- [ ] `2-ford-mustang` — Ford Mustang
+- [ ] `3-bmw-logo` — BMW
+- [ ] `4-tesla` — Tesla
+- [ ] `5-ferrari-logo` — Ferrari
+- [ ] `6-vw-logo` — Volkswagen
+- [ ] `7-porsche` — Porsche
+- [ ] `8-lamborghini` — Lamborghini
+- [ ] `9-chevrolet-corvette` — Chevrolet Corvette
+- [ ] `10-audi` — Audi
+- [ ] `11-mercedes-benz` — Mercedes-Benz
+- [ ] `12-rolls-royce` — Rolls-Royce
+- [ ] `13-bentley` — Bentley
+- [ ] `14-aston-martin` — Aston Martin
+- [ ] `15-bugatti` — Bugatti
+- [ ] `16-toyota` — Toyota
+- [ ] `17-honda` — Honda
+- [ ] `18-nissan` — Nissan
+- [ ] `19-mazda` — Mazda
+- [ ] `20-subaru` — Subaru
+- [ ] `21-mini-cooper` — Mini Cooper
+- [ ] `22-fiat-500` — Fiat 500
+- [ ] `23-jeep` — Jeep
+- [ ] `24-land-rover` — Land Rover
+- [ ] `25-dodge-charger` — Dodge Charger
+- [ ] `26-chevrolet-camaro` — Chevrolet Camaro
+- [ ] `27-volvo` — Volvo
+- [ ] `28-peugeot` — Peugeot
+- [ ] `29-renault` — Renault
+- [ ] `30-maserati` — Maserati
+- [ ] `31-mclaren` — McLaren
+- [ ] `32-alfa-romeo` — Alfa Romeo
+- [ ] `33-cadillac` — Cadillac
+- [ ] `34-lincoln` — Lincoln
+- [ ] `35-formula-1-car` — Formula 1 Car
+- [ ] `36-monster-truck` — Monster Truck
 
 ## Fashion (`images/fashion/`)
-- `1-chanel-logo`
-- `2-little-black-dress`
-- `3-runway-show`
-- `4-denim`
-- `5-red-sole-heel`
-- `6-fedora`
+- [ ] `1-chanel-logo` — Chanel
+- [ ] `2-little-black-dress` — Little black dress
+- [ ] `3-runway-show` — Fashion week
+- [ ] `4-denim` — Denim
+- [ ] `5-red-sole-heel` — Christian Louboutin
+- [ ] `6-fedora` — Fedora
+- [ ] `7-gucci` — Gucci
+- [ ] `8-louis-vuitton` — Louis Vuitton
+- [ ] `9-versace` — Versace
+- [ ] `10-prada` — Prada
+- [ ] `11-hermes` — Hermès
+- [ ] `12-dior` — Dior
+- [ ] `13-burberry` — Burberry
+- [ ] `14-high-heels` — High Heels
+- [ ] `15-sneakers` — Sneakers
+- [ ] `16-sunglasses` — Sunglasses
+- [ ] `17-handbag` — Handbag
+- [ ] `18-wedding-dress` — Wedding Dress
+- [ ] `19-tuxedo` — Tuxedo
+- [ ] `20-trench-coat` — Trench Coat
+- [ ] `21-leather-jacket` — Leather Jacket
+- [ ] `22-scarf` — Scarf
+- [ ] `23-beret` — Beret
+- [ ] `24-cowboy-boots` — Cowboy Boots
+- [ ] `25-pearl-necklace` — Pearl Necklace
+- [ ] `26-bow-tie` — Bow Tie
+- [ ] `27-business-suit` — Business Suit
+- [ ] `28-bikini` — Bikini
+- [ ] `29-kimono` — Kimono
+- [ ] `30-hawaiian-shirt` — Hawaiian Shirt
+- [ ] `31-polka-dot-dress` — Polka Dot Dress
+- [ ] `32-plaid-pattern` — Plaid Pattern
+- [ ] `33-statement-earrings` — Statement Earrings
+- [ ] `34-designer-watch` — Designer Watch
+- [ ] `35-runway-model` — Runway Model
+- [ ] `36-flower-crown` — Flower Crown
 
 ## World Capitals (`images/world-capitals/`)
-- `1-tokyo`
-- `2-ottawa`
-- `3-cairo`
-- `4-brasilia`
-- `5-seoul`
-- `6-moscow`
+- [ ] `1-tokyo` — Tokyo
+- [ ] `2-ottawa` — Ottawa
+- [ ] `3-cairo` — Cairo
+- [ ] `4-brasilia` — Brasília
+- [ ] `5-seoul` — Seoul
+- [ ] `6-moscow` — Moscow
+- [ ] `7-paris` — Paris
+- [ ] `8-london` — London
+- [ ] `9-washington-dc` — Washington D.C.
+- [ ] `10-beijing` — Beijing
+- [ ] `11-berlin` — Berlin
+- [ ] `12-rome` — Rome
+- [ ] `13-madrid` — Madrid
+- [ ] `14-canberra` — Canberra
+- [ ] `15-wellington` — Wellington
+- [ ] `16-bangkok` — Bangkok
+- [ ] `17-new-delhi` — New Delhi
+- [ ] `18-jakarta` — Jakarta
+- [ ] `19-nairobi` — Nairobi
+- [ ] `20-pretoria` — Pretoria
+- [ ] `21-buenos-aires` — Buenos Aires
+- [ ] `22-lima` — Lima
+- [ ] `23-santiago` — Santiago
+- [ ] `24-havana` — Havana
+- [ ] `25-athens` — Athens
+- [ ] `26-vienna` — Vienna
+- [ ] `27-bern` — Bern
+- [ ] `28-lisbon` — Lisbon
+- [ ] `29-dublin` — Dublin
+- [ ] `30-stockholm` — Stockholm
+- [ ] `31-oslo` — Oslo
+- [ ] `32-helsinki` — Helsinki
+- [ ] `33-copenhagen` — Copenhagen
+- [ ] `34-warsaw` — Warsaw
+- [ ] `35-budapest` — Budapest
+- [ ] `36-reykjavik` — Reykjavik
 
 ## Superheroes (`images/superheroes/`)
-- `1-batman-symbol`
-- `2-superman-shield`
-- `3-spider-man`
-- `4-wonder-woman`
-- `5-wolverine-claws`
-- `6-mjolnir`
+- [ ] `1-batman-symbol` — Batman
+- [ ] `2-superman-shield` — Superman
+- [ ] `3-spider-man` — Spider-Man
+- [ ] `4-wonder-woman` — Wonder Woman
+- [ ] `5-wolverine-claws` — Wolverine
+- [ ] `6-mjolnir` — Thor's hammer (Mjolnir)
+- [ ] `7-iron-man` — Iron Man
+- [ ] `8-captain-america` — Captain America
+- [ ] `9-hulk` — Hulk
+- [ ] `10-black-panther` — Black Panther
+- [ ] `11-black-widow` — Black Widow
+- [ ] `12-hawkeye` — Hawkeye
+- [ ] `13-doctor-strange` — Doctor Strange
+- [ ] `14-the-flash` — The Flash
+- [ ] `15-green-lantern` — Green Lantern
+- [ ] `16-aquaman` — Aquaman
+- [ ] `17-captain-marvel` — Captain Marvel
+- [ ] `18-ant-man` — Ant-Man
+- [ ] `19-deadpool` — Deadpool
+- [ ] `20-green-arrow` — Green Arrow
+- [ ] `21-cyclops` — Cyclops
+- [ ] `22-storm` — Storm
+- [ ] `23-iron-fist` — Iron Fist
+- [ ] `24-daredevil` — Daredevil
+- [ ] `25-nightwing` — Nightwing
+- [ ] `26-supergirl` — Supergirl
+- [ ] `27-star-lord` — Star-Lord
+- [ ] `28-rocket-raccoon` — Rocket Raccoon
+- [ ] `29-groot` — Groot
+- [ ] `30-vision` — Vision
+- [ ] `31-scarlet-witch` — Scarlet Witch
+- [ ] `32-falcon` — Falcon
+- [ ] `33-war-machine` — War Machine
+- [ ] `34-shazam` — Shazam
+- [ ] `35-cyborg` — Cyborg
+- [ ] `36-batgirl` — Batgirl
 
 ## Board Games (`images/board-games/`)
-- `1-monopoly`
-- `2-clue`
-- `3-chess`
-- `4-scrabble`
-- `5-risk`
-- `6-chess-bishop`
+- [ ] `1-monopoly` — Monopoly
+- [ ] `2-clue` — Clue / Cluedo
+- [ ] `3-chess` — Chess
+- [ ] `4-scrabble` — Scrabble
+- [ ] `5-risk` — Risk
+- [ ] `6-chess-bishop` — Bishop
+- [ ] `7-checkers` — Checkers
+- [ ] `8-candy-land` — Candy Land
+- [ ] `9-sorry` — Sorry!
+- [ ] `10-battleship` — Battleship
+- [ ] `11-connect-four` — Connect Four
+- [ ] `12-trivial-pursuit` — Trivial Pursuit
+- [ ] `13-backgammon` — Backgammon
+- [ ] `14-jenga` — Jenga
+- [ ] `15-operation` — Operation
+- [ ] `16-twister` — Twister
+- [ ] `17-yahtzee` — Yahtzee
+- [ ] `18-the-game-of-life` — The Game of Life
+- [ ] `19-catan` — Catan
+- [ ] `20-ticket-to-ride` — Ticket to Ride
+- [ ] `21-pictionary` — Pictionary
+- [ ] `22-guess-who` — Guess Who?
+- [ ] `23-mouse-trap` — Mouse Trap
+- [ ] `24-chutes-and-ladders` — Chutes and Ladders
+- [ ] `25-dominoes` — Dominoes
+- [ ] `26-mahjong` — Mahjong
+- [ ] `27-chinese-checkers` — Chinese Checkers
+- [ ] `28-trouble` — Trouble
+- [ ] `29-stratego` — Stratego
+- [ ] `30-parcheesi` — Parcheesi
+- [ ] `31-go-board-game` — Go (Board Game)
+- [ ] `32-mancala` — Mancala
+- [ ] `33-rook-chess-piece` — Rook (Chess Piece)
+- [ ] `34-king-chess-piece` — King (Chess Piece)
+- [ ] `35-queen-chess-piece` — Queen (Chess Piece)
+- [ ] `36-knight-chess-piece` — Knight (Chess Piece)
+
+## Dinosaurs (`images/dinosaurs/`)
+- [ ] `1-tyrannosaurus-rex` — Tyrannosaurus Rex
+- [ ] `2-triceratops` — Triceratops
+- [ ] `3-stegosaurus` — Stegosaurus
+- [ ] `4-velociraptor` — Velociraptor
+- [ ] `5-brachiosaurus` — Brachiosaurus
+- [ ] `6-pterodactyl` — Pterodactyl
+- [ ] `7-spinosaurus` — Spinosaurus
+- [ ] `8-ankylosaurus` — Ankylosaurus
+- [ ] `9-allosaurus` — Allosaurus
+- [ ] `10-diplodocus` — Diplodocus
+- [ ] `11-iguanodon` — Iguanodon
+- [ ] `12-parasaurolophus` — Parasaurolophus
+- [ ] `13-pachycephalosaurus` — Pachycephalosaurus
+- [ ] `14-compsognathus` — Compsognathus
+- [ ] `15-archaeopteryx` — Archaeopteryx
+- [ ] `16-dilophosaurus` — Dilophosaurus
+- [ ] `17-carnotaurus` — Carnotaurus
+- [ ] `18-gallimimus` — Gallimimus
+- [ ] `19-therizinosaurus` — Therizinosaurus
+- [ ] `20-plesiosaurus` — Plesiosaurus
+- [ ] `21-mosasaurus` — Mosasaurus
+- [ ] `22-ichthyosaurus` — Ichthyosaurus
+- [ ] `23-quetzalcoatlus` — Quetzalcoatlus
+- [ ] `24-deinonychus` — Deinonychus
+- [ ] `25-utahraptor` — Utahraptor
+- [ ] `26-giganotosaurus` — Giganotosaurus
+- [ ] `27-styracosaurus` — Styracosaurus
+- [ ] `28-protoceratops` — Protoceratops
+- [ ] `29-apatosaurus` — Apatosaurus
+- [ ] `30-ceratosaurus` — Ceratosaurus
+- [ ] `31-amargasaurus` — Amargasaurus
+- [ ] `32-baryonyx` — Baryonyx
+- [ ] `33-corythosaurus` — Corythosaurus
+- [ ] `34-kentrosaurus` — Kentrosaurus
+- [ ] `35-oviraptor` — Oviraptor
+- [ ] `36-maiasaura` — Maiasaura
+
+## Ocean Life (`images/ocean-life/`)
+- [ ] `1-clownfish` — Clownfish
+- [ ] `2-sea-turtle` — Sea Turtle
+- [ ] `3-jellyfish` — Jellyfish
+- [ ] `4-dolphin` — Dolphin
+- [ ] `5-seahorse` — Seahorse
+- [ ] `6-starfish` — Starfish
+- [ ] `7-great-white-shark` — Great White Shark
+- [ ] `8-hammerhead-shark` — Hammerhead Shark
+- [ ] `9-blue-whale` — Blue Whale
+- [ ] `10-orca-killer-whale` — Orca (Killer Whale)
+- [ ] `11-sea-otter` — Sea Otter
+- [ ] `12-manta-ray` — Manta Ray
+- [ ] `13-stingray` — Stingray
+- [ ] `14-pufferfish` — Pufferfish
+- [ ] `15-anglerfish` — Anglerfish
+- [ ] `16-sea-lion` — Sea Lion
+- [ ] `17-walrus` — Walrus
+- [ ] `18-sea-urchin` — Sea Urchin
+- [ ] `19-coral-reef` — Coral Reef
+- [ ] `20-giant-squid` — Giant Squid
+- [ ] `21-hermit-crab` — Hermit Crab
+- [ ] `22-lobster` — Lobster
+- [ ] `23-blue-crab` — Blue Crab
+- [ ] `24-sea-anemone` — Sea Anemone
+- [ ] `25-nautilus` — Nautilus
+- [ ] `26-sea-cucumber` — Sea Cucumber
+- [ ] `27-narwhal` — Narwhal
+- [ ] `28-manatee` — Manatee
+- [ ] `29-flying-fish` — Flying Fish
+- [ ] `30-swordfish` — Swordfish
+- [ ] `31-barracuda` — Barracuda
+- [ ] `32-moray-eel` — Moray Eel
+- [ ] `33-sea-sponge` — Sea Sponge
+- [ ] `34-beluga-whale` — Beluga Whale
+- [ ] `35-nudibranch-sea-slug` — Nudibranch (Sea Slug)
+- [ ] `36-angelfish` — Angelfish
+
+## Languages (`images/languages/`)
+- [ ] `1-english` — English
+- [ ] `2-spanish` — Spanish
+- [ ] `3-french` — French
+- [ ] `4-german` — German
+- [ ] `5-italian` — Italian
+- [ ] `6-portuguese` — Portuguese
+- [ ] `7-russian` — Russian
+- [ ] `8-mandarin-chinese` — Mandarin Chinese
+- [ ] `9-japanese` — Japanese
+- [ ] `10-korean` — Korean
+- [ ] `11-arabic` — Arabic
+- [ ] `12-hindi` — Hindi
+- [ ] `13-greek` — Greek
+- [ ] `14-hebrew` — Hebrew
+- [ ] `15-thai` — Thai
+- [ ] `16-vietnamese` — Vietnamese
+- [ ] `17-dutch` — Dutch
+- [ ] `18-swedish` — Swedish
+- [ ] `19-turkish` — Turkish
+- [ ] `20-polish` — Polish
+- [ ] `21-indonesian` — Indonesian
+- [ ] `22-tagalog` — Tagalog
+- [ ] `23-swahili` — Swahili
+- [ ] `24-bengali` — Bengali
+- [ ] `25-urdu` — Urdu
+- [ ] `26-persian` — Persian
+- [ ] `27-ukrainian` — Ukrainian
+- [ ] `28-finnish` — Finnish
+- [ ] `29-hungarian` — Hungarian
+- [ ] `30-czech` — Czech
+- [ ] `31-danish` — Danish
+- [ ] `32-norwegian` — Norwegian
+- [ ] `33-romanian` — Romanian
+- [ ] `34-tamil` — Tamil
+- [ ] `35-khmer` — Khmer
+- [ ] `36-georgian` — Georgian
+
+## Insects (`images/insects/`)
+- [ ] `1-butterfly` — Butterfly
+- [ ] `2-ladybug` — Ladybug
+- [ ] `3-honeybee` — Honeybee
+- [ ] `4-dragonfly` — Dragonfly
+- [ ] `5-ant` — Ant
+- [ ] `6-praying-mantis` — Praying Mantis
+- [ ] `7-grasshopper` — Grasshopper
+- [ ] `8-cricket` — Cricket
+- [ ] `9-beetle` — Beetle
+- [ ] `10-cockroach` — Cockroach
+- [ ] `11-housefly` — Housefly
+- [ ] `12-mosquito` — Mosquito
+- [ ] `13-wasp` — Wasp
+- [ ] `14-bumblebee` — Bumblebee
+- [ ] `15-termite` — Termite
+- [ ] `16-firefly` — Firefly
+- [ ] `17-moth` — Moth
+- [ ] `18-stick-insect` — Stick Insect
+- [ ] `19-cicada` — Cicada
+- [ ] `20-aphid` — Aphid
+- [ ] `21-earwig` — Earwig
+- [ ] `22-weevil` — Weevil
+- [ ] `23-stink-bug` — Stink Bug
+- [ ] `24-locust` — Locust
+- [ ] `25-silkworm` — Silkworm
+- [ ] `26-flea` — Flea
+- [ ] `27-dung-beetle` — Dung Beetle
+- [ ] `28-rhinoceros-beetle` — Rhinoceros Beetle
+- [ ] `29-stag-beetle` — Stag Beetle
+- [ ] `30-mayfly` — Mayfly
+- [ ] `31-katydid` — Katydid
+- [ ] `32-water-strider` — Water Strider
+- [ ] `33-antlion` — Antlion
+- [ ] `34-whirligig-beetle` — Whirligig Beetle
+- [ ] `35-weta` — Weta
+- [ ] `36-monarch-caterpillar` — Monarch Caterpillar
+
+## Reptiles & Amphibians (`images/reptiles-amphibians/`)
+- [ ] `1-chameleon` — Chameleon
+- [ ] `2-crocodile` — Crocodile
+- [ ] `3-iguana` — Iguana
+- [ ] `4-frog` — Frog
+- [ ] `5-tortoise` — Tortoise
+- [ ] `6-gecko` — Gecko
+- [ ] `7-komodo-dragon` — Komodo Dragon
+- [ ] `8-king-cobra` — King Cobra
+- [ ] `9-salamander` — Salamander
+- [ ] `10-alligator` — Alligator
+- [ ] `11-rattlesnake` — Rattlesnake
+- [ ] `12-green-tree-python` — Green Tree Python
+- [ ] `13-bearded-dragon` — Bearded Dragon
+- [ ] `14-poison-dart-frog` — Poison Dart Frog
+- [ ] `15-axolotl` — Axolotl
+- [ ] `16-monitor-lizard` — Monitor Lizard
+- [ ] `17-garter-snake` — Garter Snake
+- [ ] `18-newt` — Newt
+- [ ] `19-anaconda` — Anaconda
+- [ ] `20-boa-constrictor` — Boa Constrictor
+- [ ] `21-snapping-turtle` — Snapping Turtle
+- [ ] `22-horned-lizard` — Horned Lizard
+- [ ] `23-toad` — Toad
+- [ ] `24-skink` — Skink
+- [ ] `25-leatherback-sea-turtle` — Leatherback Sea Turtle
+- [ ] `26-copperhead-snake` — Copperhead Snake
+- [ ] `27-tuatara` — Tuatara
+- [ ] `28-gila-monster` — Gila Monster
+- [ ] `29-flying-dragon-lizard` — Flying Dragon Lizard
+- [ ] `30-basilisk-lizard` — Basilisk Lizard
+- [ ] `31-bullfrog` — Bullfrog
+- [ ] `32-tree-frog` — Tree Frog
+- [ ] `33-anole` — Anole
+- [ ] `34-chinese-water-dragon` — Chinese Water Dragon
+- [ ] `35-painted-turtle` — Painted Turtle
+- [ ] `36-milk-snake` — Milk Snake
+
+## Farm Animals (`images/farm-animals/`)
+- [ ] `1-cow` — Cow
+- [ ] `2-pig` — Pig
+- [ ] `3-sheep` — Sheep
+- [ ] `4-chicken` — Chicken
+- [ ] `5-horse` — Horse
+- [ ] `6-goat` — Goat
+- [ ] `7-duck` — Duck
+- [ ] `8-turkey` — Turkey
+- [ ] `9-donkey` — Donkey
+- [ ] `10-rooster` — Rooster
+- [ ] `11-goose` — Goose
+- [ ] `12-llama` — Llama
+- [ ] `13-alpaca` — Alpaca
+- [ ] `14-water-buffalo` — Water Buffalo
+- [ ] `15-bull` — Bull
+- [ ] `16-calf` — Calf
+- [ ] `17-piglet` — Piglet
+- [ ] `18-lamb` — Lamb
+- [ ] `19-baby-chick` — Baby Chick
+- [ ] `20-draft-horse` — Draft Horse
+- [ ] `21-mule` — Mule
+- [ ] `22-ox` — Ox
+- [ ] `23-guinea-fowl` — Guinea Fowl
+- [ ] `24-quail` — Quail
+- [ ] `25-shetland-pony` — Shetland Pony
+- [ ] `26-peacock` — Peacock
+- [ ] `27-pigeon` — Pigeon
+- [ ] `28-border-collie` — Border Collie
+- [ ] `29-barn-cat` — Barn Cat
+- [ ] `30-emu` — Emu
+- [ ] `31-ostrich` — Ostrich
+- [ ] `32-yak` — Yak
+- [ ] `33-bison` — Bison
+- [ ] `34-camel` — Camel
+- [ ] `35-zebu` — Zebu
+- [ ] `36-pony` — Pony
+
+## Pets (`images/pets/`)
+- [ ] `1-golden-retriever` — Golden Retriever
+- [ ] `2-tabby-cat` — Tabby Cat
+- [ ] `3-goldfish` — Goldfish
+- [ ] `4-hamster` — Hamster
+- [ ] `5-parakeet` — Parakeet
+- [ ] `6-rabbit` — Rabbit
+- [ ] `7-guinea-pig` — Guinea Pig
+- [ ] `8-poodle` — Poodle
+- [ ] `9-siamese-cat` — Siamese Cat
+- [ ] `10-pet-turtle` — Pet Turtle
+- [ ] `11-ferret` — Ferret
+- [ ] `12-chihuahua` — Chihuahua
+- [ ] `13-persian-cat` — Persian Cat
+- [ ] `14-bulldog` — Bulldog
+- [ ] `15-cockatiel` — Cockatiel
+- [ ] `16-betta-fish` — Betta Fish
+- [ ] `17-labrador-retriever` — Labrador Retriever
+- [ ] `18-german-shepherd` — German Shepherd
+- [ ] `19-maine-coon-cat` — Maine Coon Cat
+- [ ] `20-gerbil` — Gerbil
+- [ ] `21-chinchilla` — Chinchilla
+- [ ] `22-corgi` — Corgi
+- [ ] `23-dachshund` — Dachshund
+- [ ] `24-beagle` — Beagle
+- [ ] `25-sphynx-cat` — Sphynx Cat
+- [ ] `26-budgerigar` — Budgerigar
+- [ ] `27-cockatoo` — Cockatoo
+- [ ] `28-hermit-crab` — Hermit Crab
+- [ ] `29-leopard-gecko` — Leopard Gecko
+- [ ] `30-angelfish` — Angelfish
+- [ ] `31-pet-rat` — Pet Rat
+- [ ] `32-hedgehog` — Hedgehog
+- [ ] `33-pug` — Pug
+- [ ] `34-shih-tzu` — Shih Tzu
+- [ ] `35-great-dane` — Great Dane
+- [ ] `36-pet-tarantula` — Pet Tarantula
+
+## Flowers (`images/flowers/`)
+- [ ] `1-rose` — Rose
+- [ ] `2-sunflower` — Sunflower
+- [ ] `3-tulip` — Tulip
+- [ ] `4-daisy` — Daisy
+- [ ] `5-orchid` — Orchid
+- [ ] `6-lily` — Lily
+- [ ] `7-carnation` — Carnation
+- [ ] `8-marigold` — Marigold
+- [ ] `9-peony` — Peony
+- [ ] `10-hydrangea` — Hydrangea
+- [ ] `11-lavender` — Lavender
+- [ ] `12-daffodil` — Daffodil
+- [ ] `13-iris` — Iris
+- [ ] `14-chrysanthemum` — Chrysanthemum
+- [ ] `15-poppy` — Poppy
+- [ ] `16-hibiscus` — Hibiscus
+- [ ] `17-lotus-flower` — Lotus Flower
+- [ ] `18-dahlia` — Dahlia
+- [ ] `19-violet` — Violet
+- [ ] `20-snapdragon` — Snapdragon
+- [ ] `21-freesia` — Freesia
+- [ ] `22-gardenia` — Gardenia
+- [ ] `23-magnolia` — Magnolia
+- [ ] `24-jasmine` — Jasmine
+- [ ] `25-bluebell` — Bluebell
+- [ ] `26-zinnia` — Zinnia
+- [ ] `27-cosmos-flower` — Cosmos Flower
+- [ ] `28-anemone` — Anemone
+- [ ] `29-ranunculus` — Ranunculus
+- [ ] `30-wisteria` — Wisteria
+- [ ] `31-lilac` — Lilac
+- [ ] `32-foxglove` — Foxglove
+- [ ] `33-camellia` — Camellia
+- [ ] `34-amaryllis` — Amaryllis
+- [ ] `35-petunia` — Petunia
+- [ ] `36-bird-of-paradise-flower` — Bird of Paradise Flower
+
+## Actors & Actresses (`images/actors-actresses/`)
+- [ ] `1-tom-hanks` — Tom Hanks
+- [ ] `2-leonardo-dicaprio` — Leonardo DiCaprio
+- [ ] `3-meryl-streep` — Meryl Streep
+- [ ] `4-denzel-washington` — Denzel Washington
+- [ ] `5-brad-pitt` — Brad Pitt
+- [ ] `6-angelina-jolie` — Angelina Jolie
+- [ ] `7-robert-downey-jr` — Robert Downey Jr.
+- [ ] `8-scarlett-johansson` — Scarlett Johansson
+- [ ] `9-will-smith` — Will Smith
+- [ ] `10-johnny-depp` — Johnny Depp
+- [ ] `11-julia-roberts` — Julia Roberts
+- [ ] `12-morgan-freeman` — Morgan Freeman
+- [ ] `13-tom-cruise` — Tom Cruise
+- [ ] `14-emma-watson` — Emma Watson
+- [ ] `15-dwayne-johnson` — Dwayne Johnson
+- [ ] `16-jennifer-lawrence` — Jennifer Lawrence
+- [ ] `17-samuel-l-jackson` — Samuel L. Jackson
+- [ ] `18-charlize-theron` — Charlize Theron
+- [ ] `19-keanu-reeves` — Keanu Reeves
+- [ ] `20-natalie-portman` — Natalie Portman
+- [ ] `21-chris-hemsworth` — Chris Hemsworth
+- [ ] `22-anne-hathaway` — Anne Hathaway
+- [ ] `23-hugh-jackman` — Hugh Jackman
+- [ ] `24-sandra-bullock` — Sandra Bullock
+- [ ] `25-ryan-reynolds` — Ryan Reynolds
+- [ ] `26-zendaya` — Zendaya
+- [ ] `27-idris-elba` — Idris Elba
+- [ ] `28-nicole-kidman` — Nicole Kidman
+- [ ] `29-chadwick-boseman` — Chadwick Boseman
+- [ ] `30-viola-davis` — Viola Davis
+- [ ] `31-al-pacino` — Al Pacino
+- [ ] `32-audrey-hepburn` — Audrey Hepburn
+- [ ] `33-marilyn-monroe` — Marilyn Monroe
+- [ ] `34-amitabh-bachchan` — Amitabh Bachchan
+- [ ] `35-priyanka-chopra` — Priyanka Chopra
+- [ ] `36-jackie-chan` — Jackie Chan
+
+## Fruits (`images/fruits/`)
+- [ ] `1-watermelon` — Watermelon
+- [ ] `2-pineapple` — Pineapple
+- [ ] `3-strawberry` — Strawberry
+- [ ] `4-banana` — Banana
+- [ ] `5-mango` — Mango
+- [ ] `6-dragon-fruit` — Dragon Fruit
+- [ ] `7-apple` — Apple
+- [ ] `8-orange` — Orange
+- [ ] `9-grapes` — Grapes
+- [ ] `10-kiwi` — Kiwi
+- [ ] `11-peach` — Peach
+- [ ] `12-pear` — Pear
+- [ ] `13-cherry` — Cherry
+- [ ] `14-blueberry` — Blueberry
+- [ ] `15-raspberry` — Raspberry
+- [ ] `16-blackberry` — Blackberry
+- [ ] `17-papaya` — Papaya
+- [ ] `18-passion-fruit` — Passion Fruit
+- [ ] `19-pomegranate` — Pomegranate
+- [ ] `20-fig` — Fig
+- [ ] `21-lychee` — Lychee
+- [ ] `22-guava` — Guava
+- [ ] `23-coconut` — Coconut
+- [ ] `24-lemon` — Lemon
+- [ ] `25-lime` — Lime
+- [ ] `26-grapefruit` — Grapefruit
+- [ ] `27-plum` — Plum
+- [ ] `28-apricot` — Apricot
+- [ ] `29-persimmon` — Persimmon
+- [ ] `30-starfruit` — Starfruit
+- [ ] `31-cantaloupe` — Cantaloupe
+- [ ] `32-honeydew-melon` — Honeydew Melon
+- [ ] `33-cranberry` — Cranberry
+- [ ] `34-durian` — Durian
+- [ ] `35-rambutan` — Rambutan
+- [ ] `36-tangerine` — Tangerine
+
+## Vegetables (`images/vegetables/`)
+- [ ] `1-carrot` — Carrot
+- [ ] `2-broccoli` — Broccoli
+- [ ] `3-pumpkin` — Pumpkin
+- [ ] `4-corn` — Corn
+- [ ] `5-bell-pepper` — Bell Pepper
+- [ ] `6-potato` — Potato
+- [ ] `7-tomato` — Tomato
+- [ ] `8-cucumber` — Cucumber
+- [ ] `9-onion` — Onion
+- [ ] `10-garlic` — Garlic
+- [ ] `11-lettuce` — Lettuce
+- [ ] `12-cabbage` — Cabbage
+- [ ] `13-cauliflower` — Cauliflower
+- [ ] `14-spinach` — Spinach
+- [ ] `15-zucchini` — Zucchini
+- [ ] `16-eggplant` — Eggplant
+- [ ] `17-radish` — Radish
+- [ ] `18-beetroot` — Beetroot
+- [ ] `19-celery` — Celery
+- [ ] `20-asparagus` — Asparagus
+- [ ] `21-green-beans` — Green Beans
+- [ ] `22-peas` — Peas
+- [ ] `23-brussels-sprouts` — Brussels Sprouts
+- [ ] `24-sweet-potato` — Sweet Potato
+- [ ] `25-turnip` — Turnip
+- [ ] `26-leek` — Leek
+- [ ] `27-artichoke` — Artichoke
+- [ ] `28-kale` — Kale
+- [ ] `29-chili-pepper` — Chili Pepper
+- [ ] `30-mushroom` — Mushroom
+- [ ] `31-okra` — Okra
+- [ ] `32-butternut-squash` — Butternut Squash
+- [ ] `33-parsnip` — Parsnip
+- [ ] `34-bok-choy` — Bok Choy
+- [ ] `35-ginger-root` — Ginger Root
+- [ ] `36-rhubarb` — Rhubarb
+
+## Desserts (`images/desserts/`)
+- [ ] `1-chocolate-cake` — Chocolate Cake
+- [ ] `2-apple-pie` — Apple Pie
+- [ ] `3-donut` — Donut
+- [ ] `4-tiramisu` — Tiramisu
+- [ ] `5-cheesecake` — Cheesecake
+- [ ] `6-macarons` — Macarons
+- [ ] `7-brownie` — Brownie
+- [ ] `8-red-velvet-cake` — Red Velvet Cake
+- [ ] `9-creme-brulee` — Crème Brûlée
+- [ ] `10-baklava` — Baklava
+- [ ] `11-pavlova` — Pavlova
+- [ ] `12-eclair` — Éclair
+- [ ] `13-panna-cotta` — Panna Cotta
+- [ ] `14-banana-split` — Banana Split
+- [ ] `15-trifle` — Trifle
+- [ ] `16-fruit-tart` — Fruit Tart
+- [ ] `17-rice-pudding` — Rice Pudding
+- [ ] `18-profiteroles` — Profiteroles
+- [ ] `19-baked-alaska` — Baked Alaska
+- [ ] `20-black-forest-cake` — Black Forest Cake
+- [ ] `21-key-lime-pie` — Key Lime Pie
+- [ ] `22-pecan-pie` — Pecan Pie
+- [ ] `23-sticky-toffee-pudding` — Sticky Toffee Pudding
+- [ ] `24-mochi` — Mochi
+- [ ] `25-bread-pudding` — Bread Pudding
+- [ ] `26-custard-tart` — Custard Tart
+- [ ] `27-meringue` — Meringue
+- [ ] `28-cannoli` — Cannoli
+- [ ] `29-carrot-cake` — Carrot Cake
+- [ ] `30-lemon-meringue-pie` — Lemon Meringue Pie
+- [ ] `31-apple-strudel` — Apple Strudel
+- [ ] `32-shortbread` — Shortbread
+- [ ] `33-cinnamon-roll` — Cinnamon Roll
+- [ ] `34-fudge` — Fudge
+- [ ] `35-tres-leches-cake` — Tres Leches Cake
+- [ ] `36-pumpkin-pie` — Pumpkin Pie
+
+## Fast Food Chains (`images/fast-food-chains/`)
+- [ ] `1-mcdonalds` — McDonald's
+- [ ] `2-kfc` — KFC
+- [ ] `3-burger-king` — Burger King
+- [ ] `4-subway` — Subway
+- [ ] `5-dominos-pizza` — Domino's Pizza
+- [ ] `6-starbucks` — Starbucks
+- [ ] `7-wendys` — Wendy's
+- [ ] `8-taco-bell` — Taco Bell
+- [ ] `9-pizza-hut` — Pizza Hut
+- [ ] `10-chick-fil-a` — Chick-fil-A
+- [ ] `11-dunkin` — Dunkin'
+- [ ] `12-chipotle` — Chipotle
+- [ ] `13-popeyes` — Popeyes
+- [ ] `14-sonic-drive-in` — Sonic Drive-In
+- [ ] `15-arbys` — Arby's
+- [ ] `16-dairy-queen` — Dairy Queen
+- [ ] `17-in-n-out-burger` — In-N-Out Burger
+- [ ] `18-panera-bread` — Panera Bread
+- [ ] `19-panda-express` — Panda Express
+- [ ] `20-five-guys` — Five Guys
+- [ ] `21-papa-johns` — Papa John's
+- [ ] `22-little-caesars` — Little Caesars
+- [ ] `23-jack-in-the-box` — Jack in the Box
+- [ ] `24-carls-jr` — Carl's Jr.
+- [ ] `25-krispy-kreme` — Krispy Kreme
+- [ ] `26-baskin-robbins` — Baskin-Robbins
+- [ ] `27-nandos` — Nando's
+- [ ] `28-shake-shack` — Shake Shack
+- [ ] `29-white-castle` — White Castle
+- [ ] `30-culvers` — Culver's
+- [ ] `31-whataburger` — Whataburger
+- [ ] `32-zaxbys` — Zaxby's
+- [ ] `33-wingstop` — Wingstop
+- [ ] `34-jimmy-johns` — Jimmy John's
+- [ ] `35-jollibee` — Jollibee
+- [ ] `36-a-and-w-restaurants` — A&W Restaurants
+
+## Soft Drinks (`images/soft-drinks/`)
+- [ ] `1-coca-cola` — Coca-Cola
+- [ ] `2-pepsi` — Pepsi
+- [ ] `3-sprite` — Sprite
+- [ ] `4-fanta` — Fanta
+- [ ] `5-red-bull` — Red Bull
+- [ ] `6-dr-pepper` — Dr Pepper
+- [ ] `7-mountain-dew` — Mountain Dew
+- [ ] `8-7-up` — 7 Up
+- [ ] `9-a-and-w-root-beer` — A&W Root Beer
+- [ ] `10-ginger-ale` — Ginger Ale
+- [ ] `11-mirinda` — Mirinda
+- [ ] `12-schweppes` — Schweppes
+- [ ] `13-sunkist` — Sunkist
+- [ ] `14-monster-energy-drink` — Monster Energy Drink
+- [ ] `15-gatorade` — Gatorade
+- [ ] `16-powerade` — Powerade
+- [ ] `17-perrier-sparkling-water` — Perrier Sparkling Water
+- [ ] `18-san-pellegrino` — San Pellegrino
+- [ ] `19-crush-orange-soda` — Crush Orange Soda
+- [ ] `20-tango` — Tango
+- [ ] `21-irn-bru` — Irn-Bru
+- [ ] `22-lilt` — Lilt
+- [ ] `23-squirt` — Squirt
+- [ ] `24-fresca` — Fresca
+- [ ] `25-jarritos` — Jarritos
+- [ ] `26-vimto` — Vimto
+- [ ] `27-sarsaparilla` — Sarsaparilla
+- [ ] `28-cream-soda` — Cream Soda
+- [ ] `29-club-soda` — Club Soda
+- [ ] `30-tonic-water` — Tonic Water
+- [ ] `31-bundaberg-ginger-beer` — Bundaberg Ginger Beer
+- [ ] `32-solo-lemon-soda` — Solo Lemon Soda
+- [ ] `33-lift-soft-drink` — Lift Soft Drink
+- [ ] `34-big-red` — Big Red
+- [ ] `35-barqs-root-beer` — Barq's Root Beer
+- [ ] `36-moxie` — Moxie
+
+## Breakfast Foods (`images/breakfast-foods/`)
+- [ ] `1-pancakes` — Pancakes
+- [ ] `2-scrambled-eggs` — Scrambled Eggs
+- [ ] `3-bacon` — Bacon
+- [ ] `4-waffles` — Waffles
+- [ ] `5-cereal` — Cereal
+- [ ] `6-oatmeal` — Oatmeal
+- [ ] `7-french-toast` — French Toast
+- [ ] `8-omelette` — Omelette
+- [ ] `9-buttered-toast` — Buttered Toast
+- [ ] `10-croissant` — Croissant
+- [ ] `11-bagel-with-cream-cheese` — Bagel with Cream Cheese
+- [ ] `12-hash-browns` — Hash Browns
+- [ ] `13-breakfast-sausage` — Breakfast Sausage
+- [ ] `14-yogurt-parfait` — Yogurt Parfait
+- [ ] `15-granola` — Granola
+- [ ] `16-smoothie-bowl` — Smoothie Bowl
+- [ ] `17-sunny-side-up-egg` — Sunny Side Up Egg
+- [ ] `18-eggs-benedict` — Eggs Benedict
+- [ ] `19-breakfast-burrito` — Breakfast Burrito
+- [ ] `20-english-muffin` — English Muffin
+- [ ] `21-grits` — Grits
+- [ ] `22-congee` — Congee
+- [ ] `23-muesli` — Muesli
+- [ ] `24-fruit-salad` — Fruit Salad
+- [ ] `25-orange-juice` — Orange Juice
+- [ ] `26-avocado-toast` — Avocado Toast
+- [ ] `27-kippers` — Kippers
+- [ ] `28-full-english-breakfast` — Full English Breakfast
+- [ ] `29-dim-sum-breakfast` — Dim Sum Breakfast
+- [ ] `30-breakfast-sandwich` — Breakfast Sandwich
+- [ ] `31-shakshuka` — Shakshuka
+- [ ] `32-crepes` — Crepes
+- [ ] `33-biscuits-and-gravy` — Biscuits and Gravy
+- [ ] `34-chia-pudding` — Chia Pudding
+- [ ] `35-toaster-pastry` — Toaster Pastry
+- [ ] `36-breakfast-potatoes` — Breakfast Potatoes
+
+## Street Food (`images/street-food/`)
+- [ ] `1-hot-dog` — Hot Dog
+- [ ] `2-falafel` — Falafel
+- [ ] `3-churros` — Churros
+- [ ] `4-kebab` — Kebab
+- [ ] `5-pretzel` — Pretzel
+- [ ] `6-popcorn` — Popcorn
+- [ ] `7-corn-dog` — Corn Dog
+- [ ] `8-nachos` — Nachos
+- [ ] `9-empanada` — Empanada
+- [ ] `10-samosa` — Samosa
+- [ ] `11-arepa` — Arepa
+- [ ] `12-street-crepe` — Street Crepe
+- [ ] `13-bao-bun` — Bao Bun
+- [ ] `14-street-taco` — Street Taco
+- [ ] `15-gyro` — Gyro
+- [ ] `16-poutine` — Poutine
+- [ ] `17-fish-and-chips` — Fish and Chips
+- [ ] `18-roasted-chestnuts` — Roasted Chestnuts
+- [ ] `19-cotton-candy` — Cotton Candy
+- [ ] `20-funnel-cake` — Funnel Cake
+- [ ] `21-shaved-ice` — Shaved Ice
+- [ ] `22-dumplings` — Dumplings
+- [ ] `23-spring-rolls` — Spring Rolls
+- [ ] `24-satay-skewers` — Satay Skewers
+- [ ] `25-banh-mi` — Bánh Mì
+- [ ] `26-currywurst` — Currywurst
+- [ ] `27-elote-mexican-street-corn` — Elote (Mexican Street Corn)
+- [ ] `28-kettle-corn` — Kettle Corn
+- [ ] `29-fried-plantains` — Fried Plantains
+- [ ] `30-onigiri` — Onigiri
+- [ ] `31-tempura` — Tempura
+- [ ] `32-chaat` — Chaat
+- [ ] `33-kimchi-pancake` — Kimchi Pancake
+- [ ] `34-tamales` — Tamales
+- [ ] `35-gozleme` — Gözleme
+- [ ] `36-roti-canai` — Roti Canai
+
+## Musicians (`images/musicians/`)
+- [ ] `1-michael-jackson` — Michael Jackson
+- [ ] `2-elvis-presley` — Elvis Presley
+- [ ] `3-the-beatles` — The Beatles
+- [ ] `4-beyonc` — Beyoncé
+- [ ] `5-taylor-swift` — Taylor Swift
+- [ ] `6-elton-john` — Elton John
+- [ ] `7-madonna` — Madonna
+- [ ] `8-freddie-mercury` — Freddie Mercury
+- [ ] `9-bob-marley` — Bob Marley
+- [ ] `10-whitney-houston` — Whitney Houston
+- [ ] `11-bob-dylan` — Bob Dylan
+- [ ] `12-adele` — Adele
+- [ ] `13-ed-sheeran` — Ed Sheeran
+- [ ] `14-rihanna` — Rihanna
+- [ ] `15-justin-bieber` — Justin Bieber
+- [ ] `16-ariana-grande` — Ariana Grande
+- [ ] `17-lady-gaga` — Lady Gaga
+- [ ] `18-prince` — Prince
+- [ ] `19-stevie-wonder` — Stevie Wonder
+- [ ] `20-mariah-carey` — Mariah Carey
+- [ ] `21-eminem` — Eminem
+- [ ] `22-jay-z` — Jay-Z
+- [ ] `23-kanye-west` — Kanye West
+- [ ] `24-bruno-mars` — Bruno Mars
+- [ ] `25-billie-eilish` — Billie Eilish
+- [ ] `26-drake` — Drake
+- [ ] `27-mick-jagger` — Mick Jagger
+- [ ] `28-david-bowie` — David Bowie
+- [ ] `29-celine-dion` — Celine Dion
+- [ ] `30-shakira` — Shakira
+- [ ] `31-bts` — BTS
+- [ ] `32-bad-bunny` — Bad Bunny
+- [ ] `33-frank-sinatra` — Frank Sinatra
+- [ ] `34-louis-armstrong` — Louis Armstrong
+- [ ] `35-aretha-franklin` — Aretha Franklin
+- [ ] `36-john-lennon` — John Lennon
+
+## Snacks (`images/snacks/`)
+- [ ] `1-potato-chips` — Potato Chips
+- [ ] `2-pretzels` — Pretzels
+- [ ] `3-popcorn` — Popcorn
+- [ ] `4-nachos` — Nachos
+- [ ] `5-trail-mix` — Trail Mix
+- [ ] `6-granola-bar` — Granola Bar
+- [ ] `7-beef-jerky` — Beef Jerky
+- [ ] `8-rice-cakes` — Rice Cakes
+- [ ] `9-crackers` — Crackers
+- [ ] `10-pita-chips` — Pita Chips
+- [ ] `11-peanuts` — Peanuts
+- [ ] `12-cashews` — Cashews
+- [ ] `13-mixed-nuts` — Mixed Nuts
+- [ ] `14-corn-chips` — Corn Chips
+- [ ] `15-cheese-puffs` — Cheese Puffs
+- [ ] `16-pork-rinds` — Pork Rinds
+- [ ] `17-kettle-corn` — Kettle Corn
+- [ ] `18-tortilla-chips` — Tortilla Chips
+- [ ] `19-pigs-in-a-blanket` — Pigs in a Blanket
+- [ ] `20-cheese-and-crackers` — Cheese and Crackers
+- [ ] `21-hummus-and-pita` — Hummus and Pita
+- [ ] `22-edamame` — Edamame
+- [ ] `23-roasted-chickpeas` — Roasted Chickpeas
+- [ ] `24-dried-fruit` — Dried Fruit
+- [ ] `25-fruit-roll-up` — Fruit Roll-Up
+- [ ] `26-rice-krispie-treat` — Rice Krispie Treat
+- [ ] `27-granola` — Granola
+- [ ] `28-energy-bar` — Energy Bar
+- [ ] `29-protein-bar` — Protein Bar
+- [ ] `30-veggie-chips` — Veggie Chips
+- [ ] `31-seaweed-snacks` — Seaweed Snacks
+- [ ] `32-string-cheese` — String Cheese
+- [ ] `33-deviled-eggs` — Deviled Eggs
+- [ ] `34-pickles` — Pickles
+- [ ] `35-olives` — Olives
+- [ ] `36-salsa-and-chips` — Salsa and Chips
+
+## Grocery Store (`images/grocery-store/`)
+- [ ] `1-shopping-cart` — Shopping Cart
+- [ ] `2-shopping-basket` — Shopping Basket
+- [ ] `3-checkout-counter` — Checkout Counter
+- [ ] `4-self-checkout-kiosk` — Self-Checkout Kiosk
+- [ ] `5-cash-register` — Cash Register
+- [ ] `6-barcode-scanner` — Barcode Scanner
+- [ ] `7-grocery-bags` — Grocery Bags
+- [ ] `8-shopping-list` — Shopping List
+- [ ] `9-coupon` — Coupon
+- [ ] `10-receipt` — Receipt
+- [ ] `11-produce-aisle` — Produce Aisle
+- [ ] `12-frozen-food-aisle` — Frozen Food Aisle
+- [ ] `13-dairy-aisle` — Dairy Aisle
+- [ ] `14-bakery-section` — Bakery Section
+- [ ] `15-deli-counter` — Deli Counter
+- [ ] `16-meat-counter` — Meat Counter
+- [ ] `17-seafood-counter` — Seafood Counter
+- [ ] `18-bulk-bins` — Bulk Bins
+- [ ] `19-milk-carton` — Milk Carton
+- [ ] `20-egg-carton` — Egg Carton
+- [ ] `21-bread-loaf` — Bread Loaf
+- [ ] `22-cereal-box` — Cereal Box
+- [ ] `23-canned-soup` — Canned Soup
+- [ ] `24-canned-beans` — Canned Beans
+- [ ] `25-pasta-box` — Pasta Box
+- [ ] `26-rice-bag` — Rice Bag
+- [ ] `27-cooking-oil-bottle` — Cooking Oil Bottle
+- [ ] `28-flour-bag` — Flour Bag
+- [ ] `29-sugar-bag` — Sugar Bag
+- [ ] `30-spice-rack` — Spice Rack
+- [ ] `31-paper-towels` — Paper Towels
+- [ ] `32-toilet-paper` — Toilet Paper
+- [ ] `33-laundry-detergent` — Laundry Detergent
+- [ ] `34-price-tag` — Price Tag
+- [ ] `35-loyalty-card` — Loyalty Card
+- [ ] `36-grocery-store-aisle-sign` — Grocery Store Aisle Sign
+
+## Kitchen Appliances (`images/kitchen-appliances/`)
+- [ ] `1-toaster` — Toaster
+- [ ] `2-blender` — Blender
+- [ ] `3-microwave` — Microwave
+- [ ] `4-refrigerator` — Refrigerator
+- [ ] `5-coffee-maker` — Coffee Maker
+- [ ] `6-stand-mixer` — Stand Mixer
+- [ ] `7-dishwasher` — Dishwasher
+- [ ] `8-oven` — Oven
+- [ ] `9-stove` — Stove
+- [ ] `10-kettle` — Kettle
+- [ ] `11-slow-cooker` — Slow Cooker
+- [ ] `12-rice-cooker` — Rice Cooker
+- [ ] `13-air-fryer` — Air Fryer
+- [ ] `14-food-processor` — Food Processor
+- [ ] `15-toaster-oven` — Toaster Oven
+- [ ] `16-juicer` — Juicer
+- [ ] `17-waffle-maker` — Waffle Maker
+- [ ] `18-electric-kettle` — Electric Kettle
+- [ ] `19-pressure-cooker` — Pressure Cooker
+- [ ] `20-espresso-machine` — Espresso Machine
+- [ ] `21-deep-fryer` — Deep Fryer
+- [ ] `22-ice-maker` — Ice Maker
+- [ ] `23-garbage-disposal` — Garbage Disposal
+- [ ] `24-range-hood` — Range Hood
+- [ ] `25-bread-maker` — Bread Maker
+- [ ] `26-hand-mixer` — Hand Mixer
+- [ ] `27-immersion-blender` — Immersion Blender
+- [ ] `28-panini-press` — Panini Press
+- [ ] `29-sandwich-toaster` — Sandwich Toaster
+- [ ] `30-yogurt-maker` — Yogurt Maker
+- [ ] `31-wine-cooler` — Wine Cooler
+- [ ] `32-freezer` — Freezer
+- [ ] `33-vacuum-sealer` — Vacuum Sealer
+- [ ] `34-electric-grill` — Electric Grill
+- [ ] `35-popcorn-maker` — Popcorn Maker
+- [ ] `36-milk-frother` — Milk Frother
+
+## Furniture (`images/furniture/`)
+- [ ] `1-sofa` — Sofa
+- [ ] `2-dining-table` — Dining Table
+- [ ] `3-rocking-chair` — Rocking Chair
+- [ ] `4-bookshelf` — Bookshelf
+- [ ] `5-bed` — Bed
+- [ ] `6-wardrobe` — Wardrobe
+- [ ] `7-armchair` — Armchair
+- [ ] `8-coffee-table` — Coffee Table
+- [ ] `9-recliner` — Recliner
+- [ ] `10-desk` — Desk
+- [ ] `11-ottoman` — Ottoman
+- [ ] `12-nightstand` — Nightstand
+- [ ] `13-chest-of-drawers` — Chest of Drawers
+- [ ] `14-bar-stool` — Bar Stool
+- [ ] `15-bean-bag-chair` — Bean Bag Chair
+- [ ] `16-bunk-bed` — Bunk Bed
+- [ ] `17-futon` — Futon
+- [ ] `18-dresser` — Dresser
+- [ ] `19-tv-stand` — TV Stand
+- [ ] `20-console-table` — Console Table
+- [ ] `21-loveseat` — Loveseat
+- [ ] `22-bench` — Bench
+- [ ] `23-vanity-table` — Vanity Table
+- [ ] `24-filing-cabinet` — Filing Cabinet
+- [ ] `25-hammock` — Hammock
+- [ ] `26-chaise-lounge` — Chaise Lounge
+- [ ] `27-china-cabinet` — China Cabinet
+- [ ] `28-sideboard` — Sideboard
+- [ ] `29-bar-cart` — Bar Cart
+- [ ] `30-cradle` — Cradle
+- [ ] `31-room-divider` — Room Divider
+- [ ] `32-corner-shelf` — Corner Shelf
+- [ ] `33-daybed` — Daybed
+- [ ] `34-folding-chair` — Folding Chair
+- [ ] `35-shoe-rack` — Shoe Rack
+- [ ] `36-porch-swing` — Porch Swing
+
+## Tools (`images/tools/`)
+- [ ] `1-hammer` — Hammer
+- [ ] `2-screwdriver` — Screwdriver
+- [ ] `3-wrench` — Wrench
+- [ ] `4-power-drill` — Power Drill
+- [ ] `5-saw` — Saw
+- [ ] `6-pliers` — Pliers
+- [ ] `7-tape-measure` — Tape Measure
+- [ ] `8-level` — Level
+- [ ] `9-chisel` — Chisel
+- [ ] `10-utility-knife` — Utility Knife
+- [ ] `11-wire-cutters` — Wire Cutters
+- [ ] `12-allen-key` — Allen Key
+- [ ] `13-socket-wrench` — Socket Wrench
+- [ ] `14-hand-saw` — Hand Saw
+- [ ] `15-hacksaw` — Hacksaw
+- [ ] `16-metal-file` — Metal File
+- [ ] `17-vise` — Vise
+- [ ] `18-toolbox` — Toolbox
+- [ ] `19-pipe-wrench` — Pipe Wrench
+- [ ] `20-sledgehammer` — Sledgehammer
+- [ ] `21-axe` — Axe
+- [ ] `22-crowbar` — Crowbar
+- [ ] `23-staple-gun` — Staple Gun
+- [ ] `24-wire-stripper` — Wire Stripper
+- [ ] `25-soldering-iron` — Soldering Iron
+- [ ] `26-angle-grinder` — Angle Grinder
+- [ ] `27-circular-saw` — Circular Saw
+- [ ] `28-jigsaw-saw` — Jigsaw Saw
+- [ ] `29-nail-gun` — Nail Gun
+- [ ] `30-c-clamp` — C-Clamp
+- [ ] `31-ladder` — Ladder
+- [ ] `32-plunger` — Plunger
+- [ ] `33-caulking-gun` — Caulking Gun
+- [ ] `34-multimeter` — Multimeter
+- [ ] `35-bolt-cutters` — Bolt Cutters
+- [ ] `36-adjustable-wrench` — Adjustable Wrench
+
+## School Supplies (`images/school-supplies/`)
+- [ ] `1-backpack` — Backpack
+- [ ] `2-pencil` — Pencil
+- [ ] `3-scissors` — Scissors
+- [ ] `4-calculator` — Calculator
+- [ ] `5-ruler` — Ruler
+- [ ] `6-globe` — Globe
+- [ ] `7-notebook` — Notebook
+- [ ] `8-eraser` — Eraser
+- [ ] `9-pencil-sharpener` — Pencil Sharpener
+- [ ] `10-highlighter` — Highlighter
+- [ ] `11-glue-stick` — Glue Stick
+- [ ] `12-crayons` — Crayons
+- [ ] `13-colored-pencils` — Colored Pencils
+- [ ] `14-markers` — Markers
+- [ ] `15-pencil-case` — Pencil Case
+- [ ] `16-stapler` — Stapler
+- [ ] `17-paper-clips` — Paper Clips
+- [ ] `18-binder` — Binder
+- [ ] `19-sticky-notes` — Sticky Notes
+- [ ] `20-chalkboard` — Chalkboard
+- [ ] `21-whiteboard` — Whiteboard
+- [ ] `22-textbook` — Textbook
+- [ ] `23-protractor` — Protractor
+- [ ] `24-geometry-compass` — Geometry Compass
+- [ ] `25-lunchbox` — Lunchbox
+- [ ] `26-index-cards` — Index Cards
+- [ ] `27-construction-paper` — Construction Paper
+- [ ] `28-hole-punch` — Hole Punch
+- [ ] `29-rubber-bands` — Rubber Bands
+- [ ] `30-tape-dispenser` — Tape Dispenser
+- [ ] `31-lanyard` — Lanyard
+- [ ] `32-graph-paper` — Graph Paper
+- [ ] `33-flashcards` — Flashcards
+- [ ] `34-chalk` — Chalk
+- [ ] `35-locker` — Locker
+- [ ] `36-school-bell` — School Bell
+
+## Rock Band (`images/rock-band/`)
+- [ ] `1-deep-purple` — Deep Purple
+- [ ] `2-the-rolling-stones` — The Rolling Stones
+- [ ] `3-queen` — Queen
+- [ ] `4-led-zeppelin` — Led Zeppelin
+- [ ] `5-pink-floyd` — Pink Floyd
+- [ ] `6-ac-dc` — AC/DC
+- [ ] `7-nirvana` — Nirvana
+- [ ] `8-metallica` — Metallica
+- [ ] `9-guns-n-roses` — Guns N' Roses
+- [ ] `10-the-who` — The Who
+- [ ] `11-aerosmith` — Aerosmith
+- [ ] `12-van-halen` — Van Halen
+- [ ] `13-black-sabbath` — Black Sabbath
+- [ ] `14-bon-jovi` — Bon Jovi
+- [ ] `15-u2` — U2
+- [ ] `16-red-hot-chili-peppers` — Red Hot Chili Peppers
+- [ ] `17-foo-fighters` — Foo Fighters
+- [ ] `18-green-day` — Green Day
+- [ ] `19-linkin-park` — Linkin Park
+- [ ] `20-radiohead` — Radiohead
+- [ ] `21-the-eagles` — The Eagles
+- [ ] `22-fleetwood-mac` — Fleetwood Mac
+- [ ] `23-journey` — Journey
+- [ ] `24-iron-maiden` — Iron Maiden
+- [ ] `25-def-leppard` — Def Leppard
+- [ ] `26-pearl-jam` — Pearl Jam
+- [ ] `27-soundgarden` — Soundgarden
+- [ ] `28-the-doors` — The Doors
+- [ ] `29-kiss` — KISS
+- [ ] `30-rage-against-the-machine` — Rage Against the Machine
+- [ ] `31-coldplay` — Coldplay
+- [ ] `32-muse` — Muse
+- [ ] `33-arctic-monkeys` — Arctic Monkeys
+- [ ] `34-the-killers` — The Killers
+- [ ] `35-imagine-dragons` — Imagine Dragons
+- [ ] `36-twenty-one-pilots` — Twenty One Pilots
+
+## Boy Band & Girl Group (`images/boy-band-girl-group/`)
+- [ ] `1-backstreet-boys` — Backstreet Boys
+- [ ] `2-nsync` — NSYNC
+- [ ] `3-one-direction` — One Direction
+- [ ] `4-boyz-ii-men` — Boyz II Men
+- [ ] `5-new-kids-on-the-block` — New Kids on the Block
+- [ ] `6-jonas-brothers` — Jonas Brothers
+- [ ] `7-westlife` — Westlife
+- [ ] `8-take-that` — Take That
+- [ ] `9-exo` — EXO
+- [ ] `10-bigbang` — BIGBANG
+- [ ] `11-seventeen` — Seventeen
+- [ ] `12-nct` — NCT
+- [ ] `13-stray-kids` — Stray Kids
+- [ ] `14-txt` — TXT
+- [ ] `15-spice-girls` — Spice Girls
+- [ ] `16-destiny-s-child` — Destiny's Child
+- [ ] `17-tlc` — TLC
+- [ ] `18-en-vogue` — En Vogue
+- [ ] `19-the-supremes` — The Supremes
+- [ ] `20-girls-aloud` — Girls Aloud
+- [ ] `21-little-mix` — Little Mix
+- [ ] `22-fifth-harmony` — Fifth Harmony
+- [ ] `23-blackpink` — BLACKPINK
+- [ ] `24-twice` — TWICE
+- [ ] `25-girls-generation` — Girls' Generation
+- [ ] `26-red-velvet` — Red Velvet
+- [ ] `27-itzy` — ITZY
+- [ ] `28-g-i-dle` — (G)I-DLE
+- [ ] `29-newjeans` — NewJeans
+- [ ] `30-aespa` — Aespa
+- [ ] `31-bananarama` — Bananarama
+- [ ] `32-all-saints` — All Saints
+- [ ] `33-sugababes` — Sugababes
+- [ ] `34-b2k` — B2K
+- [ ] `35-98-degrees` — 98 Degrees
+- [ ] `36-o-town` — O-Town
+
+## Olympic Sports (`images/olympic-sports/`)
+- [ ] `1-gymnastics` — Gymnastics
+- [ ] `2-track-and-field` — Track and Field
+- [ ] `3-diving` — Diving
+- [ ] `4-fencing` — Fencing
+- [ ] `5-archery` — Archery
+- [ ] `6-weightlifting` — Weightlifting
+- [ ] `7-swimming` — Swimming
+- [ ] `8-rowing` — Rowing
+- [ ] `9-sailing` — Sailing
+- [ ] `10-track-cycling` — Track Cycling
+- [ ] `11-equestrian-dressage` — Equestrian Dressage
+- [ ] `12-judo` — Judo
+- [ ] `13-taekwondo` — Taekwondo
+- [ ] `14-wrestling` — Wrestling
+- [ ] `15-boxing` — Boxing
+- [ ] `16-volleyball` — Volleyball
+- [ ] `17-beach-volleyball` — Beach Volleyball
+- [ ] `18-table-tennis` — Table Tennis
+- [ ] `19-badminton` — Badminton
+- [ ] `20-handball` — Handball
+- [ ] `21-field-hockey` — Field Hockey
+- [ ] `22-water-polo` — Water Polo
+- [ ] `23-canoe-slalom` — Canoe Slalom
+- [ ] `24-modern-pentathlon` — Modern Pentathlon
+- [ ] `25-triathlon` — Triathlon
+- [ ] `26-marathon-running` — Marathon Running
+- [ ] `27-sport-shooting` — Sport Shooting
+- [ ] `28-trampoline-gymnastics` — Trampoline Gymnastics
+- [ ] `29-rhythmic-gymnastics` — Rhythmic Gymnastics
+- [ ] `30-artistic-swimming` — Artistic Swimming
+- [ ] `31-bmx-racing` — BMX Racing
+- [ ] `32-olympic-golf` — Olympic Golf
+- [ ] `33-olympic-karate` — Olympic Karate
+- [ ] `34-sport-climbing` — Sport Climbing
+- [ ] `35-olympic-surfing` — Olympic Surfing
+- [ ] `36-softball` — Softball
+
+## Extreme Sports (`images/extreme-sports/`)
+- [ ] `1-skydiving` — Skydiving
+- [ ] `2-bungee-jumping` — Bungee Jumping
+- [ ] `3-skateboarding` — Skateboarding
+- [ ] `4-rock-climbing` — Rock Climbing
+- [ ] `5-bmx-biking` — BMX Biking
+- [ ] `6-surfing` — Surfing
+- [ ] `7-wakeboarding` — Wakeboarding
+- [ ] `8-paragliding` — Paragliding
+- [ ] `9-base-jumping` — Base Jumping
+- [ ] `10-free-solo-climbing` — Free Solo Climbing
+- [ ] `11-whitewater-rafting` — Whitewater Rafting
+- [ ] `12-kitesurfing` — Kitesurfing
+- [ ] `13-windsurfing` — Windsurfing
+- [ ] `14-motocross` — Motocross
+- [ ] `15-parkour` — Parkour
+- [ ] `16-ice-climbing` — Ice Climbing
+- [ ] `17-cliff-diving` — Cliff Diving
+- [ ] `18-wingsuit-flying` — Wingsuit Flying
+- [ ] `19-downhill-mountain-biking` — Downhill Mountain Biking
+- [ ] `20-freediving` — Freediving
+- [ ] `21-zip-lining` — Zip Lining
+- [ ] `22-canyoning` — Canyoning
+- [ ] `23-street-luge` — Street Luge
+- [ ] `24-longboarding` — Longboarding
+- [ ] `25-sandboarding` — Sandboarding
+- [ ] `26-bull-riding` — Bull Riding
+- [ ] `27-highlining` — Highlining
+- [ ] `28-hang-gliding` — Hang Gliding
+- [ ] `29-barefoot-waterskiing` — Barefoot Waterskiing
+- [ ] `30-snowkiting` — Snowkiting
+- [ ] `31-river-boarding` — River Boarding
+- [ ] `32-bouldering` — Bouldering
+- [ ] `33-drift-racing` — Drift Racing
+- [ ] `34-ice-diving` — Ice Diving
+- [ ] `35-skimboarding` — Skimboarding
+- [ ] `36-slacklining` — Slacklining
+
+## Winter Sports (`images/winter-sports/`)
+- [ ] `1-ice-skating` — Ice Skating
+- [ ] `2-skiing` — Skiing
+- [ ] `3-ice-hockey` — Ice Hockey
+- [ ] `4-snowboarding` — Snowboarding
+- [ ] `5-curling` — Curling
+- [ ] `6-bobsled` — Bobsled
+- [ ] `7-figure-skating` — Figure Skating
+- [ ] `8-speed-skating` — Speed Skating
+- [ ] `9-cross-country-skiing` — Cross-Country Skiing
+- [ ] `10-ski-jumping` — Ski Jumping
+- [ ] `11-biathlon` — Biathlon
+- [ ] `12-luge` — Luge
+- [ ] `13-skeleton` — Skeleton
+- [ ] `14-alpine-skiing` — Alpine Skiing
+- [ ] `15-freestyle-skiing` — Freestyle Skiing
+- [ ] `16-nordic-combined` — Nordic Combined
+- [ ] `17-short-track-speed-skating` — Short Track Speed Skating
+- [ ] `18-snowshoeing` — Snowshoeing
+- [ ] `19-ice-fishing` — Ice Fishing
+- [ ] `20-tobogganing` — Tobogganing
+- [ ] `21-snowmobiling` — Snowmobiling
+- [ ] `22-dog-sledding` — Dog Sledding
+- [ ] `23-ski-mountaineering` — Ski Mountaineering
+- [ ] `24-ice-boating` — Ice Boating
+- [ ] `25-broomball` — Broomball
+- [ ] `26-ice-swimming` — Ice Swimming
+- [ ] `27-sled-hockey` — Sled Hockey
+- [ ] `28-skijoring` — Skijoring
+- [ ] `29-bandy` — Bandy
+- [ ] `30-slalom-skiing` — Slalom Skiing
+- [ ] `31-monobob` — Monobob
+- [ ] `32-yukigassen` — Yukigassen
+- [ ] `33-pond-hockey` — Pond Hockey
+- [ ] `34-winter-pentathlon` — Winter Pentathlon
+- [ ] `35-snow-golf` — Snow Golf
+- [ ] `36-ice-cross-downhill` — Ice Cross Downhill
+
+## Water Sports (`images/water-sports/`)
+- [ ] `1-water-polo` — Water Polo
+- [ ] `2-kayaking` — Kayaking
+- [ ] `3-windsurfing` — Windsurfing
+- [ ] `4-water-skiing` — Water Skiing
+- [ ] `5-rowing` — Rowing
+- [ ] `6-sailing` — Sailing
+- [ ] `7-surfing` — Surfing
+- [ ] `8-scuba-diving` — Scuba Diving
+- [ ] `9-snorkeling` — Snorkeling
+- [ ] `10-wakeboarding` — Wakeboarding
+- [ ] `11-jet-skiing` — Jet Skiing
+- [ ] `12-canoeing` — Canoeing
+- [ ] `13-stand-up-paddleboarding` — Stand-Up Paddleboarding
+- [ ] `14-kitesurfing` — Kitesurfing
+- [ ] `15-bodyboarding` — Bodyboarding
+- [ ] `16-freediving` — Freediving
+- [ ] `17-synchronized-swimming` — Synchronized Swimming
+- [ ] `18-dragon-boat-racing` — Dragon Boat Racing
+- [ ] `19-white-water-rafting` — White Water Rafting
+- [ ] `20-flyboarding` — Flyboarding
+- [ ] `21-underwater-hockey` — Underwater Hockey
+- [ ] `22-cliff-diving` — Cliff Diving
+- [ ] `23-skimboarding` — Skimboarding
+- [ ] `24-outrigger-canoeing` — Outrigger Canoeing
+- [ ] `25-river-tubing` — River Tubing
+- [ ] `26-canyoning` — Canyoning
+- [ ] `27-open-water-swimming` — Open Water Swimming
+- [ ] `28-water-aerobics` — Water Aerobics
+- [ ] `29-barefoot-water-skiing` — Barefoot Water Skiing
+- [ ] `30-springboard-diving` — Springboard Diving
+- [ ] `31-kneeboarding` — Kneeboarding
+- [ ] `32-underwater-rugby` — Underwater Rugby
+- [ ] `33-paddleboard-yoga` — Paddleboard Yoga
+- [ ] `34-aquathlon` — Aquathlon
+- [ ] `35-kayak-polo` — Kayak Polo
+- [ ] `36-water-jousting` — Water Jousting
+
+## Martial Arts (`images/martial-arts/`)
+- [ ] `1-karate` — Karate
+- [ ] `2-judo` — Judo
+- [ ] `3-taekwondo` — Taekwondo
+- [ ] `4-kung-fu` — Kung Fu
+- [ ] `5-brazilian-jiu-jitsu` — Brazilian Jiu-Jitsu
+- [ ] `6-sumo-wrestling` — Sumo Wrestling
+- [ ] `7-muay-thai` — Muay Thai
+- [ ] `8-krav-maga` — Krav Maga
+- [ ] `9-aikido` — Aikido
+- [ ] `10-capoeira` — Capoeira
+- [ ] `11-freestyle-wrestling` — Freestyle Wrestling
+- [ ] `12-boxing` — Boxing
+- [ ] `13-kickboxing` — Kickboxing
+- [ ] `14-wing-chun` — Wing Chun
+- [ ] `15-hapkido` — Hapkido
+- [ ] `16-pencak-silat` — Pencak Silat
+- [ ] `17-kendo` — Kendo
+- [ ] `18-iaido` — Iaido
+- [ ] `19-ninjutsu` — Ninjutsu
+- [ ] `20-tai-chi` — Tai Chi
+- [ ] `21-wushu` — Wushu
+- [ ] `22-sanda` — Sanda
+- [ ] `23-sambo` — Sambo
+- [ ] `24-krabi-krabong` — Krabi Krabong
+- [ ] `25-eskrima` — Eskrima
+- [ ] `26-kalaripayattu` — Kalaripayattu
+- [ ] `27-mixed-martial-arts-mma` — Mixed Martial Arts (MMA)
+- [ ] `28-lethwei` — Lethwei
+- [ ] `29-savate` — Savate
+- [ ] `30-systema` — Systema
+- [ ] `31-bokator` — Bokator
+- [ ] `32-naginata-do` — Naginata-do
+- [ ] `33-kobudo` — Kobudo
+- [ ] `34-glima` — Glima
+- [ ] `35-pankration` — Pankration
+- [ ] `36-greco-roman-wrestling` — Greco-Roman Wrestling
+
+## Gym Equipment (`images/gym-equipment/`)
+- [ ] `1-treadmill` — Treadmill
+- [ ] `2-dumbbell` — Dumbbell
+- [ ] `3-barbell` — Barbell
+- [ ] `4-kettlebell` — Kettlebell
+- [ ] `5-exercise-bike` — Exercise Bike
+- [ ] `6-pull-up-bar` — Pull-up Bar
+- [ ] `7-rowing-machine` — Rowing Machine
+- [ ] `8-elliptical-trainer` — Elliptical Trainer
+- [ ] `9-leg-press-machine` — Leg Press Machine
+- [ ] `10-bench-press` — Bench Press
+- [ ] `11-squat-rack` — Squat Rack
+- [ ] `12-cable-machine` — Cable Machine
+- [ ] `13-smith-machine` — Smith Machine
+- [ ] `14-medicine-ball` — Medicine Ball
+- [ ] `15-resistance-bands` — Resistance Bands
+- [ ] `16-yoga-mat` — Yoga Mat
+- [ ] `17-battle-ropes` — Battle Ropes
+- [ ] `18-stability-ball` — Stability Ball
+- [ ] `19-foam-roller` — Foam Roller
+- [ ] `20-weight-plates` — Weight Plates
+- [ ] `21-ab-roller` — Ab Roller
+- [ ] `22-lat-pulldown-machine` — Lat Pulldown Machine
+- [ ] `23-leg-curl-machine` — Leg Curl Machine
+- [ ] `24-chest-press-machine` — Chest Press Machine
+- [ ] `25-stair-climber` — Stair Climber
+- [ ] `26-punching-bag` — Punching Bag
+- [ ] `27-jump-rope` — Jump Rope
+- [ ] `28-gymnastic-rings` — Gymnastic Rings
+- [ ] `29-trx-suspension-trainer` — TRX Suspension Trainer
+- [ ] `30-sled-push` — Sled Push
+- [ ] `31-preacher-curl-bench` — Preacher Curl Bench
+- [ ] `32-power-rack` — Power Rack
+- [ ] `33-adjustable-dumbbell-set` — Adjustable Dumbbell Set
+- [ ] `34-weightlifting-belt` — Weightlifting Belt
+- [ ] `35-parallettes` — Parallettes
+- [ ] `36-multi-gym-machine` — Multi-Gym Machine
+
+## Content Creators (`images/content-creators/`)
+- [ ] `1-mrbeast` — MrBeast
+- [ ] `2-pewdiepie` — PewDiePie
+- [ ] `3-markiplier` — Markiplier
+- [ ] `4-jacksepticeye` — Jacksepticeye
+- [ ] `5-dream` — Dream
+- [ ] `6-ksi` — KSI
+- [ ] `7-logan-paul` — Logan Paul
+- [ ] `8-jake-paul` — Jake Paul
+- [ ] `9-ninja` — Ninja
+- [ ] `10-pokimane` — Pokimane
+- [ ] `11-ludwig` — Ludwig
+- [ ] `12-xqc` — xQc
+- [ ] `13-ryan-kaji` — Ryan Kaji
+- [ ] `14-dude-perfect` — Dude Perfect
+- [ ] `15-emma-chamberlain` — Emma Chamberlain
+- [ ] `16-james-charles` — James Charles
+- [ ] `17-jeffree-star` — Jeffree Star
+- [ ] `18-casey-neistat` — Casey Neistat
+- [ ] `19-mkbhd` — MKBHD
+- [ ] `20-lilly-singh` — Lilly Singh
+- [ ] `21-liza-koshy` — Liza Koshy
+- [ ] `22-david-dobrik` — David Dobrik
+- [ ] `23-charli-d-amelio` — Charli D'Amelio
+- [ ] `24-addison-rae` — Addison Rae
+- [ ] `25-khaby-lame` — Khaby Lame
+- [ ] `26-zach-king` — Zach King
+- [ ] `27-rosanna-pansino` — Rosanna Pansino
+- [ ] `28-rhett-and-link` — Rhett and Link
+- [ ] `29-the-try-guys` — The Try Guys
+- [ ] `30-colleen-ballinger` — Colleen Ballinger
+- [ ] `31-shane-dawson` — Shane Dawson
+- [ ] `32-tana-mongeau` — Tana Mongeau
+- [ ] `33-bella-poarch` — Bella Poarch
+- [ ] `34-nikkietutorials` — NikkieTutorials
+- [ ] `35-michelle-phan` — Michelle Phan
+- [ ] `36-ishowspeed` — IShowSpeed
+
+## Playground Equipment (`images/playground-equipment/`)
+- [ ] `1-swing-set` — Swing Set
+- [ ] `2-slide` — Slide
+- [ ] `3-seesaw` — Seesaw
+- [ ] `4-monkey-bars` — Monkey Bars
+- [ ] `5-sandbox` — Sandbox
+- [ ] `6-merry-go-round` — Merry-Go-Round
+- [ ] `7-jungle-gym` — Jungle Gym
+- [ ] `8-climbing-wall` — Climbing Wall
+- [ ] `9-spring-rider` — Spring Rider
+- [ ] `10-tire-swing` — Tire Swing
+- [ ] `11-balance-beam` — Balance Beam
+- [ ] `12-rope-climbing-net` — Rope Climbing Net
+- [ ] `13-spiral-slide` — Spiral Slide
+- [ ] `14-zip-line` — Zip Line
+- [ ] `15-trampoline` — Trampoline
+- [ ] `16-play-tunnel` — Play Tunnel
+- [ ] `17-basketball-hoop` — Basketball Hoop
+- [ ] `18-hopscotch-court` — Hopscotch Court
+- [ ] `19-splash-pad` — Splash Pad
+- [ ] `20-firemans-pole` — Firemans Pole
+- [ ] `21-playhouse` — Playhouse
+- [ ] `22-bouncy-castle` — Bouncy Castle
+- [ ] `23-geodesic-climbing-dome` — Geodesic Climbing Dome
+- [ ] `24-roundabout-spinner` — Roundabout Spinner
+- [ ] `25-rope-bridge` — Rope Bridge
+- [ ] `26-slackline` — Slackline
+- [ ] `27-nest-swing` — Nest Swing
+- [ ] `28-sandbox-digger-crane` — Sandbox Digger Crane
+- [ ] `29-sprinkler-pad` — Sprinkler Pad
+- [ ] `30-cargo-net-climber` — Cargo Net Climber
+- [ ] `31-log-balance-beam` — Log Balance Beam
+- [ ] `32-stepping-stones` — Stepping Stones
+- [ ] `33-wobble-board` — Wobble Board
+- [ ] `34-tetherball-pole` — Tetherball Pole
+- [ ] `35-swing-rings` — Swing Rings
+- [ ] `36-rock-climbing-boulder` — Rock Climbing Boulder
+
+## Circus Acts (`images/circus-acts/`)
+- [ ] `1-trapeze-artist` — Trapeze Artist
+- [ ] `2-tightrope-walker` — Tightrope Walker
+- [ ] `3-juggler` — Juggler
+- [ ] `4-clown` — Clown
+- [ ] `5-lion-tamer` — Lion Tamer
+- [ ] `6-human-cannonball` — Human Cannonball
+- [ ] `7-contortionist` — Contortionist
+- [ ] `8-fire-breather` — Fire Breather
+- [ ] `9-sword-swallower` — Sword Swallower
+- [ ] `10-acrobat` — Acrobat
+- [ ] `11-aerial-silk-performer` — Aerial Silk Performer
+- [ ] `12-strongman` — Strongman
+- [ ] `13-ringmaster` — Ringmaster
+- [ ] `14-knife-thrower` — Knife Thrower
+- [ ] `15-stilt-walker` — Stilt Walker
+- [ ] `16-unicyclist` — Unicyclist
+- [ ] `17-hula-hoop-performer` — Hula Hoop Performer
+- [ ] `18-escape-artist` — Escape Artist
+- [ ] `19-elephant-act` — Elephant Act
+- [ ] `20-bareback-horse-rider` — Bareback Horse Rider
+- [ ] `21-clown-car-act` — Clown Car Act
+- [ ] `22-hand-balancing-act` — Hand Balancing Act
+- [ ] `23-aerial-hoop-lyra-performer` — Aerial Hoop (Lyra) Performer
+- [ ] `24-human-pyramid` — Human Pyramid
+- [ ] `25-slack-wire-act` — Slack Wire Act
+- [ ] `26-cyr-wheel-performer` — Cyr Wheel Performer
+- [ ] `27-trained-dog-act` — Trained Dog Act
+- [ ] `28-whip-cracker` — Whip Cracker
+- [ ] `29-fire-juggler` — Fire Juggler
+- [ ] `30-perch-pole-act` — Perch Pole Act
+- [ ] `31-trick-cyclist` — Trick Cyclist
+- [ ] `32-teeterboard-act` — Teeterboard Act
+- [ ] `33-trained-bear-act` — Trained Bear Act
+- [ ] `34-mime` — Mime
+- [ ] `35-rola-bola-performer` — Rola Bola Performer
+- [ ] `36-aerial-rope-corde-lisse-performer` — Aerial Rope (Corde Lisse) Performer
+
+## Magic & Illusion (`images/magic-illusion/`)
+- [ ] `1-magic-wand` — Magic Wand
+- [ ] `2-top-hat-and-rabbit` — Top Hat and Rabbit
+- [ ] `3-playing-card-fan` — Playing Card Fan
+- [ ] `4-levitation-trick` — Levitation Trick
+- [ ] `5-sawing-a-person-in-half` — Sawing a Person in Half
+- [ ] `6-disappearing-act` — Disappearing Act
+- [ ] `7-straitjacket-escape` — Straitjacket Escape
+- [ ] `8-milk-can-escape` — Milk Can Escape
+- [ ] `9-mentalism` — Mentalism
+- [ ] `10-cups-and-balls-trick` — Cups and Balls Trick
+- [ ] `11-linking-rings` — Linking Rings
+- [ ] `12-vanishing-coin-trick` — Vanishing Coin Trick
+- [ ] `13-fire-manipulation` — Fire Manipulation
+- [ ] `14-card-force-trick` — Card Force Trick
+- [ ] `15-sword-cabinet-trick` — Sword Cabinet Trick
+- [ ] `16-zig-zag-girl-illusion` — Zig Zag Girl Illusion
+- [ ] `17-bullet-catch-trick` — Bullet Catch Trick
+- [ ] `18-metamorphosis-illusion` — Metamorphosis Illusion
+- [ ] `19-multiplying-balls-trick` — Multiplying Balls Trick
+- [ ] `20-torn-and-restored-newspaper` — Torn and Restored Newspaper
+- [ ] `21-spirit-cabinet-seance` — Spirit Cabinet Seance
+- [ ] `22-floating-table-illusion` — Floating Table Illusion
+- [ ] `23-vanishing-cabinet` — Vanishing Cabinet
+- [ ] `24-chain-escape` — Chain Escape
+- [ ] `25-handcuff-escape` — Handcuff Escape
+- [ ] `26-dove-production` — Dove Production
+- [ ] `27-guillotine-illusion` — Guillotine Illusion
+- [ ] `28-transposition-illusion` — Transposition Illusion
+- [ ] `29-crystal-ball-reading` — Crystal Ball Reading
+- [ ] `30-silk-scarves-production` — Silk Scarves Production
+- [ ] `31-card-manipulation-fan-production` — Card Manipulation (Fan Production)
+- [ ] `32-needle-through-balloon-trick` — Needle Through Balloon Trick
+- [ ] `33-vanishing-birdcage-trick` — Vanishing Birdcage Trick
+- [ ] `34-cut-and-restored-rope-trick` — Cut and Restored Rope Trick
+- [ ] `35-ambitious-card-routine` — Ambitious Card Routine
+- [ ] `36-spoon-bending-trick` — Spoon Bending Trick
+
+## Puzzles & Brain Teasers (`images/puzzles-brain-teasers/`)
+- [ ] `1-jigsaw-puzzle` — Jigsaw Puzzle
+- [ ] `2-rubiks-cube` — Rubik's Cube
+- [ ] `3-crossword-puzzle` — Crossword Puzzle
+- [ ] `4-sudoku` — Sudoku
+- [ ] `5-maze` — Maze
+- [ ] `6-chess-puzzle` — Chess Puzzle
+- [ ] `7-word-search` — Word Search
+- [ ] `8-tangram` — Tangram
+- [ ] `9-japanese-puzzle-box` — Japanese Puzzle Box
+- [ ] `10-rubiks-snake` — Rubiks Snake
+- [ ] `11-peg-solitaire` — Peg Solitaire
+- [ ] `12-nonogram-picross` — Nonogram (Picross)
+- [ ] `13-kakuro` — Kakuro
+- [ ] `14-kenken-puzzle` — KenKen Puzzle
+- [ ] `15-cryptic-crossword` — Cryptic Crossword
+- [ ] `16-anagram-puzzle` — Anagram Puzzle
+- [ ] `17-riddle-card` — Riddle Card
+- [ ] `18-optical-illusion` — Optical Illusion
+- [ ] `19-spot-the-difference-puzzle` — Spot the Difference Puzzle
+- [ ] `20-rebus-puzzle` — Rebus Puzzle
+- [ ] `21-logic-grid-puzzle` — Logic Grid Puzzle
+- [ ] `22-tower-of-hanoi` — Tower of Hanoi
+- [ ] `23-15-puzzle` — 15 Puzzle
+- [ ] `24-magic-square` — Magic Square
+- [ ] `25-nurikabe-puzzle` — Nurikabe Puzzle
+- [ ] `26-slitherlink-puzzle` — Slitherlink Puzzle
+- [ ] `27-pyraminx` — Pyraminx
+- [ ] `28-disentanglement-wire-puzzle` — Disentanglement Wire Puzzle
+- [ ] `29-3d-jigsaw-puzzle` — 3D Jigsaw Puzzle
+- [ ] `30-escape-room-puzzle` — Escape Room Puzzle
+- [ ] `31-connect-the-dots-puzzle` — Connect the Dots Puzzle
+- [ ] `32-hidden-object-picture` — Hidden Object Picture
+- [ ] `33-mastermind-game` — Mastermind Game
+- [ ] `34-numberlink-puzzle` — Numberlink Puzzle
+- [ ] `35-tessellation-puzzle` — Tessellation Puzzle
+- [ ] `36-labyrinth-ball-maze-game` — Labyrinth Ball Maze Game
+
+## Card Games (`images/card-games/`)
+- [ ] `1-poker` — Poker
+- [ ] `2-uno` — Uno
+- [ ] `3-solitaire` — Solitaire
+- [ ] `4-blackjack` — Blackjack
+- [ ] `5-bridge` — Bridge
+- [ ] `6-go-fish` — Go Fish
+- [ ] `7-rummy` — Rummy
+- [ ] `8-hearts` — Hearts
+- [ ] `9-spades` — Spades
+- [ ] `10-euchre` — Euchre
+- [ ] `11-canasta` — Canasta
+- [ ] `12-cribbage` — Cribbage
+- [ ] `13-war` — War
+- [ ] `14-old-maid` — Old Maid
+- [ ] `15-crazy-eights` — Crazy Eights
+- [ ] `16-gin-rummy` — Gin Rummy
+- [ ] `17-pinochle` — Pinochle
+- [ ] `18-whist` — Whist
+- [ ] `19-skat` — Skat
+- [ ] `20-snap` — Snap
+- [ ] `21-egyptian-ratscrew` — Egyptian Ratscrew
+- [ ] `22-speed-spit` — Speed (Spit)
+- [ ] `23-president` — President
+- [ ] `24-yaniv` — Yaniv
+- [ ] `25-big-two` — Big Two
+- [ ] `26-belote` — Belote
+- [ ] `27-durak` — Durak
+- [ ] `28-mau-mau` — Mau Mau
+- [ ] `29-rook` — Rook
+- [ ] `30-set` — Set
+- [ ] `31-phase-10` — Phase 10
+- [ ] `32-skip-bo` — Skip-Bo
+- [ ] `33-dutch-blitz` — Dutch Blitz
+- [ ] `34-sixty-six` — Sixty-Six
+- [ ] `35-concentration-memory` — Concentration (Memory)
+- [ ] `36-bezique` — Bezique
+
+## Casino Games (`images/casino-games/`)
+- [ ] `1-roulette-wheel` — Roulette Wheel
+- [ ] `2-slot-machine` — Slot Machine
+- [ ] `3-craps-table` — Craps Table
+- [ ] `4-blackjack-table` — Blackjack Table
+- [ ] `5-poker-chips` — Poker Chips
+- [ ] `6-baccarat` — Baccarat
+- [ ] `7-texas-holdem-poker-table` — Texas Holdem Poker Table
+- [ ] `8-three-card-poker` — Three Card Poker
+- [ ] `9-caribbean-stud-poker` — Caribbean Stud Poker
+- [ ] `10-pai-gow-poker` — Pai Gow Poker
+- [ ] `11-sic-bo` — Sic Bo
+- [ ] `12-keno` — Keno
+- [ ] `13-casino-bingo` — Casino Bingo
+- [ ] `14-video-poker-machine` — Video Poker Machine
+- [ ] `15-big-six-wheel` — Big Six Wheel
+- [ ] `16-punto-banco` — Punto Banco
+- [ ] `17-chuck-a-luck` — Chuck-a-Luck
+- [ ] `18-casino-mahjong` — Casino Mahjong
+- [ ] `19-dealers-card-shoe` — Dealers Card Shoe
+- [ ] `20-card-shuffler-machine` — Card Shuffler Machine
+- [ ] `21-progressive-jackpot-slot` — Progressive Jackpot Slot
+- [ ] `22-baccarat-squeeze` — Baccarat Squeeze
+- [ ] `23-three-card-brag` — Three Card Brag
+- [ ] `24-spanish-21` — Spanish 21
+- [ ] `25-casino-war` — Casino War
+- [ ] `26-let-it-ride-poker` — Let It Ride Poker
+- [ ] `27-high-roller-vip-room` — High Roller VIP Room
+- [ ] `28-slot-machine-reels` — Slot Machine Reels
+- [ ] `29-casino-cage-cashier` — Casino Cage (Cashier)
+- [ ] `30-faro` — Faro
+- [ ] `31-pull-tab-game` — Pull Tab Game
+- [ ] `32-craps-stickman` — Craps Stickman
+- [ ] `33-baccarat-shoe` — Baccarat Shoe
+- [ ] `34-money-wheel` — Money Wheel
+- [ ] `35-fan-tan` — Fan-Tan
+- [ ] `36-roulette-croupier` — Roulette Croupier
+
+## Amusement Park Rides (`images/amusement-park-rides/`)
+- [ ] `1-roller-coaster` — Roller Coaster
+- [ ] `2-ferris-wheel` — Ferris Wheel
+- [ ] `3-carousel` — Carousel
+- [ ] `4-bumper-cars` — Bumper Cars
+- [ ] `5-log-flume` — Log Flume
+- [ ] `6-drop-tower` — Drop Tower
+- [ ] `7-haunted-house-ride` — Haunted House Ride
+- [ ] `8-tilt-a-whirl` — Tilt-A-Whirl
+- [ ] `9-pirate-ship-ride` — Pirate Ship Ride
+- [ ] `10-tea-cup-ride` — Tea Cup Ride
+- [ ] `11-ghost-train` — Ghost Train
+- [ ] `12-park-water-slide` — Park Water Slide
+- [ ] `13-gravitron` — Gravitron
+- [ ] `14-zipper-ride` — Zipper Ride
+- [ ] `15-scrambler-ride` — Scrambler Ride
+- [ ] `16-wave-swinger` — Wave Swinger
+- [ ] `17-house-of-mirrors` — House of Mirrors
+- [ ] `18-go-kart-track` — Go-Kart Track
+- [ ] `19-rotor-ride` — Rotor Ride
+- [ ] `20-river-rapids-ride` — River Rapids Ride
+- [ ] `21-sky-tower-observation-ride` — Sky Tower Observation Ride
+- [ ] `22-pendulum-ride` — Pendulum Ride
+- [ ] `23-top-spin-ride` — Top Spin Ride
+- [ ] `24-mine-train-coaster` — Mine Train Coaster
+- [ ] `25-dark-ride` — Dark Ride
+- [ ] `26-motion-simulator-ride` — Motion Simulator Ride
+- [ ] `27-antique-car-ride` — Antique Car Ride
+- [ ] `28-tethered-balloon-ride` — Tethered Balloon Ride
+- [ ] `29-park-gondola` — Park Gondola
+- [ ] `30-trampoline-bounce-ride` — Trampoline Bounce Ride
+- [ ] `31-rock-o-plane` — Rock-O-Plane
+- [ ] `32-music-express-ride` — Music Express Ride
+- [ ] `33-sizzler-ride` — Sizzler Ride
+- [ ] `34-slingshot-ride` — Slingshot Ride
+- [ ] `35-bungee-trampoline` — Bungee Trampoline
+- [ ] `36-kiddie-train-ride` — Kiddie Train Ride
+
+## Camping Gear (`images/camping-gear/`)
+- [ ] `1-tent` — Tent
+- [ ] `2-sleeping-bag` — Sleeping Bag
+- [ ] `3-campfire` — Campfire
+- [ ] `4-lantern` — Lantern
+- [ ] `5-backpack` — Backpack
+- [ ] `6-compass` — Compass
+- [ ] `7-camping-stove` — Camping Stove
+- [ ] `8-cooler-ice-chest` — Cooler (Ice Chest)
+- [ ] `9-hiking-boots` — Hiking Boots
+- [ ] `10-camp-chair` — Camp Chair
+- [ ] `11-hammock` — Hammock
+- [ ] `12-canteen` — Canteen
+- [ ] `13-multi-tool` — Multi-tool
+- [ ] `14-headlamp` — Headlamp
+- [ ] `15-first-aid-kit` — First Aid Kit
+- [ ] `16-sleeping-pad` — Sleeping Pad
+- [ ] `17-marshmallow-roasting-stick` — Marshmallow Roasting Stick
+- [ ] `18-bear-canister` — Bear Canister
+- [ ] `19-camp-table` — Camp Table
+- [ ] `20-trekking-poles` — Trekking Poles
+- [ ] `21-tarp-shelter` — Tarp Shelter
+- [ ] `22-fire-starter-ferro-rod` — Fire Starter (Ferro Rod)
+- [ ] `23-camping-mess-kit` — Camping Mess Kit
+- [ ] `24-water-filter` — Water Filter
+- [ ] `25-insect-repellent` — Insect Repellent
+- [ ] `26-solar-charger` — Solar Charger
+- [ ] `27-camp-grill` — Camp Grill
+- [ ] `28-carabiners` — Carabiners
+- [ ] `29-camping-cot` — Camping Cot
+- [ ] `30-binoculars` — Binoculars
+- [ ] `31-portable-camping-shower` — Portable Camping Shower
+- [ ] `32-bear-spray` — Bear Spray
+- [ ] `33-portable-camp-toilet` — Portable Camp Toilet
+- [ ] `34-gps-handheld-device` — GPS Handheld Device
+- [ ] `35-camping-hatchet` — Camping Hatchet
+- [ ] `36-bivy-sack` — Bivy Sack
+
+## Fishing (`images/fishing/`)
+- [ ] `1-fishing-rod` — Fishing Rod
+- [ ] `2-tackle-box` — Tackle Box
+- [ ] `3-fishing-net` — Fishing Net
+- [ ] `4-bait-and-hook` — Bait and Hook
+- [ ] `5-fly-fishing` — Fly Fishing
+- [ ] `6-fishing-boat` — Fishing Boat
+- [ ] `7-fishing-reel` — Fishing Reel
+- [ ] `8-fishing-lure` — Fishing Lure
+- [ ] `9-ice-fishing` — Ice Fishing
+- [ ] `10-deep-sea-fishing` — Deep Sea Fishing
+- [ ] `11-spearfishing` — Spearfishing
+- [ ] `12-fish-finder` — Fish Finder
+- [ ] `13-landing-net` — Landing Net
+- [ ] `14-fishing-kayak` — Fishing Kayak
+- [ ] `15-fishing-waders` — Fishing Waders
+- [ ] `16-bobber` — Bobber
+- [ ] `17-trout` — Trout
+- [ ] `18-salmon` — Salmon
+- [ ] `19-casting-reel` — Casting Reel
+- [ ] `20-fishing-pier` — Fishing Pier
+- [ ] `21-crab-trap` — Crab Trap
+- [ ] `22-lobster-pot` — Lobster Pot
+- [ ] `23-fish-hook` — Fish Hook
+- [ ] `24-tackle-bag` — Tackle Bag
+- [ ] `25-surf-fishing` — Surf Fishing
+- [ ] `26-fishing-chair` — Fishing Chair
+- [ ] `27-cooler-full-of-fish` — Cooler Full of Fish
+- [ ] `28-fishing-line-spool` — Fishing Line Spool
+- [ ] `29-fish-scaler` — Fish Scaler
+- [ ] `30-fillet-knife` — Fillet Knife
+- [ ] `31-fishing-hat-with-lures` — Fishing Hat with Lures
+- [ ] `32-trolling-motor` — Trolling Motor
+- [ ] `33-bass-boat` — Bass Boat
+- [ ] `34-angler-holding-a-catch` — Angler Holding a Catch
+- [ ] `35-cast-net` — Cast Net
+- [ ] `36-fish-basket-creel` — Fish Basket (Creel)
+
+## Gardening (`images/gardening/`)
+- [ ] `1-watering-can` — Watering Can
+- [ ] `2-garden-trowel` — Garden Trowel
+- [ ] `3-wheelbarrow` — Wheelbarrow
+- [ ] `4-greenhouse` — Greenhouse
+- [ ] `5-flower-pot` — Flower Pot
+- [ ] `6-garden-hose` — Garden Hose
+- [ ] `7-garden-gnome` — Garden Gnome
+- [ ] `8-pruning-shears` — Pruning Shears
+- [ ] `9-rake` — Rake
+- [ ] `10-garden-fork` — Garden Fork
+- [ ] `11-compost-bin` — Compost Bin
+- [ ] `12-raised-garden-bed` — Raised Garden Bed
+- [ ] `13-gardening-gloves` — Gardening Gloves
+- [ ] `14-vegetable-patch` — Vegetable Patch
+- [ ] `15-bird-bath` — Bird Bath
+- [ ] `16-scarecrow` — Scarecrow
+- [ ] `17-lawn-mower` — Lawn Mower
+- [ ] `18-hedge-trimmer` — Hedge Trimmer
+- [ ] `19-seed-packets` — Seed Packets
+- [ ] `20-garden-trellis` — Garden Trellis
+- [ ] `21-potting-bench` — Potting Bench
+- [ ] `22-garden-sprinkler` — Garden Sprinkler
+- [ ] `23-garden-shed` — Garden Shed
+- [ ] `24-butterfly-garden` — Butterfly Garden
+- [ ] `25-terracotta-plant-pots` — Terracotta Plant Pots
+- [ ] `26-garden-gate` — Garden Gate
+- [ ] `27-vertical-garden-wall` — Vertical Garden Wall
+- [ ] `28-bonsai-tree` — Bonsai Tree
+- [ ] `29-herb-garden` — Herb Garden
+- [ ] `30-sun-hat-and-gardening-apron` — Sun Hat and Gardening Apron
+- [ ] `31-kneeling-pad` — Kneeling Pad
+- [ ] `32-pile-of-autumn-leaves` — Pile of Autumn Leaves
+- [ ] `33-watering-wand` — Watering Wand
+- [ ] `34-garden-arbor` — Garden Arbor
+- [ ] `35-tomato-vine-on-trellis` — Tomato Vine on Trellis
+- [ ] `36-community-garden-plot` — Community Garden Plot
+
+## Sewing & Crafts (`images/sewing-crafts/`)
+- [ ] `1-sewing-machine` — Sewing Machine
+- [ ] `2-knitting-needles` — Knitting Needles
+- [ ] `3-scissors-and-fabric` — Scissors and Fabric
+- [ ] `4-thread-spool` — Thread Spool
+- [ ] `5-embroidery-hoop` — Embroidery Hoop
+- [ ] `6-button-jar` — Button Jar
+- [ ] `7-crochet-hook` — Crochet Hook
+- [ ] `8-yarn-ball` — Yarn Ball
+- [ ] `9-pin-cushion` — Pin Cushion
+- [ ] `10-sewing-pattern` — Sewing Pattern
+- [ ] `11-quilting` — Quilting
+- [ ] `12-cross-stitch` — Cross Stitch
+- [ ] `13-fabric-bolt` — Fabric Bolt
+- [ ] `14-measuring-tape` — Measuring Tape
+- [ ] `15-thimble` — Thimble
+- [ ] `16-seam-ripper` — Seam Ripper
+- [ ] `17-knitted-scarf` — Knitted Scarf
+- [ ] `18-pom-pom-maker` — Pom Pom Maker
+- [ ] `19-origami-paper-crane` — Origami Paper Crane
+- [ ] `20-scrapbooking` — Scrapbooking
+- [ ] `21-beading` — Beading
+- [ ] `22-macrame` — Macrame
+- [ ] `23-felt-craft` — Felt Craft
+- [ ] `24-pottery-wheel` — Pottery Wheel
+- [ ] `25-candle-making` — Candle Making
+- [ ] `26-stamp-making` — Stamp Making
+- [ ] `27-friendship-bracelet` — Friendship Bracelet
+- [ ] `28-glue-gun` — Glue Gun
+- [ ] `29-paper-mache` — Paper Mache
+- [ ] `30-weaving-loom` — Weaving Loom
+- [ ] `31-tie-dye` — Tie-Dye
+- [ ] `32-sewing-basket` — Sewing Basket
+- [ ] `33-zipper` — Zipper
+- [ ] `34-fabric-swatches` — Fabric Swatches
+- [ ] `35-knitting-basket-with-wool` — Knitting Basket with Wool
+- [ ] `36-craft-beads-and-string` — Craft Beads and String
+
+## Photography Equipment (`images/photography-equipment/`)
+- [ ] `1-dslr-camera` — DSLR Camera
+- [ ] `2-tripod` — Tripod
+- [ ] `3-camera-lens` — Camera Lens
+- [ ] `4-polaroid-camera` — Polaroid Camera
+- [ ] `5-film-roll` — Film Roll
+- [ ] `6-photo-studio-lighting` — Photo Studio Lighting
+- [ ] `7-camera-flash` — Camera Flash
+- [ ] `8-memory-card` — Memory Card
+- [ ] `9-camera-bag` — Camera Bag
+- [ ] `10-mirrorless-camera` — Mirrorless Camera
+- [ ] `11-vintage-film-camera` — Vintage Film Camera
+- [ ] `12-camera-strap` — Camera Strap
+- [ ] `13-photography-reflector` — Photography Reflector
+- [ ] `14-lens-filter` — Lens Filter
+- [ ] `15-softbox-light` — Softbox Light
+- [ ] `16-camera-drone` — Camera Drone
+- [ ] `17-underwater-camera-housing` — Underwater Camera Housing
+- [ ] `18-photo-backdrop` — Photo Backdrop
+- [ ] `19-ring-light` — Ring Light
+- [ ] `20-selfie-stick` — Selfie Stick
+- [ ] `21-gimbal-stabilizer` — Gimbal Stabilizer
+- [ ] `22-darkroom-enlarger` — Darkroom Enlarger
+- [ ] `23-instant-film-pack` — Instant Film Pack
+- [ ] `24-camera-battery-grip` — Camera Battery Grip
+- [ ] `25-lens-cleaning-kit` — Lens Cleaning Kit
+- [ ] `26-photo-printer` — Photo Printer
+- [ ] `27-action-camera` — Action Camera
+- [ ] `28-camera-remote-shutter` — Camera Remote Shutter
+- [ ] `29-light-meter` — Light Meter
+- [ ] `30-photo-album` — Photo Album
+- [ ] `31-slide-projector` — Slide Projector
+- [ ] `32-camera-obscura` — Camera Obscura
+- [ ] `33-monopod` — Monopod
+- [ ] `34-green-screen` — Green Screen
+- [ ] `35-zoom-lens` — Zoom Lens
+- [ ] `36-point-and-shoot-camera` — Point-and-Shoot Camera
+
+## Concerts & Festivals (`images/concerts-festivals/`)
+- [ ] `1-rock-concert` — Rock Concert
+- [ ] `2-music-festival-crowd` — Music Festival Crowd
+- [ ] `3-stage-lights` — Stage Lights
+- [ ] `4-dj-booth` — DJ Booth
+- [ ] `5-mosh-pit` — Mosh Pit
+- [ ] `6-festival-wristband` — Festival Wristband
+- [ ] `7-backstage-pass` — Backstage Pass
+- [ ] `8-concert-merchandise-stand` — Concert Merchandise Stand
+- [ ] `9-festival-food-truck` — Festival Food Truck
+- [ ] `10-confetti-cannon` — Confetti Cannon
+- [ ] `11-encore-bow` — Encore Bow
+- [ ] `12-fireworks-finale` — Fireworks Finale
+- [ ] `13-festival-campsite` — Festival Campsite
+- [ ] `14-silent-disco` — Silent Disco
+- [ ] `15-main-stage` — Main Stage
+- [ ] `16-crowd-surfing` — Crowd Surfing
+- [ ] `17-glow-sticks-at-a-concert` — Glow Sticks at a Concert
+- [ ] `18-guitar-smashing` — Guitar Smashing
+- [ ] `19-vip-lounge` — VIP Lounge
+- [ ] `20-open-air-amphitheater` — Open-Air Amphitheater
+- [ ] `21-drive-in-concert` — Drive-In Concert
+- [ ] `22-festival-poster-wall` — Festival Poster Wall
+- [ ] `23-beer-garden` — Beer Garden
+- [ ] `24-flower-crown-at-a-festival` — Flower Crown at a Festival
+- [ ] `25-ticket-stub` — Ticket Stub
+- [ ] `26-headliner-set` — Headliner Set
+- [ ] `27-roadie-setting-up-gear` — Roadie Setting Up Gear
+- [ ] `28-speaker-stack` — Speaker Stack
+- [ ] `29-crowd-with-phones-raised` — Crowd with Phones Raised
+- [ ] `30-carnival-games-at-a-festival` — Carnival Games at a Festival
+- [ ] `31-beach-music-festival` — Beach Music Festival
+- [ ] `32-battle-of-the-bands` — Battle of the Bands
+- [ ] `33-acoustic-set` — Acoustic Set
+- [ ] `34-laser-light-show` — Laser Light Show
+- [ ] `35-festival-tent-stage` — Festival Tent Stage
+- [ ] `36-orchestra-pit` — Orchestra Pit
+
+## Movie Characters (`images/movie-characters/`)
+- [ ] `1-forrest-gump` — Forrest Gump
+- [ ] `2-jack-sparrow` — Jack Sparrow
+- [ ] `3-indiana-jones` — Indiana Jones
+- [ ] `4-james-bond` — James Bond
+- [ ] `5-darth-vader` — Darth Vader
+- [ ] `6-yoda` — Yoda
+- [ ] `7-gandalf` — Gandalf
+- [ ] `8-frodo-baggins` — Frodo Baggins
+- [ ] `9-harry-potter` — Harry Potter
+- [ ] `10-hermione-granger` — Hermione Granger
+- [ ] `11-lord-voldemort` — Lord Voldemort
+- [ ] `12-the-joker` — The Joker
+- [ ] `13-rocky-balboa` — Rocky Balboa
+- [ ] `14-the-terminator` — The Terminator
+- [ ] `15-neo` — Neo
+- [ ] `16-edward-scissorhands` — Edward Scissorhands
+- [ ] `17-willy-wonka` — Willy Wonka
+- [ ] `18-dorothy-gale` — Dorothy Gale
+- [ ] `19-scarlett-o-hara` — Scarlett O'Hara
+- [ ] `20-michael-corleone` — Michael Corleone
+- [ ] `21-tony-montana` — Tony Montana
+- [ ] `22-john-rambo` — John Rambo
+- [ ] `23-jason-bourne` — Jason Bourne
+- [ ] `24-ethan-hunt` — Ethan Hunt
+- [ ] `25-marty-mcfly` — Marty McFly
+- [ ] `26-e-t` — E.T.
+- [ ] `27-freddy-krueger` — Freddy Krueger
+- [ ] `28-jason-voorhees` — Jason Voorhees
+- [ ] `29-michael-myers` — Michael Myers
+- [ ] `30-hannibal-lecter` — Hannibal Lecter
+- [ ] `31-norman-bates` — Norman Bates
+- [ ] `32-maximus` — Maximus
+- [ ] `33-jack-torrance` — Jack Torrance
+- [ ] `34-tyler-durden` — Tyler Durden
+- [ ] `35-jules-winnfield` — Jules Winnfield
+- [ ] `36-sherlock-holmes` — Sherlock Holmes
+
+## Famous Landmarks (`images/famous-landmarks/`)
+- [ ] `1-big-ben` — Big Ben
+- [ ] `2-arc-de-triomphe` — Arc de Triomphe
+- [ ] `3-christ-the-redeemer` — Christ the Redeemer
+- [ ] `4-taj-mahal` — Taj Mahal
+- [ ] `5-sydney-opera-house` — Sydney Opera House
+- [ ] `6-leaning-tower-of-pisa` — Leaning Tower of Pisa
+- [ ] `7-mount-fuji` — Mount Fuji
+- [ ] `8-machu-picchu` — Machu Picchu
+- [ ] `9-petra` — Petra
+- [ ] `10-angkor-wat` — Angkor Wat
+- [ ] `11-chichen-itza` — Chichen Itza
+- [ ] `12-acropolis-of-athens` — Acropolis of Athens
+- [ ] `13-forbidden-city` — Forbidden City
+- [ ] `14-mount-rushmore` — Mount Rushmore
+- [ ] `15-table-mountain` — Table Mountain
+- [ ] `16-niagara-falls` — Niagara Falls
+- [ ] `17-times-square` — Times Square
+- [ ] `18-red-square` — Red Square
+- [ ] `19-burj-al-arab` — Burj Al Arab
+- [ ] `20-alhambra` — Alhambra
+- [ ] `21-notre-dame-cathedral` — Notre-Dame Cathedral
+- [ ] `22-saint-basils-cathedral` — Saint Basil's Cathedral
+- [ ] `23-victoria-falls` — Victoria Falls
+- [ ] `24-uluru-ayers-rock` — Uluru (Ayers Rock)
+- [ ] `25-hollywood-sign` — Hollywood Sign
+- [ ] `26-space-needle` — Space Needle
+- [ ] `27-cn-tower` — CN Tower
+- [ ] `28-brandenburg-gate` — Brandenburg Gate
+- [ ] `29-blue-mosque` — Blue Mosque
+- [ ] `30-hagia-sophia` — Hagia Sophia
+- [ ] `31-mont-saint-michel` — Mont Saint-Michel
+- [ ] `32-sagrada-familia` — Sagrada Familia
+- [ ] `33-golden-temple` — Golden Temple
+- [ ] `34-potala-palace` — Potala Palace
+- [ ] `35-grand-canyon` — Grand Canyon
+- [ ] `36-eiffel-tower` — Eiffel Tower
+
+## Furniture and Electronic Brands (`images/furniture-electronic-brands/`)
+- [ ] `1-ikea` — IKEA
+- [ ] `2-ashley-furniture` — Ashley Furniture
+- [ ] `3-la-z-boy` — La-Z-Boy
+- [ ] `4-west-elm` — West Elm
+- [ ] `5-herman-miller` — Herman Miller
+- [ ] `6-wayfair` — Wayfair
+- [ ] `7-pottery-barn` — Pottery Barn
+- [ ] `8-crate-and-barrel` — Crate & Barrel
+- [ ] `9-restoration-hardware` — Restoration Hardware
+- [ ] `10-ethan-allen` — Ethan Allen
+- [ ] `11-article` — Article
+- [ ] `12-williams-sonoma` — Williams-Sonoma
+- [ ] `13-ekornes` — Ekornes
+- [ ] `14-knoll` — Knoll
+- [ ] `15-steelcase` — Steelcase
+- [ ] `16-ligne-roset` — Ligne Roset
+- [ ] `17-roche-bobois` — Roche Bobois
+- [ ] `18-muji` — Muji
+- [ ] `19-samsung` — Samsung
+- [ ] `20-sony` — Sony
+- [ ] `21-lg` — LG
+- [ ] `22-panasonic` — Panasonic
+- [ ] `23-philips` — Philips
+- [ ] `24-bose` — Bose
+- [ ] `25-jbl` — JBL
+- [ ] `26-sharp` — Sharp
+- [ ] `27-toshiba` — Toshiba
+- [ ] `28-sennheiser` — Sennheiser
+- [ ] `29-beats` — Beats
+- [ ] `30-harman-kardon` — Harman Kardon
+- [ ] `31-yamaha` — Yamaha
+- [ ] `32-pioneer` — Pioneer
+- [ ] `33-bang-and-olufsen` — Bang & Olufsen
+- [ ] `34-sonos` — Sonos
+- [ ] `35-dyson` — Dyson
+- [ ] `36-ge` — GE
+
+## Apparel Brands (`images/apparel-brands/`)
+- [ ] `1-nike` — Nike
+- [ ] `2-adidas` — Adidas
+- [ ] `3-puma` — Puma
+- [ ] `4-under-armour` — Under Armour
+- [ ] `5-levi-s` — Levi's
+- [ ] `6-gap` — Gap
+- [ ] `7-handm` — H&M
+- [ ] `8-zara` — Zara
+- [ ] `9-uniqlo` — Uniqlo
+- [ ] `10-ralph-lauren` — Ralph Lauren
+- [ ] `11-tommy-hilfiger` — Tommy Hilfiger
+- [ ] `12-calvin-klein` — Calvin Klein
+- [ ] `13-gucci` — Gucci
+- [ ] `14-louis-vuitton` — Louis Vuitton
+- [ ] `15-versace` — Versace
+- [ ] `16-balenciaga` — Balenciaga
+- [ ] `17-supreme` — Supreme
+- [ ] `18-the-north-face` — The North Face
+- [ ] `19-patagonia` — Patagonia
+- [ ] `20-columbia` — Columbia
+- [ ] `21-new-balance` — New Balance
+- [ ] `22-reebok` — Reebok
+- [ ] `23-converse` — Converse
+- [ ] `24-vans` — Vans
+- [ ] `25-fila` — Fila
+- [ ] `26-champion` — Champion
+- [ ] `27-old-navy` — Old Navy
+- [ ] `28-american-eagle` — American Eagle
+- [ ] `29-abercrombie-and-fitch` — Abercrombie & Fitch
+- [ ] `30-hollister` — Hollister
+- [ ] `31-forever-21` — Forever 21
+- [ ] `32-victoria-s-secret` — Victoria's Secret
+- [ ] `33-lululemon` — Lululemon
+- [ ] `34-banana-republic` — Banana Republic
+- [ ] `35-diesel` — Diesel
+- [ ] `36-guess` — Guess
+
+## Entertainment Apps (`images/entertainment-apps/`)
+- [ ] `1-netflix` — Netflix
+- [ ] `2-youtube` — YouTube
+- [ ] `3-disney` — Disney+
+- [ ] `4-hulu` — Hulu
+- [ ] `5-spotify` — Spotify
+- [ ] `6-amazon-prime-video` — Amazon Prime Video
+- [ ] `7-hbo-max` — HBO Max
+- [ ] `8-twitch` — Twitch
+- [ ] `9-tiktok` — TikTok
+- [ ] `10-apple-tv` — Apple TV+
+- [ ] `11-paramount` — Paramount+
+- [ ] `12-peacock` — Peacock
+- [ ] `13-crunchyroll` — Crunchyroll
+- [ ] `14-soundcloud` — SoundCloud
+- [ ] `15-pandora` — Pandora
+- [ ] `16-vimeo` — Vimeo
+- [ ] `17-discord` — Discord
+- [ ] `18-steam` — Steam
+- [ ] `19-playstation-network` — PlayStation Network
+- [ ] `20-xbox-game-pass` — Xbox Game Pass
+- [ ] `21-nintendo-switch-online` — Nintendo Switch Online
+- [ ] `22-audible` — Audible
+- [ ] `23-kindle` — Kindle
+- [ ] `24-itunes` — iTunes
+- [ ] `25-deezer` — Deezer
+- [ ] `26-tidal` — Tidal
+- [ ] `27-iheartradio` — iHeartRadio
+- [ ] `28-roku` — Roku
+- [ ] `29-sling-tv` — Sling TV
+- [ ] `30-youtube-tv` — YouTube TV
+- [ ] `31-espn` — ESPN+
+- [ ] `32-funimation` — Funimation
+- [ ] `33-vudu` — Vudu
+- [ ] `34-plex` — Plex
+- [ ] `35-shudder` — Shudder
+- [ ] `36-britbox` — BritBox
+
+## Tech Company Logos (`images/tech-company-logos/`)
+- [ ] `1-apple` — Apple
+- [ ] `2-google` — Google
+- [ ] `3-microsoft` — Microsoft
+- [ ] `4-amazon` — Amazon
+- [ ] `5-meta` — Meta
+- [ ] `6-qualcomm` — Qualcomm
+- [ ] `7-tesla` — Tesla
+- [ ] `8-intel` — Intel
+- [ ] `9-ibm` — IBM
+- [ ] `10-oracle` — Oracle
+- [ ] `11-adobe` — Adobe
+- [ ] `12-nvidia` — Nvidia
+- [ ] `13-asus` — ASUS
+- [ ] `14-xiaomi` — Xiaomi
+- [ ] `15-dell` — Dell
+- [ ] `16-hp` — HP
+- [ ] `17-cisco` — Cisco
+- [ ] `18-salesforce` — Salesforce
+- [ ] `19-spacex` — SpaceX
+- [ ] `20-twitter-x` — Twitter (X)
+- [ ] `21-instagram` — Instagram
+- [ ] `22-linkedin` — LinkedIn
+- [ ] `23-snapchat` — Snapchat
+- [ ] `24-uber` — Uber
+- [ ] `25-airbnb` — Airbnb
+- [ ] `26-twilio` — Twilio
+- [ ] `27-broadcom` — Broadcom
+- [ ] `28-zoom` — Zoom
+- [ ] `29-slack` — Slack
+- [ ] `30-dropbox` — Dropbox
+- [ ] `31-shopify` — Shopify
+- [ ] `32-whatsapp` — WhatsApp
+- [ ] `33-reddit` — Reddit
+- [ ] `34-pinterest` — Pinterest
+- [ ] `35-ebay` — eBay
+- [ ] `36-yahoo` — Yahoo
+
+## Skyscrapers (`images/skyscrapers/`)
+- [ ] `1-burj-khalifa` — Burj Khalifa
+- [ ] `2-empire-state-building` — Empire State Building
+- [ ] `3-one-world-trade-center` — One World Trade Center
+- [ ] `4-petronas-towers` — Petronas Towers
+- [ ] `5-shanghai-tower` — Shanghai Tower
+- [ ] `6-taipei-101` — Taipei 101
+- [ ] `7-willis-tower` — Willis Tower
+- [ ] `8-chrysler-building` — Chrysler Building
+- [ ] `9-the-shard` — The Shard
+- [ ] `10-lotte-world-tower` — Lotte World Tower
+- [ ] `11-ping-an-finance-centre` — Ping An Finance Centre
+- [ ] `12-citic-tower-china-zun` — CITIC Tower (China Zun)
+- [ ] `13-tianjin-ctf-finance-centre` — Tianjin CTF Finance Centre
+- [ ] `14-guangzhou-ctf-finance-centre` — Guangzhou CTF Finance Centre
+- [ ] `15-shanghai-world-financial-center` — Shanghai World Financial Center
+- [ ] `16-jin-mao-tower` — Jin Mao Tower
+- [ ] `17-international-commerce-centre` — International Commerce Centre
+- [ ] `18-two-international-finance-centre` — Two International Finance Centre
+- [ ] `19-abraj-al-bait` — Abraj Al Bait
+- [ ] `20-central-park-tower` — Central Park Tower
+- [ ] `21-steinway-tower` — Steinway Tower
+- [ ] `22-30-hudson-yards` — 30 Hudson Yards
+- [ ] `23-merdeka-118` — Merdeka 118
+- [ ] `24-federation-tower` — Federation Tower
+- [ ] `25-q1-tower` — Q1 Tower
+- [ ] `26-eureka-tower` — Eureka Tower
+- [ ] `27-sydney-tower` — Sydney Tower
+- [ ] `28-the-gherkin` — The Gherkin
+- [ ] `29-torre-reforma` — Torre Reforma
+- [ ] `30-gran-torre-santiago` — Gran Torre Santiago
+- [ ] `31-comcast-technology-center` — Comcast Technology Center
+- [ ] `32-salesforce-tower` — Salesforce Tower
+- [ ] `33-us-bank-tower` — US Bank Tower
+- [ ] `34-landmark-81` — Landmark 81
+- [ ] `35-emirates-towers` — Emirates Towers
+- [ ] `36-bank-of-china-tower` — Bank of China Tower
+
+## Ancient Wonders (`images/ancient-wonders/`)
+- [ ] `1-great-pyramid-of-giza` — Great Pyramid of Giza
+- [ ] `2-hanging-gardens-of-babylon` — Hanging Gardens of Babylon
+- [ ] `3-colossus-of-rhodes` — Colossus of Rhodes
+- [ ] `4-lighthouse-of-alexandria` — Lighthouse of Alexandria
+- [ ] `5-statue-of-zeus-at-olympia` — Statue of Zeus at Olympia
+- [ ] `6-mausoleum-at-halicarnassus` — Mausoleum at Halicarnassus
+- [ ] `7-temple-of-artemis-at-ephesus` — Temple of Artemis at Ephesus
+- [ ] `8-great-wall-of-china` — Great Wall of China
+- [ ] `9-petra` — Petra
+- [ ] `10-colosseum` — Colosseum
+- [ ] `11-stonehenge` — Stonehenge
+- [ ] `12-machu-picchu` — Machu Picchu
+- [ ] `13-angkor-wat` — Angkor Wat
+- [ ] `14-chichen-itza` — Chichen Itza
+- [ ] `15-parthenon-athens` — Parthenon, Athens
+- [ ] `16-great-zimbabwe` — Great Zimbabwe
+- [ ] `17-persepolis` — Persepolis
+- [ ] `18-pont-du-gard` — Pont du Gard
+- [ ] `19-leshan-giant-buddha` — Leshan Giant Buddha
+- [ ] `20-borobudur` — Borobudur
+- [ ] `21-nazca-lines` — Nazca Lines
+- [ ] `22-newgrange` — Newgrange
+- [ ] `23-sigiriya` — Sigiriya
+- [ ] `24-baalbek` — Baalbek
+- [ ] `25-karnak-temple` — Karnak Temple
+- [ ] `26-abu-simbel` — Abu Simbel
+- [ ] `27-valley-of-the-kings` — Valley of the Kings
+- [ ] `28-ziggurat-of-ur` — Ziggurat of Ur
+- [ ] `29-palmyra` — Palmyra
+- [ ] `30-mesa-verde` — Mesa Verde
+- [ ] `31-tikal` — Tikal
+- [ ] `32-pompeii` — Pompeii
+- [ ] `33-delphi` — Delphi
+- [ ] `34-knossos-palace` — Knossos Palace
+- [ ] `35-hagia-sophia` — Hagia Sophia
+- [ ] `36-hadrians-wall` — Hadrian's Wall
+
+## National Flags (`images/national-flags/`)
+- [ ] `1-flag-of-the-united-states` — Flag of the United States
+- [ ] `2-flag-of-japan` — Flag of Japan
+- [ ] `3-flag-of-the-united-kingdom` — Flag of the United Kingdom
+- [ ] `4-flag-of-brazil` — Flag of Brazil
+- [ ] `5-flag-of-australia` — Flag of Australia
+- [ ] `6-flag-of-canada` — Flag of Canada
+- [ ] `7-flag-of-germany` — Flag of Germany
+- [ ] `8-flag-of-france` — Flag of France
+- [ ] `9-flag-of-italy` — Flag of Italy
+- [ ] `10-flag-of-spain` — Flag of Spain
+- [ ] `11-flag-of-china` — Flag of China
+- [ ] `12-flag-of-india` — Flag of India
+- [ ] `13-flag-of-south-korea` — Flag of South Korea
+- [ ] `14-flag-of-mexico` — Flag of Mexico
+- [ ] `15-flag-of-russia` — Flag of Russia
+- [ ] `16-flag-of-south-africa` — Flag of South Africa
+- [ ] `17-flag-of-egypt` — Flag of Egypt
+- [ ] `18-flag-of-nigeria` — Flag of Nigeria
+- [ ] `19-flag-of-argentina` — Flag of Argentina
+- [ ] `20-flag-of-chile` — Flag of Chile
+- [ ] `21-flag-of-new-zealand` — Flag of New Zealand
+- [ ] `22-flag-of-ireland` — Flag of Ireland
+- [ ] `23-flag-of-the-netherlands` — Flag of the Netherlands
+- [ ] `24-flag-of-sweden` — Flag of Sweden
+- [ ] `25-flag-of-norway` — Flag of Norway
+- [ ] `26-flag-of-switzerland` — Flag of Switzerland
+- [ ] `27-flag-of-greece` — Flag of Greece
+- [ ] `28-flag-of-turkey` — Flag of Turkey
+- [ ] `29-flag-of-saudi-arabia` — Flag of Saudi Arabia
+- [ ] `30-flag-of-the-united-arab-emirates` — Flag of the United Arab Emirates
+- [ ] `31-flag-of-israel` — Flag of Israel
+- [ ] `32-flag-of-indonesia` — Flag of Indonesia
+- [ ] `33-flag-of-thailand` — Flag of Thailand
+- [ ] `34-flag-of-vietnam` — Flag of Vietnam
+- [ ] `35-flag-of-nepal` — Flag of Nepal
+- [ ] `36-flag-of-vatican-city` — Flag of Vatican City
+
+## Currency & Coins (`images/currency-coins/`)
+- [ ] `1-us-dollar-bill` — US Dollar Bill
+- [ ] `2-euro-coin` — Euro Coin
+- [ ] `3-british-pound-coin` — British Pound Coin
+- [ ] `4-japanese-yen` — Japanese Yen
+- [ ] `5-gold-coin` — Gold Coin
+- [ ] `6-piggy-bank` — Piggy Bank
+- [ ] `7-bitcoin` — Bitcoin
+- [ ] `8-swiss-franc` — Swiss Franc
+- [ ] `9-indian-rupee-note` — Indian Rupee Note
+- [ ] `10-chinese-yuan` — Chinese Yuan
+- [ ] `11-mexican-peso` — Mexican Peso
+- [ ] `12-canadian-dollar-coin-loonie` — Canadian Dollar Coin (Loonie)
+- [ ] `13-australian-dollar-coin` — Australian Dollar Coin
+- [ ] `14-ancient-roman-coin` — Ancient Roman Coin
+- [ ] `15-spanish-doubloon` — Spanish Doubloon
+- [ ] `16-russian-ruble` — Russian Ruble
+- [ ] `17-south-korean-won` — South Korean Won
+- [ ] `18-brazilian-real` — Brazilian Real
+- [ ] `19-south-african-rand` — South African Rand
+- [ ] `20-gold-bullion-bar` — Gold Bullion Bar
+- [ ] `21-silver-bar` — Silver Bar
+- [ ] `22-cowrie-shell-money` — Cowrie Shell Money
+- [ ] `23-coin-purse` — Coin Purse
+- [ ] `24-cash-register` — Cash Register
+- [ ] `25-atm-machine` — ATM Machine
+- [ ] `26-credit-card` — Credit Card
+- [ ] `27-personal-cheque` — Personal Cheque
+- [ ] `28-money-exchange-booth` — Money Exchange Booth
+- [ ] `29-wishing-well-with-coins` — Wishing Well with Coins
+- [ ] `30-coin-collection-display` — Coin Collection Display
+- [ ] `31-banknote-bundle` — Banknote Bundle
+- [ ] `32-change-jar` — Change Jar
+- [ ] `33-vending-machine-coin-slot` — Vending Machine Coin Slot
+- [ ] `34-pound-sterling-banknote` — Pound Sterling Banknote
+- [ ] `35-thai-baht` — Thai Baht
+- [ ] `36-turkish-lira` — Turkish Lira
+
+## Financial Services Companies (`images/financial-services-companies/`)
+- [ ] `1-visa` — Visa
+- [ ] `2-mastercard` — Mastercard
+- [ ] `3-american-express` — American Express
+- [ ] `4-paypal` — PayPal
+- [ ] `5-jpmorgan-chase` — JPMorgan Chase
+- [ ] `6-bank-of-america` — Bank of America
+- [ ] `7-wells-fargo` — Wells Fargo
+- [ ] `8-citibank` — Citibank
+- [ ] `9-goldman-sachs` — Goldman Sachs
+- [ ] `10-morgan-stanley` — Morgan Stanley
+- [ ] `11-hsbc` — HSBC
+- [ ] `12-barclays` — Barclays
+- [ ] `13-deutsche-bank` — Deutsche Bank
+- [ ] `14-ubs` — UBS
+- [ ] `15-credit-suisse` — Credit Suisse
+- [ ] `16-blackrock` — BlackRock
+- [ ] `17-vanguard` — Vanguard
+- [ ] `18-fidelity-investments` — Fidelity Investments
+- [ ] `19-charles-schwab` — Charles Schwab
+- [ ] `20-berkshire-hathaway` — Berkshire Hathaway
+- [ ] `21-allstate` — Allstate
+- [ ] `22-state-farm` — State Farm
+- [ ] `23-progressive` — Progressive
+- [ ] `24-geico` — Geico
+- [ ] `25-prudential` — Prudential
+- [ ] `26-metlife` — MetLife
+- [ ] `27-aig` — AIG
+- [ ] `28-western-union` — Western Union
+- [ ] `29-venmo` — Venmo
+- [ ] `30-cash-app` — Cash App
+- [ ] `31-robinhood` — Robinhood
+- [ ] `32-coinbase` — Coinbase
+- [ ] `33-stripe` — Stripe
+- [ ] `34-square-block` — Square (Block)
+- [ ] `35-discover` — Discover
+- [ ] `36-capital-one` — Capital One
+
+## Airline Logos (`images/airline-logos/`)
+- [ ] `1-american-airlines` — American Airlines
+- [ ] `2-delta` — Delta
+- [ ] `3-united` — United
+- [ ] `4-southwest` — Southwest
+- [ ] `5-jetblue` — JetBlue
+- [ ] `6-alaska-airlines` — Alaska Airlines
+- [ ] `7-spirit-airlines` — Spirit Airlines
+- [ ] `8-frontier-airlines` — Frontier Airlines
+- [ ] `9-hawaiian-airlines` — Hawaiian Airlines
+- [ ] `10-allegiant-air` — Allegiant Air
+- [ ] `11-british-airways` — British Airways
+- [ ] `12-lufthansa` — Lufthansa
+- [ ] `13-air-france` — Air France
+- [ ] `14-klm` — KLM
+- [ ] `15-ryanair` — Ryanair
+- [ ] `16-easyjet` — easyJet
+- [ ] `17-emirates` — Emirates
+- [ ] `18-qatar-airways` — Qatar Airways
+- [ ] `19-etihad-airways` — Etihad Airways
+- [ ] `20-turkish-airlines` — Turkish Airlines
+- [ ] `21-singapore-airlines` — Singapore Airlines
+- [ ] `22-cathay-pacific` — Cathay Pacific
+- [ ] `23-japan-airlines` — Japan Airlines
+- [ ] `24-all-nippon-airways` — All Nippon Airways
+- [ ] `25-qantas` — Qantas
+- [ ] `26-air-canada` — Air Canada
+- [ ] `27-air-new-zealand` — Air New Zealand
+- [ ] `28-china-southern` — China Southern
+- [ ] `29-china-eastern` — China Eastern
+- [ ] `30-korean-air` — Korean Air
+- [ ] `31-thai-airways` — Thai Airways
+- [ ] `32-virgin-atlantic` — Virgin Atlantic
+- [ ] `33-virgin-australia` — Virgin Australia
+- [ ] `34-norwegian-air` — Norwegian Air
+- [ ] `35-westjet` — WestJet
+- [ ] `36-iberia` — Iberia
+
+## Weather Phenomena (`images/weather-phenomena/`)
+- [ ] `1-rainbow` — Rainbow
+- [ ] `2-tornado` — Tornado
+- [ ] `3-lightning-storm` — Lightning Storm
+- [ ] `4-hurricane` — Hurricane
+- [ ] `5-snowstorm` — Snowstorm
+- [ ] `6-fog` — Fog
+- [ ] `7-sandstorm` — Sandstorm
+- [ ] `8-hailstorm` — Hailstorm
+- [ ] `9-aurora-borealis` — Aurora Borealis
+- [ ] `10-heat-wave-mirage` — Heat Wave Mirage
+- [ ] `11-frost` — Frost
+- [ ] `12-drought-cracked-earth` — Drought-Cracked Earth
+- [ ] `13-monsoon-rainstorm` — Monsoon Rainstorm
+- [ ] `14-waterspout` — Waterspout
+- [ ] `15-blizzard` — Blizzard
+- [ ] `16-sleet` — Sleet
+- [ ] `17-fogbow` — Fogbow
+- [ ] `18-virga` — Virga
+- [ ] `19-dust-devil` — Dust Devil
+- [ ] `20-double-rainbow` — Double Rainbow
+- [ ] `21-sun-halo` — Sun Halo
+- [ ] `22-ball-lightning` — Ball Lightning
+- [ ] `23-derecho-windstorm` — Derecho Windstorm
+- [ ] `24-heat-lightning` — Heat Lightning
+- [ ] `25-st-elmos-fire` — St. Elmo's Fire
+- [ ] `26-rime-ice` — Rime Ice
+- [ ] `27-mammatus-clouds` — Mammatus Clouds
+- [ ] `28-supercell-storm` — Supercell Storm
+- [ ] `29-whiteout-conditions` — Whiteout Conditions
+- [ ] `30-ice-storm` — Ice Storm
+- [ ] `31-hoarfrost` — Hoarfrost
+- [ ] `32-microburst` — Microburst
+- [ ] `33-snow-squall` — Snow Squall
+- [ ] `34-thunderhead-cloud-formation` — Thunderhead Cloud Formation
+- [ ] `35-sun-dog-parhelion` — Sun Dog (Parhelion)
+- [ ] `36-steam-fog` — Steam Fog
+
+## Natural Disasters (`images/natural-disasters/`)
+- [ ] `1-earthquake-damage` — Earthquake Damage
+- [ ] `2-landslide` — Landslide
+- [ ] `3-tsunami-wave` — Tsunami Wave
+- [ ] `4-wildfire` — Wildfire
+- [ ] `5-flood` — Flood
+- [ ] `6-tornado-damage` — Tornado Damage
+- [ ] `7-volcanic-eruption` — Volcanic Eruption
+- [ ] `8-avalanche` — Avalanche
+- [ ] `9-sinkhole` — Sinkhole
+- [ ] `10-ice-jam-flooding` — Ice Jam Flooding
+- [ ] `11-storm-surge` — Storm Surge
+- [ ] `12-locust-swarm` — Locust Swarm
+- [ ] `13-dust-storm` — Dust Storm
+- [ ] `14-volcanic-ash-cloud` — Volcanic Ash Cloud
+- [ ] `15-lava-flow` — Lava Flow
+- [ ] `16-collapsed-building-earthquake-aftermath` — Collapsed Building (Earthquake Aftermath)
+- [ ] `17-coastal-erosion` — Coastal Erosion
+- [ ] `18-flash-flood` — Flash Flood
+- [ ] `19-hurricane-damage` — Hurricane Damage
+- [ ] `20-levee-breach` — Levee Breach
+- [ ] `21-wildfire-smoke-plume` — Wildfire Smoke Plume
+- [ ] `22-glacier-calving` — Glacier Calving
+- [ ] `23-meteor-impact-crater` — Meteor Impact Crater
+- [ ] `24-pyroclastic-flow` — Pyroclastic Flow
+- [ ] `25-lahar-volcanic-mudflow` — Lahar (Volcanic Mudflow)
+- [ ] `26-storm-damaged-roof` — Storm-Damaged Roof
+- [ ] `27-downed-power-lines-after-storm` — Downed Power Lines After Storm
+- [ ] `28-riverbank-erosion` — Riverbank Erosion
+- [ ] `29-glacial-lake-outburst-flood` — Glacial Lake Outburst Flood
+- [ ] `30-cyclone-aftermath` — Cyclone Aftermath
+- [ ] `31-drought-stricken-farmland` — Drought-Stricken Farmland
+- [ ] `32-ashfall-on-town` — Ashfall on Town
+- [ ] `33-ice-storm-damage` — Ice Storm Damage
+- [ ] `34-hailstorm-crop-damage` — Hailstorm Crop Damage
+- [ ] `35-rockslide` — Rockslide
+- [ ] `36-debris-flow` — Debris Flow
+
+## Beauty (`images/beauty/`)
+- [ ] `1-lipstick` — Lipstick
+- [ ] `2-mascara` — Mascara
+- [ ] `3-foundation` — Foundation
+- [ ] `4-eyeshadow-palette` — Eyeshadow Palette
+- [ ] `5-blush` — Blush
+- [ ] `6-nail-polish` — Nail Polish
+- [ ] `7-makeup-brush-set` — Makeup Brush Set
+- [ ] `8-false-eyelashes` — False Eyelashes
+- [ ] `9-perfume-bottle` — Perfume Bottle
+- [ ] `10-hairbrush` — Hairbrush
+- [ ] `11-hair-dryer` — Hair Dryer
+- [ ] `12-curling-iron` — Curling Iron
+- [ ] `13-hair-straightener` — Hair Straightener
+- [ ] `14-face-mask` — Face Mask
+- [ ] `15-lip-gloss` — Lip Gloss
+- [ ] `16-concealer` — Concealer
+- [ ] `17-eyeliner` — Eyeliner
+- [ ] `18-bronzer` — Bronzer
+- [ ] `19-highlighter` — Highlighter
+- [ ] `20-setting-powder` — Setting Powder
+- [ ] `21-beauty-blender` — Beauty Blender
+- [ ] `22-makeup-mirror` — Makeup Mirror
+- [ ] `23-cotton-pads` — Cotton Pads
+- [ ] `24-nail-file` — Nail File
+- [ ] `25-manicure-set` — Manicure Set
+- [ ] `26-facial-cleanser` — Facial Cleanser
+- [ ] `27-moisturizer` — Moisturizer
+- [ ] `28-sunscreen` — Sunscreen
+- [ ] `29-lip-balm` — Lip Balm
+- [ ] `30-eyebrow-pencil` — Eyebrow Pencil
+- [ ] `31-hair-rollers` — Hair Rollers
+- [ ] `32-makeup-vanity-table` — Makeup Vanity Table
+- [ ] `33-cosmetic-bag` — Cosmetic Bag
+- [ ] `34-hand-cream` — Hand Cream
+- [ ] `35-body-lotion` — Body Lotion
+- [ ] `36-shampoo-and-conditioner` — Shampoo and Conditioner
+
+## Famous Hotel Logos (`images/famous-hotel-logos/`)
+- [ ] `1-marriott` — Marriott
+- [ ] `2-hilton` — Hilton
+- [ ] `3-hyatt` — Hyatt
+- [ ] `4-intercontinental` — InterContinental
+- [ ] `5-holiday-inn` — Holiday Inn
+- [ ] `6-sheraton` — Sheraton
+- [ ] `7-westin` — Westin
+- [ ] `8-ritz-carlton` — Ritz-Carlton
+- [ ] `9-four-seasons` — Four Seasons
+- [ ] `10-w-hotels` — W Hotels
+- [ ] `11-st-regis` — St. Regis
+- [ ] `12-waldorf-astoria` — Waldorf Astoria
+- [ ] `13-wyndham` — Wyndham
+- [ ] `14-best-western` — Best Western
+- [ ] `15-radisson` — Radisson
+- [ ] `16-ramada` — Ramada
+- [ ] `17-days-inn` — Days Inn
+- [ ] `18-comfort-inn` — Comfort Inn
+- [ ] `19-hampton-inn` — Hampton Inn
+- [ ] `20-courtyard-by-marriott` — Courtyard by Marriott
+- [ ] `21-fairmont` — Fairmont
+- [ ] `22-shangri-la` — Shangri-La
+- [ ] `23-mandarin-oriental` — Mandarin Oriental
+- [ ] `24-peninsula-hotels` — Peninsula Hotels
+- [ ] `25-aman-resorts` — Aman Resorts
+- [ ] `26-rosewood-hotels` — Rosewood Hotels
+- [ ] `27-conrad` — Conrad
+- [ ] `28-doubletree` — DoubleTree
+- [ ] `29-renaissance-hotels` — Renaissance Hotels
+- [ ] `30-le-m-ridien` — Le Méridien
+- [ ] `31-kimpton-hotels` — Kimpton Hotels
+- [ ] `32-motel-6` — Motel 6
+- [ ] `33-super-8` — Super 8
+- [ ] `34-travelodge` — Travelodge
+- [ ] `35-crowne-plaza` — Crowne Plaza
+- [ ] `36-sofitel` — Sofitel
+
+## Astronauts & Spacesuits (`images/astronauts-spacesuits/`)
+- [ ] `1-astronaut-in-spacesuit` — Astronaut in Spacesuit
+- [ ] `2-space-helmet` — Space Helmet
+- [ ] `3-international-space-station` — International Space Station
+- [ ] `4-moon-boots` — Moon Boots
+- [ ] `5-spacewalk` — Spacewalk
+- [ ] `6-space-shuttle` — Space Shuttle
+- [ ] `7-neil-armstrong` — Neil Armstrong
+- [ ] `8-buzz-aldrin` — Buzz Aldrin
+- [ ] `9-yuri-gagarin` — Yuri Gagarin
+- [ ] `10-apollo-11-moon-landing` — Apollo 11 Moon Landing
+- [ ] `11-lunar-rover` — Lunar Rover
+- [ ] `12-american-flag-on-the-moon` — American Flag on the Moon
+- [ ] `13-space-capsule-splashdown` — Space Capsule Splashdown
+- [ ] `14-mercury-capsule` — Mercury Capsule
+- [ ] `15-gemini-capsule` — Gemini Capsule
+- [ ] `16-soyuz-spacecraft` — Soyuz Spacecraft
+- [ ] `17-mission-control-room` — Mission Control Room
+- [ ] `18-astronaut-training-pool-neutral-buoyancy` — Astronaut Training Pool (Neutral Buoyancy)
+- [ ] `19-zero-gravity-training-flight` — Zero Gravity Training Flight
+- [ ] `20-space-food-pouch` — Space Food Pouch
+- [ ] `21-life-support-backpack-plss` — Life Support Backpack (PLSS)
+- [ ] `22-space-station-cupola-window` — Space Station Cupola Window
+- [ ] `23-astronaut-ice-cream` — Astronaut Ice Cream
+- [ ] `24-solar-panels-on-space-station` — Solar Panels on Space Station
+- [ ] `25-orange-launch-suit` — Orange Launch Suit
+- [ ] `26-launch-countdown-clock` — Launch Countdown Clock
+- [ ] `27-rocket-booster-separation` — Rocket Booster Separation
+- [ ] `28-extravehicular-mobility-unit-spacesuit` — Extravehicular Mobility Unit (Spacesuit)
+- [ ] `29-orion-spacecraft` — Orion Spacecraft
+- [ ] `30-spacex-crew-dragon-capsule` — SpaceX Crew Dragon Capsule
+- [ ] `31-cosmonaut-in-sokol-suit` — Cosmonaut in Sokol Suit
+- [ ] `32-rocket-launch-pad` — Rocket Launch Pad
+- [ ] `33-reentry-parachute-landing` — Reentry Parachute Landing
+- [ ] `34-space-tether-during-spacewalk` — Space Tether During Spacewalk
+- [ ] `35-sally-ride` — Sally Ride
+- [ ] `36-vostok-spacecraft` — Vostok Spacecraft
+
+## Robots (`images/robots/`)
+- [ ] `1-humanoid-robot` — Humanoid Robot
+- [ ] `2-robotic-arm` — Robotic Arm
+- [ ] `3-robot-vacuum` — Robot Vacuum
+- [ ] `4-drone` — Drone
+- [ ] `5-robot-dog` — Robot Dog
+- [ ] `6-toy-robot` — Toy Robot
+- [ ] `7-r2-d2` — R2-D2
+- [ ] `8-c-3po` — C-3PO
+- [ ] `9-wall-e` — WALL-E
+- [ ] `10-optimus-prime` — Optimus Prime
+- [ ] `11-the-terminator` — The Terminator
+- [ ] `12-robocop` — RoboCop
+- [ ] `13-baymax` — Baymax
+- [ ] `14-bb-8` — BB-8
+- [ ] `15-data-star-trek-android` — Data (Star Trek Android)
+- [ ] `16-bender` — Bender
+- [ ] `17-astro-boy` — Astro Boy
+- [ ] `18-the-iron-giant` — The Iron Giant
+- [ ] `19-johnny-5` — Johnny 5
+- [ ] `20-asimo` — ASIMO
+- [ ] `21-boston-dynamics-atlas` — Boston Dynamics Atlas
+- [ ] `22-sophia-the-robot` — Sophia the Robot
+- [ ] `23-pepper-the-robot` — Pepper the Robot
+- [ ] `24-da-vinci-surgical-robot` — Da Vinci Surgical Robot
+- [ ] `25-bomb-disposal-robot` — Bomb Disposal Robot
+- [ ] `26-robot-exoskeleton` — Robot Exoskeleton
+- [ ] `27-warehouse-robot` — Warehouse Robot
+- [ ] `28-delivery-robot` — Delivery Robot
+- [ ] `29-robot-waiter` — Robot Waiter
+- [ ] `30-industrial-assembly-line-robot` — Industrial Assembly Line Robot
+- [ ] `31-amazon-echo-smart-speaker` — Amazon Echo Smart Speaker
+- [ ] `32-chatbot-interface-on-screen` — Chatbot Interface on Screen
+- [ ] `33-kismet-the-social-robot` — Kismet the Social Robot
+- [ ] `34-robot-lawn-mower` — Robot Lawn Mower
+- [ ] `35-nao-robot` — Nao Robot
+- [ ] `36-animatronic-robot` — Animatronic Robot
+
+## Retro Tech (`images/retro-tech/`)
+- [ ] `1-rotary-phone` — Rotary Phone
+- [ ] `2-cassette-tape` — Cassette Tape
+- [ ] `3-walkman` — Walkman
+- [ ] `4-vhs-tape` — VHS Tape
+- [ ] `5-typewriter` — Typewriter
+- [ ] `6-game-boy` — Game Boy
+- [ ] `7-boombox` — Boombox
+- [ ] `8-floppy-disk` — Floppy Disk
+- [ ] `9-pager` — Pager
+- [ ] `10-payphone` — Payphone
+- [ ] `11-crt-television` — CRT Television
+- [ ] `12-vcr` — VCR
+- [ ] `13-8-track-tape` — 8-Track Tape
+- [ ] `14-record-player-turntable` — Record Player (Turntable)
+- [ ] `15-slide-projector` — Slide Projector
+- [ ] `16-fax-machine` — Fax Machine
+- [ ] `17-dial-up-modem` — Dial-up Modem
+- [ ] `18-nintendo-entertainment-system-nes` — Nintendo Entertainment System (NES)
+- [ ] `19-atari-2600` — Atari 2600
+- [ ] `20-commodore-64` — Commodore 64
+- [ ] `21-palm-pilot` — Palm Pilot
+- [ ] `22-tamagotchi` — Tamagotchi
+- [ ] `23-discman` — Discman
+- [ ] `24-minidisc-player` — MiniDisc Player
+- [ ] `25-nokia-brick-phone` — Nokia Brick Phone
+- [ ] `26-motorola-flip-phone` — Motorola Flip Phone
+- [ ] `27-arcade-cabinet` — Arcade Cabinet
+- [ ] `28-laserdisc` — Laserdisc
+- [ ] `29-view-master` — View-Master
+- [ ] `30-speak-and-spell` — Speak & Spell
+- [ ] `31-etch-a-sketch` — Etch A Sketch
+- [ ] `32-overhead-projector` — Overhead Projector
+- [ ] `33-kodak-disposable-camera` — Kodak Disposable Camera
+- [ ] `34-transistor-radio` — Transistor Radio
+- [ ] `35-ibm-pc-personal-computer` — IBM PC (Personal Computer)
+- [ ] `36-betamax-tape` — Betamax Tape
+
+## Social Media Logos (`images/social-media-logos/`)
+- [ ] `1-facebook` — Facebook
+- [ ] `2-instagram` — Instagram
+- [ ] `3-x-twitter` — X (Twitter)
+- [ ] `4-tiktok` — TikTok
+- [ ] `5-youtube` — YouTube
+- [ ] `6-snapchat` — Snapchat
+- [ ] `7-linkedin` — LinkedIn
+- [ ] `8-pinterest` — Pinterest
+- [ ] `9-reddit` — Reddit
+- [ ] `10-whatsapp` — WhatsApp
+- [ ] `11-telegram` — Telegram
+- [ ] `12-discord` — Discord
+- [ ] `13-twitch` — Twitch
+- [ ] `14-tumblr` — Tumblr
+- [ ] `15-wechat` — WeChat
+- [ ] `16-threads` — Threads
+- [ ] `17-bereal` — BeReal
+- [ ] `18-line` — Line
+- [ ] `19-viber` — Viber
+- [ ] `20-skype` — Skype
+- [ ] `21-vimeo` — Vimeo
+- [ ] `22-flickr` — Flickr
+- [ ] `23-quora` — Quora
+- [ ] `24-signal` — Signal
+- [ ] `25-mastodon` — Mastodon
+- [ ] `26-weibo` — Weibo
+- [ ] `27-clubhouse` — Clubhouse
+- [ ] `28-nextdoor` — Nextdoor
+- [ ] `29-myspace` — MySpace
+- [ ] `30-vine` — Vine
+- [ ] `31-google-plus` — Google+
+- [ ] `32-foursquare` — Foursquare
+- [ ] `33-tinder` — Tinder
+- [ ] `34-bumble` — Bumble
+- [ ] `35-strava` — Strava
+- [ ] `36-goodreads` — Goodreads
+
+## Emojis (`images/emojis/`)
+- [ ] `1-smiley-face-emoji` — Smiley Face Emoji
+- [ ] `2-heart-emoji` — Heart Emoji
+- [ ] `3-thumbs-up-emoji` — Thumbs Up Emoji
+- [ ] `4-crying-laughing-emoji` — Crying Laughing Emoji
+- [ ] `5-fire-emoji` — Fire Emoji
+- [ ] `6-winking-face-emoji` — Winking Face Emoji
+- [ ] `7-skull-emoji` — Skull Emoji
+- [ ] `8-poop-emoji` — Poop Emoji
+- [ ] `9-clapping-hands-emoji` — Clapping Hands Emoji
+- [ ] `10-praying-hands-emoji` — Praying Hands Emoji
+- [ ] `11-eyes-emoji` — Eyes Emoji
+- [ ] `12-100-emoji` — 100 Emoji
+- [ ] `13-party-popper-emoji` — Party Popper Emoji
+- [ ] `14-sunglasses-face-emoji` — Sunglasses Face Emoji
+- [ ] `15-crying-face-emoji` — Crying Face Emoji
+- [ ] `16-angry-face-emoji` — Angry Face Emoji
+- [ ] `17-star-struck-emoji` — Star-Struck Emoji
+- [ ] `18-ghost-emoji` — Ghost Emoji
+- [ ] `19-ok-hand-emoji` — OK Hand Emoji
+- [ ] `20-flexed-bicep-emoji` — Flexed Bicep Emoji
+- [ ] `21-rocket-emoji` — Rocket Emoji
+- [ ] `22-rainbow-emoji` — Rainbow Emoji
+- [ ] `23-sun-emoji` — Sun Emoji
+- [ ] `24-moon-face-emoji` — Moon Face Emoji
+- [ ] `25-pizza-emoji` — Pizza Emoji
+- [ ] `26-watermelon-emoji` — Watermelon Emoji
+- [ ] `27-heart-eyes-emoji` — Heart Eyes Emoji
+- [ ] `28-kiss-mark-emoji` — Kiss Mark Emoji
+- [ ] `29-shocked-face-emoji` — Shocked Face Emoji
+- [ ] `30-sleeping-face-emoji` — Sleeping Face Emoji
+- [ ] `31-nerd-face-emoji` — Nerd Face Emoji
+- [ ] `32-money-bag-emoji` — Money Bag Emoji
+- [ ] `33-balloon-emoji` — Balloon Emoji
+- [ ] `34-christmas-tree-emoji` — Christmas Tree Emoji
+- [ ] `35-alien-emoji` — Alien Emoji
+- [ ] `36-robot-emoji` — Robot Emoji
+
+## Traffic Signs (`images/traffic-signs/`)
+- [ ] `1-stop-sign` — Stop Sign
+- [ ] `2-yield-sign` — Yield Sign
+- [ ] `3-pedestrian-crossing-sign` — Pedestrian Crossing Sign
+- [ ] `4-speed-limit-sign` — Speed Limit Sign
+- [ ] `5-traffic-light` — Traffic Light
+- [ ] `6-no-entry-sign` — No Entry Sign
+- [ ] `7-one-way-sign` — One Way Sign
+- [ ] `8-no-u-turn-sign` — No U-Turn Sign
+- [ ] `9-roundabout-sign` — Roundabout Sign
+- [ ] `10-school-zone-sign` — School Zone Sign
+- [ ] `11-railroad-crossing-sign` — Railroad Crossing Sign
+- [ ] `12-deer-crossing-sign` — Deer Crossing Sign
+- [ ] `13-slippery-when-wet-sign` — Slippery When Wet Sign
+- [ ] `14-no-parking-sign` — No Parking Sign
+- [ ] `15-handicap-parking-sign` — Handicap Parking Sign
+- [ ] `16-merge-sign` — Merge Sign
+- [ ] `17-winding-road-sign` — Winding Road Sign
+- [ ] `18-steep-hill-sign` — Steep Hill Sign
+- [ ] `19-falling-rocks-sign` — Falling Rocks Sign
+- [ ] `20-construction-zone-sign` — Construction Zone Sign
+- [ ] `21-bike-lane-sign` — Bike Lane Sign
+- [ ] `22-low-clearance-bridge-sign` — Low Clearance Bridge Sign
+- [ ] `23-no-overtaking-sign` — No Overtaking Sign
+- [ ] `24-roadwork-ahead-sign` — Roadwork Ahead Sign
+- [ ] `25-cyclist-crossing-sign` — Cyclist Crossing Sign
+- [ ] `26-hospital-sign` — Hospital Sign
+- [ ] `27-petrol-station-sign` — Petrol Station Sign
+- [ ] `28-rest-area-sign` — Rest Area Sign
+- [ ] `29-wrong-way-sign` — Wrong Way Sign
+- [ ] `30-detour-sign` — Detour Sign
+- [ ] `31-keep-right-sign` — Keep Right Sign
+- [ ] `32-two-way-traffic-sign` — Two-Way Traffic Sign
+- [ ] `33-no-trucks-sign` — No Trucks Sign
+- [ ] `34-level-crossing-sign` — Level Crossing Sign
+- [ ] `35-speed-bump-sign` — Speed Bump Sign
+- [ ] `36-stop-ahead-sign` — Stop Ahead Sign
+
+## Public Transport (`images/public-transport/`)
+- [ ] `1-city-bus` — City Bus
+- [ ] `2-subway-train` — Subway Train
+- [ ] `3-tram` — Tram
+- [ ] `4-taxi-cab` — Taxi Cab
+- [ ] `5-ferry` — Ferry
+- [ ] `6-trolley` — Trolley
+- [ ] `7-double-decker-bus` — Double-Decker Bus
+- [ ] `8-school-bus` — School Bus
+- [ ] `9-monorail` — Monorail
+- [ ] `10-light-rail-train` — Light Rail Train
+- [ ] `11-rickshaw` — Rickshaw
+- [ ] `12-tuk-tuk` — Tuk-Tuk
+- [ ] `13-water-taxi` — Water Taxi
+- [ ] `14-airport-shuttle-bus` — Airport Shuttle Bus
+- [ ] `15-minibus` — Minibus
+- [ ] `16-pedicab` — Pedicab
+- [ ] `17-metro-train` — Metro Train
+- [ ] `18-underground-tube-train` — Underground Tube Train
+- [ ] `19-funicular` — Funicular
+- [ ] `20-trolleybus` — Trolleybus
+- [ ] `21-jeepney` — Jeepney
+- [ ] `22-chairlift` — Chairlift
+- [ ] `23-night-bus` — Night Bus
+- [ ] `24-coach-bus` — Coach Bus
+- [ ] `25-electric-bus` — Electric Bus
+- [ ] `26-paratransit-van` — Paratransit Van
+- [ ] `27-songthaew` — Songthaew
+- [ ] `28-vaporetto-venice-water-bus` — Vaporetto (Venice Water Bus)
+- [ ] `29-urban-cable-car-aerial-tramway` — Urban Cable Car (Aerial Tramway)
+- [ ] `30-horse-drawn-carriage` — Horse-Drawn Carriage
+- [ ] `31-bike-share-station` — Bike Share Station
+- [ ] `32-cable-ferry` — Cable Ferry
+- [ ] `33-bus-rapid-transit` — Bus Rapid Transit
+- [ ] `34-park-and-ride-shuttle` — Park and Ride Shuttle
+- [ ] `35-airport-people-mover-train` — Airport People Mover Train
+- [ ] `36-amphibious-duck-tour-bus` — Amphibious Duck Tour Bus
+
+## Trains (`images/trains/`)
+- [ ] `1-steam-locomotive` — Steam Locomotive
+- [ ] `2-bullet-train` — Bullet Train
+- [ ] `3-freight-train` — Freight Train
+- [ ] `4-passenger-train-carriage` — Passenger Train Carriage
+- [ ] `5-cable-car` — Cable Car
+- [ ] `6-model-train` — Model Train
+- [ ] `7-diesel-locomotive` — Diesel Locomotive
+- [ ] `8-electric-locomotive` — Electric Locomotive
+- [ ] `9-maglev-train` — Maglev Train
+- [ ] `10-double-decker-train` — Double-Decker Train
+- [ ] `11-sleeper-train` — Sleeper Train
+- [ ] `12-orient-express` — Orient Express
+- [ ] `13-trans-siberian-railway` — Trans-Siberian Railway
+- [ ] `14-freight-train-caboose` — Freight Train Caboose
+- [ ] `15-train-station-platform` — Train Station Platform
+- [ ] `16-railway-signal` — Railway Signal
+- [ ] `17-narrow-gauge-railway` — Narrow Gauge Railway
+- [ ] `18-funicular-railway` — Funicular Railway
+- [ ] `19-miniature-railway` — Miniature Railway
+- [ ] `20-underground-tube-train` — Underground Tube Train
+- [ ] `21-light-rail-train` — Light Rail Train
+- [ ] `22-rack-railway` — Rack Railway
+- [ ] `23-tourist-steam-train` — Tourist Steam Train
+- [ ] `24-coal-train` — Coal Train
+- [ ] `25-tank-car-train` — Tank Car Train
+- [ ] `26-container-freight-train` — Container Freight Train
+- [ ] `27-railway-level-crossing` — Railway Level Crossing
+- [ ] `28-train-conductor` — Train Conductor
+- [ ] `29-dining-car` — Dining Car
+- [ ] `30-observation-car` — Observation Car
+- [ ] `31-high-speed-rail-tgv` — High-Speed Rail (TGV)
+- [ ] `32-shinkansen` — Shinkansen
+- [ ] `33-amtrak-train` — Amtrak Train
+- [ ] `34-the-ghan-australia` — The Ghan (Australia)
+- [ ] `35-rocky-mountaineer` — Rocky Mountaineer
+- [ ] `36-eurostar-train` — Eurostar Train
+
+## Boats & Ships (`images/boats-ships/`)
+- [ ] `1-sailboat` — Sailboat
+- [ ] `2-cruise-ship` — Cruise Ship
+- [ ] `3-canoe` — Canoe
+- [ ] `4-yacht` — Yacht
+- [ ] `5-submarine` — Submarine
+- [ ] `6-pirate-ship` — Pirate Ship
+- [ ] `7-kayak` — Kayak
+- [ ] `8-rowboat` — Rowboat
+- [ ] `9-catamaran` — Catamaran
+- [ ] `10-houseboat` — Houseboat
+- [ ] `11-fishing-trawler` — Fishing Trawler
+- [ ] `12-tugboat` — Tugboat
+- [ ] `13-speedboat` — Speedboat
+- [ ] `14-jet-ski` — Jet Ski
+- [ ] `15-gondola-venice` — Gondola (Venice)
+- [ ] `16-viking-longship` — Viking Longship
+- [ ] `17-container-ship` — Container Ship
+- [ ] `18-oil-tanker` — Oil Tanker
+- [ ] `19-aircraft-carrier` — Aircraft Carrier
+- [ ] `20-battleship` — Battleship
+- [ ] `21-ocean-liner` — Ocean Liner
+- [ ] `22-dinghy` — Dinghy
+- [ ] `23-paddle-steamer` — Paddle Steamer
+- [ ] `24-chinese-junk-ship` — Chinese Junk Ship
+- [ ] `25-dhow` — Dhow
+- [ ] `26-barge` — Barge
+- [ ] `27-hovercraft` — Hovercraft
+- [ ] `28-trimaran` — Trimaran
+- [ ] `29-icebreaker-ship` — Icebreaker Ship
+- [ ] `30-coast-guard-cutter` — Coast Guard Cutter
+- [ ] `31-ferry` — Ferry
+- [ ] `32-raft` — Raft
+- [ ] `33-rowing-longboat` — Rowing Longboat
+- [ ] `34-bulk-carrier-ship` — Bulk Carrier Ship
+- [ ] `35-naval-destroyer` — Naval Destroyer
+- [ ] `36-sampan` — Sampan
+
+## Aircraft (`images/aircraft/`)
+- [ ] `1-commercial-airplane` — Commercial Airplane
+- [ ] `2-helicopter` — Helicopter
+- [ ] `3-hot-air-balloon` — Hot Air Balloon
+- [ ] `4-fighter-jet` — Fighter Jet
+- [ ] `5-biplane` — Biplane
+- [ ] `6-glider` — Glider
+- [ ] `7-private-jet` — Private Jet
+- [ ] `8-cargo-plane` — Cargo Plane
+- [ ] `9-seaplane` — Seaplane
+- [ ] `10-blimp-airship` — Blimp (Airship)
+- [ ] `11-drone-quadcopter` — Drone (Quadcopter)
+- [ ] `12-stealth-bomber` — Stealth Bomber
+- [ ] `13-crop-duster-plane` — Crop Duster Plane
+- [ ] `14-propeller-plane` — Propeller Plane
+- [ ] `15-space-shuttle` — Space Shuttle
+- [ ] `16-concorde-supersonic-jet` — Concorde (Supersonic Jet)
+- [ ] `17-military-transport-plane` — Military Transport Plane
+- [ ] `18-air-force-one` — Air Force One
+- [ ] `19-skydiving-plane` — Skydiving Plane
+- [ ] `20-paraglider` — Paraglider
+- [ ] `21-hang-glider` — Hang Glider
+- [ ] `22-ultralight-aircraft` — Ultralight Aircraft
+- [ ] `23-zeppelin` — Zeppelin
+- [ ] `24-vintage-wwii-fighter-plane` — Vintage WWII Fighter Plane
+- [ ] `25-flying-boat` — Flying Boat
+- [ ] `26-tilt-rotor-aircraft-osprey` — Tilt-Rotor Aircraft (Osprey)
+- [ ] `27-aerobatic-stunt-plane` — Aerobatic Stunt Plane
+- [ ] `28-jumbo-jet` — Jumbo Jet
+- [ ] `29-skywriting-plane` — Skywriting Plane
+- [ ] `30-amphibious-aircraft` — Amphibious Aircraft
+- [ ] `31-turboprop-plane` — Turboprop Plane
+- [ ] `32-weather-balloon` — Weather Balloon
+- [ ] `33-reconnaissance-plane` — Reconnaissance Plane
+- [ ] `34-bush-plane` — Bush Plane
+- [ ] `35-autogyro` — Autogyro
+- [ ] `36-wright-flyer` — Wright Flyer
+
+## Motorcycles (`images/motorcycles/`)
+- [ ] `1-harley-davidson-motorcycle` — Harley-Davidson Motorcycle
+- [ ] `2-dirt-bike` — Dirt Bike
+- [ ] `3-scooter` — Scooter
+- [ ] `4-sports-motorcycle` — Sports Motorcycle
+- [ ] `5-motorcycle-helmet` — Motorcycle Helmet
+- [ ] `6-sidecar-motorcycle` — Sidecar Motorcycle
+- [ ] `7-cruiser-motorcycle` — Cruiser Motorcycle
+- [ ] `8-chopper-motorcycle` — Chopper Motorcycle
+- [ ] `9-touring-motorcycle` — Touring Motorcycle
+- [ ] `10-cafe-racer-motorcycle` — Cafe Racer Motorcycle
+- [ ] `11-moped` — Moped
+- [ ] `12-trials-motorcycle` — Trials Motorcycle
+- [ ] `13-adventure-motorcycle` — Adventure Motorcycle
+- [ ] `14-electric-motorcycle` — Electric Motorcycle
+- [ ] `15-police-motorcycle` — Police Motorcycle
+- [ ] `16-trike-three-wheeled-motorcycle` — Trike (Three-Wheeled Motorcycle)
+- [ ] `17-vintage-motorcycle` — Vintage Motorcycle
+- [ ] `18-streetfighter-motorcycle` — Streetfighter Motorcycle
+- [ ] `19-mini-bike-pocket-bike` — Mini Bike (Pocket Bike)
+- [ ] `20-quad-bike-atv` — Quad Bike (ATV)
+- [ ] `21-enduro-motorcycle` — Enduro Motorcycle
+- [ ] `22-bobber-motorcycle` — Bobber Motorcycle
+- [ ] `23-ducati-motorcycle` — Ducati Motorcycle
+- [ ] `24-triumph-motorcycle` — Triumph Motorcycle
+- [ ] `25-yamaha-motorcycle` — Yamaha Motorcycle
+- [ ] `26-kawasaki-motorcycle` — Kawasaki Motorcycle
+- [ ] `27-bmw-motorcycle` — BMW Motorcycle
+- [ ] `28-honda-motorcycle` — Honda Motorcycle
+- [ ] `29-indian-motorcycle` — Indian Motorcycle
+- [ ] `30-supermoto-motorcycle` — Supermoto Motorcycle
+- [ ] `31-pit-bike` — Pit Bike
+- [ ] `32-motorcycle-rally` — Motorcycle Rally
+- [ ] `33-drag-racing-motorcycle` — Drag Racing Motorcycle
+- [ ] `34-retro-scrambler-motorcycle` — Retro Scrambler Motorcycle
+- [ ] `35-motorcycle-police-escort-convoy` — Motorcycle Police Escort Convoy
+- [ ] `36-speedway-racing-motorcycle` — Speedway Racing Motorcycle
+
+## Bicycles (`images/bicycles/`)
+- [ ] `1-mountain-bike` — Mountain Bike
+- [ ] `2-road-bike` — Road Bike
+- [ ] `3-bmx-bike` — BMX Bike
+- [ ] `4-tandem-bicycle` — Tandem Bicycle
+- [ ] `5-penny-farthing` — Penny-Farthing
+- [ ] `6-tricycle` — Tricycle
+- [ ] `7-cruiser-bicycle` — Cruiser Bicycle
+- [ ] `8-folding-bicycle` — Folding Bicycle
+- [ ] `9-electric-bicycle-e-bike` — Electric Bicycle (E-Bike)
+- [ ] `10-kids-bicycle-with-training-wheels` — Kids Bicycle with Training Wheels
+- [ ] `11-fixed-gear-bike-fixie` — Fixed-Gear Bike (Fixie)
+- [ ] `12-gravel-bike` — Gravel Bike
+- [ ] `13-cargo-bike` — Cargo Bike
+- [ ] `14-recumbent-bicycle` — Recumbent Bicycle
+- [ ] `15-unicycle` — Unicycle
+- [ ] `16-balance-bike` — Balance Bike
+- [ ] `17-cyclocross-bike` — Cyclocross Bike
+- [ ] `18-hybrid-bicycle` — Hybrid Bicycle
+- [ ] `19-fat-tire-bike` — Fat Tire Bike
+- [ ] `20-track-bike-velodrome` — Track Bike (Velodrome)
+- [ ] `21-bike-rack` — Bike Rack
+- [ ] `22-bicycle-basket` — Bicycle Basket
+- [ ] `23-bicycle-bell` — Bicycle Bell
+- [ ] `24-bicycle-helmet` — Bicycle Helmet
+- [ ] `25-bike-lane` — Bike Lane
+- [ ] `26-bike-share-bicycle` — Bike Share Bicycle
+- [ ] `27-delivery-bicycle` — Delivery Bicycle
+- [ ] `28-vintage-bicycle` — Vintage Bicycle
+- [ ] `29-bike-pump` — Bike Pump
+- [ ] `30-bicycle-pedal` — Bicycle Pedal
+- [ ] `31-bicycle-chain` — Bicycle Chain
+- [ ] `32-tour-de-france-peloton` — Tour de France Peloton
+- [ ] `33-bicycle-repair-shop` — Bicycle Repair Shop
+- [ ] `34-bike-panniers` — Bike Panniers
+- [ ] `35-time-trial-bicycle` — Time Trial Bicycle
+- [ ] `36-dutch-city-bike` — Dutch City Bike
+
+## Construction Vehicles (`images/construction-vehicles/`)
+- [ ] `1-excavator` — Excavator
+- [ ] `2-bulldozer` — Bulldozer
+- [ ] `3-crane` — Crane
+- [ ] `4-dump-truck` — Dump Truck
+- [ ] `5-cement-mixer` — Cement Mixer
+- [ ] `6-forklift` — Forklift
+- [ ] `7-backhoe-loader` — Backhoe Loader
+- [ ] `8-wheel-loader` — Wheel Loader
+- [ ] `9-skid-steer-loader` — Skid Steer Loader
+- [ ] `10-road-roller-steamroller` — Road Roller (Steamroller)
+- [ ] `11-asphalt-paver` — Asphalt Paver
+- [ ] `12-pile-driver` — Pile Driver
+- [ ] `13-gantry-crane` — Gantry Crane
+- [ ] `14-tower-crane` — Tower Crane
+- [ ] `15-trencher` — Trencher
+- [ ] `16-motor-grader` — Motor Grader
+- [ ] `17-dump-trailer` — Dump Trailer
+- [ ] `18-concrete-pump-truck` — Concrete Pump Truck
+- [ ] `19-telehandler` — Telehandler
+- [ ] `20-scraper-earthmover` — Scraper (Earthmover)
+- [ ] `21-boom-lift` — Boom Lift
+- [ ] `22-scissor-lift` — Scissor Lift
+- [ ] `23-wrecking-ball-crane` — Wrecking Ball Crane
+- [ ] `24-mining-dump-truck` — Mining Dump Truck
+- [ ] `25-compactor` — Compactor
+- [ ] `26-bucket-truck-cherry-picker` — Bucket Truck (Cherry Picker)
+- [ ] `27-pipe-layer` — Pipe Layer
+- [ ] `28-drill-rig` — Drill Rig
+- [ ] `29-log-skidder` — Log Skidder
+- [ ] `30-articulated-dump-truck` — Articulated Dump Truck
+- [ ] `31-crawler-crane` — Crawler Crane
+- [ ] `32-hydraulic-hammer-excavator-breaker` — Hydraulic Hammer Excavator (Breaker)
+- [ ] `33-rock-crusher-machine` — Rock Crusher Machine
+- [ ] `34-site-dumper` — Site Dumper
+- [ ] `35-mini-excavator` — Mini Excavator
+- [ ] `36-snowplow-truck` — Snowplow Truck
+
+## Emergency Vehicles (`images/emergency-vehicles/`)
+- [ ] `1-fire-truck` — Fire Truck
+- [ ] `2-ambulance` — Ambulance
+- [ ] `3-police-car` — Police Car
+- [ ] `4-rescue-helicopter` — Rescue Helicopter
+- [ ] `5-coast-guard-boat` — Coast Guard Boat
+- [ ] `6-tow-truck` — Tow Truck
+- [ ] `7-swat-truck` — SWAT Truck
+- [ ] `8-paramedic-motorcycle` — Paramedic Motorcycle
+- [ ] `9-fireboat` — Fireboat
+- [ ] `10-police-motorcycle` — Police Motorcycle
+- [ ] `11-hazmat-response-truck` — Hazmat Response Truck
+- [ ] `12-k9-police-unit-car` — K9 Police Unit Car
+- [ ] `13-bomb-disposal-robot-vehicle` — Bomb Disposal Robot Vehicle
+- [ ] `14-mountain-rescue-vehicle` — Mountain Rescue Vehicle
+- [ ] `15-lifeguard-truck` — Lifeguard Truck
+- [ ] `16-prisoner-transport-van` — Prisoner Transport Van
+- [ ] `17-riot-control-vehicle` — Riot Control Vehicle
+- [ ] `18-mobile-command-center-vehicle` — Mobile Command Center Vehicle
+- [ ] `19-wildland-firefighting-truck` — Wildland Firefighting Truck
+- [ ] `20-snowcat-snow-rescue-vehicle` — Snowcat (Snow Rescue Vehicle)
+- [ ] `21-volunteer-fire-brigade-truck` — Volunteer Fire Brigade Truck
+- [ ] `22-disaster-relief-truck` — Disaster Relief Truck
+- [ ] `23-flood-rescue-boat` — Flood Rescue Boat
+- [ ] `24-airport-fire-rescue-truck-arff` — Airport Fire Rescue Truck (ARFF)
+- [ ] `25-wildfire-air-tanker-plane` — Wildfire Air Tanker Plane
+- [ ] `26-border-patrol-vehicle` — Border Patrol Vehicle
+- [ ] `27-aerial-ladder-fire-truck` — Aerial Ladder Fire Truck
+- [ ] `28-rescue-jet-ski` — Rescue Jet Ski
+- [ ] `29-search-and-rescue-dive-boat` — Search and Rescue Dive Boat
+- [ ] `30-avalanche-rescue-vehicle` — Avalanche Rescue Vehicle
+- [ ] `31-air-ambulance-plane` — Air Ambulance Plane
+- [ ] `32-fire-chiefs-command-car` — Fire Chief's Command Car
+- [ ] `33-beach-lifeguard-atv` — Beach Lifeguard ATV
+- [ ] `34-emergency-response-drone` — Emergency Response Drone
+- [ ] `35-mine-rescue-vehicle` — Mine Rescue Vehicle
+- [ ] `36-volunteer-ambulance-van` — Volunteer Ambulance Van
+
+## Athletes (`images/athletes/`)
+- [ ] `1-michael-jordan` — Michael Jordan
+- [ ] `2-lebron-james` — LeBron James
+- [ ] `3-kobe-bryant` — Kobe Bryant
+- [ ] `4-shaquille-o-neal` — Shaquille O'Neal
+- [ ] `5-lionel-messi` — Lionel Messi
+- [ ] `6-cristiano-ronaldo` — Cristiano Ronaldo
+- [ ] `7-pel` — Pelé
+- [ ] `8-diego-maradona` — Diego Maradona
+- [ ] `9-serena-williams` — Serena Williams
+- [ ] `10-roger-federer` — Roger Federer
+- [ ] `11-rafael-nadal` — Rafael Nadal
+- [ ] `12-novak-djokovic` — Novak Djokovic
+- [ ] `13-usain-bolt` — Usain Bolt
+- [ ] `14-carl-lewis` — Carl Lewis
+- [ ] `15-michael-phelps` — Michael Phelps
+- [ ] `16-katie-ledecky` — Katie Ledecky
+- [ ] `17-muhammad-ali` — Muhammad Ali
+- [ ] `18-mike-tyson` — Mike Tyson
+- [ ] `19-manny-pacquiao` — Manny Pacquiao
+- [ ] `20-tiger-woods` — Tiger Woods
+- [ ] `21-babe-ruth` — Babe Ruth
+- [ ] `22-tom-brady` — Tom Brady
+- [ ] `23-wayne-gretzky` — Wayne Gretzky
+- [ ] `24-simone-biles` — Simone Biles
+- [ ] `25-nadia-comaneci` — Nadia Comaneci
+- [ ] `26-lewis-hamilton` — Lewis Hamilton
+- [ ] `27-michael-schumacher` — Michael Schumacher
+- [ ] `28-virat-kohli` — Virat Kohli
+- [ ] `29-sachin-tendulkar` — Sachin Tendulkar
+- [ ] `30-conor-mcgregor` — Conor McGregor
+- [ ] `31-ronda-rousey` — Ronda Rousey
+- [ ] `32-jonah-lomu` — Jonah Lomu
+- [ ] `33-eliud-kipchoge` — Eliud Kipchoge
+- [ ] `34-yuna-kim` — Yuna Kim
+- [ ] `35-tony-hawk` — Tony Hawk
+- [ ] `36-misty-may-treanor` — Misty May-Treanor
+
+## Fairy Tales (`images/fairy-tales/`)
+- [ ] `1-cinderellas-glass-slipper` — Cinderella's Glass Slipper
+- [ ] `2-little-red-riding-hood` — Little Red Riding Hood
+- [ ] `3-three-little-pigs` — Three Little Pigs
+- [ ] `4-jack-and-the-beanstalk` — Jack and the Beanstalk
+- [ ] `5-snow-whites-apple` — Snow White's Apple
+- [ ] `6-rapunzels-tower` — Rapunzel's Tower
+- [ ] `7-beauty-and-the-beast` — Beauty and the Beast
+- [ ] `8-sleeping-beauty` — Sleeping Beauty
+- [ ] `9-the-frog-prince` — The Frog Prince
+- [ ] `10-hansel-and-gretel` — Hansel and Gretel
+- [ ] `11-the-ugly-duckling` — The Ugly Duckling
+- [ ] `12-the-little-mermaid` — The Little Mermaid
+- [ ] `13-goldilocks-and-the-three-bears` — Goldilocks and the Three Bears
+- [ ] `14-puss-in-boots` — Puss in Boots
+- [ ] `15-rumpelstiltskin` — Rumpelstiltskin
+- [ ] `16-the-emperors-new-clothes` — The Emperor's New Clothes
+- [ ] `17-the-princess-and-the-pea` — The Princess and the Pea
+- [ ] `18-thumbelina` — Thumbelina
+- [ ] `19-the-tortoise-and-the-hare` — The Tortoise and the Hare
+- [ ] `20-the-boy-who-cried-wolf` — The Boy Who Cried Wolf
+- [ ] `21-the-gingerbread-man` — The Gingerbread Man
+- [ ] `22-the-snow-queen` — The Snow Queen
+- [ ] `23-aladdin` — Aladdin
+- [ ] `24-ali-baba-and-the-forty-thieves` — Ali Baba and the Forty Thieves
+- [ ] `25-the-nightingale` — The Nightingale
+- [ ] `26-the-steadfast-tin-soldier` — The Steadfast Tin Soldier
+- [ ] `27-the-fisherman-and-his-wife` — The Fisherman and His Wife
+- [ ] `28-the-golden-goose` — The Golden Goose
+- [ ] `29-the-twelve-dancing-princesses` — The Twelve Dancing Princesses
+- [ ] `30-east-of-the-sun-and-west-of-the-moon` — East of the Sun and West of the Moon
+- [ ] `31-the-wolf-and-the-seven-young-goats` — The Wolf and the Seven Young Goats
+- [ ] `32-the-bremen-town-musicians` — The Bremen Town Musicians
+- [ ] `33-the-elves-and-the-shoemaker` — The Elves and the Shoemaker
+- [ ] `34-the-little-match-girl` — The Little Match Girl
+- [ ] `35-the-pied-piper-of-hamelin` — The Pied Piper of Hamelin
+- [ ] `36-the-six-swans` — The Six Swans
+
+## Travel Agency Companies (`images/travel-agency-companies/`)
+- [ ] `1-expedia` — Expedia
+- [ ] `2-booking-com` — Booking.com
+- [ ] `3-tripadvisor` — TripAdvisor
+- [ ] `4-priceline` — Priceline
+- [ ] `5-kayak` — Kayak
+- [ ] `6-orbitz` — Orbitz
+- [ ] `7-travelocity` — Travelocity
+- [ ] `8-hotels-com` — Hotels.com
+- [ ] `9-skyscanner` — Skyscanner
+- [ ] `10-trivago` — Trivago
+- [ ] `11-hopper` — Hopper
+- [ ] `12-cheapoair` — CheapOair
+- [ ] `13-studentuniverse` — StudentUniverse
+- [ ] `14-costco-travel` — Costco Travel
+- [ ] `15-aaa-travel` — AAA Travel
+- [ ] `16-carnival-cruise-line` — Carnival Cruise Line
+- [ ] `17-royal-caribbean` — Royal Caribbean
+- [ ] `18-norwegian-cruise-line` — Norwegian Cruise Line
+- [ ] `19-princess-cruises` — Princess Cruises
+- [ ] `20-contiki` — Contiki
+- [ ] `21-g-adventures` — G Adventures
+- [ ] `22-intrepid-travel` — Intrepid Travel
+- [ ] `23-trafalgar` — Trafalgar
+- [ ] `24-tauck` — Tauck
+- [ ] `25-abercrombie-and-kent` — Abercrombie & Kent
+- [ ] `26-thomas-cook` — Thomas Cook
+- [ ] `27-tui-group` — TUI Group
+- [ ] `28-flight-centre` — Flight Centre
+- [ ] `29-sta-travel` — STA Travel
+- [ ] `30-liberty-travel` — Liberty Travel
+- [ ] `31-viator` — Viator
+- [ ] `32-getyourguide` — GetYourGuide
+- [ ] `33-vrbo` — Vrbo
+- [ ] `34-sunwing` — Sunwing
+- [ ] `35-world-travel-holdings` — World Travel Holdings
+- [ ] `36-club-med` — Club Med
+
+## Disney Characters (`images/disney-characters/`)
+- [ ] `1-mickey-mouse` — Mickey Mouse
+- [ ] `2-elsa` — Elsa
+- [ ] `3-simba` — Simba
+- [ ] `4-ariel` — Ariel
+- [ ] `5-woody` — Woody
+- [ ] `6-winnie-the-pooh` — Winnie the Pooh
+- [ ] `7-donald-duck` — Donald Duck
+- [ ] `8-goofy` — Goofy
+- [ ] `9-buzz-lightyear` — Buzz Lightyear
+- [ ] `10-belle` — Belle
+- [ ] `11-cinderella` — Cinderella
+- [ ] `12-aladdin` — Aladdin
+- [ ] `13-jasmine` — Jasmine
+- [ ] `14-anna` — Anna
+- [ ] `15-olaf` — Olaf
+- [ ] `16-stitch` — Stitch
+- [ ] `17-mulan` — Mulan
+- [ ] `18-rapunzel` — Rapunzel
+- [ ] `19-moana` — Moana
+- [ ] `20-tiana` — Tiana
+- [ ] `21-peter-pan` — Peter Pan
+- [ ] `22-tinker-bell` — Tinker Bell
+- [ ] `23-pinocchio` — Pinocchio
+- [ ] `24-dumbo` — Dumbo
+- [ ] `25-bambi` — Bambi
+- [ ] `26-snow-white` — Snow White
+- [ ] `27-jack-sparrow` — Jack Sparrow
+- [ ] `28-nemo` — Nemo
+- [ ] `29-dory` — Dory
+- [ ] `30-baymax` — Baymax
+- [ ] `31-mike-wazowski` — Mike Wazowski
+- [ ] `32-sulley` — Sulley
+- [ ] `33-remy` — Remy
+- [ ] `34-wall-e` — WALL-E
+- [ ] `35-genie` — Genie
+- [ ] `36-scar` — Scar
+
+## Anime & Manga (`images/anime-manga/`)
+- [ ] `1-pikachu` — Pikachu
+- [ ] `2-goku` — Goku
+- [ ] `3-totoro` — Totoro
+- [ ] `4-naruto` — Naruto
+- [ ] `5-hello-kitty` — Hello Kitty
+- [ ] `6-sailor-moon` — Sailor Moon
+- [ ] `7-monkey-d-luffy` — Monkey D. Luffy
+- [ ] `8-sasuke-uchiha` — Sasuke Uchiha
+- [ ] `9-astro-boy` — Astro Boy
+- [ ] `10-doraemon` — Doraemon
+- [ ] `11-vegeta` — Vegeta
+- [ ] `12-light-yagami` — Light Yagami
+- [ ] `13-l-death-note` — L (Death Note)
+- [ ] `14-edward-elric` — Edward Elric
+- [ ] `15-levi-ackerman` — Levi Ackerman
+- [ ] `16-eren-yeager` — Eren Yeager
+- [ ] `17-ichigo-kurosaki` — Ichigo Kurosaki
+- [ ] `18-kirito` — Kirito
+- [ ] `19-tony-tony-chopper` — Tony Tony Chopper
+- [ ] `20-spike-spiegel` — Spike Spiegel
+- [ ] `21-conan-edogawa` — Conan Edogawa
+- [ ] `22-inuyasha` — Inuyasha
+- [ ] `23-nezuko-kamado` — Nezuko Kamado
+- [ ] `24-tanjiro-kamado` — Tanjiro Kamado
+- [ ] `25-all-might` — All Might
+- [ ] `26-izuku-midoriya-deku` — Izuku Midoriya (Deku)
+- [ ] `27-gon-freecss` — Gon Freecss
+- [ ] `28-killua-zoldyck` — Killua Zoldyck
+- [ ] `29-ash-ketchum` — Ash Ketchum
+- [ ] `30-nobita-nobi` — Nobita Nobi
+- [ ] `31-shin-chan` — Shin-chan
+- [ ] `32-kenshin-himura` — Kenshin Himura
+- [ ] `33-jotaro-kujo` — Jotaro Kujo
+- [ ] `34-gohan` — Gohan
+- [ ] `35-yusuke-urameshi` — Yusuke Urameshi
+- [ ] `36-sakura-haruno` — Sakura Haruno
+
+## Cartoon Characters (`images/cartoon-characters/`)
+- [ ] `1-spongebob-squarepants` — SpongeBob SquarePants
+- [ ] `2-bugs-bunny` — Bugs Bunny
+- [ ] `3-tom-and-jerry` — Tom and Jerry
+- [ ] `4-scooby-doo` — Scooby-Doo
+- [ ] `5-homer-simpson` — Homer Simpson
+- [ ] `6-popeye` — Popeye
+- [ ] `7-daffy-duck` — Daffy Duck
+- [ ] `8-elmer-fudd` — Elmer Fudd
+- [ ] `9-yogi-bear` — Yogi Bear
+- [ ] `10-fred-flintstone` — Fred Flintstone
+- [ ] `11-george-jetson` — George Jetson
+- [ ] `12-shaggy-rogers` — Shaggy Rogers
+- [ ] `13-woody-woodpecker` — Woody Woodpecker
+- [ ] `14-pink-panther` — Pink Panther
+- [ ] `15-garfield` — Garfield
+- [ ] `16-snoopy` — Snoopy
+- [ ] `17-charlie-brown` — Charlie Brown
+- [ ] `18-tweety-bird` — Tweety Bird
+- [ ] `19-sylvester-the-cat` — Sylvester the Cat
+- [ ] `20-road-runner` — Road Runner
+- [ ] `21-wile-e-coyote` — Wile E. Coyote
+- [ ] `22-bart-simpson` — Bart Simpson
+- [ ] `23-marge-simpson` — Marge Simpson
+- [ ] `24-dexter` — Dexter
+- [ ] `25-the-powerpuff-girls` — The Powerpuff Girls
+- [ ] `26-johnny-bravo` — Johnny Bravo
+- [ ] `27-courage-the-cowardly-dog` — Courage the Cowardly Dog
+- [ ] `28-patrick-star` — Patrick Star
+- [ ] `29-squidward-tentacles` — Squidward Tentacles
+- [ ] `30-mr-krabs` — Mr. Krabs
+- [ ] `31-timmy-turner` — Timmy Turner
+- [ ] `32-phineas-and-ferb` — Phineas and Ferb
+- [ ] `33-rick-sanchez` — Rick Sanchez
+- [ ] `34-peter-griffin` — Peter Griffin
+- [ ] `35-stewie-griffin` — Stewie Griffin
+- [ ] `36-marvin-the-martian` — Marvin the Martian
+
+## Video Game Consoles (`images/video-game-consoles/`)
+- [ ] `1-playstation-console` — PlayStation Console
+- [ ] `2-xbox-console` — Xbox Console
+- [ ] `3-nintendo-switch` — Nintendo Switch
+- [ ] `4-sega-genesis-console` — Sega Genesis Console
+- [ ] `5-arcade-cabinet` — Arcade Cabinet
+- [ ] `6-atari-2600-console` — Atari 2600 Console
+- [ ] `7-nintendo-entertainment-system-nes` — Nintendo Entertainment System (NES)
+- [ ] `8-super-nintendo-snes` — Super Nintendo (SNES)
+- [ ] `9-nintendo-64` — Nintendo 64
+- [ ] `10-gamecube` — GameCube
+- [ ] `11-wii` — Wii
+- [ ] `12-wii-u` — Wii U
+- [ ] `13-game-boy` — Game Boy
+- [ ] `14-game-boy-advance` — Game Boy Advance
+- [ ] `15-nintendo-ds` — Nintendo DS
+- [ ] `16-nintendo-3ds` — Nintendo 3DS
+- [ ] `17-playstation-2` — PlayStation 2
+- [ ] `18-playstation-3` — PlayStation 3
+- [ ] `19-playstation-4` — PlayStation 4
+- [ ] `20-playstation-5` — PlayStation 5
+- [ ] `21-playstation-portable-psp` — PlayStation Portable (PSP)
+- [ ] `22-playstation-vita` — PlayStation Vita
+- [ ] `23-xbox-360` — Xbox 360
+- [ ] `24-xbox-one` — Xbox One
+- [ ] `25-xbox-series-x` — Xbox Series X
+- [ ] `26-sega-master-system` — Sega Master System
+- [ ] `27-sega-saturn` — Sega Saturn
+- [ ] `28-sega-dreamcast` — Sega Dreamcast
+- [ ] `29-sega-game-gear` — Sega Game Gear
+- [ ] `30-atari-5200` — Atari 5200
+- [ ] `31-colecovision` — ColecoVision
+- [ ] `32-neo-geo` — Neo Geo
+- [ ] `33-turbografx-16` — TurboGrafx-16
+- [ ] `34-commodore-64` — Commodore 64
+- [ ] `35-nintendo-switch-lite` — Nintendo Switch Lite
+- [ ] `36-steam-deck` — Steam Deck
+
+## Toys (`images/toys/`)
+- [ ] `1-teddy-bear` — Teddy Bear
+- [ ] `2-yo-yo` — Yo-Yo
+- [ ] `3-toy-train-set` — Toy Train Set
+- [ ] `4-jack-in-the-box` — Jack-in-the-Box
+- [ ] `5-kite` — Kite
+- [ ] `6-building-blocks` — Building Blocks
+- [ ] `7-rubiks-cube` — Rubik's Cube
+- [ ] `8-slinky` — Slinky
+- [ ] `9-hula-hoop` — Hula Hoop
+- [ ] `10-frisbee` — Frisbee
+- [ ] `11-etch-a-sketch` — Etch A Sketch
+- [ ] `12-play-doh` — Play-Doh
+- [ ] `13-nerf-gun` — Nerf Gun
+- [ ] `14-water-gun` — Water Gun
+- [ ] `15-pogo-stick` — Pogo Stick
+- [ ] `16-rocking-horse` — Rocking Horse
+- [ ] `17-spinning-top` — Spinning Top
+- [ ] `18-marbles` — Marbles
+- [ ] `19-toy-soldiers` — Toy Soldiers
+- [ ] `20-remote-control-car` — Remote Control Car
+- [ ] `21-bubble-wand` — Bubble Wand
+- [ ] `22-kaleidoscope` — Kaleidoscope
+- [ ] `23-stacking-rings` — Stacking Rings
+- [ ] `24-pinwheel` — Pinwheel
+- [ ] `25-toy-xylophone` — Toy Xylophone
+- [ ] `26-bouncy-ball` — Bouncy Ball
+- [ ] `27-toy-drum` — Toy Drum
+- [ ] `28-jump-rope` — Jump Rope
+- [ ] `29-paper-airplane` — Paper Airplane
+- [ ] `30-pull-along-toy-duck` — Pull-Along Toy Duck
+- [ ] `31-toy-dinosaur` — Toy Dinosaur
+- [ ] `32-toy-piano` — Toy Piano
+- [ ] `33-fidget-spinner` — Fidget Spinner
+- [ ] `34-wind-up-toy` — Wind-Up Toy
+- [ ] `35-toy-robot` — Toy Robot
+- [ ] `36-toy-boat` — Toy Boat
+
+## Dolls (`images/dolls/`)
+- [ ] `1-barbie-doll` — Barbie Doll
+- [ ] `2-rag-doll` — Rag Doll
+- [ ] `3-porcelain-doll` — Porcelain Doll
+- [ ] `4-russian-nesting-doll-matryoshka` — Russian Nesting Doll (Matryoshka)
+- [ ] `5-paper-doll` — Paper Doll
+- [ ] `6-action-figure` — Action Figure
+- [ ] `7-ken-doll` — Ken Doll
+- [ ] `8-baby-doll` — Baby Doll
+- [ ] `9-american-girl-doll` — American Girl Doll
+- [ ] `10-bratz-doll` — Bratz Doll
+- [ ] `11-voodoo-doll` — Voodoo Doll
+- [ ] `12-kokeshi-doll` — Kokeshi Doll
+- [ ] `13-ball-jointed-doll` — Ball-Jointed Doll
+- [ ] `14-cabbage-patch-kid` — Cabbage Patch Kid
+- [ ] `15-troll-doll` — Troll Doll
+- [ ] `16-raggedy-ann` — Raggedy Ann
+- [ ] `17-chucky-doll` — Chucky Doll
+- [ ] `18-annabelle-doll` — Annabelle Doll
+- [ ] `19-corn-husk-doll` — Corn Husk Doll
+- [ ] `20-kachina-doll` — Kachina Doll
+- [ ] `21-marionette` — Marionette
+- [ ] `22-ventriloquist-dummy` — Ventriloquist Dummy
+- [ ] `23-amish-doll` — Amish Doll
+- [ ] `24-peg-doll` — Peg Doll
+- [ ] `25-sock-doll` — Sock Doll
+- [ ] `26-blythe-doll` — Blythe Doll
+- [ ] `27-monster-high-doll` — Monster High Doll
+- [ ] `28-reborn-doll` — Reborn Doll
+- [ ] `29-fashion-doll` — Fashion Doll
+- [ ] `30-wax-doll` — Wax Doll
+- [ ] `31-china-doll` — China Doll
+- [ ] `32-finger-puppet` — Finger Puppet
+- [ ] `33-hand-puppet` — Hand Puppet
+- [ ] `34-sock-puppet` — Sock Puppet
+- [ ] `35-nutcracker-doll` — Nutcracker Doll
+- [ ] `36-vinyl-doll` — Vinyl Doll
+
+## LEGO Sets (`images/lego-sets/`)
+- [ ] `1-lego-castle` — LEGO Castle
+- [ ] `2-lego-spaceship` — LEGO Spaceship
+- [ ] `3-lego-city-set` — LEGO City Set
+- [ ] `4-lego-pirate-ship` — LEGO Pirate Ship
+- [ ] `5-lego-minifigure` — LEGO Minifigure
+- [ ] `6-lego-brick-tower` — LEGO Brick Tower
+- [ ] `7-lego-star-wars-millennium-falcon` — LEGO Star Wars Millennium Falcon
+- [ ] `8-lego-harry-potter-hogwarts-castle` — LEGO Harry Potter Hogwarts Castle
+- [ ] `9-lego-technic-car` — LEGO Technic Car
+- [ ] `10-lego-ninjago-set` — LEGO Ninjago Set
+- [ ] `11-lego-friends-house` — LEGO Friends House
+- [ ] `12-lego-duplo-set` — LEGO Duplo Set
+- [ ] `13-lego-batman-batmobile` — LEGO Batman Batmobile
+- [ ] `14-lego-creator-expert-set` — LEGO Creator Expert Set
+- [ ] `15-lego-marvel-avengers-tower` — LEGO Marvel Avengers Tower
+- [ ] `16-lego-jurassic-world-set` — LEGO Jurassic World Set
+- [ ] `17-lego-ideas-set` — LEGO Ideas Set
+- [ ] `18-lego-architecture-skyline` — LEGO Architecture Skyline
+- [ ] `19-lego-speed-champions-race-car` — LEGO Speed Champions Race Car
+- [ ] `20-lego-space-shuttle` — LEGO Space Shuttle
+- [ ] `21-lego-fire-station` — LEGO Fire Station
+- [ ] `22-lego-police-station` — LEGO Police Station
+- [ ] `23-lego-farm-set` — LEGO Farm Set
+- [ ] `24-lego-train-set` — LEGO Train Set
+- [ ] `25-lego-zoo-set` — LEGO Zoo Set
+- [ ] `26-lego-titanic` — LEGO Titanic
+- [ ] `27-lego-colosseum` — LEGO Colosseum
+- [ ] `28-lego-eiffel-tower` — LEGO Eiffel Tower
+- [ ] `29-lego-volkswagen-beetle` — LEGO Volkswagen Beetle
+- [ ] `30-lego-bonsai-tree` — LEGO Bonsai Tree
+- [ ] `31-lego-flower-bouquet` — LEGO Flower Bouquet
+- [ ] `32-lego-disney-castle` — LEGO Disney Castle
+- [ ] `33-lego-super-mario-set` — LEGO Super Mario Set
+- [ ] `34-lego-ghostbusters-ecto-1` — LEGO Ghostbusters Ecto-1
+- [ ] `35-lego-hogwarts-express` — LEGO Hogwarts Express
+- [ ] `36-lego-taj-mahal` — LEGO Taj Mahal
+
+## Sports Equipment (`images/sports-equipment/`)
+- [ ] `1-baseball-bat-and-ball` — Baseball Bat and Ball
+- [ ] `2-basketball-hoop` — Basketball Hoop
+- [ ] `3-tennis-racket` — Tennis Racket
+- [ ] `4-soccer-ball` — Soccer Ball
+- [ ] `5-boxing-gloves` — Boxing Gloves
+- [ ] `6-golf-clubs` — Golf Clubs
+- [ ] `7-hockey-stick` — Hockey Stick
+- [ ] `8-cricket-bat` — Cricket Bat
+- [ ] `9-football-helmet` — Football Helmet
+- [ ] `10-volleyball` — Volleyball
+- [ ] `11-baseball-glove` — Baseball Glove
+- [ ] `12-ping-pong-paddle` — Ping Pong Paddle
+- [ ] `13-badminton-racket` — Badminton Racket
+- [ ] `14-bowling-ball` — Bowling Ball
+- [ ] `15-ice-skates` — Ice Skates
+- [ ] `16-skateboard` — Skateboard
+- [ ] `17-surfboard` — Surfboard
+- [ ] `18-snowboard` — Snowboard
+- [ ] `19-ski-poles` — Ski Poles
+- [ ] `20-rugby-ball` — Rugby Ball
+- [ ] `21-cricket-stumps` — Cricket Stumps
+- [ ] `22-archery-bow` — Archery Bow
+- [ ] `23-fencing-foil` — Fencing Foil
+- [ ] `24-rowing-oar` — Rowing Oar
+- [ ] `25-discus` — Discus
+- [ ] `26-javelin` — Javelin
+- [ ] `27-shot-put` — Shot Put
+- [ ] `28-pommel-horse` — Pommel Horse
+- [ ] `29-punching-bag` — Punching Bag
+- [ ] `30-shin-guards` — Shin Guards
+- [ ] `31-lacrosse-stick` — Lacrosse Stick
+- [ ] `32-golf-ball` — Golf Ball
+- [ ] `33-swim-goggles` — Swim Goggles
+- [ ] `34-kickboard` — Kickboard
+- [ ] `35-table-tennis-table` — Table Tennis Table
+- [ ] `36-trampoline` — Trampoline
+
+## Roman Numerals (`images/roman-numerals/`)
+- [ ] `1-1` — 1
+- [ ] `2-2` — 2
+- [ ] `3-3` — 3
+- [ ] `4-4` — 4
+- [ ] `5-5` — 5
+- [ ] `6-6` — 6
+- [ ] `7-7` — 7
+- [ ] `8-8` — 8
+- [ ] `9-9` — 9
+- [ ] `10-10` — 10
+- [ ] `11-11` — 11
+- [ ] `12-12` — 12
+- [ ] `13-13` — 13
+- [ ] `14-14` — 14
+- [ ] `15-15` — 15
+- [ ] `16-16` — 16
+- [ ] `17-17` — 17
+- [ ] `18-18` — 18
+- [ ] `19-19` — 19
+- [ ] `20-20` — 20
+- [ ] `21-21` — 21
+- [ ] `22-22` — 22
+- [ ] `23-23` — 23
+- [ ] `24-24` — 24
+- [ ] `25-25` — 25
+- [ ] `26-26` — 26
+- [ ] `27-27` — 27
+- [ ] `28-28` — 28
+- [ ] `29-29` — 29
+- [ ] `30-30` — 30
+- [ ] `31-31` — 31
+- [ ] `32-32` — 32
+- [ ] `33-33` — 33
+- [ ] `34-34` — 34
+- [ ] `35-35` — 35
+- [ ] `36-36` — 36
+
+## Trophies & Awards (`images/trophies-awards/`)
+- [ ] `1-golden-trophy-cup` — Golden Trophy Cup
+- [ ] `2-olympic-gold-medal` — Olympic Gold Medal
+- [ ] `3-championship-belt` — Championship Belt
+- [ ] `4-oscar-statuette` — Oscar Statuette
+- [ ] `5-grammy-award` — Grammy Award
+- [ ] `6-ribbon-award` — Ribbon Award
+- [ ] `7-emmy-award` — Emmy Award
+- [ ] `8-tony-award` — Tony Award
+- [ ] `9-golden-globe-award` — Golden Globe Award
+- [ ] `10-stanley-cup` — Stanley Cup
+- [ ] `11-vince-lombardi-trophy` — Vince Lombardi Trophy
+- [ ] `12-fifa-world-cup-trophy` — FIFA World Cup Trophy
+- [ ] `13-wimbledon-trophy` — Wimbledon Trophy
+- [ ] `14-heisman-trophy` — Heisman Trophy
+- [ ] `15-nobel-prize-medal` — Nobel Prize Medal
+- [ ] `16-pulitzer-prize` — Pulitzer Prize
+- [ ] `17-mvp-trophy` — MVP Trophy
+- [ ] `18-silver-medal` — Silver Medal
+- [ ] `19-bronze-medal` — Bronze Medal
+- [ ] `20-ballon-dor` — Ballon d'Or
+- [ ] `21-the-ashes-urn` — The Ashes Urn
+- [ ] `22-ryder-cup` — Ryder Cup
+- [ ] `23-davis-cup` — Davis Cup
+- [ ] `24-americas-cup` — America's Cup
+- [ ] `25-claret-jug` — Claret Jug
+- [ ] `26-larry-obrien-trophy` — Larry O'Brien Trophy
+- [ ] `27-commissioners-trophy` — Commissioner's Trophy
+- [ ] `28-constructors-championship-trophy` — Constructors' Championship Trophy
+- [ ] `29-green-jacket` — Green Jacket
+- [ ] `30-trophy-plaque` — Trophy Plaque
+- [ ] `31-certificate-of-achievement` — Certificate of Achievement
+- [ ] `32-participation-trophy` — Participation Trophy
+- [ ] `33-hall-of-fame-plaque` — Hall of Fame Plaque
+- [ ] `34-key-to-the-city` — Key to the City
+- [ ] `35-walk-of-fame-star` — Walk of Fame Star
+- [ ] `36-spelling-bee-trophy` — Spelling Bee Trophy
+
+## World Cup (`images/world-cup/`)
+- [ ] `1-world-cup-trophy` — World Cup Trophy
+- [ ] `2-soccer-stadium-crowd` — Soccer Stadium Crowd
+- [ ] `3-referee-with-whistle` — Referee with Whistle
+- [ ] `4-penalty-kick` — Penalty Kick
+- [ ] `5-yellow-card` — Yellow Card
+- [ ] `6-soccer-jersey` — Soccer Jersey
+- [ ] `7-red-card` — Red Card
+- [ ] `8-free-kick-wall` — Free Kick Wall
+- [ ] `9-corner-kick` — Corner Kick
+- [ ] `10-header` — Header
+- [ ] `11-bicycle-kick` — Bicycle Kick
+- [ ] `12-goal-celebration` — Goal Celebration
+- [ ] `13-goalkeeper-diving-save` — Goalkeeper Diving Save
+- [ ] `14-var-review-screen` — VAR Review Screen
+- [ ] `15-golden-boot-award` — Golden Boot Award
+- [ ] `16-golden-ball-award` — Golden Ball Award
+- [ ] `17-golden-glove-award` — Golden Glove Award
+- [ ] `18-penalty-shootout` — Penalty Shootout
+- [ ] `19-extra-time-board` — Extra Time Board
+- [ ] `20-substitution-board` — Substitution Board
+- [ ] `21-offside-flag` — Offside Flag
+- [ ] `22-coin-toss` — Coin Toss
+- [ ] `23-captains-armband` — Captain's Armband
+- [ ] `24-vuvuzela` — Vuvuzela
+- [ ] `25-world-cup-match-ball` — World Cup Match Ball
+- [ ] `26-national-anthem-ceremony` — National Anthem Ceremony
+- [ ] `27-team-huddle` — Team Huddle
+- [ ] `28-fan-face-paint` — Fan Face Paint
+- [ ] `29-opening-ceremony-fireworks` — Opening Ceremony Fireworks
+- [ ] `30-trophy-lift-celebration` — Trophy Lift Celebration
+- [ ] `31-world-cup-qualifier-match` — World Cup Qualifier Match
+- [ ] `32-fan-zone-big-screen` — Fan Zone Big Screen
+- [ ] `33-own-goal-reaction` — Own Goal Reaction
+- [ ] `34-world-cup-draw-balls` — World Cup Draw Balls
+- [ ] `35-panini-sticker-album` — Panini Sticker Album
+- [ ] `36-half-time-team-talk` — Half-Time Team Talk
+
+## Stadiums (`images/stadiums/`)
+- [ ] `1-football-stadium` — Football Stadium
+- [ ] `2-baseball-stadium` — Baseball Stadium
+- [ ] `3-olympic-stadium` — Olympic Stadium
+- [ ] `4-cricket-ground` — Cricket Ground
+- [ ] `5-tennis-centre-court` — Tennis Centre Court
+- [ ] `6-indoor-arena` — Indoor Arena
+- [ ] `7-wembley-stadium` — Wembley Stadium
+- [ ] `8-camp-nou` — Camp Nou
+- [ ] `9-santiago-bernabeu-stadium` — Santiago Bernabéu Stadium
+- [ ] `10-maracana-stadium` — Maracanã Stadium
+- [ ] `11-old-trafford` — Old Trafford
+- [ ] `12-allianz-arena` — Allianz Arena
+- [ ] `13-san-siro` — San Siro
+- [ ] `14-wrigley-field` — Wrigley Field
+- [ ] `15-yankee-stadium` — Yankee Stadium
+- [ ] `16-melbourne-cricket-ground` — Melbourne Cricket Ground
+- [ ] `17-lords-cricket-ground` — Lord's Cricket Ground
+- [ ] `18-eden-gardens` — Eden Gardens
+- [ ] `19-rose-bowl` — Rose Bowl
+- [ ] `20-estadio-azteca` — Estadio Azteca
+- [ ] `21-signal-iduna-park` — Signal Iduna Park
+- [ ] `22-anfield` — Anfield
+- [ ] `23-emirates-stadium` — Emirates Stadium
+- [ ] `24-sofi-stadium` — SoFi Stadium
+- [ ] `25-metlife-stadium` — MetLife Stadium
+- [ ] `26-beijing-national-stadium-birds-nest` — Beijing National Stadium (Bird's Nest)
+- [ ] `27-fnb-stadium-soccer-city` — FNB Stadium (Soccer City)
+- [ ] `28-stade-de-france` — Stade de France
+- [ ] `29-principality-stadium-millennium-stadium` — Principality Stadium (Millennium Stadium)
+- [ ] `30-croke-park` — Croke Park
+- [ ] `31-gelora-bung-karno-stadium` — Gelora Bung Karno Stadium
+- [ ] `32-wankhede-stadium` — Wankhede Stadium
+- [ ] `33-twickenham-stadium` — Twickenham Stadium
+- [ ] `34-ellis-park-stadium` — Ellis Park Stadium
+- [ ] `35-ibrox-stadium` — Ibrox Stadium
+- [ ] `36-ajinomoto-stadium` — Ajinomoto Stadium
+
+## Race Cars (`images/race-cars/`)
+- [ ] `1-formula-1-car` — Formula 1 Car
+- [ ] `2-nascar-stock-car` — NASCAR Stock Car
+- [ ] `3-rally-car` — Rally Car
+- [ ] `4-drag-racing-car` — Drag Racing Car
+- [ ] `5-go-kart` — Go-Kart
+- [ ] `6-le-mans-race-car` — Le Mans Race Car
+- [ ] `7-indycar` — IndyCar
+- [ ] `8-formula-e-car` — Formula E Car
+- [ ] `9-sprint-car` — Sprint Car
+- [ ] `10-touring-car` — Touring Car
+- [ ] `11-dirt-track-stock-car` — Dirt Track Stock Car
+- [ ] `12-funny-car` — Funny Car
+- [ ] `13-top-fuel-dragster` — Top Fuel Dragster
+- [ ] `14-land-speed-record-car` — Land Speed Record Car
+- [ ] `15-solar-car` — Solar Car
+- [ ] `16-vintage-grand-prix-car` — Vintage Grand Prix Car
+- [ ] `17-gt3-race-car` — GT3 Race Car
+- [ ] `18-rallycross-car` — Rallycross Car
+- [ ] `19-baja-off-road-truck` — Baja Off-Road Truck
+- [ ] `20-monster-truck` — Monster Truck
+- [ ] `21-pro-stock-car` — Pro Stock Car
+- [ ] `22-formula-2-car` — Formula 2 Car
+- [ ] `23-formula-3-car` — Formula 3 Car
+- [ ] `24-historic-pre-war-grand-prix-car` — Historic Pre-War Grand Prix Car
+- [ ] `25-le-mans-hypercar` — Le Mans Hypercar
+- [ ] `26-time-attack-car` — Time Attack Car
+- [ ] `27-autocross-car` — Autocross Car
+- [ ] `28-ice-racing-car` — Ice Racing Car
+- [ ] `29-group-c-sports-prototype` — Group C Sports Prototype
+- [ ] `30-slot-car` — Slot Car
+- [ ] `31-pinewood-derby-car` — Pinewood Derby Car
+- [ ] `32-soap-box-derby-car` — Soap Box Derby Car
+- [ ] `33-demolition-derby-car` — Demolition Derby Car
+- [ ] `34-radio-controlled-race-car` — Radio-Controlled Race Car
+- [ ] `35-dakar-rally-truck` — Dakar Rally Truck
+- [ ] `36-formula-ford-car` — Formula Ford Car
+
+## Motorsport (`images/motorsport/`)
+- [ ] `1-pit-stop` — Pit Stop
+- [ ] `2-checkered-flag` — Checkered Flag
+- [ ] `3-racing-helmet` — Racing Helmet
+- [ ] `4-motocross-bike` — Motocross Bike
+- [ ] `5-racetrack` — Racetrack
+- [ ] `6-podium-champagne-celebration` — Podium Champagne Celebration
+- [ ] `7-starting-grid` — Starting Grid
+- [ ] `8-safety-car` — Safety Car
+- [ ] `9-yellow-caution-flag` — Yellow Caution Flag
+- [ ] `10-pit-crew` — Pit Crew
+- [ ] `11-racing-slick-tyres` — Racing Slick Tyres
+- [ ] `12-fuel-rig` — Fuel Rig
+- [ ] `13-qualifying-lap` — Qualifying Lap
+- [ ] `14-drift-racing` — Drift Racing
+- [ ] `15-hillclimb-racing` — Hillclimb Racing
+- [ ] `16-speedway-oval-track` — Speedway Oval Track
+- [ ] `17-fire-resistant-racing-suit` — Fire-Resistant Racing Suit
+- [ ] `18-race-car-steering-wheel` — Race Car Steering Wheel
+- [ ] `19-pit-lane` — Pit Lane
+- [ ] `20-grandstand-crowd` — Grandstand Crowd
+- [ ] `21-racing-gloves` — Racing Gloves
+- [ ] `22-racing-number-decal` — Racing Number Decal
+- [ ] `23-podium-trophy` — Podium Trophy
+- [ ] `24-chicane` — Chicane
+- [ ] `25-hairpin-turn` — Hairpin Turn
+- [ ] `26-banked-turn` — Banked Turn
+- [ ] `27-rear-wing-spoiler` — Rear Wing Spoiler
+- [ ] `28-telemetry-data-screen` — Telemetry Data Screen
+- [ ] `29-pit-wall-strategist` — Pit Wall Strategist
+- [ ] `30-formation-lap` — Formation Lap
+- [ ] `31-blue-flag` — Blue Flag
+- [ ] `32-red-flag` — Red Flag
+- [ ] `33-drag-strip-christmas-tree` — Drag Strip Christmas Tree
+- [ ] `34-rally-co-driver-pace-notes` — Rally Co-Driver Pace Notes
+- [ ] `35-victory-burnout` — Victory Burnout
+- [ ] `36-podium-fireworks` — Podium Fireworks
+
+## Airports (`images/airports/`)
+- [ ] `1-airport-control-tower` — Airport Control Tower
+- [ ] `2-airplane-at-departure-gate` — Airplane at Departure Gate
+- [ ] `3-baggage-carousel` — Baggage Carousel
+- [ ] `4-airport-runway` — Airport Runway
+- [ ] `5-air-traffic-control-radar-screen` — Air Traffic Control Radar Screen
+- [ ] `6-airport-security-checkpoint` — Airport Security Checkpoint
+- [ ] `7-heathrow-airport` — Heathrow Airport
+- [ ] `8-dubai-international-airport` — Dubai International Airport
+- [ ] `9-singapore-changi-airport` — Singapore Changi Airport
+- [ ] `10-tokyo-haneda-airport` — Tokyo Haneda Airport
+- [ ] `11-hong-kong-international-airport` — Hong Kong International Airport
+- [ ] `12-los-angeles-international-airport` — Los Angeles International Airport
+- [ ] `13-john-f-kennedy-international-airport` — John F. Kennedy International Airport
+- [ ] `14-charles-de-gaulle-airport` — Charles de Gaulle Airport
+- [ ] `15-frankfurt-airport` — Frankfurt Airport
+- [ ] `16-sydney-airport` — Sydney Airport
+- [ ] `17-denver-international-airport` — Denver International Airport
+- [ ] `18-amsterdam-schiphol-airport` — Amsterdam Schiphol Airport
+- [ ] `19-istanbul-airport` — Istanbul Airport
+- [ ] `20-beijing-capital-international-airport` — Beijing Capital International Airport
+- [ ] `21-airport-duty-free-shop` — Airport Duty-Free Shop
+- [ ] `22-boarding-pass-scanner` — Boarding Pass Scanner
+- [ ] `23-jet-bridge` — Jet Bridge
+- [ ] `24-airport-departures-board` — Airport Departures Board
+- [ ] `25-airport-lounge` — Airport Lounge
+- [ ] `26-customs-and-immigration-desk` — Customs and Immigration Desk
+- [ ] `27-airport-luggage-trolley` — Airport Luggage Trolley
+- [ ] `28-airport-check-in-counter` — Airport Check-In Counter
+- [ ] `29-airport-shuttle-bus` — Airport Shuttle Bus
+- [ ] `30-airport-fire-and-rescue-truck` — Airport Fire and Rescue Truck
+- [ ] `31-ground-crew-marshaller` — Ground Crew Marshaller
+- [ ] `32-airplane-pushback-tug` — Airplane Pushback Tug
+- [ ] `33-airport-windsock` — Airport Windsock
+- [ ] `34-airport-terminal-escalator` — Airport Terminal Escalator
+- [ ] `35-moving-walkway` — Moving Walkway
+- [ ] `36-airport-chapel` — Airport Chapel
+
+## Hotels & Resorts (`images/hotels-resorts/`)
+- [ ] `1-hotel-lobby` — Hotel Lobby
+- [ ] `2-overwater-bungalow-resort` — Overwater Bungalow Resort
+- [ ] `3-hotel-room-with-bed` — Hotel Room with Bed
+- [ ] `4-resort-swimming-pool` — Resort Swimming Pool
+- [ ] `5-room-service-cart` — Room Service Cart
+- [ ] `6-hotel-concierge-desk` — Hotel Concierge Desk
+- [ ] `7-burj-al-arab` — Burj Al Arab
+- [ ] `8-the-ritz-paris` — The Ritz Paris
+- [ ] `9-marina-bay-sands` — Marina Bay Sands
+- [ ] `10-the-plaza-hotel` — The Plaza Hotel
+- [ ] `11-atlantis-the-palm` — Atlantis The Palm
+- [ ] `12-fairmont-banff-springs` — Fairmont Banff Springs
+- [ ] `13-the-savoy-london` — The Savoy London
+- [ ] `14-raffles-hotel-singapore` — Raffles Hotel Singapore
+- [ ] `15-ashford-castle` — Ashford Castle
+- [ ] `16-icehotel-sweden` — Icehotel Sweden
+- [ ] `17-giraffe-manor` — Giraffe Manor
+- [ ] `18-hotel-del-coronado` — Hotel del Coronado
+- [ ] `19-gstaad-palace` — Gstaad Palace
+- [ ] `20-traditional-japanese-ryokan` — Traditional Japanese Ryokan
+- [ ] `21-all-inclusive-beach-resort` — All-Inclusive Beach Resort
+- [ ] `22-ski-resort-chalet` — Ski Resort Chalet
+- [ ] `23-hotel-rooftop-bar` — Hotel Rooftop Bar
+- [ ] `24-hotel-spa-treatment-room` — Hotel Spa Treatment Room
+- [ ] `25-hotel-minibar` — Hotel Minibar
+- [ ] `26-bellhop-with-luggage-cart` — Bellhop with Luggage Cart
+- [ ] `27-swim-up-pool-bar` — Swim-Up Pool Bar
+- [ ] `28-poolside-cabana` — Poolside Cabana
+- [ ] `29-turndown-service-chocolate` — Turndown Service Chocolate
+- [ ] `30-hotel-key-card` — Hotel Key Card
+- [ ] `31-honeymoon-suite` — Honeymoon Suite
+- [ ] `32-hotel-breakfast-buffet` — Hotel Breakfast Buffet
+- [ ] `33-treehouse-resort` — Treehouse Resort
+- [ ] `34-desert-glamping-tent` — Desert Glamping Tent
+- [ ] `35-african-safari-lodge` — African Safari Lodge
+- [ ] `36-igloo-hotel` — Igloo Hotel
+
+## Video Game Characters (`images/video-game-characters/`)
+- [ ] `1-mario` — Mario
+- [ ] `2-luigi` — Luigi
+- [ ] `3-princess-peach` — Princess Peach
+- [ ] `4-bowser` — Bowser
+- [ ] `5-link` — Link
+- [ ] `6-zelda` — Zelda
+- [ ] `7-samus-aran` — Samus Aran
+- [ ] `8-kirby` — Kirby
+- [ ] `9-donkey-kong` — Donkey Kong
+- [ ] `10-yoshi` — Yoshi
+- [ ] `11-pikachu` — Pikachu
+- [ ] `12-sonic-the-hedgehog` — Sonic the Hedgehog
+- [ ] `13-master-chief` — Master Chief
+- [ ] `14-lara-croft` — Lara Croft
+- [ ] `15-kratos` — Kratos
+- [ ] `16-solid-snake` — Solid Snake
+- [ ] `17-cloud-strife` — Cloud Strife
+- [ ] `18-sephiroth` — Sephiroth
+- [ ] `19-geralt-of-rivia` — Geralt of Rivia
+- [ ] `20-ryu` — Ryu
+- [ ] `21-chun-li` — Chun-Li
+- [ ] `22-scorpion` — Scorpion
+- [ ] `23-sub-zero` — Sub-Zero
+- [ ] `24-pac-man` — Pac-Man
+- [ ] `25-mega-man` — Mega Man
+- [ ] `26-crash-bandicoot` — Crash Bandicoot
+- [ ] `27-spyro-the-dragon` — Spyro the Dragon
+- [ ] `28-ezio-auditore` — Ezio Auditore
+- [ ] `29-nathan-drake` — Nathan Drake
+- [ ] `30-aloy` — Aloy
+- [ ] `31-ellie-the-last-of-us` — Ellie (The Last of Us)
+- [ ] `32-joel-the-last-of-us` — Joel (The Last of Us)
+- [ ] `33-gordon-freeman` — Gordon Freeman
+- [ ] `34-steve-minecraft` — Steve (Minecraft)
+- [ ] `35-sackboy` — Sackboy
+- [ ] `36-banjo-kazooie` — Banjo-Kazooie
+
+## Villains (`images/villains/`)
+- [ ] `1-darth-vader` — Darth Vader
+- [ ] `2-voldemort` — Voldemort
+- [ ] `3-the-joker` — The Joker
+- [ ] `4-thanos` — Thanos
+- [ ] `5-sauron` — Sauron
+- [ ] `6-freddy-krueger` — Freddy Krueger
+- [ ] `7-michael-myers` — Michael Myers
+- [ ] `8-hannibal-lecter` — Hannibal Lecter
+- [ ] `9-dracula` — Dracula
+- [ ] `10-jafar` — Jafar
+- [ ] `11-maleficent` — Maleficent
+- [ ] `12-ursula` — Ursula
+- [ ] `13-cruella-de-vil` — Cruella de Vil
+- [ ] `14-scar` — Scar
+- [ ] `15-gaston` — Gaston
+- [ ] `16-loki` — Loki
+- [ ] `17-magneto` — Magneto
+- [ ] `18-lex-luthor` — Lex Luthor
+- [ ] `19-green-goblin` — Green Goblin
+- [ ] `20-doctor-doom` — Doctor Doom
+- [ ] `21-ultron` — Ultron
+- [ ] `22-venom` — Venom
+- [ ] `23-bane` — Bane
+- [ ] `24-the-grinch` — The Grinch
+- [ ] `25-captain-hook` — Captain Hook
+- [ ] `26-gollum` — Gollum
+- [ ] `27-agent-smith` — Agent Smith
+- [ ] `28-hans-gruber` — Hans Gruber
+- [ ] `29-nurse-ratched` — Nurse Ratched
+- [ ] `30-anton-chigurh` — Anton Chigurh
+- [ ] `31-pennywise` — Pennywise
+- [ ] `32-norman-bates` — Norman Bates
+- [ ] `33-regina-george` — Regina George
+- [ ] `34-cersei-lannister` — Cersei Lannister
+- [ ] `35-palpatine` — Palpatine
+- [ ] `36-killmonger` — Killmonger
+
+## Inventors (`images/inventors/`)
+- [ ] `1-thomas-edison` — Thomas Edison
+- [ ] `2-nikola-tesla` — Nikola Tesla
+- [ ] `3-alexander-graham-bell` — Alexander Graham Bell
+- [ ] `4-benjamin-franklin` — Benjamin Franklin
+- [ ] `5-albert-einstein` — Albert Einstein
+- [ ] `6-isaac-newton` — Isaac Newton
+- [ ] `7-leonardo-da-vinci` — Leonardo da Vinci
+- [ ] `8-johannes-gutenberg` — Johannes Gutenberg
+- [ ] `9-james-watt` — James Watt
+- [ ] `10-eli-whitney` — Eli Whitney
+- [ ] `11-henry-ford` — Henry Ford
+- [ ] `12-wright-brothers` — Wright Brothers
+- [ ] `13-george-washington-carver` — George Washington Carver
+- [ ] `14-marie-curie` — Marie Curie
+- [ ] `15-guglielmo-marconi` — Guglielmo Marconi
+- [ ] `16-samuel-morse` — Samuel Morse
+- [ ] `17-louis-pasteur` — Louis Pasteur
+- [ ] `18-charles-babbage` — Charles Babbage
+- [ ] `19-ada-lovelace` — Ada Lovelace
+- [ ] `20-tim-berners-lee` — Tim Berners-Lee
+- [ ] `21-steve-jobs` — Steve Jobs
+- [ ] `22-steve-wozniak` — Steve Wozniak
+- [ ] `23-bill-gates` — Bill Gates
+- [ ] `24-elon-musk` — Elon Musk
+- [ ] `25-karl-benz` — Karl Benz
+- [ ] `26-rudolf-diesel` — Rudolf Diesel
+- [ ] `27-michael-faraday` — Michael Faraday
+- [ ] `28-galileo-galilei` — Galileo Galilei
+- [ ] `29-robert-fulton` — Robert Fulton
+- [ ] `30-john-logie-baird` — John Logie Baird
+- [ ] `31-willis-carrier` — Willis Carrier
+- [ ] `32-percy-spencer` — Percy Spencer
+- [ ] `33-philo-farnsworth` — Philo Farnsworth
+- [ ] `34-king-camp-gillette` — King Camp Gillette
+- [ ] `35-garrett-morgan` — Garrett Morgan
+- [ ] `36-elisha-otis` — Elisha Otis
+
+## Appliances (`images/appliances/`)
+- [ ] `1-refrigerator` — Refrigerator
+- [ ] `2-washing-machine` — Washing Machine
+- [ ] `3-dryer` — Dryer
+- [ ] `4-dishwasher` — Dishwasher
+- [ ] `5-microwave` — Microwave
+- [ ] `6-oven` — Oven
+- [ ] `7-toaster` — Toaster
+- [ ] `8-blender` — Blender
+- [ ] `9-air-fryer` — Air Fryer
+- [ ] `10-vacuum-cleaner` — Vacuum Cleaner
+- [ ] `11-coffee-maker` — Coffee Maker
+- [ ] `12-kettle` — Kettle
+- [ ] `13-food-processor` — Food Processor
+- [ ] `14-slow-cooker` — Slow Cooker
+- [ ] `15-rice-cooker` — Rice Cooker
+- [ ] `16-stand-mixer` — Stand Mixer
+- [ ] `17-juicer` — Juicer
+- [ ] `18-waffle-maker` — Waffle Maker
+- [ ] `19-bread-maker` — Bread Maker
+- [ ] `20-freezer` — Freezer
+- [ ] `21-water-heater` — Water Heater
+- [ ] `22-air-conditioner` — Air Conditioner
+- [ ] `23-space-heater` — Space Heater
+- [ ] `24-humidifier` — Humidifier
+- [ ] `25-dehumidifier` — Dehumidifier
+- [ ] `26-ceiling-fan` — Ceiling Fan
+- [ ] `27-iron` — Iron
+- [ ] `28-sewing-machine` — Sewing Machine
+- [ ] `29-garbage-disposal` — Garbage Disposal
+- [ ] `30-hand-mixer` — Hand Mixer
+- [ ] `31-toaster-oven` — Toaster Oven
+- [ ] `32-pressure-cooker` — Pressure Cooker
+- [ ] `33-deep-fryer` — Deep Fryer
+- [ ] `34-ice-maker` — Ice Maker
+- [ ] `35-wine-cooler` — Wine Cooler
+- [ ] `36-robot-vacuum` — Robot Vacuum
+
+## Natural Wonders (`images/natural-wonders/`)
+- [ ] `1-grand-canyon` — Grand Canyon
+- [ ] `2-niagara-falls` — Niagara Falls
+- [ ] `3-mount-everest` — Mount Everest
+- [ ] `4-great-barrier-reef` — Great Barrier Reef
+- [ ] `5-victoria-falls` — Victoria Falls
+- [ ] `6-uluru-ayers-rock` — Uluru (Ayers Rock)
+- [ ] `7-mount-kilimanjaro` — Mount Kilimanjaro
+- [ ] `8-amazon-rainforest` — Amazon Rainforest
+- [ ] `9-sahara-desert` — Sahara Desert
+- [ ] `10-northern-lights` — Northern Lights
+- [ ] `11-iguazu-falls` — Iguazu Falls
+- [ ] `12-angel-falls` — Angel Falls
+- [ ] `13-mount-fuji` — Mount Fuji
+- [ ] `14-grand-prismatic-spring` — Grand Prismatic Spring
+- [ ] `15-antelope-canyon` — Antelope Canyon
+- [ ] `16-salar-de-uyuni` — Salar de Uyuni
+- [ ] `17-zhangjiajie-national-forest` — Zhangjiajie National Forest
+- [ ] `18-ha-long-bay` — Ha Long Bay
+- [ ] `19-plitvice-lakes` — Plitvice Lakes
+- [ ] `20-giant-s-causeway` — Giant's Causeway
+- [ ] `21-white-cliffs-of-dover` — White Cliffs of Dover
+- [ ] `22-matterhorn` — Matterhorn
+- [ ] `23-mount-kilauea` — Mount Kilauea
+- [ ] `24-yellowstone-geysers` — Yellowstone Geysers
+- [ ] `25-dead-sea` — Dead Sea
+- [ ] `26-great-blue-hole` — Great Blue Hole
+- [ ] `27-bryce-canyon` — Bryce Canyon
+- [ ] `28-death-valley` — Death Valley
+- [ ] `29-meteora` — Meteora
+- [ ] `30-cliffs-of-moher` — Cliffs of Moher
+- [ ] `31-krakatoa` — Krakatoa
+- [ ] `32-lake-baikal` — Lake Baikal
+- [ ] `33-torres-del-paine` — Torres del Paine
+- [ ] `34-milford-sound` — Milford Sound
+- [ ] `35-socotra-island` — Socotra Island
+- [ ] `36-rainbow-mountain` — Rainbow Mountain
+
+## Alphanumeric (`images/alphanumeric/`)
+- [ ] `1-007` — 007
+- [ ] `2-area-51` — Area 51
+- [ ] `3-route-66` — Route 66
+- [ ] `4-studio-54` — Studio 54
+- [ ] `5-apollo-11` — Apollo 11
+- [ ] `6-boeing-747` — Boeing 747
+- [ ] `7-model-t` — Model T
+- [ ] `8-windows-95` — Windows 95
+- [ ] `9-playstation-5` — PlayStation 5
+- [ ] `10-xbox-360` — Xbox 360
+- [ ] `11-iphone-15` — iPhone 15
+- [ ] `12-air-jordan-1` — Air Jordan 1
+- [ ] `13-wd-40` — WD-40
+- [ ] `14-7-eleven` — 7-Eleven
+- [ ] `15-u2` — U2
+- [ ] `16-blink-182` — Blink-182
+- [ ] `17-sum-41` — Sum 41
+- [ ] `18-maroon-5` — Maroon 5
+- [ ] `19-catch-22` — Catch-22
+- [ ] `20-1984` — 1984
+- [ ] `21-fahrenheit-451` — Fahrenheit 451
+- [ ] `22-district-9` — District 9
+- [ ] `23-ocean-s-eleven` — Ocean's Eleven
+- [ ] `24-21-jump-street` — 21 Jump Street
+- [ ] `25-toy-story-3` — Toy Story 3
+- [ ] `26-iron-man-3` — Iron Man 3
+- [ ] `27-gta-5` — GTA 5
+- [ ] `28-call-of-duty-4` — Call of Duty 4
+- [ ] `29-half-life-2` — Half-Life 2
+- [ ] `30-portal-2` — Portal 2
+- [ ] `31-grease-2` — Grease 2
+- [ ] `32-se7en` — Se7en
+- [ ] `33-formula-1` — Formula 1
+- [ ] `34-b-52-bomber` — B-52 Bomber
+- [ ] `35-f-16-fighting-falcon` — F-16 Fighting Falcon
+- [ ] `36-halo-3` — Halo 3

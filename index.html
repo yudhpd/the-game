@@ -3,14 +3,38 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>The Floor — Territory Trivia</title>
+<title>Yudh PD Arena</title>
 <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <div id="app">
 
+    <!-- MAIN MENU -->
+    <section id="main-menu-screen" class="screen">
+      <h1 class="menu-h1">YUDH PD ARENA</h1>
+      <p class="subtitle">Pick a show to play</p>
+      <div class="menu-grid">
+        <button id="menu-the-floor-card" class="game-card">
+          <span class="game-card-title">The Floor</span>
+          <span class="game-card-desc">Multiplayer territory trivia showdown</span>
+          <span class="game-card-badge play">Play</span>
+        </button>
+        <div class="game-card disabled">
+          <span class="game-card-title">???</span>
+          <span class="game-card-desc">Another show is on the way</span>
+          <span class="game-card-badge">Coming Soon</span>
+        </div>
+        <div class="game-card disabled">
+          <span class="game-card-title">???</span>
+          <span class="game-card-desc">Another show is on the way</span>
+          <span class="game-card-badge">Coming Soon</span>
+        </div>
+      </div>
+    </section>
+
     <!-- SETUP: PLAYER COUNT -->
-    <section id="setup-count-screen" class="screen">
+    <section id="setup-count-screen" class="screen hidden">
+      <button id="menu-back-btn" class="secondary-btn menu-back-btn">← Menu</button>
       <h1>THE FLOOR</h1>
       <p class="subtitle">Multiplayer territory trivia showdown</p>
       <h3 class="setup-heading">How many players?</h3>
@@ -23,9 +47,37 @@
           <li>Each duel gives both players a 45-second life clock. Only the active player's clock runs.</li>
           <li>Say your guess out loud — the Game Master marks it Correct (switch turns) or Pass (-3s, same player continues).</li>
           <li>Whoever's clock hits zero first loses — and is eliminated on the spot, along with <strong>all</strong> of their territory, which the winner inherits.</li>
+          <li>If a category runs out of fresh questions mid-duel, it ends immediately — whoever has more time left on their clock wins.</li>
           <li>Win a duel and choose to keep playing, or pass — a randomizer picks someone who hasn't gone yet.</li>
+          <li>The final showdown between the last two players is a best-of-3: round 1 is the defender's category, round 2 is the challenger's, and a 1–1 tie is broken by a category the Game Master picks from ones nobody selected all game.</li>
           <li>Last player standing controls the whole floor and wins.</li>
         </ul>
+      </div>
+
+      <div class="rules demo-panel">
+        <h3>Try a mini duel — category: Roman Numerals</h3>
+        <p class="demo-sub">This is a shortened preview (15s clocks instead of 45s). Guess the number out loud, then click what the Game Master would call.</p>
+        <div class="demo-duel">
+          <div class="demo-life-timers">
+            <div class="demo-life-timer active" id="demo-life-you">
+              <span class="demo-life-name">You</span>
+              <span class="demo-life-seconds" id="demo-you-seconds">15.0</span>
+              <div class="demo-life-track"><div class="demo-life-fill" id="demo-you-fill"></div></div>
+            </div>
+            <div class="demo-life-timer" id="demo-life-opp">
+              <span class="demo-life-name">Opponent</span>
+              <span class="demo-life-seconds" id="demo-opp-seconds">15.0</span>
+              <div class="demo-life-track"><div class="demo-life-fill" id="demo-opp-fill"></div></div>
+            </div>
+          </div>
+          <div class="demo-clue" id="demo-clue">XIV</div>
+          <div class="demo-log" id="demo-log">What number is this?</div>
+          <div class="demo-buttons">
+            <button id="demo-correct-btn" class="host-btn correct-btn">✅ Correct <kbd>C</kbd></button>
+            <button id="demo-pass-btn" class="host-btn pass-btn">⏭️ Pass (-3s) <kbd>P</kbd></button>
+          </div>
+          <button id="demo-restart-btn" class="secondary-btn demo-restart hidden">↺ Restart demo</button>
+        </div>
       </div>
     </section>
 
@@ -58,10 +110,19 @@
       <div id="grid" class="grid"></div>
     </section>
 
+    <!-- COUNTDOWN OVERLAY -->
+    <section id="countdown-overlay" class="overlay hidden">
+      <div class="duel-box countdown-box">
+        <div class="countdown-title" id="countdown-title">Player 1 vs Player 2</div>
+        <div class="countdown-number" id="countdown-number">3</div>
+      </div>
+    </section>
+
     <!-- DUEL OVERLAY -->
     <section id="duel-overlay" class="overlay hidden">
       <div class="duel-box">
         <div class="duel-header">
+          <div class="duel-round-badge hidden" id="duel-round-badge">FINAL SHOWDOWN — Round 1 of 3</div>
           <div class="duel-category" id="duel-category">Category</div>
         </div>
 
@@ -101,6 +162,46 @@
             <button id="pass-btn" class="host-btn pass-btn">⏭️ Pass (-3s) <kbd>P</kbd></button>
           </div>
         </div>
+      </div>
+    </section>
+
+    <!-- OUT OF QUESTIONS -->
+    <section id="out-of-questions-overlay" class="overlay hidden">
+      <div class="duel-box out-of-questions-box">
+        <div class="out-of-questions-title">🚫 Out of Questions!</div>
+        <p class="out-of-questions-sub" id="out-of-questions-sub">Player 1 had more time left — they win the square!</p>
+        <button id="out-of-questions-btn" class="primary-btn">Continue</button>
+      </div>
+    </section>
+
+    <!-- COIN TOSS TIEBREAK -->
+    <section id="coin-toss-overlay" class="overlay hidden">
+      <div class="duel-box randomizer-box">
+        <div class="randomizer-title">🪙 Tie! Flipping a coin...</div>
+        <div class="randomizer-name" id="coin-toss-name">?</div>
+        <button id="coin-toss-continue-btn" class="primary-btn hidden">Continue</button>
+      </div>
+    </section>
+
+    <!-- FINAL ROUND 2 CONFIRMATION -->
+    <section id="round2-confirm-overlay" class="overlay hidden">
+      <div class="duel-box round2-confirm-box">
+        <div class="round2-confirm-title" id="round2-confirm-title">Player 1 takes Round 1!</div>
+        <p class="round2-confirm-sub" id="round2-confirm-category">Round 2 category: Player 2's category</p>
+        <button id="round2-confirm-btn" class="primary-btn">Start Round 2</button>
+      </div>
+    </section>
+
+    <!-- FINAL ROUND 3 CATEGORY PICKER -->
+    <section id="final-picker-overlay" class="overlay hidden">
+      <div class="duel-box final-picker-box">
+        <div class="final-picker-title">🏆 Decider — Round 3 of 3</div>
+        <p class="final-picker-sub">It's tied 1–1. Game Master, pick the category — only ones nobody selected this game are eligible.</p>
+        <div class="expertise-combo final-picker-combo">
+          <input type="text" id="final-picker-input" class="expertise-input" autocomplete="off" placeholder="Search category..." />
+          <div id="final-picker-dropdown" class="expertise-dropdown hidden"></div>
+        </div>
+        <button id="final-picker-confirm-btn" class="primary-btn" disabled>Confirm & Start Round 3</button>
       </div>
     </section>
 
