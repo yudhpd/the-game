@@ -840,6 +840,7 @@
   }
 
   function beginCountdownAndRound() {
+    preloadCategoryImages(categoryStateForCurrentRound().activeCategoryIndex);
     els.countdownTitle.textContent = duel.finalSeries
       ? `Round ${duel.finalSeries.round} of 3 — ${state.players[duel.challenger].name} ${duel.finalSeries.wins[duel.challenger]} : ${duel.finalSeries.wins[duel.defender]} ${state.players[duel.defender].name}`
       : `${state.players[duel.challenger].name} vs ${state.players[duel.defender].name}`;
@@ -932,27 +933,61 @@
     updateLifeUI();
   }
 
+  // basePath -> resolved image URL, or null if none of the extensions exist.
+  // Populated by preloadCategoryImages() ahead of time so the actual display
+  // swap during a live duel is a browser cache hit, not a fresh network probe.
+  const imageUrlCache = new Map();
+
+  function resolveClueImageUrl(basePath) {
+    if (imageUrlCache.has(basePath)) return Promise.resolve(imageUrlCache.get(basePath));
+    return new Promise((resolve) => {
+      let extIndex = 0;
+      const tryNext = () => {
+        if (extIndex >= IMAGE_EXTENSIONS.length) {
+          imageUrlCache.set(basePath, null);
+          resolve(null);
+          return;
+        }
+        const url = `${basePath}.${IMAGE_EXTENSIONS[extIndex]}`;
+        const probe = new Image();
+        probe.onload = () => {
+          imageUrlCache.set(basePath, url);
+          resolve(url);
+        };
+        probe.onerror = () => {
+          extIndex++;
+          tryNext();
+        };
+        probe.src = url;
+      };
+      tryNext();
+    });
+  }
+
+  // Kicks off resolution (and browser caching) for every question image in a
+  // category — called as soon as a round's category is known (right as its
+  // countdown starts), so there's a multi-second head start before any of
+  // them are actually needed on screen.
+  function preloadCategoryImages(categoryIndex) {
+    CATEGORIES[categoryIndex].questions.forEach((q) => resolveClueImageUrl(q.image));
+  }
+
   function loadClueImage(basePath) {
     els.questionImage.classList.add("hidden");
     els.imagePlaceholder.classList.add("hidden");
 
-    let extIndex = 0;
-    els.questionImage.onerror = () => {
-      extIndex++;
-      if (extIndex < IMAGE_EXTENSIONS.length) {
-        els.questionImage.src = `${basePath}.${IMAGE_EXTENSIONS[extIndex]}`;
+    resolveClueImageUrl(basePath).then((url) => {
+      // A newer question may have been shown (or the duel may have moved on)
+      // by the time this resolves — don't clobber it with a stale image.
+      if (!duel || duel.currentQuestion.image !== basePath) return;
+      if (url) {
+        els.questionImage.src = url;
+        els.questionImage.classList.remove("hidden");
       } else {
-        els.questionImage.onerror = null;
-        els.questionImage.classList.add("hidden");
         els.placeholderPath.textContent = `${basePath}.(jpg|png|webp|gif)`;
         els.imagePlaceholder.classList.remove("hidden");
       }
-    };
-    els.questionImage.onload = () => {
-      els.questionImage.classList.remove("hidden");
-      els.imagePlaceholder.classList.add("hidden");
-    };
-    els.questionImage.src = `${basePath}.${IMAGE_EXTENSIONS[extIndex]}`;
+    });
   }
 
   function showQuestion() {
