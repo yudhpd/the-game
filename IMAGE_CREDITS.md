@@ -1,0 +1,496 @@
+# Image Credits
+
+Images sourced from Wikimedia Commons under free licenses. Attribution kept here for provenance.
+- **Flag of the United States** — [File:Flag of the United States.svg](https://upload.wikimedia.org/wikipedia/commons/a/a4/Flag_of_the_United_States.svg) — Public domain — by Uploaded by Dbenbenn; edited by users such as Zscout370, Jacobolus, Indolences, and Technion.
+- **Flag of Japan** — [File:Flag of Japan.svg](https://upload.wikimedia.org/wikipedia/commons/9/9e/Flag_of_Japan.svg) — Public domain — by Various
+- **Flag of the United Kingdom** — [File:Flag of the United Kingdom.svg](https://upload.wikimedia.org/wikipedia/commons/8/83/Flag_of_the_United_Kingdom_%283-5%29.svg) — Public domain — by Original: Acts of Union 1800 Vector:  Yaddah
+- **Flag of Brazil** — [File:Flag of Brazil.svg](https://upload.wikimedia.org/wikipedia/commons/0/05/Flag_of_Brazil.svg) — Public domain — by Raimundo Teixeira Mendes
+- **Flag of Australia** — [File:Flag of Australia.svg](https://upload.wikimedia.org/wikipedia/commons/b/b9/Flag_of_Australia.svg) — Public domain — by Original: Ivor Evans, Leslie John Hawkins, Egbert John Nuttall, Annie Dorrington and William Stevens Vector:  Ian Fieggen
+- **Flag of Canada** — [File:Flag of Canada.svg](https://upload.wikimedia.org/wikipedia/commons/c/cf/Flag_of_Canada.svg) — Public domain — by Created by George F. G. Stanley /  E Pluribus Anthony / User:Mzajac
+- **Flag of Germany** — [File:Flag of Germany.svg](https://upload.wikimedia.org/wikipedia/commons/b/ba/Flag_of_Germany.svg) — Public domain — by User:SKopp, User:Madden, and other users
+- **Flag of France** — [File:Flag of France.svg](https://upload.wikimedia.org/wikipedia/commons/c/c3/Flag_of_France.svg) — Public domain — by Original: Unknown Vector:  SKopp
+- **Flag of Italy** — [File:Flag of Italy.svg](https://upload.wikimedia.org/wikipedia/commons/0/03/Flag_of_Italy.svg) — Public domain — by See below.
+- **Flag of Spain** — [File:Flag of Spain.svg](https://upload.wikimedia.org/wikipedia/commons/9/9a/Flag_of_Spain.svg) — Public domain — by RelShot 263, Echando una mano; earlier version was Pedro A. Gracia Fajardo, escudo de Manual de Imagen Institucional de la Administración General del Estado
+- **Flag of China** — [File:Flag of China.svg](https://upload.wikimedia.org/wikipedia/commons/f/fa/Flag_of_the_People%27s_Republic_of_China.svg) — Public domain — by Zeng Liansong
+- **Flag of India** — [File:Flag of India.svg](https://upload.wikimedia.org/wikipedia/commons/4/41/Flag_of_India.svg) — Public domain — by Government of India
+- **Flag of South Korea** — [File:Flag of South Korea.svg](https://upload.wikimedia.org/wikipedia/commons/0/09/Flag_of_South_Korea.svg) — Public domain — by Original: Government of the Republic of Korea Vector:  Great Brightstar and others
+- **Flag of Mexico** — [File:Flag of Mexico.svg](https://upload.wikimedia.org/wikipedia/commons/f/fc/Flag_of_Mexico.svg) — Public domain — by Alex Covarrubias, 9 April 2006. Based on the arms by Juan Manuel Gabino Villascán.
+- **Flag of Russia** — [File:Flag of Russia.svg](https://upload.wikimedia.org/wikipedia/commons/f/f3/Flag_of_Russia.svg) — Public domain — by Peter the Great
+- **Flag of South Africa** — [File:Flag of South Africa.svg](https://upload.wikimedia.org/wikipedia/commons/a/af/Flag_of_South_Africa.svg) — Public domain — by Flag design by Frederick Brownell, image by Wikimedia Commons users
+- **Flag of Egypt** — [File:Flag of Egypt.svg](https://upload.wikimedia.org/wikipedia/commons/f/fe/Flag_of_Egypt.svg) — Public domain — by See File history below for details.
+- **Flag of Nigeria** — [File:Flag of Nigeria.svg](https://upload.wikimedia.org/wikipedia/commons/7/79/Flag_of_Nigeria.svg) — Public domain — by Jon Harald Søby.
+- **Flag of Argentina** — [File:Flag of Argentina.svg](https://upload.wikimedia.org/wikipedia/commons/1/1a/Flag_of_Argentina.svg) — Public domain — by Manuel Belgrano
+- **Flag of Chile** — [File:Flag of Chile.svg](https://upload.wikimedia.org/wikipedia/commons/7/78/Flag_of_Chile.svg) — Public domain — by See file history below for details.
+- **Flag of New Zealand** — [File:Flag of New Zealand.svg](https://upload.wikimedia.org/wikipedia/commons/3/3e/Flag_of_New_Zealand.svg) — Public domain — by Original: Albert Hastings Markham Vector:  Zscout370, Hugh Jass, s. File history
+- **Flag of Ireland** — [File:Flag of Ireland.svg](https://upload.wikimedia.org/wikipedia/commons/4/45/Flag_of_Ireland.svg) — Public domain — by Éire
+- **Flag of the Netherlands** — [File:Flag of the Netherlands.svg](https://upload.wikimedia.org/wikipedia/commons/2/20/Flag_of_the_Netherlands.svg) — Public domain — by Zscout370
+- **Flag of Sweden** — [File:Flag of Sweden.svg](https://upload.wikimedia.org/wikipedia/commons/4/4c/Flag_of_Sweden.svg) — Public domain — by Jon Harald Søby and others.
+- **Flag of Norway** — [File:Flag of Norway.svg](https://upload.wikimedia.org/wikipedia/commons/d/d9/Flag_of_Norway.svg) — Public domain — by Original: Fredrik Meltzer Vector:  Gutten på Hemsen
+- **Flag of Switzerland** — [File:Flag of Switzerland.svg](https://upload.wikimedia.org/wikipedia/commons/f/f3/Flag_of_Switzerland.svg) — Public domain — by Original: Unknown
+Vector:
+User:Marc Mongenet
+Credits:
+
+User:-xfi-
+User:Zscout370
+- **Flag of Greece** — [File:Flag of Greece.svg](https://upload.wikimedia.org/wikipedia/commons/5/5c/Flag_of_Greece.svg) — Public domain — by Unknown authorUnknown author
+- **Flag of Turkey** — [File:Flag of Turkey.svg](https://upload.wikimedia.org/wikipedia/commons/b/b4/Flag_of_Turkey.svg) — Public domain — by David Benbennick (original author)
+- **Flag of Saudi Arabia** — [File:Flag of Saudi Arabia.svg](https://upload.wikimedia.org/wikipedia/commons/0/0d/Flag_of_Saudi_Arabia.svg) — Public domain — by The Shura Council
+- **Flag of the United Arab Emirates** — [File:Flag of the United Arab Emirates.svg](https://upload.wikimedia.org/wikipedia/commons/c/cb/Flag_of_the_United_Arab_Emirates.svg) — Public domain — by Abdulla Mohammed Al Maainah
+- **Flag of Israel** — [File:Flag of Israel.svg](https://upload.wikimedia.org/wikipedia/commons/d/d4/Flag_of_Israel.svg) — Public domain — by Israel Belkind and Fanny Abramovitch (original)
+“The Provisional Council of State Proclamation of the Flag of the State of Israel” of 25 Tishrei 5709 (28 October 1948) provides the official specification for the design of the Israeli flag.
+The color of the Magen David and the stripes of the Israeli flag is not precisely specified by the above legislation.  The color depicted in the current version of the image is typical of flags used in Israel today, although individual flags can and do vary.
+The flag legislation officially specifies dimensions of 220 cm × 160 cm.  However, the sizes of actual flags vary (although the aspect ratio is usually retained).
+- **Flag of Indonesia** — [File:Flag of Indonesia.svg](https://upload.wikimedia.org/wikipedia/commons/9/9f/Flag_of_Indonesia.svg) — Public domain — by Jayakatwang
+- **Flag of Thailand** — [File:Flag of Thailand.svg](https://upload.wikimedia.org/wikipedia/commons/a/a9/Flag_of_Thailand.svg) — Public domain — by Zscout370
+- **Flag of Vietnam** — [File:Flag of Vietnam.svg](https://upload.wikimedia.org/wikipedia/commons/2/21/Flag_of_Vietnam.svg) — Public domain — by See File history below for details.
+- **Flag of Nepal** — [File:Flag of Nepal.svg](https://upload.wikimedia.org/wikipedia/commons/9/9b/Flag_of_Nepal.svg) — Public domain — by Drawn by Pumbaa80, Achim1999
+- **Flag of Vatican City** — [File:Flag of Vatican City.svg](https://upload.wikimedia.org/wikipedia/commons/8/86/Flag_of_Vatican_City_%282001%E2%80%932023%29.svg) — CC0 — by Unknown authorUnknown author
+- **Octopus** — [File:Octopus vulgaris Merculiano.jpg](https://upload.wikimedia.org/wikipedia/commons/3/32/Octopus_vulgaris_Merculiano.jpg) — Public domain — by Comingio Merculiano (1845-1915) in Jatta Giuseppe (1860-1903)
+- **Polar Bear** — [File:Polar bears near north pole.jpg](https://upload.wikimedia.org/wikipedia/commons/f/f5/Polar_bears_near_north_pole.jpg) — Public domain — by Chief Yeoman Alphonso Braggs, US-Navy
+- **Sloth** — [File:Bradypus.jpg](https://upload.wikimedia.org/wikipedia/commons/1/18/Bradypus.jpg) — Public domain — by Stefan Laube (Tauchgurke)
+- **Rhinoceros** — [File:Rhinoceros in South Africa adjusted.jpg](https://upload.wikimedia.org/wikipedia/commons/3/36/Rhinoceros_in_South_Africa_adjusted.jpg) — Public domain — by Komencanto, modified by ArtMechanic
+- **Hippopotamus** — [File:Hippopotamus @ Barcelona zoo.jpg](https://upload.wikimedia.org/wikipedia/commons/2/2b/Hippopotamus_%40_Barcelona_zoo.jpg) — Public domain — by Pedroserafin
+- **Wolf** — [File:Front view of a resting Canis lupus ssp.jpg](https://upload.wikimedia.org/wikipedia/commons/7/70/Front_view_of_a_resting_Canis_lupus_ssp.jpg) — Public domain — by Gary Kramer
+- **Fox** — [File:Common foxes in the snow.jpg](https://upload.wikimedia.org/wikipedia/commons/8/84/Common_foxes_in_the_snow.jpg) — Public domain — by Wilhelm Kuhnert
+- **Hedgehog** — [File:Erinaceus roumanicus 2020 G2.jpg](https://upload.wikimedia.org/wikipedia/commons/8/8b/Erinaceus_roumanicus_2020_G2.jpg) — Public domain — by George Chernilevsky
+- **Bison** — [File:American bison k5680-1.jpg](https://upload.wikimedia.org/wikipedia/commons/8/8d/American_bison_k5680-1.jpg) — Public domain — by Jack Dykinga
+- **Tiger** — [File:Panthera tigris altaica 13 - Buffalo Zoo.jpg](https://upload.wikimedia.org/wikipedia/commons/9/9e/Panthera_tigris_altaica_13_-_Buffalo_Zoo.jpg) — Public domain — by Dave Pape
+- **Red Panda** — [File:Red Panda (24986761703).jpg](https://upload.wikimedia.org/wikipedia/commons/e/e6/Red_Panda_%2824986761703%29.jpg) — CC0 — by Mathias Appel
+- **Platypus** — [File:Duck-billed platypus (Ornithorhynchus anatinus) Scottsdale.jpg](https://upload.wikimedia.org/wikipedia/commons/1/1a/Duck-billed_platypus_%28Ornithorhynchus_anatinus%29_Scottsdale.jpg) — CC BY-SA 4.0 — by Charles J. Sharp
+- **Cheetah** — [File:Cheetah (Acinonyx jubatus) female 2.jpg](https://upload.wikimedia.org/wikipedia/commons/3/36/Cheetah_%28Acinonyx_jubatus%29_female_2.jpg) — CC BY-SA 4.0 — by Charles J. Sharp
+- **Parrot** — [File:Ara ararauna Luc Viatour.jpg](https://upload.wikimedia.org/wikipedia/commons/e/ec/Ara_ararauna_Luc_Viatour.jpg) — CC BY 2.0 — by Luc Viatour
+- **Whale shark** — [File:Whale Shark AdF.jpg](https://upload.wikimedia.org/wikipedia/commons/c/c7/Whale_Shark_AdF.jpg) — CC BY-SA 4.0 — by Arturo de Frias Marques
+- **Kangaroo** — [File:Eastern Grey Kangaroo Feeding edited.jpg](https://upload.wikimedia.org/wikipedia/commons/f/f7/Eastern_Grey_Kangaroo_Feeding_edited.jpg) — CC BY-SA 3.0 — by Eastern_Grey_Kangaroo_Feeding.jpg:  Toby Hudson
+derivative work:  Durova (  talk )
+- **Elephant** — [File:Elefantes africanos de sabana (Loxodonta africana), Elephant Sands, Botsuana, 2018-07-28, DD 114-117 PAN.jpg](https://upload.wikimedia.org/wikipedia/commons/d/d7/Elefantes_africanos_de_sabana_%28Loxodonta_africana%29%2C_Elephant_Sands%2C_Botsuana%2C_2018-07-28%2C_DD_114-117_PAN.jpg) — CC BY-SA 4.0 — by Diego Delso
+- **Giraffe** — [File:Three giraffes 01.jpg](https://upload.wikimedia.org/wikipedia/commons/8/89/Three_giraffes_01.jpg) — CC BY-SA 4.0 — by Byrdyak
+- **Lion** — [File:Lion (Panthera leo) male 6y.jpg](https://upload.wikimedia.org/wikipedia/commons/9/9e/Lion_%28Panthera_leo%29_male_6y.jpg) — CC BY-SA 4.0 — by Charles J. Sharp
+- **Gorilla** — [File:Mountain gorilla (Gorilla beringei beringei) yawn.jpg](https://upload.wikimedia.org/wikipedia/commons/7/78/Mountain_gorilla_%28Gorilla_beringei_beringei%29_yawn.jpg) — CC BY-SA 4.0 — by Charles J. Sharp
+- **Panda** — [File:Lightmatter panda.jpg](https://upload.wikimedia.org/wikipedia/commons/8/8d/Lightmatter_panda.jpg) — CC BY 1.0 — by Aaron Logan
+- **Koala** — [File:Koala in Zoo Duisburg.jpg](https://upload.wikimedia.org/wikipedia/commons/9/90/Koala_in_Zoo_Duisburg.jpg) — CC BY 3.0 — by Till Niermann
+- **Zebra** — [File:Equus zebra hartmannae - Etosha 2015.jpg](https://upload.wikimedia.org/wikipedia/commons/c/c3/Equus_zebra_hartmannae_-_Etosha_2015.jpg) — CC BY-SA 4.0 — by Yathin S Krishnappa
+- **Raccoon** — [File:Raccoon (Procyon lotor) 2.jpg](https://upload.wikimedia.org/wikipedia/commons/e/ed/Raccoon_%28Procyon_lotor%29_2.jpg) — CC BY-SA 2.5 — by Darkone
+- **Meerkat** — [File:Meerkat (Suricata suricatta).jpg](https://upload.wikimedia.org/wikipedia/commons/c/c4/Meerkat_%28Suricata_suricatta%29.jpg) — CC BY-SA 4.0 — by Hans Hillewaert
+- **Otter** — [File:LutraCanadensis fullres.jpg](https://upload.wikimedia.org/wikipedia/commons/8/82/LutraCanadensis_fullres.jpg) — CC BY-SA 3.0 — by Dmitry Azovtsev
+- **Squirrel** — [File:Indian giant squirrel in Kuldiha Wildlife Sanctuary March 2025 by Tisha Mukherjee 01.jpg](https://upload.wikimedia.org/wikipedia/commons/c/c2/Indian_giant_squirrel_in_Kuldiha_Wildlife_Sanctuary_March_2025_by_Tisha_Mukherjee_01.jpg) — CC BY-SA 4.0 — by Tisha Mukherjee
+- **Camel** — [File:07. Camel Profile, near Silverton, NSW, 07.07.2007.jpg](https://upload.wikimedia.org/wikipedia/commons/4/43/07._Camel_Profile%2C_near_Silverton%2C_NSW%2C_07.07.2007.jpg) — CC BY-SA 3.0 — by Jjron
+- **Orangutan** — [File:Orangutan Kalimantan.jpg](https://upload.wikimedia.org/wikipedia/commons/a/ad/Orangutan_Kalimantan.jpg) — CC BY-SA 4.0 — by Ridwan0810
+- **Chimpanzee** — [File:013 Alpha male chimpanzee at Kibale forest National Park Photo by Giles Laurent.jpg](https://upload.wikimedia.org/wikipedia/commons/8/86/013_Alpha_male_chimpanzee_at_Kibale_forest_National_Park_Photo_by_Giles_Laurent.jpg) — CC BY-SA 4.0 — by Giles Laurent
+- **Leopard** — [File:Panthera pardus close up.jpg](https://upload.wikimedia.org/wikipedia/commons/0/03/Panthera_pardus_close_up.jpg) — CC BY-SA 3.0 — by tropicaLiving
+- **Wombat** — [File:Wombat Sleeping.jpg](https://upload.wikimedia.org/wikipedia/commons/5/5e/Wombat_Sleeping.jpg) — CC BY-SA 4.0 — by DestinationFearFan
+- **Tasmanian Devil** — [File:Sarcophilus harrisii taranna.jpg](https://upload.wikimedia.org/wikipedia/commons/4/43/Sarcophilus_harrisii_taranna.jpg) — CC BY-SA 3.0 — by JJ Harrison (https://www.jjharrison.com.au/)
+- **Bat** — [File:Myotis myotis portrait.jpg](https://upload.wikimedia.org/wikipedia/commons/f/f1/Myotis_myotis_portrait.jpg) — CC BY 4.0 — by Ester Premate
+- **Armadillo** — [File:Nine-banded armadillo (13594).jpg](https://upload.wikimedia.org/wikipedia/commons/5/52/Nine-banded_armadillo_%2813594%29.jpg) — CC BY-SA 4.0 — by Rhododendrites
+- **Moose** — [File:Bull Moose Portrait (41410522174).jpg](https://upload.wikimedia.org/wikipedia/commons/b/b2/Bull_Moose_Portrait_%2841410522174%29.jpg) — Public domain — by GrandTetonNPS
+- **Butterfly** — [File:Common brimstone butterfly (Gonepteryx rhamni) male.jpg](https://upload.wikimedia.org/wikipedia/commons/6/6a/Common_brimstone_butterfly_%28Gonepteryx_rhamni%29_male.jpg) — CC BY-SA 4.0 — by Charles J. Sharp
+- **Ladybug** — [File:Coccinella septempunctata couple (aka).jpg](https://upload.wikimedia.org/wikipedia/commons/b/bc/Coccinella_septempunctata_couple_%28aka%29.jpg) — CC BY-SA 2.5 — by André Karwath aka Aka
+- **Honeybee** — [File:European honey bee extracts nectar.jpg](https://upload.wikimedia.org/wikipedia/commons/1/1d/European_honey_bee_extracts_nectar.jpg) — Public domain — by John Severns (Severnjc)
+- **Dragonfly** — [File:Sympetrum flaveolum - side (aka).jpg](https://upload.wikimedia.org/wikipedia/commons/0/03/Sympetrum_flaveolum_-_side_%28aka%29.jpg) — CC BY-SA 2.5 — by André Karwath aka Aka
+- **Praying Mantis** — [File:European praying mantis (Mantis religiosa) green female Dobruja.jpg](https://upload.wikimedia.org/wikipedia/commons/6/62/European_praying_mantis_%28Mantis_religiosa%29_green_female_Dobruja.jpg) — CC BY-SA 4.0 — by Charles J. Sharp
+- **Grasshopper** — [File:Short-horned grasshoppers (Rhytidochrota risaraldae) mating.jpg](https://upload.wikimedia.org/wikipedia/commons/f/f6/Short-horned_grasshoppers_%28Rhytidochrota_risaraldae%29_mating.jpg) — CC BY-SA 4.0 — by Charles J. Sharp
+- **Beetle** — [File:Cetonia-aurata.jpg](https://upload.wikimedia.org/wikipedia/commons/a/ad/Cetonia-aurata.jpg) — CC BY-SA 3.0 — by Chrumps
+- **Cockroach** — [File:Blatta orientalis - Wilhelma 01.jpg](https://upload.wikimedia.org/wikipedia/commons/1/11/Blatta_orientalis_-_Wilhelma_01.jpg) — CC BY-SA 3.0 — by H. Zell
+- **Housefly** — [File:Copulating flies.jpg](https://upload.wikimedia.org/wikipedia/commons/8/80/Copulating_flies.jpg) — CC BY-SA 3.0 — by Tomascastelazo
+- **Mosquito** — [File:Mosquito 2007-2.jpg](https://upload.wikimedia.org/wikipedia/commons/d/dc/Mosquito_2007-2.jpg) — CC BY-SA 3.0 — by Alvesgaspar
+- **Wasp** — [File:Vespula germanica Richard Bartz.jpg](https://upload.wikimedia.org/wikipedia/commons/5/59/Vespula_germanica_Richard_Bartz.jpg) — CC BY-SA 2.5 — by Richard Bartz, Munich aka Makro Freak
+- **Bumblebee** — [File:Bombus terrestris queen - Tilia cordata - Keila.jpg](https://upload.wikimedia.org/wikipedia/commons/c/c5/Bombus_terrestris_queen_-_Tilia_cordata_-_Keila.jpg) — CC BY-SA 4.0 — by Ivar Leidus
+- **Moth** — [File:Owl moth (Automeris belti belti).jpg](https://upload.wikimedia.org/wikipedia/commons/6/66/Owl_moth_%28Automeris_belti_belti%29.jpg) — CC BY-SA 4.0 — by Charles J. Sharp
+- **Stick Insect** — [File:Stick insect (Phasmatodea sp.) Las Tangaras.jpg](https://upload.wikimedia.org/wikipedia/commons/a/ac/Stick_insect_%28Phasmatodea_sp.%29_Las_Tangaras.jpg) — CC BY-SA 4.0 — by Charles J. Sharp
+- **Aphid** — [File:Aphidoidea fight.jpg](https://upload.wikimedia.org/wikipedia/commons/4/4f/Aphidoidea_fight.jpg) — CC BY-SA 2.5 — by Richard Bartz, Munich aka Makro Freak
+- **Weevil** — [File:Weevil September 2008-1.jpg](https://upload.wikimedia.org/wikipedia/commons/6/62/Weevil_September_2008-1.jpg) — CC BY-SA 4.0 — by Alvesgaspar
+- **Stink Bug** — [File:Twice stabbed stink bug (21281).jpg](https://upload.wikimedia.org/wikipedia/commons/2/2e/Twice_stabbed_stink_bug_%2821281%29.jpg) — CC BY-SA 4.0 — by Rhododendrites
+- **Locust** — [File:Garden locust (Acanthacris ruficornis).jpg](https://upload.wikimedia.org/wikipedia/commons/3/37/Garden_locust_%28Acanthacris_ruficornis%29.jpg) — CC BY-SA 4.0 — by Charles J. Sharp
+- **Flea** — [File:Flea Scanning Electron Micrograph False Color.jpg](https://upload.wikimedia.org/wikipedia/commons/f/f9/Flea_Scanning_Electron_Micrograph_False_Color.jpg) — Public domain — by CDC/Janice Haney Carr
+- **Dung Beetle** — [File:Dung beetle (Deltochilum mexicanum) 3.jpg](https://upload.wikimedia.org/wikipedia/commons/4/43/Dung_beetle_%28Deltochilum_mexicanum%29_3.jpg) — CC BY-SA 4.0 — by Charles J. Sharp
+- **Rhinoceros Beetle** — [File:Three-horned rhinoceros beetle (Chalcosoma moellenkampi) male.jpg](https://upload.wikimedia.org/wikipedia/commons/4/40/Three-horned_rhinoceros_beetle_%28Chalcosoma_moellenkampi%29_male.jpg) — CC BY-SA 4.0 — by Charles J. Sharp
+- **Katydid** — [File:Bush-cricket 02 (MK).JPG](https://upload.wikimedia.org/wikipedia/commons/0/04/Bush-cricket_02_%28MK%29.JPG) — CC BY-SA 3.0 — by Leviathan (talk)
+- **Water Strider** — [File:Water strider (Gerridae sp.) Makiling.jpg](https://upload.wikimedia.org/wikipedia/commons/a/af/Water_strider_%28Gerridae_sp.%29_Makiling.jpg) — CC BY-SA 4.0 — by Charles J. Sharp
+- **Whirligig Beetle** — [File:Gyrinus.substriatus.-.lindsey.jpg](https://upload.wikimedia.org/wikipedia/commons/5/5f/Gyrinus.substriatus.-.lindsey.jpg) — CC BY-SA 3.0 — by James K. Lindsey
+- **Weta** — [File:Male tree weta-orig.jpg](https://upload.wikimedia.org/wikipedia/commons/8/84/Male_tree_weta-orig.jpg) — CC BY 2.5 — by Tony Wills
+- **Monarch Caterpillar** — [File:Monarch caterpillar (23229).jpg](https://upload.wikimedia.org/wikipedia/commons/9/90/Monarch_caterpillar_%2823229%29.jpg) — CC BY-SA 4.0 — by Rhododendrites
+- **Ant** — [File:Portrait of an ant, profile view.jpg](https://upload.wikimedia.org/wikipedia/commons/d/d6/Portrait_of_an_ant%2C_profile_view.jpg) — CC BY 4.0 — by Retro Lenses
+- **Cricket** — [File:Gryllus campestris Sant'Agata 05.jpg](https://upload.wikimedia.org/wikipedia/commons/4/44/Gryllus_campestris_Sant%27Agata_05.jpg) — CC BY-SA 4.0 — by Syrio
+- **Termite** — [File:Termites (Nasutitermes corniger) (8371245976).jpg](https://upload.wikimedia.org/wikipedia/commons/e/ee/Termites_%28Nasutitermes_corniger%29_%288371245976%29.jpg) — CC BY-SA 2.0 — by Bernard DUPONT from FRANCE
+- **Firefly** — [File:Glow Worm Beetle (Lampyridae) male (31709785113).jpg](https://upload.wikimedia.org/wikipedia/commons/c/c0/Glow_Worm_Beetle_%28Lampyridae%29_male_%2831709785113%29.jpg) — CC BY-SA 2.0 — by Bernard DUPONT from FRANCE
+- **Cicada** — [File:Magicicada septendecim.jpg](https://upload.wikimedia.org/wikipedia/commons/4/43/Magicicada_septendecim.jpg) — Public domain
+- **Earwig** — [File:European Earwig (Forficula auricularia) - Guelph, Ontario 2017-05-17.jpg](https://upload.wikimedia.org/wikipedia/commons/7/73/European_Earwig_%28Forficula_auricularia%29_-_Guelph%2C_Ontario_2017-05-17.jpg) — CC BY-SA 4.0 — by Ryan Hodnett
+- **Silkworm** — [File:Bombix morí larva.jpg](https://upload.wikimedia.org/wikipedia/commons/c/c8/Bombix_mor%C3%AD_larva.jpg) — CC BY 4.0 — by Laprofedebio
+- **Stag Beetle** — [File:Cerf-volant MHNT Close up.jpg](https://upload.wikimedia.org/wikipedia/commons/2/28/Cerf-volant_MHNT_Close_up.jpg) — CC BY-SA 3.0 — by Didier Descouens
+- **Mayfly** — [File:Ephemera danica.jpg](https://upload.wikimedia.org/wikipedia/commons/0/03/Ephemera_danica.jpg) — CC BY-SA 3.0 — by jean pierre Hamon
+- **Antlion** — [File:Antlion larva.jpg](https://upload.wikimedia.org/wikipedia/commons/c/c2/Antlion_larva.jpg) — CC0 — by Djzanni
+- **Crocodile** — [File:Saltwater crocodile in Sundarbans National Park November 2024 by Tisha Mukherjee 03.jpg](https://upload.wikimedia.org/wikipedia/commons/4/42/Saltwater_crocodile_in_Sundarbans_National_Park_November_2024_by_Tisha_Mukherjee_03.jpg) — CC BY-SA 4.0 — by Tisha Mukherjee
+- **Iguana** — [File:Iguana V.jpg](https://upload.wikimedia.org/wikipedia/commons/7/7f/Iguana_V.jpg) — CC BY-SA 3.0 — by Rjcastillo
+- **Frog** — [File:Golden-eyed tree frog (Agalychnis annae).jpg](https://upload.wikimedia.org/wikipedia/commons/c/c6/Golden-eyed_tree_frog_%28Agalychnis_annae%29.jpg) — CC BY-SA 4.0 — by Charles J. Sharp
+- **Tortoise** — [File:Tortoise portrait.JPG](https://upload.wikimedia.org/wikipedia/commons/5/52/Tortoise_portrait.JPG) — CC BY 3.0 — by Moise Nicu
+- **Komodo Dragon** — [File:Komodo dragon (Varanus komodoensis).jpg](https://upload.wikimedia.org/wikipedia/commons/e/e8/Komodo_dragon_%28Varanus_komodoensis%29.jpg) — CC BY-SA 4.0 — by Charles J. Sharp
+- **King Cobra** — [File:King cobra (Ophiophagus hannah) Bach Ma 2.jpg](https://upload.wikimedia.org/wikipedia/commons/8/80/King_cobra_%28Ophiophagus_hannah%29_Bach_Ma_2.jpg) — CC BY-SA 4.0 — by Charles J. Sharp
+- **Salamander** — [File:Salamandra salamandra MHNT 1.jpg](https://upload.wikimedia.org/wikipedia/commons/1/1b/Salamandra_salamandra_MHNT_1.jpg) — CC BY-SA 4.0 — by Didier Descouens
+- **Alligator** — [File:Alligator mississippiensis 113744549.jpg](https://upload.wikimedia.org/wikipedia/commons/5/54/Alligator_mississippiensis_113744549.jpg) — CC0 — by Zygy
+- **Rattlesnake** — [File:Cascavel - crotalus durissus.jpg](https://upload.wikimedia.org/wikipedia/commons/b/be/Cascavel_-_crotalus_durissus.jpg) — CC BY-SA 4.0 — by Renato Augusto Martins
+- **Green Tree Python** — [File:Green Tree Python 0A2A0428.jpg](https://upload.wikimedia.org/wikipedia/commons/e/eb/Green_Tree_Python_0A2A0428.jpg) — CC BY-SA 3.0 — by JJ Harrison
+- **Bearded Dragon** — [File:Eastern-Bearded-Dragon-2.2,-Vic,-3.1.2008.jpg](https://upload.wikimedia.org/wikipedia/commons/1/1b/Eastern-Bearded-Dragon-2.2%2C-Vic%2C-3.1.2008.jpg) — CC BY-SA 3.0 — by jjron
+- **Poison Dart Frog** — [File:Dendrobates azureus (Dendrobates tinctorius) Edit.jpg](https://upload.wikimedia.org/wikipedia/commons/6/6f/Dendrobates_azureus_%28Dendrobates_tinctorius%29_Edit.jpg) — CC BY 3.0 — by Michael Gäbler
+- **Axolotl** — [File:Ambystoma mexicanum 1.jpg](https://upload.wikimedia.org/wikipedia/commons/6/6b/Ambystoma_mexicanum_1.jpg) — CC BY-SA 3.0 — by Stan Shebs
+- **Monitor Lizard** — [File:Nile monitor lizard (Varanus niloticus) head.jpg](https://upload.wikimedia.org/wikipedia/commons/f/f3/Nile_monitor_lizard_%28Varanus_niloticus%29_head.jpg) — CC BY-SA 4.0 — by Charles J. Sharp
+- **Garter Snake** — [File:Coast Garter Snake.jpg](https://upload.wikimedia.org/wikipedia/commons/7/76/Coast_Garter_Snake.jpg) — CC BY 2.0 — by Steve Jurvetson from Menlo Park, USA
+- **Boa Constrictor** — [File:Red-tailed boa (Boa constrictor constrictor) Rio Napo.jpg](https://upload.wikimedia.org/wikipedia/commons/2/27/Red-tailed_boa_%28Boa_constrictor_constrictor%29_Rio_Napo.jpg) — CC BY-SA 4.0 — by Charles J. Sharp
+- **Snapping Turtle** — [File:Chelydra serpentina 2017 G1.jpg](https://upload.wikimedia.org/wikipedia/commons/f/f5/Chelydra_serpentina_2017_G1.jpg) — CC BY 4.0 — by George Chernilevsky
+- **Horned Lizard** — [File:Phrynosoma hernandesi (Calibas).jpg](https://upload.wikimedia.org/wikipedia/commons/7/7c/Phrynosoma_hernandesi_%28Calibas%29.jpg) — CC BY-SA 3.0 — by Calibas
+- **Toad** — [File:Bufo bufo couple during migration(2005).jpg](https://upload.wikimedia.org/wikipedia/commons/f/f7/Bufo_bufo_couple_during_migration%282005%29.jpg) — CC BY-SA 3.0 — by Janekpfeifer at de.wikipedia
+- **Skink** — [File:Cape Skink Flowers.jpg](https://upload.wikimedia.org/wikipedia/commons/f/f8/Cape_Skink_Flowers.jpg) — CC BY-SA 4.0 — by Prosthetic Head
+- **Leatherback Sea Turtle** — [File:Leatherback turtle nesting on a beach in Grande Riviere.jpg](https://upload.wikimedia.org/wikipedia/commons/e/e3/Leatherback_turtle_nesting_on_a_beach_in_Grande_Riviere.jpg) — CC BY-SA 4.0 — by Jordan Beard
+- **Tuatara** — [File:Tuatara (01).jpg](https://upload.wikimedia.org/wikipedia/commons/5/5d/Tuatara_%2801%29.jpg) — CC BY-SA 2.0 — by NAPARAZZI
+- **Gila Monster** — [File:Gila monster (Heloderma suspectum).jpg](https://upload.wikimedia.org/wikipedia/commons/c/ca/Gila_monster_%28Heloderma_suspectum%29.jpg) — CC BY-SA 4.0 — by Theo Kruse / Burgers' Zoo
+- **Flying Dragon Lizard** — [File:Draco volans 01.JPG](https://upload.wikimedia.org/wikipedia/commons/9/95/Draco_volans_01.JPG) — CC BY-SA 3.0 — by H. Zell
+- **Basilisk Lizard** — [File:Juvenile Basilisk Lizard (Basiliscus basiliscus) - Flickr - gailhampshire.jpg](https://upload.wikimedia.org/wikipedia/commons/d/d9/Juvenile_Basilisk_Lizard_%28Basiliscus_basiliscus%29_-_Flickr_-_gailhampshire.jpg) — CC BY 2.0 — by gailhampshire from Cradley, Malvern, U.K
+- **Bullfrog** — [File:Lithobates catesbeianus PP.jpg](https://upload.wikimedia.org/wikipedia/commons/6/66/Lithobates_catesbeianus_PP.jpg) — CC BY-SA 3.0 — by Cephas
+- **Tree Frog** — [File:Agalychnis callidryas.jpg](https://upload.wikimedia.org/wikipedia/commons/0/07/Agalychnis_callidryas.jpg) — CC BY-SA 3.0 — by Christian R. Linder
+- **Anole** — [File:Anole Lizard Hilo Hawaii edit.jpg](https://upload.wikimedia.org/wikipedia/commons/4/4a/Anole_Lizard_Hilo_Hawaii_edit.jpg) — CC BY-SA 2.5 — by Paul Hirst (Phirst)
+- **Chameleon** — [File:Veiled chameleon Chamaeleo calyptratus Berlin Zoo.jpg](https://upload.wikimedia.org/wikipedia/commons/3/3f/Veiled_chameleon_Chamaeleo_calyptratus_Berlin_Zoo.jpg) — CC BY-SA 4.0 — by Kristof Magnusson
+- **Gecko** — [File:Leopard gecko (Eublepharis macularius) at Alligator Bay, Normandy.jpg](https://upload.wikimedia.org/wikipedia/commons/1/13/Leopard_gecko_%28Eublepharis_macularius%29_at_Alligator_Bay%2C_Normandy.jpg) — CC BY 2.0 — by William Warby from London, England
+- **Newt** — [File:Eastern Newt (Notophthalmus viridescens) (6202626428).jpg](https://upload.wikimedia.org/wikipedia/commons/6/66/Eastern_Newt_%28Notophthalmus_viridescens%29_%286202626428%29.jpg) — CC BY 2.0 — by Dave Huth from Allegany County, NY, USA
+- **Anaconda** — [File:Eunectes murinus (1).jpg](https://upload.wikimedia.org/wikipedia/commons/c/cc/Eunectes_murinus_%281%29.jpg) — Public domain — by TimVickers
+- **Copperhead Snake** — [File:Agkistrodon contortrix (Nordamerikanischer Kupferkopf) im Exotarium Oberhof.jpg](https://upload.wikimedia.org/wikipedia/commons/1/13/Agkistrodon_contortrix_%28Nordamerikanischer_Kupferkopf%29_im_Exotarium_Oberhof.jpg) — CC BY-SA 4.0 — by Stephan van Helden
+- **Chinese Water Dragon** — [File:Physignathus cocincinus chinese green water dragon toronto zoo jan 08 2.jpg](https://upload.wikimedia.org/wikipedia/commons/6/6d/Physignathus_cocincinus_chinese_green_water_dragon_toronto_zoo_jan_08_2.jpg) — CC BY-SA 3.0 — by Theonlysilentbob
+- **Milk Snake** — [File:Eastern Milk Snake (Lampropeltis triangulum triangulum) (42646924152).jpg](https://upload.wikimedia.org/wikipedia/commons/d/d7/Eastern_Milk_Snake_%28Lampropeltis_triangulum_triangulum%29_%2842646924152%29.jpg) — CC BY 2.0 — by Peter Paplanus from St. Louis, Missouri
+- **Painted Turtle** — [File:Male Painted Turtle Basking Mirror Image.jpg](https://upload.wikimedia.org/wikipedia/commons/7/76/Male_Painted_Turtle_Basking_Mirror_Image.jpg) — CC BY-SA 3.0 — by Male_Painted_Turtle_Basking.JPG: Matt Keevil
+derivative work: TCO (talk)
+- **Cow** — [File:Cow (Fleckvieh breed) Oeschinensee Slaunger 2009-07-07.jpg](https://upload.wikimedia.org/wikipedia/commons/8/8c/Cow_%28Fleckvieh_breed%29_Oeschinensee_Slaunger_2009-07-07.jpg) — CC BY-SA 3.0 — by Kim Hansen
+- **Pig** — [File:Pot-bellied pigs in Lisbon Zoo 2008.jpg](https://upload.wikimedia.org/wikipedia/commons/5/5c/Pot-bellied_pigs_in_Lisbon_Zoo_2008.jpg) — CC BY-SA 4.0 — by Alvesgaspar
+- **Sheep** — [File:Flock of sheep.jpg](https://upload.wikimedia.org/wikipedia/commons/2/2c/Flock_of_sheep.jpg) — Public domain — by Keith Weller
+- **Horse** — [File:Biandintz eta zaldiak - modified2.jpg](https://upload.wikimedia.org/wikipedia/commons/a/a2/Biandintz_eta_zaldiak_-_modified2.jpg) — CC BY-SA 2.0 — by Mikel Ortega from Errenteria, Basque Country, Spain, with a retouche by Richard Bartz. See the original file here.
+- **Goat** — [File:Capra aegagrus hircus in isla Margarita.jpg](https://upload.wikimedia.org/wikipedia/commons/9/9c/Capra_aegagrus_hircus_in_isla_Margarita.jpg) — CC0 — by Wilfredor
+- **Duck** — [File:Male mallard duck 2.jpg](https://upload.wikimedia.org/wikipedia/commons/2/24/Male_mallard_duck_2.jpg) — CC BY 3.0 — by Acarpentier
+- **Turkey** — [File:Male wild turkey (Meleagris gallopavo) strutting.jpg](https://upload.wikimedia.org/wikipedia/commons/8/8a/Male_wild_turkey_%28Meleagris_gallopavo%29_strutting.jpg) — CC BY-SA 4.0 — by Frank Schulenburg
+- **Donkey** — [File:Equus asinus Kadzidłowo 001.jpg](https://upload.wikimedia.org/wikipedia/commons/8/80/Equus_asinus_Kadzid%C5%82owo_001.jpg) — CC BY-SA 3.0 — by Lilly M
+- **Goose** — [File:Domestic Goose.jpg](https://upload.wikimedia.org/wikipedia/commons/3/39/Domestic_Goose.jpg) — CC BY-SA 3.0 — by JJ Harrison
+- **Llama** — [File:Lama glama Laguna Colorada 2.jpg](https://upload.wikimedia.org/wikipedia/commons/2/2e/Lama_glama_Laguna_Colorada_2.jpg) — CC BY-SA 4.0 — by kallerna
+- **Alpaca** — [File:Dülmen, Börnste, Alpakas -- 2020 -- 5462.jpg](https://upload.wikimedia.org/wikipedia/commons/2/26/D%C3%BClmen%2C_B%C3%B6rnste%2C_Alpakas_--_2020_--_5462.jpg) — CC BY-SA 4.0 — by Dietmar Rabich
+- **Water Buffalo** — [File:Close-up photograph of the head of a water buffalo bathing with open mouth at golden hour in Laos.jpg](https://upload.wikimedia.org/wikipedia/commons/3/3a/Close-up_photograph_of_the_head_of_a_water_buffalo_bathing_with_open_mouth_at_golden_hour_in_Laos.jpg) — CC BY-SA 4.0 — by Basile Morin
+- **Bull** — [File:Charolais cattle, Sierra Nevada, Venezuela.jpg](https://upload.wikimedia.org/wikipedia/commons/c/cc/Charolais_cattle%2C_Sierra_Nevada%2C_Venezuela.jpg) — CC0 — by Wilfredor
+- **Calf** — [File:New born Frisian red white calf.jpg](https://upload.wikimedia.org/wikipedia/commons/f/fb/New_born_Frisian_red_white_calf.jpg) — CC BY-SA 3.0 — by Uberprutser
+- **Piglet** — [File:Contre-jour photograph of a standing piglet at sunset with colorful sky in Don Det Laos.jpg](https://upload.wikimedia.org/wikipedia/commons/0/08/Contre-jour_photograph_of_a_standing_piglet_at_sunset_with_colorful_sky_in_Don_Det_Laos.jpg) — CC BY-SA 4.0 — by Basile Morin
+- **Lamb** — [File:Lamb - Animal Park Muggensturm 01.jpg](https://upload.wikimedia.org/wikipedia/commons/a/a9/Lamb_-_Animal_Park_Muggensturm_01.jpg) — CC BY-SA 3.0 — by H. Zell
+- **Baby Chick** — [File:Gallus gallus domesticus - Vogelpark Steinen 03.jpg](https://upload.wikimedia.org/wikipedia/commons/c/c1/Gallus_gallus_domesticus_-_Vogelpark_Steinen_03.jpg) — CC BY-SA 3.0 — by H. Zell
+- **Draft Horse** — [File:Draft horse pulling logs in Parc naturel Hautes Fagnes, Eupen, Belgium (VeloTour 54 to 55, DSCF3703).jpg](https://upload.wikimedia.org/wikipedia/commons/a/ad/Draft_horse_pulling_logs_in_Parc_naturel_Hautes_Fagnes%2C_Eupen%2C_Belgium_%28VeloTour_54_to_55%2C_DSCF3703%29.jpg) — CC BY 4.0 — by Trougnouf
+- **Mule** — [File:Oregon National Historic Trail in Wyoming.jpg](https://upload.wikimedia.org/wikipedia/commons/7/7a/Oregon_National_Historic_Trail_in_Wyoming.jpg) — Public domain — by Bureau  of Land Management
+- **Ox** — [File:Ploughing paddy field with oxen, Umaria district, MP, India.jpg](https://upload.wikimedia.org/wikipedia/commons/1/1f/Ploughing_paddy_field_with_oxen%2C_Umaria_district%2C_MP%2C_India.jpg) — CC BY-SA 4.0 — by Yann (talk)
+- **Guinea Fowl** — [File:177 Helmeted guinea fowl fighting in Etosha National Park Photo by Giles Laurent.jpg](https://upload.wikimedia.org/wikipedia/commons/d/d0/177_Helmeted_guinea_fowl_fighting_in_Etosha_National_Park_Photo_by_Giles_Laurent.jpg) — CC BY-SA 4.0 — by Giles Laurent
+- **Quail** — [File:Coturnix japonica, Yehliu, Taiwan 1.jpg](https://upload.wikimedia.org/wikipedia/commons/a/aa/Coturnix_japonica%2C_Yehliu%2C_Taiwan_1.jpg) — CC BY-SA 2.0 — by 孫鋒 林 from Taipei, Taiwan
+- **Shetland Pony** — [File:Shetland pony - Postbridge.jpg](https://upload.wikimedia.org/wikipedia/commons/a/a4/Shetland_pony_-_Postbridge.jpg) — CC BY-SA 4.0 — by Herbythyme
+- **Peacock** — [File:Paonroue.JPG](https://upload.wikimedia.org/wikipedia/commons/0/05/Paonroue.JPG) — CC BY-SA 3.0 — by Jebulon
+- **Pigeon** — [File:Common pigeon at Waterlow Park, London 01.jpg](https://upload.wikimedia.org/wikipedia/commons/3/3c/Common_pigeon_at_Waterlow_Park%2C_London_01.jpg) — CC BY-SA 4.0 — by Satdeep Gill
+- **Border Collie** — [File:Border-Collie-tri-colour-face-1.jpg](https://upload.wikimedia.org/wikipedia/commons/3/37/Border-Collie-tri-colour-face-1.jpg) — CC BY-SA 3.0 — by Kreuzschnabel
+- **Barn Cat** — [File:Black barn cat - Public Domain (2014 photo; cropped 2022).jpg](https://upload.wikimedia.org/wikipedia/commons/2/25/Black_barn_cat_-_Public_Domain_%282014_photo%3B_cropped_2022%29.jpg) — CC0 — by Lisafern
+- **Emu** — [File:Dromaius novaehollandiae (head) Battersea Park Children's Zoo.jpg](https://upload.wikimedia.org/wikipedia/commons/5/57/Dromaius_novaehollandiae_%28head%29_Battersea_Park_Children%27s_Zoo.jpg) — CC BY 2.0 — by William Warby
+- **Ostrich** — [File:Struthio camelus portrait Whipsnade Zoo.jpg](https://upload.wikimedia.org/wikipedia/commons/b/bd/Struthio_camelus_portrait_Whipsnade_Zoo.jpg) — CC BY 2.0 — by William Warby
+- **Yak** — [File:Bos grunniens at Letdar on Annapurna Circuit.jpg](https://upload.wikimedia.org/wikipedia/commons/0/0e/Bos_grunniens_at_Letdar_on_Annapurna_Circuit.jpg) — CC BY-SA 2.0 — by travelwayoflife
+- **Bison** — [File:American bison k5680-1.jpg](https://upload.wikimedia.org/wikipedia/commons/8/8d/American_bison_k5680-1.jpg) — Public domain — by Jack Dykinga
+- **Camel** — [File:07. Camel Profile, near Silverton, NSW, 07.07.2007.jpg](https://upload.wikimedia.org/wikipedia/commons/4/43/07._Camel_Profile%2C_near_Silverton%2C_NSW%2C_07.07.2007.jpg) — CC BY-SA 3.0 — by Jjron
+- **Zebu** — [File:Zebu in Ethiopia 02.jpg](https://upload.wikimedia.org/wikipedia/commons/8/88/Zebu_in_Ethiopia_02.jpg) — CC BY-SA 3.0 — by Bernard Gagnon
+- **Pony** — [File:IcelandicHorseInWinter.jpg](https://upload.wikimedia.org/wikipedia/commons/e/e6/IcelandicHorseInWinter.jpg) — CC BY-SA 3.0 — by Andreas Tille
+- **Chicken** — [File:20160303 - Gallus gallus domesticus 7.jpg](https://upload.wikimedia.org/wikipedia/commons/f/f0/20160303_-_Gallus_gallus_domesticus_7.jpg) — CC BY-SA 4.0 — by Emőke Dénes
+- **Rooster** — [File:Rooster - Gallus gallus domesticus.jpg](https://upload.wikimedia.org/wikipedia/commons/c/c8/Rooster_-_Gallus_gallus_domesticus.jpg) — CC BY-SA 3.0 — by MrPanyGoff
+- **Golden Retriever** — [File:Dülmen, Hausdülmen, Golden Retriever -- 2022 -- 5945.jpg](https://upload.wikimedia.org/wikipedia/commons/b/bf/D%C3%BClmen%2C_Hausd%C3%BClmen%2C_Golden_Retriever_--_2022_--_5945.jpg) — CC BY-SA 4.0 — by Dietmar Rabich
+- **Tabby Cat** — [File:Cat November 2010-1a.jpg](https://upload.wikimedia.org/wikipedia/commons/4/4d/Cat_November_2010-1a.jpg) — CC BY-SA 3.0 — by Alvesgaspar
+- **Goldfish** — [File:Fountain with goldfish in Jardí del Bisbe 03.jpg](https://upload.wikimedia.org/wikipedia/commons/2/2e/Fountain_with_goldfish_in_Jard%C3%AD_del_Bisbe_03.jpg) — CC BY-SA 4.0 — by Kritzolina
+- **Hamster** — [File:Baby Hamster - 2 Weeks Old.jpg](https://upload.wikimedia.org/wikipedia/commons/0/0f/Baby_Hamster_-_2_Weeks_Old.jpg) — CC BY-SA 3.0 — by Augustus Binu : flickr : Instagram
+- **Parakeet** — [File:Rose-ringed parakeet (Psittacula krameri borealis) male Jaipur 2.jpg](https://upload.wikimedia.org/wikipedia/commons/1/1f/Rose-ringed_parakeet_%28Psittacula_krameri_borealis%29_male_Jaipur_2.jpg) — CC BY-SA 4.0 — by Charles J. Sharp
+- **Rabbit** — [File:Lapin blanc.jpg](https://upload.wikimedia.org/wikipedia/commons/3/39/Lapin_blanc.jpg) — CC BY-SA 3.0 — by Fabien1309
+- **Guinea Pig** — [File:Cochon d'Inde (Cavia porcellus) (2).jpg](https://upload.wikimedia.org/wikipedia/commons/2/2d/Cochon_d%27Inde_%28Cavia_porcellus%29_%282%29.jpg) — CC BY-SA 4.0 — by Gzen92
+- **Poodle** — [File:Toy Poodle wearing clothes in Tokyo.jpg](https://upload.wikimedia.org/wikipedia/commons/6/6f/Toy_Poodle_wearing_clothes_in_Tokyo.jpg) — CC BY-SA 4.0 — by Basile Morin
+- **Siamese Cat** — [File:Siamese cat, female.jpg](https://upload.wikimedia.org/wikipedia/commons/9/97/Siamese_cat%2C_female.jpg) — CC BY-SA 4.0 — by Felinlove
+- **Pet Turtle** — [File:Pet turtle 2005-7-11.jpg](https://upload.wikimedia.org/wikipedia/commons/3/37/Pet_turtle_2005-7-11.jpg) — CC BY-SA 2.5 — by No machine-readable author provided. Isaac Ching assumed (based on copyright claims).
+- **Ferret** — [File:Treating Mustela putorius furo.jpg](https://upload.wikimedia.org/wikipedia/commons/8/85/Treating_Mustela_putorius_furo.jpg) — CC BY-SA 3.0 — by L. Mahin
+- **Chihuahua** — [File:Chihuahua montage.jpg](https://upload.wikimedia.org/wikipedia/commons/0/01/Chihuahua_montage.jpg) — CC BY-SA 4.0 — by El Sombrerero
+- **Persian Cat** — [File:Cat playing with a lizard.jpg](https://upload.wikimedia.org/wikipedia/commons/7/72/Cat_playing_with_a_lizard.jpg) — CC BY-SA 4.0 — by Basile Morin
+- **Bulldog** — [File:French bulldog in life jacket.jpg](https://upload.wikimedia.org/wikipedia/commons/d/d6/French_bulldog_in_life_jacket.jpg) — CC0 — by W.carter
+- **Cockatiel** — [File:Nymphicus hollandicus MHNT.ZOO.2010.11.148.28.jpg](https://upload.wikimedia.org/wikipedia/commons/7/74/Nymphicus_hollandicus_MHNT.ZOO.2010.11.148.28.jpg) — CC BY-SA 4.0 — by Roger Culos
+- **Betta Fish** — [File:Male Betta -34245661920.jpg](https://upload.wikimedia.org/wikipedia/commons/6/62/Male_Betta_-34245661920.jpg) — CC0 — by ivabalk https://pixabay.com/pt/users/ivabalk-782511/
+- **Labrador Retriever** — [File:Labrador Retriever - Yellow.JPG](https://upload.wikimedia.org/wikipedia/commons/d/d4/Labrador_Retriever_-_Yellow.JPG) — CC BY 3.0 — by Skansken
+- **German Shepherd** — [File:20110425 German Shepherd Dog 8505.jpg](https://upload.wikimedia.org/wikipedia/commons/6/61/20110425_German_Shepherd_Dog_8505.jpg) — CC BY-SA 4.0 — by Jakub Hałun
+- **Maine Coon Cat** — [File:Maine Coon kittens NO Sigdalskauen.jpg](https://upload.wikimedia.org/wikipedia/commons/3/34/Maine_Coon_kittens_NO_Sigdalskauen.jpg) — CC BY-SA 4.0 — by T. Bjornstad
+- **Gerbil** — [File:Rhombomys opimus 1.jpg](https://upload.wikimedia.org/wikipedia/commons/0/08/Rhombomys_opimus_1.jpg) — CC BY-SA 3.0 — by Yuriy75
+- **Chinchilla** — [File:Chinchilla lanigera1.jpg](https://upload.wikimedia.org/wikipedia/commons/e/e8/Chinchilla_lanigera1.jpg) — Public domain — by Trurl66
+- **Corgi** — [File:Fawn and white Welsh Corgi puppy standing on rear legs and sticking out the tongue.jpg](https://upload.wikimedia.org/wikipedia/commons/4/4a/Fawn_and_white_Welsh_Corgi_puppy_standing_on_rear_legs_and_sticking_out_the_tongue.jpg) — CC0 — by Huoadg5888Minor edits made by Subsidiary account
+- **Dachshund** — [File:Teckel - 39.jpg](https://upload.wikimedia.org/wikipedia/commons/1/17/Teckel_-_39.jpg) — CC BY-SA 4.0 — by Another one of my pictures:
+
+
+
+This photograph was taken by Medium69 (William Crochot) and released under the license stated below. You are free to use it for any purpose as long as you credit the author (William Crochot), the Source (Wikimedia Commons) and the license (CC-BY-SA 4.0) in close relation to the image.
+
+
+
+
+
+Please do not upload an updated image here without consultation with the Author. The author would like to make corrections only at his own source RAW. This ensures that the changes are preserved.Please if you think that any changes should be required, please inform the author.Otherwise you can upload a new image with a new name. Please use one of the templates derivative or extract.
+- **Beagle** — [File:PAT Beagle.jpg](https://upload.wikimedia.org/wikipedia/commons/d/d7/PAT_Beagle.jpg) — CC BY-SA 4.0 — by Train2104
+- **Sphynx Cat** — [File:Cat Sphynx. Kittens. img 11.jpg](https://upload.wikimedia.org/wikipedia/commons/2/29/Cat_Sphynx._Kittens._img_11.jpg) — CC BY-SA 4.0 — by Dmitry Makeev
+- **Budgerigar** — [File:Budgerigar- Mount Hope.jpg](https://upload.wikimedia.org/wikipedia/commons/e/e7/Budgerigar-_Mount_Hope.jpg) — CC BY-SA 3.0 — by JJ Harrison
+- **Cockatoo** — [File:Palm Cockatoo 0A2A7769.jpg](https://upload.wikimedia.org/wikipedia/commons/c/c6/Palm_Cockatoo_0A2A7769.jpg) — CC BY-SA 3.0 — by JJ Harrison
+- **Hermit Crab** — [File:Calliactis and Dardanus 001.JPG](https://upload.wikimedia.org/wikipedia/commons/8/8e/Calliactis_and_Dardanus_001.JPG) — CC BY-SA 3.0 — by H. Zell
+- **Leopard Gecko** — [File:Eublepharis macularius 2009 G6.jpg](https://upload.wikimedia.org/wikipedia/commons/7/7f/Eublepharis_macularius_2009_G6.jpg) — Public domain — by George Chernilevsky
+- **Angelfish** — [File:Pterophyllum altum.jpg](https://upload.wikimedia.org/wikipedia/commons/8/85/Pterophyllum_altum.jpg) — CC BY-SA 1.0
+- **Pet Rat** — [File:Fancy Rat Dalmatian.jpg](https://upload.wikimedia.org/wikipedia/commons/1/13/Fancy_Rat_Dalmatian.jpg) — CC BY-SA 4.0 — by AviationFreak
+- **Hedgehog** — [File:Erinaceus europaeus (Linnaeus, 1758).jpg](https://upload.wikimedia.org/wikipedia/commons/c/cb/Erinaceus_europaeus_%28Linnaeus%2C_1758%29.jpg) — CC BY-SA 3.0 — by Michael Gäbler
+- **Pug** — [File:SRB PUG.jpeg](https://upload.wikimedia.org/wikipedia/commons/7/74/SRB_PUG.jpeg) — CC BY-SA 4.0 — by Alexander Krüger
+- **Shih Tzu** — [File:Shih Tzu portrait show dog.jpg](https://upload.wikimedia.org/wikipedia/commons/0/01/Shih_Tzu_portrait_show_dog.jpg) — CC BY 2.0 — by danny O.
+- **Great Dane** — [File:Great Dane dog park and pub.jpg](https://upload.wikimedia.org/wikipedia/commons/3/3d/Great_Dane_dog_park_and_pub.jpg) — CC BY-SA 4.0
+- **Pet Tarantula** — [File:Theraphosa blondi MHNT.jpg](https://upload.wikimedia.org/wikipedia/commons/b/ba/Theraphosa_blondi_MHNT.jpg) — CC BY-SA 4.0
+- **Rose** — [File:Rosa 'Rosengräfin Marie Henriette' (actm).jpg](https://upload.wikimedia.org/wikipedia/commons/c/cf/Rosa_%27Rosengr%C3%A4fin_Marie_Henriette%27_%28actm%29.jpg) — CC BY-SA 4.0 — by Agnes Monkelbaan
+- **Sunflower** — [File:Sunflower head 2026 G1.jpg](https://upload.wikimedia.org/wikipedia/commons/3/3f/Sunflower_head_2026_G1.jpg) — CC BY 4.0 — by George Chernilevsky
+- **Tulip** — [File:Red and white tulip at Myddelton House, Enfield, London.jpg](https://upload.wikimedia.org/wikipedia/commons/3/3c/Red_and_white_tulip_at_Myddelton_House%2C_Enfield%2C_London.jpg) — CC BY-SA 4.0 — by Acabashi
+- **Daisy** — [File:Bellis perennis full plant.jpg](https://upload.wikimedia.org/wikipedia/commons/5/54/Bellis_perennis_full_plant.jpg) — CC BY-SA 3.0 de — by Grand-Duc
+- **Orchid** — [File:Orchidaceae flowers - magenta colour.jpg](https://upload.wikimedia.org/wikipedia/commons/a/a5/Orchidaceae_flowers_-_magenta_colour.jpg) — CC BY-SA 4.0 — by Mister rf
+- **Lily** — [File:Formosa lily, Nagai Park, Osaka.jpg](https://upload.wikimedia.org/wikipedia/commons/f/fd/Formosa_lily%2C_Nagai_Park%2C_Osaka.jpg) — CC BY-SA 4.0 — by Laitche
+- **Marigold** — [File:Calendula January 2008-1 filtered.jpg](https://upload.wikimedia.org/wikipedia/commons/6/67/Calendula_January_2008-1_filtered.jpg) — CC BY-SA 3.0 — by Alvesgaspar
+- **Peony** — [File:Paeonia suffruticosa white070503.jpg](https://upload.wikimedia.org/wikipedia/commons/a/a3/Paeonia_suffruticosa_white070503.jpg) — Public domain — by 池田正樹 (talk)masaki ikeda
+- **Daffodil** — [File:Narcissus poeticus Spechtensee 01.JPG](https://upload.wikimedia.org/wikipedia/commons/7/79/Narcissus_poeticus_Spechtensee_01.JPG) — CC BY-SA 4.0 — by Uoaei1
+- **Iris** — [File:Verschiedenfarbige Schwertlilie (Iris versicolor)-20200603-RM-100257.jpg](https://upload.wikimedia.org/wikipedia/commons/0/03/Verschiedenfarbige_Schwertlilie_%28Iris_versicolor%29-20200603-RM-100257.jpg) — CC BY-SA 4.0 — by Ermell
+- **Chrysanthemum** — [File:Chrysanthemum morifolium 08NOV.jpg](https://upload.wikimedia.org/wikipedia/commons/a/a1/Chrysanthemum_morifolium_08NOV.jpg) — Public domain — by 池田正樹 (talk)masaki ikeda
+- **Poppy** — [File:Camomille sauvage (Matricaria chamomilla), coquelicots (Papaver rhoeas) au bord d'un champ d'orge (Hordeum vulgare).jpg](https://upload.wikimedia.org/wikipedia/commons/7/72/Camomille_sauvage_%28Matricaria_chamomilla%29%2C_coquelicots_%28Papaver_rhoeas%29_au_bord_d%27un_champ_d%27orge_%28Hordeum_vulgare%29.jpg) — CC BY-SA 4.0 — by JackyM59
+- **Lotus Flower** — [File:Lotus flower (978659).jpg](https://upload.wikimedia.org/wikipedia/commons/f/f5/Lotus_flower_%28978659%29.jpg) — CC0 — by Hong Zhang (jennyzhh2008)
+- **Dahlia** — [File:Dahlia Pollen 27012015.jpg](https://upload.wikimedia.org/wikipedia/commons/1/1f/Dahlia_Pollen_27012015.jpg) — CC BY-SA 3.0 — by Joydeep
+- **Snapdragon** — [File:Leeuwenbek (Antirrhinum), 02-06-2024. (actm.) 01.jpg](https://upload.wikimedia.org/wikipedia/commons/8/81/Leeuwenbek_%28Antirrhinum%29%2C_02-06-2024._%28actm.%29_01.jpg) — CC BY-SA 4.0 — by Agnes Monkelbaan
+- **Freesia** — [File:Flowers February 2009-1.jpg](https://upload.wikimedia.org/wikipedia/commons/4/48/Flowers_February_2009-1.jpg) — CC BY-SA 3.0 — by Alvesgaspar
+- **Magnolia** — [File:Magnolia × soulangeana blossom.jpg](https://upload.wikimedia.org/wikipedia/commons/4/48/Magnolia_%C3%97_soulangeana_blossom.jpg) — CC BY 1.0 — by James F.
+- **Jasmine** — [File:(MHNT) Jasminum polyanthum – flowers and buds.jpg](https://upload.wikimedia.org/wikipedia/commons/2/2d/%28MHNT%29_Jasminum_polyanthum_%E2%80%93_flowers_and_buds.jpg) — CC BY-SA 4.0 — by Didier Descouens
+- **Bluebell** — [File:Pryor's Wood Bluebells 2017-04-26-4.jpg](https://upload.wikimedia.org/wikipedia/commons/8/80/Pryor%27s_Wood_Bluebells_2017-04-26-4.jpg) — CC BY-SA 4.0 — by Colin
+- **Zinnia** — [File:Zinnia elegans with Bombus 01.JPG](https://upload.wikimedia.org/wikipedia/commons/d/d7/Zinnia_elegans_with_Bombus_01.JPG) — CC BY-SA 2.0 de — by Simon Koopmann
+- **Cosmos Flower** — [File:Cosmos bipinnatus in Jardin universitaire Roger-Van den Hende, Quebec city, Quebec, Canada.jpg](https://upload.wikimedia.org/wikipedia/commons/9/9a/Cosmos_bipinnatus_in_Jardin_universitaire_Roger-Van_den_Hende%2C_Quebec_city%2C_Quebec%2C_Canada.jpg) — CC0 — by Wilfredor
+- **Lilac** — [File:Lilac Flower&Leaves, SC, Vic, 13.10.2007.jpg](https://upload.wikimedia.org/wikipedia/commons/3/35/Lilac_Flower%26Leaves%2C_SC%2C_Vic%2C_13.10.2007.jpg) — CC BY-SA 3.0 — by Jjron
+- **Foxglove** — [File:Digitalis purpurea LC0101.jpg](https://upload.wikimedia.org/wikipedia/commons/b/ba/Digitalis_purpurea_LC0101.jpg) — CC BY-SA 3.0 de — by Jörg Hempel
+- **Petunia** — [File:Петунии у мемориала в Александрино 01.jpg](https://upload.wikimedia.org/wikipedia/commons/4/48/%D0%9F%D0%B5%D1%82%D1%83%D0%BD%D0%B8%D0%B8_%D1%83_%D0%BC%D0%B5%D0%BC%D0%BE%D1%80%D0%B8%D0%B0%D0%BB%D0%B0_%D0%B2_%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80%D0%B8%D0%BD%D0%BE_01.jpg) — CC BY-SA 4.0 — by Екатерина Борисова
+- **Bird of Paradise Flower** — [File:Strelitzia larger.jpg](https://upload.wikimedia.org/wikipedia/commons/1/1c/Strelitzia_larger.jpg) — Public domain — by Scott Bauer, USDA
+- **Carnation** — [File:Dianthus caryophyllus 'Cornelia' kz02.jpg](https://upload.wikimedia.org/wikipedia/commons/f/f5/Dianthus_caryophyllus_%27Cornelia%27_kz02.jpg) — CC BY-SA 4.0 — by Krzysztof Ziarnek, Kenraiz
+- **Hibiscus** — [File:Waterdrops White Hibiscus Inakanahalli Coorg Jun24 A7CR 01657.jpg](https://upload.wikimedia.org/wikipedia/commons/c/c4/Waterdrops_White_Hibiscus_Inakanahalli_Coorg_Jun24_A7CR_01657.jpg) — CC BY-SA 4.0 — by This Photo was taken by Timothy A. Gonsalves.  Feel free to use my photos, but please mention me as the author.  I would much appreciate if you send me an email tagooty@yahoo.com or write on my talk page, for my information.  Please contact me before commercial use.
+
+
+
+Please do not upload an edited image here without consulting me.  I would like to make corrections only at my own source to ensure that the changes improve the image and are preserved.Otherwise you may upload an edited image with a new name. Please use one of the templates derivative or extract.
+- **Wisteria** — [File:Wisteria Tunnel in Kawachi Wisteria Garden 20150509-2.jpg](https://upload.wikimedia.org/wikipedia/commons/f/f0/Wisteria_Tunnel_in_Kawachi_Wisteria_Garden_20150509-2.jpg) — CC BY-SA 4.0 — by そらみみ (Soramimi)
+- **Hydrangea** — [File:Northern California H. macrophylla shrub in bloom.jpg](https://upload.wikimedia.org/wikipedia/commons/4/41/Northern_California_H._macrophylla_shrub_in_bloom.jpg) — CC BY-SA 4.0 — by Cinderkinder
+- **Violet** — [File:Viola odorata 20210226.jpg](https://upload.wikimedia.org/wikipedia/commons/d/d4/Viola_odorata_20210226.jpg) — CC BY-SA 4.0 — by Uoaei1
+- **Gardenia** — [File:Gardenia jasminoides Double-flowered side.JPG](https://upload.wikimedia.org/wikipedia/commons/a/ae/Gardenia_jasminoides_Double-flowered_side.JPG) — CC BY-SA 3.0 — by Alpsdake
+- **Anemone** — [File:(Anemone coronaria close-up in Ontario Peak, United States) - DPLA - b9ac5892b7c9c0ce1b0bdf9d62308409.jpg](https://upload.wikimedia.org/wikipedia/commons/2/29/%28Anemone_coronaria_close-up_in_Ontario_Peak%2C_United_States%29_-_DPLA_-_b9ac5892b7c9c0ce1b0bdf9d62308409.jpg) — CC BY 4.0 — by Carlquist, Sherwin John, 1930-2021
+- **Camellia** — [File:Camellia sasanqua, Nagai Botanical Garden, January 2026 -1295.jpg](https://upload.wikimedia.org/wikipedia/commons/e/eb/Camellia_sasanqua%2C_Nagai_Botanical_Garden%2C_January_2026_-1295.jpg) — CC BY-SA 4.0 — by Laitche
+- **Amaryllis** — [File:Amaryllis -- Hippeastrum ‘Pink-Diamond’.jpg](https://upload.wikimedia.org/wikipedia/commons/0/01/Amaryllis_--_Hippeastrum_%E2%80%98Pink-Diamond%E2%80%99.jpg) — CC BY-SA 4.0 — by Jim Evans
+- **Lavender** — [File:(MHNT) Bombus pascuorum on Lavandula angustifolia.jpg](https://upload.wikimedia.org/wikipedia/commons/b/be/%28MHNT%29_Bombus_pascuorum_on_Lavandula_angustifolia.jpg) — CC BY-SA 4.0 — by Didier Descouens
+- **Ranunculus** — [File:Garden ranunculus.jpg](https://upload.wikimedia.org/wikipedia/commons/2/2f/Garden_ranunculus.jpg) — CC BY-SA 4.0 — by Cardoazul
+- **Pineapple** — [File:AnanasComosusOnPlant.jpg](https://upload.wikimedia.org/wikipedia/commons/7/75/AnanasComosusOnPlant.jpg) — CC BY-SA 3.0 — by Markus Leupold-Löwenthal
+- **Strawberry** — [File:Garden strawberry (Fragaria × ananassa) halved.jpg](https://upload.wikimedia.org/wikipedia/commons/e/ef/Garden_strawberry_%28Fragaria_%C3%97_ananassa%29_halved.jpg) — CC BY-SA 4.0 — by Ivar Leidus
+- **Banana** — [File:Cavendish banana from Maracaibo.jpg](https://upload.wikimedia.org/wikipedia/commons/3/31/Cavendish_banana_from_Maracaibo.jpg) — CC BY-SA 3.0 — by Wilfredor
+- **Mango** — [File:Mangos - single and halved.jpg](https://upload.wikimedia.org/wikipedia/commons/7/74/Mangos_-_single_and_halved.jpg) — CC BY-SA 4.0 — by Ivar Leidus
+- **Apple** — [File:Red Apple.jpg](https://upload.wikimedia.org/wikipedia/commons/1/15/Red_Apple.jpg) — CC BY 2.0 — by Abhijit Tembhekar from Mumbai, India
+- **Orange** — [File:Oranges - whole-halved-segment.jpg](https://upload.wikimedia.org/wikipedia/commons/e/e3/Oranges_-_whole-halved-segment.jpg) — CC BY-SA 4.0 — by Ivar Leidus
+- **Grapes** — [File:Grapes, Dry Creek Valley-7705.jpg](https://upload.wikimedia.org/wikipedia/commons/d/d9/Grapes%2C_Dry_Creek_Valley-7705.jpg) — CC BY-SA 4.0 — by Frank Schulenburg
+- **Kiwi** — [File:Kiwi (Actinidia chinensis) 1 Luc Viatour.jpg](https://upload.wikimedia.org/wikipedia/commons/b/b8/Kiwi_%28Actinidia_chinensis%29_1_Luc_Viatour.jpg) — CC BY-SA 2.5 — by Luc Viatour
+- **Peach** — [File:Autumn Red peaches.jpg](https://upload.wikimedia.org/wikipedia/commons/9/9e/Autumn_Red_peaches.jpg) — Public domain — by Jack Dykinga, USDA
+- **Pear** — [File:Four pears.jpg](https://upload.wikimedia.org/wikipedia/commons/9/99/Four_pears.jpg) — CC BY-SA 4.0 — by Rhododendrites
+- **Cherry** — [File:Cherry Stella444.jpg](https://upload.wikimedia.org/wikipedia/commons/b/bb/Cherry_Stella444.jpg) — CC BY-SA 3.0 — by Benjamint444, edited by Fir0002
+- **Blueberry** — [File:Dish of blueberries.jpg](https://upload.wikimedia.org/wikipedia/commons/7/7d/Dish_of_blueberries.jpg) — CC BY-SA 4.0 — by Petar Milošević
+- **Blackberry** — [File:Blackberry (Rubus fruticosus).jpg](https://upload.wikimedia.org/wikipedia/commons/6/63/Blackberry_%28Rubus_fruticosus%29.jpg) — CC BY-SA 4.0 — by Ivar Leidus
+- **Passion Fruit** — [File:Passiflora Edulis Open Fruit2.jpg](https://upload.wikimedia.org/wikipedia/commons/a/a0/Passiflora_Edulis_Open_Fruit2.jpg) — CC BY 3.0 — by Alexander Klink
+- **Pomegranate** — [File:Pomegranate fruit - whole and piece with arils.jpg](https://upload.wikimedia.org/wikipedia/commons/f/fa/Pomegranate_fruit_-_whole_and_piece_with_arils.jpg) — CC BY-SA 4.0 — by Ivar Leidus
+- **Fig** — [File:Fig (Ficus carica) fruit halved.jpg](https://upload.wikimedia.org/wikipedia/commons/e/e5/Fig_%28Ficus_carica%29_fruit_halved.jpg) — CC BY-SA 4.0 — by Ivar Leidus
+- **Lychee** — [File:Lychee fruits and seed.jpg](https://upload.wikimedia.org/wikipedia/commons/5/5c/Lychee_fruits_and_seed.jpg) — CC BY-SA 4.0 — by Ivar Leidus
+- **Guava** — [File:Goiaba vermelha.jpg](https://upload.wikimedia.org/wikipedia/commons/8/84/Goiaba_vermelha.jpg) — CC BY-SA 4.0 — by Rodrigo.Argenton
+- **Coconut** — [File:Coconuts - single and cracked open.jpg](https://upload.wikimedia.org/wikipedia/commons/f/f1/Coconuts_-_single_and_cracked_open.jpg) — CC BY-SA 4.0 — by Ivar Leidus
+- **Lemon** — [File:Lemon.jpg](https://upload.wikimedia.org/wikipedia/commons/e/e4/Lemon.jpg) — CC BY-SA 2.5 — by André Karwath aka Aka
+- **Lime** — [File:Lime - whole and halved.jpg](https://upload.wikimedia.org/wikipedia/commons/e/e7/Lime_-_whole_and_halved.jpg) — CC BY-SA 4.0 — by Ivar Leidus
+- **Grapefruit** — [File:Citrus paradisi (Grapefruit, pink) white bg.jpg](https://upload.wikimedia.org/wikipedia/commons/d/d0/Citrus_paradisi_%28Grapefruit%2C_pink%29_white_bg.jpg) — CC BY-SA 2.5 — by Citrus_paradisi_(Grapefruit,_pink).jpg: א (Aleph)
+derivative work: — raeky
+- **Plum** — [File:Plums.jpg](https://upload.wikimedia.org/wikipedia/commons/6/6c/Plums.jpg) — CC BY-SA 3.0 — by Fir0002
+- **Apricot** — [File:Apricots.jpg](https://upload.wikimedia.org/wikipedia/commons/f/f9/Apricots.jpg) — CC BY-SA 3.0 — by Fir0002
+- **Persimmon** — [File:Fuyu Persimmon (Diospyros Kaki).jpg](https://upload.wikimedia.org/wikipedia/commons/a/a6/Fuyu_Persimmon_%28Diospyros_Kaki%29.jpg) — CC BY-SA 3.0 — by Joe Ravi
+- **Starfruit** — [File:Carambola Starfruit.jpg](https://upload.wikimedia.org/wikipedia/commons/3/3a/Carambola_Starfruit.jpg) — CC BY-SA 3.0 — by SMasters
+- **Honeydew Melon** — [File:Honeydew.jpg](https://upload.wikimedia.org/wikipedia/commons/f/f5/Honeydew.jpg) — Public domain — by Yotoen
+- **Rambutan** — [File:Rambutão.jpg](https://upload.wikimedia.org/wikipedia/commons/e/ea/Rambut%C3%A3o.jpg) — CC0 — by ArionStar
+- **Watermelon** — [File:Sliced Watermelon.jpg](https://upload.wikimedia.org/wikipedia/commons/7/7d/Sliced_Watermelon.jpg) — CC BY-SA 2.0 — by Harsha K R
+- **Dragon Fruit** — [File:A half cut Pitaya (Red dragon fruit) in West Bengal, India.jpg](https://upload.wikimedia.org/wikipedia/commons/0/01/A_half_cut_Pitaya_%28Red_dragon_fruit%29_in_West_Bengal%2C_India.jpg) — CC BY-SA 4.0 — by Billjones94
+- **Raspberry** — [File:Fresh raspberries 01.jpg](https://upload.wikimedia.org/wikipedia/commons/1/1f/Fresh_raspberries_01.jpg) — CC BY 2.0 — by liz west
+- **Papaya** — [File:Papaya half.jpg](https://upload.wikimedia.org/wikipedia/commons/1/1e/Papaya_half.jpg) — CC BY-SA 4.0 — by OKJaguar
+- **Cantaloupe** — [File:Cantaloupe cut and whole.jpg](https://upload.wikimedia.org/wikipedia/commons/4/42/Cantaloupe_cut_and_whole.jpg) — CC BY 3.0 — by Atomicbre at English Wikipedia
+- **Cranberry** — [File:Cranberry bog.jpg](https://upload.wikimedia.org/wikipedia/commons/3/3a/Cranberry_bog.jpg) — Public domain — by Photo by Keith Weller
+- **Durian** — [File:Durian 1.jpg](https://upload.wikimedia.org/wikipedia/commons/d/d8/Durian_1.jpg) — CC0 — by Brücke-Osteuropa
+- **Tangerine** — [File:Clémentine.jpg](https://upload.wikimedia.org/wikipedia/commons/5/5a/Cl%C3%A9mentine.jpg) — CC BY-SA 4.0 — by Cheikh cherif
+- **Carrot** — [File:Carrots of many colors.jpg](https://upload.wikimedia.org/wikipedia/commons/3/32/Carrots_of_many_colors.jpg) — Public domain — by Stephen Ausmus
+- **Pumpkin** — [File:Cucurbita 2011 G1.jpg](https://upload.wikimedia.org/wikipedia/commons/6/69/Cucurbita_2011_G1.jpg) — Public domain — by George Chernilevsky
+- **Tomato** — [File:Tomato je.jpg](https://upload.wikimedia.org/wikipedia/commons/8/89/Tomato_je.jpg) — CC BY-SA 3.0 — by Softeis
+- **Onion** — [File:Mixed onions.jpg](https://upload.wikimedia.org/wikipedia/commons/a/a2/Mixed_onions.jpg) — CC BY-SA 3.0 — by Colin
+- **Garlic** — [File:Garlic bulbs and cloves.jpg](https://upload.wikimedia.org/wikipedia/commons/9/9a/Garlic_bulbs_and_cloves.jpg) — CC BY-SA 4.0 — by Ivar Leidus
+- **Lettuce** — [File:Lactuca sativa 'Ashbrook'.jpg](https://upload.wikimedia.org/wikipedia/commons/7/7b/Lactuca_sativa_%27Ashbrook%27.jpg) — CC BY-SA 4.0 — by DeFacto
+- **Cauliflower** — [File:Brassica oleracea var. botrytis (Coliflor).jpg](https://upload.wikimedia.org/wikipedia/commons/b/b2/Brassica_oleracea_var._botrytis_%28Coliflor%29.jpg) — CC BY-SA 4.0 — by Rjcastillo
+- **Spinach** — [File:Spinacia oleracea Spinazie bloeiend.jpg](https://upload.wikimedia.org/wikipedia/commons/3/37/Spinacia_oleracea_Spinazie_bloeiend.jpg) — CC BY-SA 3.0 — by Rasbak
+- **Eggplant** — [File:Solanum melongena 24 08 2012 (1).JPG](https://upload.wikimedia.org/wikipedia/commons/7/76/Solanum_melongena_24_08_2012_%281%29.JPG) — CC BY-SA 3.0 — by Joydeep
+- **Radish** — [File:Radish 3371103037 4ab07db0bf o.jpg](https://upload.wikimedia.org/wikipedia/commons/0/0c/Radish_3371103037_4ab07db0bf_o.jpg) — Public domain — by Self, en:User:Jengod
+- **Asparagus** — [File:Asparagus soup (spargelsuppe).jpg](https://upload.wikimedia.org/wikipedia/commons/f/ff/Asparagus_soup_%28spargelsuppe%29.jpg) — CC BY-SA 4.0 — by Petar Milošević
+- **Brussels Sprouts** — [File:Spruitjes.jpg](https://upload.wikimedia.org/wikipedia/commons/c/c4/Spruitjes.jpg) — CC BY-SA 3.0 — by Rasbak
+- **Turnip** — [File:Turnip-ja202211-1.jpg](https://upload.wikimedia.org/wikipedia/commons/a/ad/Turnip-ja202211-1.jpg) — CC BY-SA 4.0 — by Miya
+- **Mushroom** — [File:Edible fungi in basket 2012 G1.jpg](https://upload.wikimedia.org/wikipedia/commons/2/26/Edible_fungi_in_basket_2012_G1.jpg) — Public domain — by George Chernilevsky
+- **Okra** — [File:Quiabo.jpg](https://upload.wikimedia.org/wikipedia/commons/5/54/Quiabo.jpg) — CC0 — by ArionStar
+- **Butternut Squash** — [File:Cucurbita moschata Butternut 2012 G2.jpg](https://upload.wikimedia.org/wikipedia/commons/7/77/Cucurbita_moschata_Butternut_2012_G2.jpg) — Public domain — by George Chernilevsky
+- **Bok Choy** — [File:Brassica rapa var. chinensis (leaf).jpg](https://upload.wikimedia.org/wikipedia/commons/8/8c/Brassica_rapa_var._chinensis_%28leaf%29.jpg) — CC BY 2.5 — by おむこさん志望
+- **Rhubarb** — [File:Rheum rhabarbarum.2006-04-27.uellue.jpg](https://upload.wikimedia.org/wikipedia/commons/2/2b/Rheum_rhabarbarum.2006-04-27.uellue.jpg) — CC BY-SA 3.0 — by Dieter Weber (User:Uellue)
+- **Carrot** — [File:Carrots of many colors.jpg](https://upload.wikimedia.org/wikipedia/commons/3/32/Carrots_of_many_colors.jpg) — Public domain — by Stephen Ausmus
+- **Broccoli** — [File:Liat Portal for Foodie Disorder - Fresh Broccoli.jpg](https://upload.wikimedia.org/wikipedia/commons/2/2f/Liat_Portal_for_Foodie_Disorder_-_Fresh_Broccoli.jpg) — CC BY-SA 4.0 — by HaJunkiyada
+- **Pumpkin** — [File:Cucurbita 2011 G1.jpg](https://upload.wikimedia.org/wikipedia/commons/6/69/Cucurbita_2011_G1.jpg) — Public domain — by George Chernilevsky
+- **Corn** — [File:Yellow Corn on the Cob (35115370841).jpg](https://upload.wikimedia.org/wikipedia/commons/6/62/Yellow_Corn_on_the_Cob_%2835115370841%29.jpg) — CC BY-SA 2.0 — by Willis Lam
+- **Bell Pepper** — [File:Green, yellow and red bell peppers.jpg](https://upload.wikimedia.org/wikipedia/commons/c/c6/Green%2C_yellow_and_red_bell_peppers.jpg) — CC BY-SA 4.0 — by Peachyeung316
+- **Potato** — [File:Two basket of potato.jpg](https://upload.wikimedia.org/wikipedia/commons/6/66/Two_basket_of_potato.jpg) — CC0 — by Tunmise123
+- **Tomato** — [File:Tomato je.jpg](https://upload.wikimedia.org/wikipedia/commons/8/89/Tomato_je.jpg) — CC BY-SA 3.0 — by Softeis
+- **Cucumber** — [File:Sliced Cucumber.jpg](https://upload.wikimedia.org/wikipedia/commons/0/0a/Sliced_Cucumber.jpg) — CC BY-SA 4.0 — by Jyoti Khadka
+- **Onion** — [File:Mixed onions.jpg](https://upload.wikimedia.org/wikipedia/commons/a/a2/Mixed_onions.jpg) — CC BY-SA 3.0 — by Colin
+- **Garlic** — [File:Garlic bulbs and cloves.jpg](https://upload.wikimedia.org/wikipedia/commons/9/9a/Garlic_bulbs_and_cloves.jpg) — CC BY-SA 4.0 — by Ivar Leidus
+- **Lettuce** — [File:Lactuca sativa 'Ashbrook'.jpg](https://upload.wikimedia.org/wikipedia/commons/7/7b/Lactuca_sativa_%27Ashbrook%27.jpg) — CC BY-SA 4.0 — by DeFacto
+- **Cabbage** — [File:Brassica oleracea 2011 G1.jpg](https://upload.wikimedia.org/wikipedia/commons/e/e6/Brassica_oleracea_2011_G1.jpg) — Public domain — by George Chernilevsky
+- **Cauliflower** — [File:Brassica oleracea var. botrytis (Coliflor).jpg](https://upload.wikimedia.org/wikipedia/commons/b/b2/Brassica_oleracea_var._botrytis_%28Coliflor%29.jpg) — CC BY-SA 4.0 — by Rjcastillo
+- **Spinach** — [File:Spinacia oleracea Spinazie bloeiend.jpg](https://upload.wikimedia.org/wikipedia/commons/3/37/Spinacia_oleracea_Spinazie_bloeiend.jpg) — CC BY-SA 3.0 — by Rasbak
+- **Zucchini** — [File:Courgette Cucurbita pepo 2.jpg](https://upload.wikimedia.org/wikipedia/commons/5/51/Courgette_Cucurbita_pepo_2.jpg) — Public domain — by Meanos
+- **Eggplant** — [File:Solanum melongena 24 08 2012 (1).JPG](https://upload.wikimedia.org/wikipedia/commons/7/76/Solanum_melongena_24_08_2012_%281%29.JPG) — CC BY-SA 3.0 — by Joydeep
+- **Radish** — [File:Radish 3371103037 4ab07db0bf o.jpg](https://upload.wikimedia.org/wikipedia/commons/0/0c/Radish_3371103037_4ab07db0bf_o.jpg) — Public domain — by Self, en:User:Jengod
+- **Beetroot** — [File:Beetroot(1).jpg](https://upload.wikimedia.org/wikipedia/commons/0/03/Beetroot%281%29.jpg) — CC BY-SA 4.0 — by Kiwima
+- **Celery** — [File:Bleekselderij groen (Apium graveolens var. dulce green).jpg](https://upload.wikimedia.org/wikipedia/commons/d/d5/Bleekselderij_groen_%28Apium_graveolens_var._dulce_green%29.jpg) — CC BY 2.5 — by Eric Hunt
+- **Asparagus** — [File:Asparagus soup (spargelsuppe).jpg](https://upload.wikimedia.org/wikipedia/commons/f/ff/Asparagus_soup_%28spargelsuppe%29.jpg) — CC BY-SA 4.0 — by Petar Milošević
+- **Green Beans** — [File:Fresh Green Beans (Unsplash).jpg](https://upload.wikimedia.org/wikipedia/commons/1/18/Fresh_Green_Beans_%28Unsplash%29.jpg) — CC0 — by Sonja Langford unmorceau
+- **Peas** — [File:Green pea pod opened.jpg](https://upload.wikimedia.org/wikipedia/commons/5/5d/Green_pea_pod_opened.jpg) — CC BY-SA 3.0 — by Sokolikmawwer0
+- **Brussels Sprouts** — [File:Spruitjes.jpg](https://upload.wikimedia.org/wikipedia/commons/c/c4/Spruitjes.jpg) — CC BY-SA 3.0 — by Rasbak
+- **Sweet Potato** — [File:Batata doce-ipomoea batatas.JPG](https://upload.wikimedia.org/wikipedia/commons/4/45/Batata_doce-ipomoea_batatas.JPG) — CC BY-SA 3.0 — by Lglm 1990
+- **Turnip** — [File:Turnip-ja202211-1.jpg](https://upload.wikimedia.org/wikipedia/commons/a/ad/Turnip-ja202211-1.jpg) — CC BY-SA 4.0 — by Miya
+- **Leek** — [File:Leeks in a bundle.jpg](https://upload.wikimedia.org/wikipedia/commons/9/9a/Leeks_in_a_bundle.jpg) — CC0 — by Jeffery Martin
+- **Artichoke** — [File:Artichokebud.JPG](https://upload.wikimedia.org/wikipedia/commons/3/3f/Artichokebud.JPG) — CC BY-SA 4.0 — by en:User:Jengod
+- **Kale** — [File:Curly kale by the A17 - geograph.org.uk - 637097.jpg](https://upload.wikimedia.org/wikipedia/commons/6/6a/Curly_kale_by_the_A17_-_geograph.org.uk_-_637097.jpg) — CC BY-SA 2.0 — by Jonathan Billinger
+- **Chili Pepper** — [File:Fresh red chilli.jpg](https://upload.wikimedia.org/wikipedia/commons/c/cf/Fresh_red_chilli.jpg) — CC BY-SA 4.0 — by Rukkyah
+- **Mushroom** — [File:Edible fungi in basket 2012 G1.jpg](https://upload.wikimedia.org/wikipedia/commons/2/26/Edible_fungi_in_basket_2012_G1.jpg) — Public domain — by George Chernilevsky
+- **Okra** — [File:Quiabo.jpg](https://upload.wikimedia.org/wikipedia/commons/5/54/Quiabo.jpg) — CC0 — by ArionStar
+- **Butternut Squash** — [File:Cucurbita moschata Butternut 2012 G2.jpg](https://upload.wikimedia.org/wikipedia/commons/7/77/Cucurbita_moschata_Butternut_2012_G2.jpg) — Public domain — by George Chernilevsky
+- **Bok Choy** — [File:Brassica rapa var. chinensis (leaf).jpg](https://upload.wikimedia.org/wikipedia/commons/8/8c/Brassica_rapa_var._chinensis_%28leaf%29.jpg) — CC BY 2.5 — by おむこさん志望
+- **Ginger Root** — [File:Liat Portal for Foodie Disorder - Fresh ginger root from San Francisco farmers market.jpg](https://upload.wikimedia.org/wikipedia/commons/6/62/Liat_Portal_for_Foodie_Disorder_-_Fresh_ginger_root_from_San_Francisco_farmers_market.jpg) — CC BY-SA 4.0 — by HaJunkiyada
+- **Rhubarb** — [File:Rheum rhabarbarum.2006-04-27.uellue.jpg](https://upload.wikimedia.org/wikipedia/commons/2/2b/Rheum_rhabarbarum.2006-04-27.uellue.jpg) — CC BY-SA 3.0 — by Dieter Weber (User:Uellue)
+- **Clownfish** — [File:Amphiprion ocellaris (Clown anemonefish) by Nick Hobgood.jpg](https://upload.wikimedia.org/wikipedia/commons/a/ad/Amphiprion_ocellaris_%28Clown_anemonefish%29_by_Nick_Hobgood.jpg) — CC BY-SA 3.0 — by Nick Hobgood
+- **Sea Turtle** — [File:Hawaii turtle 2.JPG](https://upload.wikimedia.org/wikipedia/commons/b/bb/Hawaii_turtle_2.JPG) — CC BY-SA 3.0 — by Brocken Inaglory
+- **Jellyfish** — [File:Lion's mane jellyfish in Gullmarn fjord at Sämstad 8.jpg](https://upload.wikimedia.org/wikipedia/commons/f/f7/Lion%27s_mane_jellyfish_in_Gullmarn_fjord_at_S%C3%A4mstad_8.jpg) — CC0 — by W.carter
+- **Dolphin** — [File:Eilat Dolphin Reef (3).jpg](https://upload.wikimedia.org/wikipedia/commons/4/4d/Eilat_Dolphin_Reef_%283%29.jpg) — CC BY-SA 4.0 — by טל שמע
+- **Seahorse** — [File:Hippocampus hippocampus (on Ascophyllum nodosum).jpg](https://upload.wikimedia.org/wikipedia/commons/2/25/Hippocampus_hippocampus_%28on_Ascophyllum_nodosum%29.jpg) — CC BY-SA 4.0 — by Hans Hillewaert
+- **Starfish** — [File:Asterias rubens.jpg](https://upload.wikimedia.org/wikipedia/commons/b/bb/Asterias_rubens.jpg) — CC BY-SA 4.0 — by Hans Hillewaert
+- **Great White Shark** — [File:White shark.jpg](https://upload.wikimedia.org/wikipedia/commons/5/56/White_shark.jpg) — CC BY 2.5 — by Pterantula (Terry Goss) at en.wikipedia
+- **Orca (Killer Whale)** — [File:Orcinus orca - Loro Parque 01.jpg](https://upload.wikimedia.org/wikipedia/commons/4/40/Orcinus_orca_-_Loro_Parque_01.jpg) — CC BY-SA 3.0 — by H. Zell
+- **Sea Otter** — [File:Sea-otter-morro-bay 13.jpg](https://upload.wikimedia.org/wikipedia/commons/f/f8/Sea-otter-morro-bay_13.jpg) — CC BY 2.0 — by Mike Baird from Morro Bay, USA (bairdphotos.com)
+- **Manta Ray** — [File:Giant Manta AdF.jpg](https://upload.wikimedia.org/wikipedia/commons/f/fc/Giant_Manta_AdF.jpg) — CC BY-SA 4.0 — by Arturo de Frias Marques
+- **Sea Urchin** — [File:Tripneustes ventricosus (West Indian Sea Egg-top) and Echinometra viridis (Reef Urchin - bottom).jpg](https://upload.wikimedia.org/wikipedia/commons/9/9b/Tripneustes_ventricosus_%28West_Indian_Sea_Egg-top%29_and_Echinometra_viridis_%28Reef_Urchin_-_bottom%29.jpg) — CC BY-SA 3.0 — by Nhobgood (talk) Nick Hobgood
+- **Coral Reef** — [File:Coral Outcrop Flynn Reef.jpg](https://upload.wikimedia.org/wikipedia/commons/2/2e/Coral_Outcrop_Flynn_Reef.jpg) — CC BY-SA 3.0 — by Toby Hudson
+- **Giant Squid** — [File:Giant squid Ranheim.jpg](https://upload.wikimedia.org/wikipedia/commons/3/3c/Giant_squid_Ranheim.jpg) — CC BY 2.0 — by NTNU Vitenskapsmuseet
+- **Narwhal** — [File:Нарвал в российской Арктике.jpg](https://upload.wikimedia.org/wikipedia/commons/b/bc/%D0%9D%D0%B0%D1%80%D0%B2%D0%B0%D0%BB_%D0%B2_%D1%80%D0%BE%D1%81%D1%81%D0%B8%D0%B9%D1%81%D0%BA%D0%BE%D0%B9_%D0%90%D1%80%D0%BA%D1%82%D0%B8%D0%BA%D0%B5.jpg) — CC BY-SA 4.0 — by пресс-служба ПАО "Газпром нефть"
+- **Manatee** — [File:Manatee photo.jpg](https://upload.wikimedia.org/wikipedia/commons/b/b1/Manatee_photo.jpg) — Public domain — by NASA
+- **Swordfish** — [File:Xiphias gladius 23056964.jpg](https://upload.wikimedia.org/wikipedia/commons/7/7a/Xiphias_gladius_23056964.jpg) — CC BY-SA 4.0 — by vtzanatos
+- **Barracuda** — [File:Bicudas (Sphyraena viridensis), Cabo de Palos, España, 2022-07-15, DD 09.jpg](https://upload.wikimedia.org/wikipedia/commons/7/70/Bicudas_%28Sphyraena_viridensis%29%2C_Cabo_de_Palos%2C_Espa%C3%B1a%2C_2022-07-15%2C_DD_09.jpg) — CC BY-SA 4.0 — by Diego Delso
+- **Moray Eel** — [File:Green Moray Eel (Gymnothorax funebris), Cozumel.jpg](https://upload.wikimedia.org/wikipedia/commons/7/79/Green_Moray_Eel_%28Gymnothorax_funebris%29%2C_Cozumel.jpg) — CC BY-SA 3.0 — by P.Lindgren
+- **Sea Sponge** — [File:Barrel Sponge Marker32 2010.jpg](https://upload.wikimedia.org/wikipedia/commons/d/d6/Barrel_Sponge_Marker32_2010.jpg) — CC0 — by Jstuby
+- **Nudibranch (Sea Slug)** — [File:Sea slug or nudibranch.jpg](https://upload.wikimedia.org/wikipedia/commons/0/05/Sea_slug_or_nudibranch.jpg) — CC BY-SA 4.0 — by Vardhanjp
+- **Clownfish** — [File:Amphiprion ocellaris (Clown anemonefish) by Nick Hobgood.jpg](https://upload.wikimedia.org/wikipedia/commons/a/ad/Amphiprion_ocellaris_%28Clown_anemonefish%29_by_Nick_Hobgood.jpg) — CC BY-SA 3.0 — by Nick Hobgood
+- **Sea Turtle** — [File:Hawaii turtle 2.JPG](https://upload.wikimedia.org/wikipedia/commons/b/bb/Hawaii_turtle_2.JPG) — CC BY-SA 3.0 — by Brocken Inaglory
+- **Jellyfish** — [File:Lion's mane jellyfish in Gullmarn fjord at Sämstad 8.jpg](https://upload.wikimedia.org/wikipedia/commons/f/f7/Lion%27s_mane_jellyfish_in_Gullmarn_fjord_at_S%C3%A4mstad_8.jpg) — CC0 — by W.carter
+- **Dolphin** — [File:Eilat Dolphin Reef (3).jpg](https://upload.wikimedia.org/wikipedia/commons/4/4d/Eilat_Dolphin_Reef_%283%29.jpg) — CC BY-SA 4.0 — by טל שמע
+- **Seahorse** — [File:Hippocampus hippocampus (on Ascophyllum nodosum).jpg](https://upload.wikimedia.org/wikipedia/commons/2/25/Hippocampus_hippocampus_%28on_Ascophyllum_nodosum%29.jpg) — CC BY-SA 4.0 — by Hans Hillewaert
+- **Starfish** — [File:Asterias rubens.jpg](https://upload.wikimedia.org/wikipedia/commons/b/bb/Asterias_rubens.jpg) — CC BY-SA 4.0 — by Hans Hillewaert
+- **Great White Shark** — [File:White shark.jpg](https://upload.wikimedia.org/wikipedia/commons/5/56/White_shark.jpg) — CC BY 2.5 — by Pterantula (Terry Goss) at en.wikipedia
+- **Hammerhead Shark** — [File:Scalloped hammerhead shark (Sphyrna lewini) Costa Rica.jpg](https://upload.wikimedia.org/wikipedia/commons/8/8a/Scalloped_hammerhead_shark_%28Sphyrna_lewini%29_Costa_Rica.jpg) — CC BY 2.0 — by Kris-Mikael Krister
+- **Blue Whale** — [File:Blow of a blue whale in the Arctic sea.jpg](https://upload.wikimedia.org/wikipedia/commons/3/37/Blow_of_a_blue_whale_in_the_Arctic_sea.jpg) — CC BY-SA 4.0 — by AWeith
+- **Orca (Killer Whale)** — [File:Orcinus orca - Loro Parque 01.jpg](https://upload.wikimedia.org/wikipedia/commons/4/40/Orcinus_orca_-_Loro_Parque_01.jpg) — CC BY-SA 3.0 — by H. Zell
+- **Sea Otter** — [File:Sea-otter-morro-bay 13.jpg](https://upload.wikimedia.org/wikipedia/commons/f/f8/Sea-otter-morro-bay_13.jpg) — CC BY 2.0 — by Mike Baird from Morro Bay, USA (bairdphotos.com)
+- **Manta Ray** — [File:Giant Manta AdF.jpg](https://upload.wikimedia.org/wikipedia/commons/f/fc/Giant_Manta_AdF.jpg) — CC BY-SA 4.0 — by Arturo de Frias Marques
+- **Stingray** — [File:Stingray Swimming On The Ground Of The Ocean. (46256604661).jpg](https://upload.wikimedia.org/wikipedia/commons/1/13/Stingray_Swimming_On_The_Ground_Of_The_Ocean._%2846256604661%29.jpg) — CC BY 2.0 — by Jernej Furman from Maribor, Slovenia
+- **Pufferfish** — [File:Spotted Puffer Fish. (13421084473).jpg](https://upload.wikimedia.org/wikipedia/commons/0/0f/Spotted_Puffer_Fish._%2813421084473%29.jpg) — CC0 — by Bernard Spragg. NZ from Christchurch, New Zealand
+- **Anglerfish** — [File:Lophius piscatorius in situ off of northern Ireland.jpg](https://upload.wikimedia.org/wikipedia/commons/5/5b/Lophius_piscatorius_in_situ_off_of_northern_Ireland.jpg) — CC BY 4.0
+- **Sea Lion** — [File:California sea lion in La Jolla (70568).jpg](https://upload.wikimedia.org/wikipedia/commons/7/74/California_sea_lion_in_La_Jolla_%2870568%29.jpg) — CC BY-SA 4.0 — by Rhododendrites
+- **Walrus** — [File:Walrus (Odobenus rosmarus) on Svalbard.jpg](https://upload.wikimedia.org/wikipedia/commons/9/90/Walrus_%28Odobenus_rosmarus%29_on_Svalbard.jpg) — CC BY-SA 4.0 — by AWeith
+- **Sea Urchin** — [File:Tripneustes ventricosus (West Indian Sea Egg-top) and Echinometra viridis (Reef Urchin - bottom).jpg](https://upload.wikimedia.org/wikipedia/commons/9/9b/Tripneustes_ventricosus_%28West_Indian_Sea_Egg-top%29_and_Echinometra_viridis_%28Reef_Urchin_-_bottom%29.jpg) — CC BY-SA 3.0 — by Nhobgood (talk) Nick Hobgood
+- **Coral Reef** — [File:Coral Outcrop Flynn Reef.jpg](https://upload.wikimedia.org/wikipedia/commons/2/2e/Coral_Outcrop_Flynn_Reef.jpg) — CC BY-SA 3.0 — by Toby Hudson
+- **Giant Squid** — [File:Giant squid Ranheim.jpg](https://upload.wikimedia.org/wikipedia/commons/3/3c/Giant_squid_Ranheim.jpg) — CC BY 2.0 — by NTNU Vitenskapsmuseet
+- **Hermit Crab** — [File:Calliactis and Dardanus 001.JPG](https://upload.wikimedia.org/wikipedia/commons/8/8e/Calliactis_and_Dardanus_001.JPG) — CC BY-SA 3.0 — by H. Zell
+- **Lobster** — [File:Lobster for sale in Connecticut in salt water tank.jpg](https://upload.wikimedia.org/wikipedia/commons/2/21/Lobster_for_sale_in_Connecticut_in_salt_water_tank.jpg) — CC BY-SA 4.0 — by GrammarFascist
+- **Blue Crab** — [File:Blue crab (black background).jpg](https://upload.wikimedia.org/wikipedia/commons/5/53/Blue_crab_%28black_background%29.jpg) — CC BY-SA 3.0
+- **Sea Anemone** — [File:Wandering Sea Anemone 05.jpg](https://upload.wikimedia.org/wikipedia/commons/6/67/Wandering_Sea_Anemone_05.jpg) — CC BY-SA 3.0 — by Tony Wills
+- **Nautilus** — [File:Nautilus pompilius (albino shell) (chambered nautilus) (Mindanao Island, Philippines) (23532506664).jpg](https://upload.wikimedia.org/wikipedia/commons/1/12/Nautilus_pompilius_%28albino_shell%29_%28chambered_nautilus%29_%28Mindanao_Island%2C_Philippines%29_%2823532506664%29.jpg) — CC BY 2.0 — by James St. John
+- **Sea Cucumber** — [File:Sea cucumbers.jpg](https://upload.wikimedia.org/wikipedia/commons/4/4f/Sea_cucumbers.jpg) — CC BY-SA 4.0 — by Chamberlain of Nilai
+- **Narwhal** — [File:Нарвал в российской Арктике.jpg](https://upload.wikimedia.org/wikipedia/commons/b/bc/%D0%9D%D0%B0%D1%80%D0%B2%D0%B0%D0%BB_%D0%B2_%D1%80%D0%BE%D1%81%D1%81%D0%B8%D0%B9%D1%81%D0%BA%D0%BE%D0%B9_%D0%90%D1%80%D0%BA%D1%82%D0%B8%D0%BA%D0%B5.jpg) — CC BY-SA 4.0 — by пресс-служба ПАО "Газпром нефть"
+- **Manatee** — [File:Manatee photo.jpg](https://upload.wikimedia.org/wikipedia/commons/b/b1/Manatee_photo.jpg) — Public domain — by NASA
+- **Flying Fish** — [File:Juvenile Flying Fish (Exocoetidae) (8467227249).jpg](https://upload.wikimedia.org/wikipedia/commons/b/b0/Juvenile_Flying_Fish_%28Exocoetidae%29_%288467227249%29.jpg) — CC BY-SA 2.0 — by Bernard DUPONT from FRANCE
+- **Swordfish** — [File:Xiphias gladius 23056964.jpg](https://upload.wikimedia.org/wikipedia/commons/7/7a/Xiphias_gladius_23056964.jpg) — CC BY-SA 4.0 — by vtzanatos
+- **Barracuda** — [File:Bicudas (Sphyraena viridensis), Cabo de Palos, España, 2022-07-15, DD 09.jpg](https://upload.wikimedia.org/wikipedia/commons/7/70/Bicudas_%28Sphyraena_viridensis%29%2C_Cabo_de_Palos%2C_Espa%C3%B1a%2C_2022-07-15%2C_DD_09.jpg) — CC BY-SA 4.0 — by Diego Delso
+- **Moray Eel** — [File:Green Moray Eel (Gymnothorax funebris), Cozumel.jpg](https://upload.wikimedia.org/wikipedia/commons/7/79/Green_Moray_Eel_%28Gymnothorax_funebris%29%2C_Cozumel.jpg) — CC BY-SA 3.0 — by P.Lindgren
+- **Sea Sponge** — [File:Barrel Sponge Marker32 2010.jpg](https://upload.wikimedia.org/wikipedia/commons/d/d6/Barrel_Sponge_Marker32_2010.jpg) — CC0 — by Jstuby
+- **Beluga Whale** — [File:Weißwal 6-1999.jpg](https://upload.wikimedia.org/wikipedia/commons/2/2a/Wei%C3%9Fwal_6-1999.jpg) — CC BY-SA 3.0 — by Ansgar Walk
+- **Nudibranch (Sea Slug)** — [File:Sea slug or nudibranch.jpg](https://upload.wikimedia.org/wikipedia/commons/0/05/Sea_slug_or_nudibranch.jpg) — CC BY-SA 4.0 — by Vardhanjp
+- **Angelfish** — [File:Queen Angelfish, Holacanthus ciliaris.jpg](https://upload.wikimedia.org/wikipedia/commons/3/3a/Queen_Angelfish%2C_Holacanthus_ciliaris.jpg) — CC BY 2.0 — by Brian Gratwicke
+- **Tyrannosaurus Rex** — [File:Palais de la Decouverte Tyrannosaurus rex p1050042.jpg](https://upload.wikimedia.org/wikipedia/commons/a/ab/Palais_de_la_Decouverte_Tyrannosaurus_rex_p1050042.jpg) — CC BY-SA 3.0 — by Copyright © 2005 David Monniaux
+- **Triceratops** — [File:TriceratopsFernForest.jpg](https://upload.wikimedia.org/wikipedia/commons/2/26/TriceratopsFernForest.jpg) — CC BY-SA 4.0 — by Martinvl
+- **Stegosaurus** — [File:Stegosaurus stenops Life Reconstruction.png](https://upload.wikimedia.org/wikipedia/commons/d/d8/Stegosaurus_stenops_Life_Reconstruction.png) — CC BY-SA 4.0 — by Fred Wierum
+- **Brachiosaurus** — [File:Brachiosaurus DB.jpg](https://upload.wikimedia.org/wikipedia/commons/d/d9/Brachiosaurus_DB.jpg) — Public domain — by Dmitry Bogdanov
+- **Spinosaurus** — [File:Spinosaurus in Japan Expo.jpg](https://upload.wikimedia.org/wikipedia/commons/7/74/Spinosaurus_in_Japan_Expo.jpg) — CC BY-SA 2.0 — by ★Kumiko★
+- **Ankylosaurus** — [File:Ankylosaurus magniventris reconstruction.png](https://upload.wikimedia.org/wikipedia/commons/3/36/Ankylosaurus_magniventris_reconstruction.png) — CC BY-SA 3.0 — by Emily Willoughby (e.deinonychus@gmail.com, http://emilywilloughby.com)
+- **Allosaurus** — [File:Allosaurus fragilis moulage MNHN paleontologie 1.JPG](https://upload.wikimedia.org/wikipedia/commons/f/f6/Allosaurus_fragilis_moulage_MNHN_paleontologie_1.JPG) — Public domain — by Jebulon
+- **Iguanodon** — [File:Iguanodon new NT.jpg](https://upload.wikimedia.org/wikipedia/commons/8/80/Iguanodon_new_NT.jpg) — CC BY-SA 4.0 — by Nobu Tamura email:nobu.tamura@yahoo.com  http://spinops.blogspot.com/
+- **Parasaurolophus** — [File:Parasaurolophus walkeri.png](https://upload.wikimedia.org/wikipedia/commons/3/3b/Parasaurolophus_walkeri.png) — CC BY 2.5 — by Leandra Walters, Phil Senter, James H. Robins
+- **Pachycephalosaurus** — [File:Pachycephalosaurus Reconstruction.jpg](https://upload.wikimedia.org/wikipedia/commons/b/bc/Pachycephalosaurus_Reconstruction.jpg) — CC BY 4.0 — by Fred Wierum
+- **Compsognathus** — [File:Compsognathus longipes 01.JPG](https://upload.wikimedia.org/wikipedia/commons/d/d4/Compsognathus_longipes_01.JPG) — CC BY-SA 3.0 — by H. Zell
+- **Archaeopteryx** — [File:Archaeopteryx NT.jpg](https://upload.wikimedia.org/wikipedia/commons/f/f9/Archaeopteryx_NT.jpg) — CC BY-SA 3.0 — by NobuTamura  http://paleoexhibit.blogspot.com/ http://spinops.blogspot.com/
+- **Dilophosaurus** — [File:DilophosaurusROM1.JPG](https://upload.wikimedia.org/wikipedia/commons/1/12/DilophosaurusROM1.JPG) — CC BY-SA 3.0 — by Eduard Solà
+- **Carnotaurus** — [File:Carnotaurus Reconstruction (2022).png](https://upload.wikimedia.org/wikipedia/commons/8/81/Carnotaurus_Reconstruction_%282022%29.png) — CC BY-SA 4.0 — by Fred Wierum
+- **Gallimimus** — [File:Gallimimus 1 NHM3.jpg](https://upload.wikimedia.org/wikipedia/commons/f/f0/Gallimimus_1_NHM3.jpg) — CC BY-SA 3.0 — by Original uploader was Firsfron at en.wikipedia
+- **Therizinosaurus** — [File:Therizinosaurus TD.png](https://upload.wikimedia.org/wikipedia/commons/5/53/Therizinosaurus_TD.png) — CC BY 4.0 — by TotalDino
+- **Plesiosaurus** — [File:Plesiosaurus 3DB.jpg](https://upload.wikimedia.org/wikipedia/commons/3/30/Plesiosaurus_3DB.jpg) — CC BY 3.0 — by Creator:Dmitry Bogdanov
+- **Quetzalcoatlus** — [File:Quetzalcoatlus by johnson mortimer-d9n2b06.jpg](https://upload.wikimedia.org/wikipedia/commons/7/7a/Quetzalcoatlus_by_johnson_mortimer-d9n2b06.jpg) — CC BY 3.0 — by Johnson Mortimer
+- **Utahraptor** — [File:BYU Utahraptor skeletal mount.jpg](https://upload.wikimedia.org/wikipedia/commons/6/69/BYU_Utahraptor_skeletal_mount.jpg) — CC BY-SA 4.0 — by Jaren Wilkey
+- **Giganotosaurus** — [File:Giganotos Db.jpg](https://upload.wikimedia.org/wikipedia/commons/8/8a/Giganotos_Db.jpg) — Public domain — by Dmitry Bogdanov
+- **Styracosaurus** — [File:Styracosaurus TD.png](https://upload.wikimedia.org/wikipedia/commons/a/a7/Styracosaurus_TD.png) — CC0 — by TotalDino
+- **Protoceratops** — [File:Protoceratops TD.png](https://upload.wikimedia.org/wikipedia/commons/3/3e/Protoceratops_TD.png) — CC BY-SA 4.0 — by TotalDino
+- **Apatosaurus** — [File:Louisae.jpg](https://upload.wikimedia.org/wikipedia/commons/3/3a/Louisae.jpg) — CC BY 2.0 — by Tadek Kurpaski from London, Poland
+- **Ceratosaurus** — [File:Ceratosaurus NT.jpg](https://upload.wikimedia.org/wikipedia/commons/f/f1/Ceratosaurus_NT.jpg) — CC BY-SA 3.0 — by NobuTamura email:nobu.tamura@yahoo.com
+- **Amargasaurus** — [File:Amargasaurus life restoration.jpg](https://upload.wikimedia.org/wikipedia/commons/e/e1/Amargasaurus_life_restoration.jpg) — CC0 — by Novoklimov
+- **Baryonyx** — [File:Baryonyx walkeri restoration.jpg](https://upload.wikimedia.org/wikipedia/commons/9/92/Baryonyx_walkeri_restoration.jpg) — CC BY-SA 3.0 — by Lineart by Robinson Kunz (https://teratophoneus.deviantart.com/)
+
+Color by Rebecca Slater (https://paleocolour.deviantart.com/)
+- **Corythosaurus** — [File:Corythosaurus restoration.jpg](https://upload.wikimedia.org/wikipedia/commons/e/e5/Corythosaurus_restoration.jpg) — CC BY-SA 3.0 — by Drawing by John Conway [1]
+- **Kentrosaurus** — [File:Kentrosaurus aethiopicus 01.jpg](https://upload.wikimedia.org/wikipedia/commons/6/65/Kentrosaurus_aethiopicus_01.jpg) — CC BY-SA 3.0 — by H. Zell
+- **Oviraptor** — [File:Oviraptor Restoration.png](https://upload.wikimedia.org/wikipedia/commons/f/f3/Oviraptor_Restoration.png) — CC BY 4.0 — by PaleoNeolitic
+- **Maiasaura** — [File:Maiasaura BW.jpg](https://upload.wikimedia.org/wikipedia/commons/8/81/Maiasaura_BW.jpg) — CC BY 3.0 — by Nobu Tamura (http://spinops.blogspot.com)
+- **Tyrannosaurus Rex** — [File:Palais de la Decouverte Tyrannosaurus rex p1050042.jpg](https://upload.wikimedia.org/wikipedia/commons/a/ab/Palais_de_la_Decouverte_Tyrannosaurus_rex_p1050042.jpg) — CC BY-SA 3.0 — by Copyright © 2005 David Monniaux
+- **Triceratops** — [File:TriceratopsFernForest.jpg](https://upload.wikimedia.org/wikipedia/commons/2/26/TriceratopsFernForest.jpg) — CC BY-SA 4.0 — by Martinvl
+- **Stegosaurus** — [File:Stegosaurus stenops Life Reconstruction.png](https://upload.wikimedia.org/wikipedia/commons/d/d8/Stegosaurus_stenops_Life_Reconstruction.png) — CC BY-SA 4.0 — by Fred Wierum
+- **Velociraptor** — [File:Velociraptor recon.png](https://upload.wikimedia.org/wikipedia/commons/e/e4/Velociraptor_recon.png) — CC BY-SA 4.0 — by Entelognathus
+- **Brachiosaurus** — [File:Brachiosaurus DB.jpg](https://upload.wikimedia.org/wikipedia/commons/d/d9/Brachiosaurus_DB.jpg) — Public domain — by Dmitry Bogdanov
+- **Pterodactyl** — [File:Fossil Specimen of Pterodactylus antiquus.jpg](https://upload.wikimedia.org/wikipedia/commons/9/9e/Fossil_Specimen_of_Pterodactylus_antiquus.jpg) — CC BY-SA 4.0 — by Dean Falk Schnabel
+- **Spinosaurus** — [File:Spinosaurus in Japan Expo.jpg](https://upload.wikimedia.org/wikipedia/commons/7/74/Spinosaurus_in_Japan_Expo.jpg) — CC BY-SA 2.0 — by ★Kumiko★
+- **Ankylosaurus** — [File:Ankylosaurus magniventris reconstruction.png](https://upload.wikimedia.org/wikipedia/commons/3/36/Ankylosaurus_magniventris_reconstruction.png) — CC BY-SA 3.0 — by Emily Willoughby (e.deinonychus@gmail.com, http://emilywilloughby.com)
+- **Allosaurus** — [File:Allosaurus fragilis moulage MNHN paleontologie 1.JPG](https://upload.wikimedia.org/wikipedia/commons/f/f6/Allosaurus_fragilis_moulage_MNHN_paleontologie_1.JPG) — Public domain — by Jebulon
+- **Diplodocus** — [File:Diplodocus TD.png](https://upload.wikimedia.org/wikipedia/commons/c/c7/Diplodocus_TD.png) — CC BY-SA 4.0 — by TotalDino
+- **Iguanodon** — [File:Iguanodon new NT.jpg](https://upload.wikimedia.org/wikipedia/commons/8/80/Iguanodon_new_NT.jpg) — CC BY-SA 4.0 — by Nobu Tamura email:nobu.tamura@yahoo.com  http://spinops.blogspot.com/
+- **Parasaurolophus** — [File:Parasaurolophus walkeri.png](https://upload.wikimedia.org/wikipedia/commons/3/3b/Parasaurolophus_walkeri.png) — CC BY 2.5 — by Leandra Walters, Phil Senter, James H. Robins
+- **Pachycephalosaurus** — [File:Pachycephalosaurus Reconstruction.jpg](https://upload.wikimedia.org/wikipedia/commons/b/bc/Pachycephalosaurus_Reconstruction.jpg) — CC BY 4.0 — by Fred Wierum
+- **Compsognathus** — [File:Compsognathus longipes 01.JPG](https://upload.wikimedia.org/wikipedia/commons/d/d4/Compsognathus_longipes_01.JPG) — CC BY-SA 3.0 — by H. Zell
+- **Archaeopteryx** — [File:Archaeopteryx NT.jpg](https://upload.wikimedia.org/wikipedia/commons/f/f9/Archaeopteryx_NT.jpg) — CC BY-SA 3.0 — by NobuTamura  http://paleoexhibit.blogspot.com/ http://spinops.blogspot.com/
+- **Dilophosaurus** — [File:DilophosaurusROM1.JPG](https://upload.wikimedia.org/wikipedia/commons/1/12/DilophosaurusROM1.JPG) — CC BY-SA 3.0 — by Eduard Solà
+- **Carnotaurus** — [File:Carnotaurus Reconstruction (2022).png](https://upload.wikimedia.org/wikipedia/commons/8/81/Carnotaurus_Reconstruction_%282022%29.png) — CC BY-SA 4.0 — by Fred Wierum
+- **Gallimimus** — [File:Gallimimus 1 NHM3.jpg](https://upload.wikimedia.org/wikipedia/commons/f/f0/Gallimimus_1_NHM3.jpg) — CC BY-SA 3.0 — by Original uploader was Firsfron at en.wikipedia
+- **Therizinosaurus** — [File:Therizinosaurus TD.png](https://upload.wikimedia.org/wikipedia/commons/5/53/Therizinosaurus_TD.png) — CC BY 4.0 — by TotalDino
+- **Plesiosaurus** — [File:Plesiosaurus 3DB.jpg](https://upload.wikimedia.org/wikipedia/commons/3/30/Plesiosaurus_3DB.jpg) — CC BY 3.0 — by Creator:Dmitry Bogdanov
+- **Mosasaurus** — [File:Mosasaurus missouriensis NT.png](https://upload.wikimedia.org/wikipedia/commons/f/fe/Mosasaurus_missouriensis_NT.png) — CC BY-SA 4.0 — by Nobu Tamura email:nobu.tamura@yahoo.com  http://spinops.blogspot.com/
+- **Ichthyosaurus** — [File:Ichthyosaurus anningae trio NT small.jpg](https://upload.wikimedia.org/wikipedia/commons/1/16/Ichthyosaurus_anningae_trio_NT_small.jpg) — CC BY-SA 4.0 — by Nobu Tamura email:nobu.tamura@yahoo.com  http://spinops.blogspot.com/
+- **Quetzalcoatlus** — [File:Quetzalcoatlus by johnson mortimer-d9n2b06.jpg](https://upload.wikimedia.org/wikipedia/commons/7/7a/Quetzalcoatlus_by_johnson_mortimer-d9n2b06.jpg) — CC BY 3.0 — by Johnson Mortimer
+- **Deinonychus** — [File:Deinonychus ewilloughby.png](https://upload.wikimedia.org/wikipedia/commons/3/33/Deinonychus_ewilloughby.png) — CC BY-SA 4.0 — by Emily Willoughby, (e.deinonychus@gmail.com, emilywilloughby.com)
+- **Utahraptor** — [File:BYU Utahraptor skeletal mount.jpg](https://upload.wikimedia.org/wikipedia/commons/6/69/BYU_Utahraptor_skeletal_mount.jpg) — CC BY-SA 4.0 — by Jaren Wilkey
+- **Giganotosaurus** — [File:Giganotos Db.jpg](https://upload.wikimedia.org/wikipedia/commons/8/8a/Giganotos_Db.jpg) — Public domain — by Dmitry Bogdanov
+- **Styracosaurus** — [File:Styracosaurus TD.png](https://upload.wikimedia.org/wikipedia/commons/a/a7/Styracosaurus_TD.png) — CC0 — by TotalDino
+- **Protoceratops** — [File:Protoceratops TD.png](https://upload.wikimedia.org/wikipedia/commons/3/3e/Protoceratops_TD.png) — CC BY-SA 4.0 — by TotalDino
+- **Apatosaurus** — [File:Louisae.jpg](https://upload.wikimedia.org/wikipedia/commons/3/3a/Louisae.jpg) — CC BY 2.0 — by Tadek Kurpaski from London, Poland
+- **Ceratosaurus** — [File:Ceratosaurus NT.jpg](https://upload.wikimedia.org/wikipedia/commons/f/f1/Ceratosaurus_NT.jpg) — CC BY-SA 3.0 — by NobuTamura email:nobu.tamura@yahoo.com
+- **Amargasaurus** — [File:Amargasaurus life restoration.jpg](https://upload.wikimedia.org/wikipedia/commons/e/e1/Amargasaurus_life_restoration.jpg) — CC0 — by Novoklimov
+- **Baryonyx** — [File:Baryonyx walkeri restoration.jpg](https://upload.wikimedia.org/wikipedia/commons/9/92/Baryonyx_walkeri_restoration.jpg) — CC BY-SA 3.0 — by Lineart by Robinson Kunz (https://teratophoneus.deviantart.com/)
+
+Color by Rebecca Slater (https://paleocolour.deviantart.com/)
+- **Corythosaurus** — [File:Corythosaurus restoration.jpg](https://upload.wikimedia.org/wikipedia/commons/e/e5/Corythosaurus_restoration.jpg) — CC BY-SA 3.0 — by Drawing by John Conway [1]
+- **Kentrosaurus** — [File:Kentrosaurus aethiopicus 01.jpg](https://upload.wikimedia.org/wikipedia/commons/6/65/Kentrosaurus_aethiopicus_01.jpg) — CC BY-SA 3.0 — by H. Zell
+- **Oviraptor** — [File:Oviraptor Restoration.png](https://upload.wikimedia.org/wikipedia/commons/f/f3/Oviraptor_Restoration.png) — CC BY 4.0 — by PaleoNeolitic
+- **Maiasaura** — [File:Maiasaura BW.jpg](https://upload.wikimedia.org/wikipedia/commons/8/81/Maiasaura_BW.jpg) — CC BY 3.0 — by Nobu Tamura (http://spinops.blogspot.com)

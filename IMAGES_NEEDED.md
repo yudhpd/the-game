@@ -20,12 +20,12 @@ these gradually and playtest as you go.
 ## Movies (`images/movies/`)
 - [x] <img src="images/movies/1-star-wars.jpg" width="80"> `1-star-wars` — Star Wars
 - [x] <img src="images/movies/2-titanic.webp" width="80"> `2-titanic` — Titanic
-- [x] <img src="images/movies/3-wizard-of-oz.webp" width="80"> `3-wizard-of-oz` — The Wizard of Oz
+- [x] <img src="images/movies/3-wizard-of-oz.webp" width="80"> `3-agak-laen` — Agak Laen
 - [x] <img src="images/movies/4-jurassic-park.jpg" width="80"> `4-jurassic-park` — Jurassic Park
 - [x] <img src="images/movies/5-lion-king.jpg" width="80"> `5-lion-king` — The Lion King
 - [x] <img src="images/movies/6-home-alone.jpg" width="80"> `6-home-alone` — Home Alone
 - [ ] `7-the-matrix` — The Matrix
-- [ ] `8-back-to-the-future` — Back to the Future
+- [ ] `8-jumbo` — Jumbo
 - [ ] `9-et-the-extra-terrestrial` — E.T. the Extra-Terrestrial
 - [ ] `10-jaws` — Jaws
 - [ ] `11-the-godfather` — The Godfather
@@ -41,9 +41,9 @@ these gradually and playtest as you go.
 - [ ] `21-avatar` — Avatar
 - [ ] `22-gladiator` — Gladiator
 - [ ] `23-king-kong` — King Kong
-- [ ] `24-casablanca` — Casablanca
-- [ ] `25-grease` — Grease
-- [ ] `26-the-sound-of-music` — The Sound of Music
+- [ ] `24-pengabdi-setan` — Pengabdi Setan
+- [ ] `25-dilan-1990` — Dilan 1990
+- [ ] `26-miracle-in-cell-no-7` — Miracle in Cell No. 7
 - [ ] `27-indiana-jones` — Indiana Jones
 - [ ] `28-shrek` — Shrek
 - [ ] `29-spider-man` — Spider-Man
@@ -51,7 +51,7 @@ these gradually and playtest as you go.
 - [ ] `31-alien` — Alien
 - [ ] `32-mary-poppins` — Mary Poppins
 - [ ] `33-batman` — Batman
-- [ ] `34-star-trek` — Star Trek
+- [ ] `34-how-to-make-millions-before-grandma-dies` — How To Make Millions Before Grandma Dies
 - [ ] `35-the-shawshank-redemption` — The Shawshank Redemption
 - [ ] `36-up` — Up
 
@@ -91,7 +91,7 @@ these gradually and playtest as you go.
 - [ ] `33-piano-keys` — Piano keys
 - [ ] `34-guitar-pick` — Guitar pick
 - [ ] `35-metronome` — Metronome
-- [ ] `36-music-festival-stage` — Music festival stage
+- [ ] `36-angklung` — Angklung
 
 ## Sports (`images/sports/`)
 - [ ] `1-basketball` — Basketball
@@ -111,7 +111,7 @@ these gradually and playtest as you go.
 - [ ] `15-bowling` — Bowling
 - [ ] `16-cycling` — Cycling
 - [ ] `17-gymnastics` — Gymnastics
-- [ ] `18-track-and-field` — Track and Field
+- [ ] `18-sepak-takraw` — Sepak Takraw
 - [ ] `19-wrestling` — Wrestling
 - [ ] `20-handball` — Handball
 - [ ] `21-water-polo` — Water Polo
@@ -132,46 +132,46 @@ these gradually and playtest as you go.
 - [ ] `36-curling` — Curling
 
 ## Geography (`images/geography/`)
-- [ ] `1-eiffel-tower` — Paris
+- [ ] `1-eiffel-tower` — France
 - [ ] `2-pyramids-giza` — Egypt
 - [ ] `3-mount-everest` — Nepal
 - [ ] `4-sahara-desert` — Sahara Desert
 - [ ] `5-great-barrier-reef` — Australia
 - [ ] `6-amazon-rainforest` — Amazon Rainforest
-- [ ] `7-grand-canyon` — Grand Canyon
+- [ ] `7-grand-canyon` — USA
 - [ ] `8-niagara-falls` — Niagara Falls
-- [ ] `9-mount-fuji` — Mount Fuji
-- [ ] `10-venice` — Venice
-- [ ] `11-machu-picchu` — Machu Picchu
-- [ ] `12-taj-mahal` — Taj Mahal
+- [ ] `9-mount-fuji` — Japan
+- [ ] `10-venice` — Italy
+- [ ] `11-machu-picchu` — Peru
+- [ ] `12-taj-mahal` — India
 - [ ] `13-victoria-falls` — Victoria Falls
 - [ ] `14-dead-sea` — Dead Sea
 - [ ] `15-iceland` — Iceland
-- [ ] `16-swiss-alps` — Swiss Alps
+- [ ] `16-swiss-alps` — Switzerland
 - [ ] `17-serengeti` — Serengeti
 - [ ] `18-antarctica` — Antarctica
-- [ ] `19-uluru` — Uluru
-- [ ] `20-norwegian-fjords` — Norwegian Fjords
-- [ ] `21-petra` — Petra
-- [ ] `22-angel-falls` — Angel Falls
-- [ ] `23-galapagos-islands` — Galápagos Islands
+- [ ] `19-uluru` — Australia
+- [ ] `20-norwegian-fjords` — Norway
+- [ ] `21-petra` — Jordan
+- [ ] `22-angel-falls` — Venezuela
+- [ ] `23-galapagos-islands` — Ecuador
 - [ ] `24-death-valley` — Death Valley
 - [ ] `25-yellowstone-national-park` — Yellowstone National Park
-- [ ] `26-mount-kilimanjaro` — Mount Kilimanjaro
-- [ ] `27-loch-ness` — Loch Ness
+- [ ] `26-mount-kilimanjaro` — Tanzania
+- [ ] `27-loch-ness` — Scotland
 - [ ] `28-matterhorn` — Matterhorn
-- [ ] `29-bali` — Bali
-- [ ] `30-santorini` — Santorini
+- [ ] `29-bali` — Bali, Indonesia
+- [ ] `30-santorini` — Greece
 - [ ] `31-great-rift-valley` — Great Rift Valley
 - [ ] `32-iguazu-falls` — Iguazu Falls
-- [ ] `33-ha-long-bay` — Ha Long Bay
-- [ ] `34-salar-de-uyuni` — Salar de Uyuni
+- [ ] `33-ha-long-bay` — Vietnam
+- [ ] `34-salar-de-uyuni` — Bolivia
 - [ ] `35-antelope-canyon` — Antelope Canyon
 - [ ] `36-mont-saint-michel` — Mont Saint-Michel
 
 ## History (`images/history/`)
-- [ ] `1-great-wall-china` — China
-- [ ] `2-colosseum` — Rome
+- [ ] `1-great-wall-china` — Great Wall China
+- [ ] `2-colosseum` — Colosseum
 - [ ] `3-statue-of-liberty` — Statue of Liberty
 - [ ] `4-stonehenge` — Stonehenge
 - [ ] `5-terracotta-army` — Terracotta Army
@@ -276,50 +276,50 @@ these gradually and playtest as you go.
 - [ ] `28-roast-turkey` — Roast Turkey
 - [ ] `29-lobster` — Lobster
 - [ ] `30-oysters` — Oysters
-- [ ] `31-cheese-platter` — Cheese Platter
-- [ ] `32-pasta-carbonara` — Pasta Carbonara
+- [ ] `31-nasi-goreng` — Nasi Goreng
+- [ ] `32-rendang` — Rendang
 - [ ] `33-waffles` — Waffles
 - [ ] `34-hot-chocolate` — Hot Chocolate
-- [ ] `35-matcha-tea-ceremony` — Matcha Tea Ceremony
+- [ ] `35-matcha-tea` — Matcha Tea
 - [ ] `36-popcorn` — Popcorn
 
 ## Animals (`images/animals/`)
-- [ ] `1-octopus` — Octopus
-- [ ] `2-platypus` — Platypus
-- [ ] `3-cheetah` — Cheetah
-- [ ] `4-parrot` — Parrot
-- [ ] `5-whale-shark` — Whale shark
-- [ ] `6-kangaroo` — Kangaroo
-- [ ] `7-elephant` — Elephant
-- [ ] `8-giraffe` — Giraffe
-- [ ] `9-lion` — Lion
-- [ ] `10-gorilla` — Gorilla
-- [ ] `11-panda` — Panda
-- [ ] `12-polar-bear` — Polar Bear
-- [ ] `13-koala` — Koala
-- [ ] `14-sloth` — Sloth
-- [ ] `15-zebra` — Zebra
-- [ ] `16-rhinoceros` — Rhinoceros
-- [ ] `17-hippopotamus` — Hippopotamus
-- [ ] `18-wolf` — Wolf
-- [ ] `19-fox` — Fox
-- [ ] `20-raccoon` — Raccoon
-- [ ] `21-bat` — Bat
-- [ ] `22-armadillo` — Armadillo
-- [ ] `23-meerkat` — Meerkat
-- [ ] `24-otter` — Otter
-- [ ] `25-squirrel` — Squirrel
-- [ ] `26-hedgehog` — Hedgehog
-- [ ] `27-camel` — Camel
-- [ ] `28-bison` — Bison
-- [ ] `29-moose` — Moose
-- [ ] `30-orangutan` — Orangutan
-- [ ] `31-chimpanzee` — Chimpanzee
-- [ ] `32-tiger` — Tiger
-- [ ] `33-leopard` — Leopard
-- [ ] `34-red-panda` — Red Panda
-- [ ] `35-wombat` — Wombat
-- [ ] `36-tasmanian-devil` — Tasmanian Devil
+- [x] <img src="images/animals/1-octopus.jpg" width="80"> `1-octopus` — Octopus
+- [x] <img src="images/animals/2-platypus.jpg" width="80"> `2-platypus` — Platypus
+- [x] <img src="images/animals/3-cheetah.jpg" width="80"> `3-cheetah` — Cheetah
+- [x] <img src="images/animals/4-parrot.jpg" width="80"> `4-parrot` — Parrot
+- [x] <img src="images/animals/5-whale-shark.jpg" width="80"> `5-whale-shark` — Whale shark
+- [x] <img src="images/animals/6-kangaroo.jpg" width="80"> `6-kangaroo` — Kangaroo
+- [x] <img src="images/animals/7-elephant.jpg" width="80"> `7-elephant` — Elephant
+- [x] <img src="images/animals/8-giraffe.jpg" width="80"> `8-giraffe` — Giraffe
+- [x] <img src="images/animals/9-lion.jpg" width="80"> `9-lion` — Lion
+- [x] <img src="images/animals/10-gorilla.jpg" width="80"> `10-gorilla` — Gorilla
+- [x] <img src="images/animals/11-panda.jpg" width="80"> `11-panda` — Panda
+- [x] <img src="images/animals/12-polar-bear.jpg" width="80"> `12-polar-bear` — Polar Bear
+- [x] <img src="images/animals/13-koala.jpg" width="80"> `13-koala` — Koala
+- [x] <img src="images/animals/14-sloth.jpg" width="80"> `14-sloth` — Sloth
+- [x] <img src="images/animals/15-zebra.jpg" width="80"> `15-zebra` — Zebra
+- [x] <img src="images/animals/16-rhinoceros.jpg" width="80"> `16-rhinoceros` — Rhinoceros
+- [x] <img src="images/animals/17-hippopotamus.jpg" width="80"> `17-hippopotamus` — Hippopotamus
+- [x] <img src="images/animals/18-wolf.jpg" width="80"> `18-wolf` — Wolf
+- [x] <img src="images/animals/19-fox.jpg" width="80"> `19-fox` — Fox
+- [x] <img src="images/animals/20-raccoon.jpg" width="80"> `20-raccoon` — Raccoon
+- [x] <img src="images/animals/21-bat.jpg" width="80"> `21-bat` — Bat
+- [x] <img src="images/animals/22-armadillo.jpg" width="80"> `22-armadillo` — Armadillo
+- [x] <img src="images/animals/23-meerkat.jpg" width="80"> `23-meerkat` — Meerkat
+- [x] <img src="images/animals/24-otter.jpg" width="80"> `24-otter` — Otter
+- [x] <img src="images/animals/25-squirrel.jpg" width="80"> `25-squirrel` — Squirrel
+- [x] <img src="images/animals/26-hedgehog.jpg" width="80"> `26-hedgehog` — Hedgehog
+- [x] <img src="images/animals/27-camel.jpg" width="80"> `27-camel` — Camel
+- [x] <img src="images/animals/28-bison.jpg" width="80"> `28-bison` — Bison
+- [x] <img src="images/animals/29-moose.jpg" width="80"> `29-moose` — Moose
+- [x] <img src="images/animals/30-orangutan.jpg" width="80"> `30-orangutan` — Orangutan
+- [x] <img src="images/animals/31-chimpanzee.jpg" width="80"> `31-chimpanzee` — Chimpanzee
+- [x] <img src="images/animals/32-tiger.jpg" width="80"> `32-tiger` — Tiger
+- [x] <img src="images/animals/33-leopard.jpg" width="80"> `33-leopard` — Leopard
+- [x] <img src="images/animals/34-red-panda.jpg" width="80"> `34-red-panda` — Red Panda
+- [x] <img src="images/animals/35-wombat.jpg" width="80"> `35-wombat` — Wombat
+- [x] <img src="images/animals/36-tasmanian-devil.jpg" width="80"> `36-tasmanian-devil` — Tasmanian Devil
 
 ## TV Shows (`images/tv-shows/`)
 - [ ] `1-game-of-thrones` — Game of Thrones
@@ -329,7 +329,7 @@ these gradually and playtest as you go.
 - [ ] `5-friends` — Friends
 - [ ] `6-doctor-who` — Doctor Who
 - [ ] `7-the-office` — The Office
-- [ ] `8-seinfeld` — Seinfeld
+- [ ] `8-gadis-kretek` — Gadis Kretek
 - [ ] `9-spongebob-squarepants` — SpongeBob SquarePants
 - [ ] `10-the-big-bang-theory` — The Big Bang Theory
 - [ ] `11-sherlock` — Sherlock
@@ -340,7 +340,7 @@ these gradually and playtest as you go.
 - [ ] `16-rick-and-morty` — Rick and Morty
 - [ ] `17-south-park` — South Park
 - [ ] `18-family-guy` — Family Guy
-- [ ] `19-star-trek-the-original-series` — Star Trek: The Original Series
+- [ ] `19-opera-van-java` — Opera van Java
 - [ ] `20-the-x-files` — The X-Files
 - [ ] `21-downton-abbey` — Downton Abbey
 - [ ] `22-sesame-street` — Sesame Street
@@ -350,11 +350,11 @@ these gradually and playtest as you go.
 - [ ] `26-avatar-the-last-airbender` — Avatar: The Last Airbender
 - [ ] `27-mr-bean` — Mr. Bean
 - [ ] `28-baywatch` — Baywatch
-- [ ] `29-american-idol` — American Idol
-- [ ] `30-saturday-night-live` — Saturday Night Live
+- [ ] `29-indonesian-idol` — Indonesian Idol
+- [ ] `30-extravaganza` — Extravaganza
 - [ ] `31-the-muppet-show` — The Muppet Show
 - [ ] `32-teletubbies` — Teletubbies
-- [ ] `33-mythbusters` — MythBusters
+- [ ] `33-lapor-pak` — Lapor Pak
 - [ ] `34-survivor` — Survivor
 - [ ] `35-the-masked-singer` — The Masked Singer
 - [ ] `36-wheel-of-fortune` — Wheel of Fortune
@@ -436,7 +436,7 @@ these gradually and playtest as you go.
 - [ ] `36-mosaic-art` — Mosaic Art
 
 ## Literature (`images/literature/`)
-- [ ] `1-open-book` — Classic literature
+- [ ] `1-animal-farm` — Animal Farm
 - [ ] `2-harry-potter` — Harry Potter
 - [ ] `3-moby-dick-whale` — Moby-Dick
 - [ ] `4-dystopian-eye` — 1984
@@ -471,7 +471,7 @@ these gradually and playtest as you go.
 - [ ] `33-treasure-island` — Treasure Island
 - [ ] `34-fahrenheit-451` — Fahrenheit 451
 - [ ] `35-the-jungle-book` — The Jungle Book
-- [ ] `36-grimms-fairy-tales` — Grimm's Fairy Tales
+- [ ] `36-harry-potter` — Harry Potter
 
 ## Space (`images/space/`)
 - [ ] `1-the-sun` — The Sun
@@ -589,14 +589,14 @@ these gradually and playtest as you go.
 
 ## Cars (`images/cars/`)
 - [ ] `1-jaguar-logo` — Jaguar
-- [ ] `2-ford-mustang` — Ford Mustang
+- [ ] `2-ford` — Ford
 - [ ] `3-bmw-logo` — BMW
 - [ ] `4-tesla` — Tesla
 - [ ] `5-ferrari-logo` — Ferrari
 - [ ] `6-vw-logo` — Volkswagen
 - [ ] `7-porsche` — Porsche
 - [ ] `8-lamborghini` — Lamborghini
-- [ ] `9-chevrolet-corvette` — Chevrolet Corvette
+- [ ] `9-chevrolet` — Chevrolet
 - [ ] `10-audi` — Audi
 - [ ] `11-mercedes-benz` — Mercedes-Benz
 - [ ] `12-rolls-royce` — Rolls-Royce
@@ -609,11 +609,11 @@ these gradually and playtest as you go.
 - [ ] `19-mazda` — Mazda
 - [ ] `20-subaru` — Subaru
 - [ ] `21-mini-cooper` — Mini Cooper
-- [ ] `22-fiat-500` — Fiat 500
+- [ ] `22-fiat` — Fiat
 - [ ] `23-jeep` — Jeep
 - [ ] `24-land-rover` — Land Rover
-- [ ] `25-dodge-charger` — Dodge Charger
-- [ ] `26-chevrolet-camaro` — Chevrolet Camaro
+- [ ] `25-dodge` — Dodge
+- [ ] `26-wuling` — Wuling
 - [ ] `27-volvo` — Volvo
 - [ ] `28-peugeot` — Peugeot
 - [ ] `29-renault` — Renault
@@ -622,8 +622,8 @@ these gradually and playtest as you go.
 - [ ] `32-alfa-romeo` — Alfa Romeo
 - [ ] `33-cadillac` — Cadillac
 - [ ] `34-lincoln` — Lincoln
-- [ ] `35-formula-1-car` — Formula 1 Car
-- [ ] `36-monster-truck` — Monster Truck
+- [ ] `35-geely` — Geely
+- [ ] `36-chery` — Chery
 
 ## Fashion (`images/fashion/`)
 - [ ] `1-chanel-logo` — Chanel
@@ -707,7 +707,7 @@ these gradually and playtest as you go.
 - [ ] `3-spider-man` — Spider-Man
 - [ ] `4-wonder-woman` — Wonder Woman
 - [ ] `5-wolverine-claws` — Wolverine
-- [ ] `6-mjolnir` — Thor's hammer (Mjolnir)
+- [ ] `6-thor` — Thor
 - [ ] `7-iron-man` — Iron Man
 - [ ] `8-captain-america` — Captain America
 - [ ] `9-hulk` — Hulk
@@ -726,8 +726,8 @@ these gradually and playtest as you go.
 - [ ] `22-storm` — Storm
 - [ ] `23-iron-fist` — Iron Fist
 - [ ] `24-daredevil` — Daredevil
-- [ ] `25-nightwing` — Nightwing
-- [ ] `26-supergirl` — Supergirl
+- [ ] `25-the-avengers` — The Avengers
+- [ ] `26-the-punisher` — The Punisher
 - [ ] `27-star-lord` — Star-Lord
 - [ ] `28-rocket-raccoon` — Rocket Raccoon
 - [ ] `29-groot` — Groot
@@ -737,7 +737,7 @@ these gradually and playtest as you go.
 - [ ] `33-war-machine` — War Machine
 - [ ] `34-shazam` — Shazam
 - [ ] `35-cyborg` — Cyborg
-- [ ] `36-batgirl` — Batgirl
+- [ ] `36-the-fanstastic-four` — The Fantastic Four
 
 ## Board Games (`images/board-games/`)
 - [ ] `1-monopoly` — Monopoly
@@ -778,80 +778,80 @@ these gradually and playtest as you go.
 - [ ] `36-knight-chess-piece` — Knight (Chess Piece)
 
 ## Dinosaurs (`images/dinosaurs/`)
-- [ ] `1-tyrannosaurus-rex` — Tyrannosaurus Rex
-- [ ] `2-triceratops` — Triceratops
-- [ ] `3-stegosaurus` — Stegosaurus
-- [ ] `4-velociraptor` — Velociraptor
-- [ ] `5-brachiosaurus` — Brachiosaurus
-- [ ] `6-pterodactyl` — Pterodactyl
-- [ ] `7-spinosaurus` — Spinosaurus
-- [ ] `8-ankylosaurus` — Ankylosaurus
-- [ ] `9-allosaurus` — Allosaurus
-- [ ] `10-diplodocus` — Diplodocus
-- [ ] `11-iguanodon` — Iguanodon
-- [ ] `12-parasaurolophus` — Parasaurolophus
-- [ ] `13-pachycephalosaurus` — Pachycephalosaurus
-- [ ] `14-compsognathus` — Compsognathus
-- [ ] `15-archaeopteryx` — Archaeopteryx
-- [ ] `16-dilophosaurus` — Dilophosaurus
-- [ ] `17-carnotaurus` — Carnotaurus
-- [ ] `18-gallimimus` — Gallimimus
-- [ ] `19-therizinosaurus` — Therizinosaurus
-- [ ] `20-plesiosaurus` — Plesiosaurus
-- [ ] `21-mosasaurus` — Mosasaurus
-- [ ] `22-ichthyosaurus` — Ichthyosaurus
-- [ ] `23-quetzalcoatlus` — Quetzalcoatlus
-- [ ] `24-deinonychus` — Deinonychus
-- [ ] `25-utahraptor` — Utahraptor
-- [ ] `26-giganotosaurus` — Giganotosaurus
-- [ ] `27-styracosaurus` — Styracosaurus
-- [ ] `28-protoceratops` — Protoceratops
-- [ ] `29-apatosaurus` — Apatosaurus
-- [ ] `30-ceratosaurus` — Ceratosaurus
-- [ ] `31-amargasaurus` — Amargasaurus
-- [ ] `32-baryonyx` — Baryonyx
-- [ ] `33-corythosaurus` — Corythosaurus
-- [ ] `34-kentrosaurus` — Kentrosaurus
-- [ ] `35-oviraptor` — Oviraptor
-- [ ] `36-maiasaura` — Maiasaura
+- [x] <img src="images/dinosaurs/1-tyrannosaurus-rex.jpg" width="80"> `1-tyrannosaurus-rex` — Tyrannosaurus Rex
+- [x] <img src="images/dinosaurs/2-triceratops.jpg" width="80"> `2-triceratops` — Triceratops
+- [x] <img src="images/dinosaurs/3-stegosaurus.png" width="80"> `3-stegosaurus` — Stegosaurus
+- [x] <img src="images/dinosaurs/4-velociraptor.png" width="80"> `4-velociraptor` — Velociraptor
+- [x] <img src="images/dinosaurs/5-brachiosaurus.jpg" width="80"> `5-brachiosaurus` — Brachiosaurus
+- [x] <img src="images/dinosaurs/6-pterodactyl.jpg" width="80"> `6-pterodactyl` — Pterodactyl
+- [x] <img src="images/dinosaurs/7-spinosaurus.jpg" width="80"> `7-spinosaurus` — Spinosaurus
+- [x] <img src="images/dinosaurs/8-ankylosaurus.png" width="80"> `8-ankylosaurus` — Ankylosaurus
+- [x] <img src="images/dinosaurs/9-allosaurus.jpg" width="80"> `9-allosaurus` — Allosaurus
+- [x] <img src="images/dinosaurs/10-diplodocus.png" width="80"> `10-diplodocus` — Diplodocus
+- [x] <img src="images/dinosaurs/11-iguanodon.jpg" width="80"> `11-iguanodon` — Iguanodon
+- [x] <img src="images/dinosaurs/12-parasaurolophus.png" width="80"> `12-parasaurolophus` — Parasaurolophus
+- [x] <img src="images/dinosaurs/13-pachycephalosaurus.jpg" width="80"> `13-pachycephalosaurus` — Pachycephalosaurus
+- [x] <img src="images/dinosaurs/14-compsognathus.jpg" width="80"> `14-compsognathus` — Compsognathus
+- [x] <img src="images/dinosaurs/15-archaeopteryx.jpg" width="80"> `15-archaeopteryx` — Archaeopteryx
+- [x] <img src="images/dinosaurs/16-dilophosaurus.jpg" width="80"> `16-dilophosaurus` — Dilophosaurus
+- [x] <img src="images/dinosaurs/17-carnotaurus.png" width="80"> `17-carnotaurus` — Carnotaurus
+- [x] <img src="images/dinosaurs/18-gallimimus.jpg" width="80"> `18-gallimimus` — Gallimimus
+- [x] <img src="images/dinosaurs/19-therizinosaurus.png" width="80"> `19-therizinosaurus` — Therizinosaurus
+- [x] <img src="images/dinosaurs/20-plesiosaurus.jpg" width="80"> `20-plesiosaurus` — Plesiosaurus
+- [x] <img src="images/dinosaurs/21-mosasaurus.png" width="80"> `21-mosasaurus` — Mosasaurus
+- [x] <img src="images/dinosaurs/22-ichthyosaurus.jpg" width="80"> `22-ichthyosaurus` — Ichthyosaurus
+- [x] <img src="images/dinosaurs/23-quetzalcoatlus.jpg" width="80"> `23-quetzalcoatlus` — Quetzalcoatlus
+- [x] <img src="images/dinosaurs/24-deinonychus.png" width="80"> `24-deinonychus` — Deinonychus
+- [x] <img src="images/dinosaurs/25-utahraptor.jpg" width="80"> `25-utahraptor` — Utahraptor
+- [x] <img src="images/dinosaurs/26-giganotosaurus.jpg" width="80"> `26-giganotosaurus` — Giganotosaurus
+- [x] <img src="images/dinosaurs/27-styracosaurus.png" width="80"> `27-styracosaurus` — Styracosaurus
+- [x] <img src="images/dinosaurs/28-protoceratops.png" width="80"> `28-protoceratops` — Protoceratops
+- [x] <img src="images/dinosaurs/29-apatosaurus.jpg" width="80"> `29-apatosaurus` — Apatosaurus
+- [x] <img src="images/dinosaurs/30-ceratosaurus.jpg" width="80"> `30-ceratosaurus` — Ceratosaurus
+- [x] <img src="images/dinosaurs/31-amargasaurus.jpg" width="80"> `31-amargasaurus` — Amargasaurus
+- [x] <img src="images/dinosaurs/32-baryonyx.jpg" width="80"> `32-baryonyx` — Baryonyx
+- [x] <img src="images/dinosaurs/33-corythosaurus.jpg" width="80"> `33-corythosaurus` — Corythosaurus
+- [x] <img src="images/dinosaurs/34-kentrosaurus.jpg" width="80"> `34-kentrosaurus` — Kentrosaurus
+- [x] <img src="images/dinosaurs/35-oviraptor.png" width="80"> `35-oviraptor` — Oviraptor
+- [x] <img src="images/dinosaurs/36-maiasaura.jpg" width="80"> `36-maiasaura` — Maiasaura
 
 ## Ocean Life (`images/ocean-life/`)
-- [ ] `1-clownfish` — Clownfish
-- [ ] `2-sea-turtle` — Sea Turtle
-- [ ] `3-jellyfish` — Jellyfish
-- [ ] `4-dolphin` — Dolphin
-- [ ] `5-seahorse` — Seahorse
-- [ ] `6-starfish` — Starfish
-- [ ] `7-great-white-shark` — Great White Shark
-- [ ] `8-hammerhead-shark` — Hammerhead Shark
-- [ ] `9-blue-whale` — Blue Whale
-- [ ] `10-orca-killer-whale` — Orca (Killer Whale)
-- [ ] `11-sea-otter` — Sea Otter
-- [ ] `12-manta-ray` — Manta Ray
-- [ ] `13-stingray` — Stingray
-- [ ] `14-pufferfish` — Pufferfish
-- [ ] `15-anglerfish` — Anglerfish
-- [ ] `16-sea-lion` — Sea Lion
-- [ ] `17-walrus` — Walrus
-- [ ] `18-sea-urchin` — Sea Urchin
-- [ ] `19-coral-reef` — Coral Reef
-- [ ] `20-giant-squid` — Giant Squid
-- [ ] `21-hermit-crab` — Hermit Crab
-- [ ] `22-lobster` — Lobster
-- [ ] `23-blue-crab` — Blue Crab
-- [ ] `24-sea-anemone` — Sea Anemone
-- [ ] `25-nautilus` — Nautilus
-- [ ] `26-sea-cucumber` — Sea Cucumber
-- [ ] `27-narwhal` — Narwhal
-- [ ] `28-manatee` — Manatee
-- [ ] `29-flying-fish` — Flying Fish
-- [ ] `30-swordfish` — Swordfish
-- [ ] `31-barracuda` — Barracuda
-- [ ] `32-moray-eel` — Moray Eel
-- [ ] `33-sea-sponge` — Sea Sponge
-- [ ] `34-beluga-whale` — Beluga Whale
-- [ ] `35-nudibranch-sea-slug` — Nudibranch (Sea Slug)
-- [ ] `36-angelfish` — Angelfish
+- [x] <img src="images/ocean-life/1-clownfish.jpg" width="80"> `1-clownfish` — Clownfish
+- [x] <img src="images/ocean-life/2-sea-turtle.jpg" width="80"> `2-sea-turtle` — Sea Turtle
+- [x] <img src="images/ocean-life/3-jellyfish.jpg" width="80"> `3-jellyfish` — Jellyfish
+- [x] <img src="images/ocean-life/4-dolphin.jpg" width="80"> `4-dolphin` — Dolphin
+- [x] <img src="images/ocean-life/5-seahorse.jpg" width="80"> `5-seahorse` — Seahorse
+- [x] <img src="images/ocean-life/6-starfish.jpg" width="80"> `6-starfish` — Starfish
+- [x] <img src="images/ocean-life/7-great-white-shark.jpg" width="80"> `7-great-white-shark` — Great White Shark
+- [x] <img src="images/ocean-life/8-hammerhead-shark.jpg" width="80"> `8-hammerhead-shark` — Hammerhead Shark
+- [x] <img src="images/ocean-life/9-blue-whale.jpg" width="80"> `9-blue-whale` — Blue Whale
+- [x] <img src="images/ocean-life/10-orca-killer-whale.jpg" width="80"> `10-orca-killer-whale` — Orca (Killer Whale)
+- [x] <img src="images/ocean-life/11-sea-otter.jpg" width="80"> `11-sea-otter` — Sea Otter
+- [x] <img src="images/ocean-life/12-manta-ray.jpg" width="80"> `12-manta-ray` — Manta Ray
+- [x] <img src="images/ocean-life/13-stingray.jpg" width="80"> `13-stingray` — Stingray
+- [x] <img src="images/ocean-life/14-pufferfish.jpg" width="80"> `14-pufferfish` — Pufferfish
+- [x] <img src="images/ocean-life/15-anglerfish.jpg" width="80"> `15-anglerfish` — Anglerfish
+- [x] <img src="images/ocean-life/16-sea-lion.jpg" width="80"> `16-sea-lion` — Sea Lion
+- [x] <img src="images/ocean-life/17-walrus.jpg" width="80"> `17-walrus` — Walrus
+- [x] <img src="images/ocean-life/18-sea-urchin.jpg" width="80"> `18-sea-urchin` — Sea Urchin
+- [x] <img src="images/ocean-life/19-coral-reef.jpg" width="80"> `19-coral-reef` — Coral Reef
+- [x] <img src="images/ocean-life/20-giant-squid.jpg" width="80"> `20-giant-squid` — Giant Squid
+- [x] <img src="images/ocean-life/21-hermit-crab.jpg" width="80"> `21-hermit-crab` — Hermit Crab
+- [x] <img src="images/ocean-life/22-lobster.jpg" width="80"> `22-lobster` — Lobster
+- [x] <img src="images/ocean-life/23-blue-crab.jpg" width="80"> `23-blue-crab` — Blue Crab
+- [x] <img src="images/ocean-life/24-sea-anemone.jpg" width="80"> `24-sea-anemone` — Sea Anemone
+- [x] <img src="images/ocean-life/25-nautilus.jpg" width="80"> `25-nautilus` — Nautilus
+- [x] <img src="images/ocean-life/26-sea-cucumber.jpg" width="80"> `26-sea-cucumber` — Sea Cucumber
+- [x] <img src="images/ocean-life/27-narwhal.jpg" width="80"> `27-narwhal` — Narwhal
+- [x] <img src="images/ocean-life/28-manatee.jpg" width="80"> `28-manatee` — Manatee
+- [x] <img src="images/ocean-life/29-flying-fish.jpg" width="80"> `29-flying-fish` — Flying Fish
+- [x] <img src="images/ocean-life/30-swordfish.jpg" width="80"> `30-swordfish` — Swordfish
+- [x] <img src="images/ocean-life/31-barracuda.jpg" width="80"> `31-barracuda` — Barracuda
+- [x] <img src="images/ocean-life/32-moray-eel.jpg" width="80"> `32-moray-eel` — Moray Eel
+- [x] <img src="images/ocean-life/33-sea-sponge.jpg" width="80"> `33-sea-sponge` — Sea Sponge
+- [x] <img src="images/ocean-life/34-beluga-whale.jpg" width="80"> `34-beluga-whale` — Beluga Whale
+- [x] <img src="images/ocean-life/35-nudibranch-sea-slug.jpg" width="80"> `35-nudibranch-sea-slug` — Nudibranch (Sea Slug)
+- [x] <img src="images/ocean-life/36-angelfish.jpg" width="80"> `36-angelfish` — Angelfish
 
 ## Languages (`images/languages/`)
 - [ ] `1-english` — English
@@ -892,194 +892,194 @@ these gradually and playtest as you go.
 - [ ] `36-georgian` — Georgian
 
 ## Insects (`images/insects/`)
-- [ ] `1-butterfly` — Butterfly
-- [ ] `2-ladybug` — Ladybug
-- [ ] `3-honeybee` — Honeybee
-- [ ] `4-dragonfly` — Dragonfly
-- [ ] `5-ant` — Ant
-- [ ] `6-praying-mantis` — Praying Mantis
-- [ ] `7-grasshopper` — Grasshopper
-- [ ] `8-cricket` — Cricket
-- [ ] `9-beetle` — Beetle
-- [ ] `10-cockroach` — Cockroach
-- [ ] `11-housefly` — Housefly
-- [ ] `12-mosquito` — Mosquito
-- [ ] `13-wasp` — Wasp
-- [ ] `14-bumblebee` — Bumblebee
-- [ ] `15-termite` — Termite
-- [ ] `16-firefly` — Firefly
-- [ ] `17-moth` — Moth
-- [ ] `18-stick-insect` — Stick Insect
-- [ ] `19-cicada` — Cicada
-- [ ] `20-aphid` — Aphid
-- [ ] `21-earwig` — Earwig
-- [ ] `22-weevil` — Weevil
-- [ ] `23-stink-bug` — Stink Bug
-- [ ] `24-locust` — Locust
-- [ ] `25-silkworm` — Silkworm
-- [ ] `26-flea` — Flea
-- [ ] `27-dung-beetle` — Dung Beetle
-- [ ] `28-rhinoceros-beetle` — Rhinoceros Beetle
-- [ ] `29-stag-beetle` — Stag Beetle
-- [ ] `30-mayfly` — Mayfly
-- [ ] `31-katydid` — Katydid
-- [ ] `32-water-strider` — Water Strider
-- [ ] `33-antlion` — Antlion
-- [ ] `34-whirligig-beetle` — Whirligig Beetle
-- [ ] `35-weta` — Weta
-- [ ] `36-monarch-caterpillar` — Monarch Caterpillar
+- [x] <img src="images/insects/1-butterfly.jpg" width="80"> `1-butterfly` — Butterfly
+- [x] <img src="images/insects/2-ladybug.jpg" width="80"> `2-ladybug` — Ladybug
+- [x] <img src="images/insects/3-honeybee.jpg" width="80"> `3-honeybee` — Honeybee
+- [x] <img src="images/insects/4-dragonfly.jpg" width="80"> `4-dragonfly` — Dragonfly
+- [x] <img src="images/insects/5-ant.jpg" width="80"> `5-ant` — Ant
+- [x] <img src="images/insects/6-praying-mantis.jpg" width="80"> `6-praying-mantis` — Praying Mantis
+- [x] <img src="images/insects/7-grasshopper.jpg" width="80"> `7-grasshopper` — Grasshopper
+- [x] <img src="images/insects/8-cricket.jpg" width="80"> `8-cricket` — Cricket
+- [x] <img src="images/insects/9-beetle.jpg" width="80"> `9-beetle` — Beetle
+- [x] <img src="images/insects/10-cockroach.jpg" width="80"> `10-cockroach` — Cockroach
+- [x] <img src="images/insects/11-housefly.jpg" width="80"> `11-housefly` — Housefly
+- [x] <img src="images/insects/12-mosquito.jpg" width="80"> `12-mosquito` — Mosquito
+- [x] <img src="images/insects/13-wasp.jpg" width="80"> `13-wasp` — Wasp
+- [x] <img src="images/insects/14-bumblebee.jpg" width="80"> `14-bumblebee` — Bumblebee
+- [x] <img src="images/insects/15-termite.jpg" width="80"> `15-termite` — Termite
+- [x] <img src="images/insects/16-firefly.jpg" width="80"> `16-firefly` — Firefly
+- [x] <img src="images/insects/17-moth.jpg" width="80"> `17-moth` — Moth
+- [x] <img src="images/insects/18-stick-insect.jpg" width="80"> `18-stick-insect` — Stick Insect
+- [x] <img src="images/insects/19-cicada.jpg" width="80"> `19-cicada` — Cicada
+- [x] <img src="images/insects/20-aphid.jpg" width="80"> `20-aphid` — Aphid
+- [x] <img src="images/insects/21-earwig.jpg" width="80"> `21-earwig` — Earwig
+- [x] <img src="images/insects/22-weevil.jpg" width="80"> `22-weevil` — Weevil
+- [x] <img src="images/insects/23-stink-bug.jpg" width="80"> `23-stink-bug` — Stink Bug
+- [x] <img src="images/insects/24-locust.jpg" width="80"> `24-locust` — Locust
+- [x] <img src="images/insects/25-silkworm.jpg" width="80"> `25-silkworm` — Silkworm
+- [x] <img src="images/insects/26-flea.jpg" width="80"> `26-flea` — Flea
+- [x] <img src="images/insects/27-dung-beetle.jpg" width="80"> `27-dung-beetle` — Dung Beetle
+- [x] <img src="images/insects/28-rhinoceros-beetle.jpg" width="80"> `28-rhinoceros-beetle` — Rhinoceros Beetle
+- [x] <img src="images/insects/29-stag-beetle.jpg" width="80"> `29-stag-beetle` — Stag Beetle
+- [x] <img src="images/insects/30-mayfly.jpg" width="80"> `30-mayfly` — Mayfly
+- [x] <img src="images/insects/31-katydid.jpg" width="80"> `31-katydid` — Katydid
+- [x] <img src="images/insects/32-water-strider.jpg" width="80"> `32-water-strider` — Water Strider
+- [x] <img src="images/insects/33-antlion.jpg" width="80"> `33-antlion` — Antlion
+- [x] <img src="images/insects/34-whirligig-beetle.jpg" width="80"> `34-whirligig-beetle` — Whirligig Beetle
+- [x] <img src="images/insects/35-weta.jpg" width="80"> `35-weta` — Weta
+- [x] <img src="images/insects/36-monarch-caterpillar.jpg" width="80"> `36-monarch-caterpillar` — Monarch Caterpillar
 
 ## Reptiles & Amphibians (`images/reptiles-amphibians/`)
-- [ ] `1-chameleon` — Chameleon
-- [ ] `2-crocodile` — Crocodile
-- [ ] `3-iguana` — Iguana
-- [ ] `4-frog` — Frog
-- [ ] `5-tortoise` — Tortoise
-- [ ] `6-gecko` — Gecko
-- [ ] `7-komodo-dragon` — Komodo Dragon
-- [ ] `8-king-cobra` — King Cobra
-- [ ] `9-salamander` — Salamander
-- [ ] `10-alligator` — Alligator
-- [ ] `11-rattlesnake` — Rattlesnake
-- [ ] `12-green-tree-python` — Green Tree Python
-- [ ] `13-bearded-dragon` — Bearded Dragon
-- [ ] `14-poison-dart-frog` — Poison Dart Frog
-- [ ] `15-axolotl` — Axolotl
-- [ ] `16-monitor-lizard` — Monitor Lizard
-- [ ] `17-garter-snake` — Garter Snake
-- [ ] `18-newt` — Newt
-- [ ] `19-anaconda` — Anaconda
-- [ ] `20-boa-constrictor` — Boa Constrictor
-- [ ] `21-snapping-turtle` — Snapping Turtle
-- [ ] `22-horned-lizard` — Horned Lizard
-- [ ] `23-toad` — Toad
-- [ ] `24-skink` — Skink
-- [ ] `25-leatherback-sea-turtle` — Leatherback Sea Turtle
-- [ ] `26-copperhead-snake` — Copperhead Snake
-- [ ] `27-tuatara` — Tuatara
-- [ ] `28-gila-monster` — Gila Monster
-- [ ] `29-flying-dragon-lizard` — Flying Dragon Lizard
-- [ ] `30-basilisk-lizard` — Basilisk Lizard
-- [ ] `31-bullfrog` — Bullfrog
-- [ ] `32-tree-frog` — Tree Frog
-- [ ] `33-anole` — Anole
-- [ ] `34-chinese-water-dragon` — Chinese Water Dragon
-- [ ] `35-painted-turtle` — Painted Turtle
-- [ ] `36-milk-snake` — Milk Snake
+- [x] <img src="images/reptiles-amphibians/1-chameleon.jpg" width="80"> `1-chameleon` — Chameleon
+- [x] <img src="images/reptiles-amphibians/2-crocodile.jpg" width="80"> `2-crocodile` — Crocodile
+- [x] <img src="images/reptiles-amphibians/3-iguana.jpg" width="80"> `3-iguana` — Iguana
+- [x] <img src="images/reptiles-amphibians/4-frog.jpg" width="80"> `4-frog` — Frog
+- [x] <img src="images/reptiles-amphibians/5-tortoise.jpg" width="80"> `5-tortoise` — Tortoise
+- [x] <img src="images/reptiles-amphibians/6-gecko.jpg" width="80"> `6-gecko` — Gecko
+- [x] <img src="images/reptiles-amphibians/7-komodo-dragon.jpg" width="80"> `7-komodo-dragon` — Komodo Dragon
+- [x] <img src="images/reptiles-amphibians/8-king-cobra.jpg" width="80"> `8-king-cobra` — King Cobra
+- [x] <img src="images/reptiles-amphibians/9-salamander.jpg" width="80"> `9-salamander` — Salamander
+- [x] <img src="images/reptiles-amphibians/10-alligator.jpg" width="80"> `10-alligator` — Alligator
+- [x] <img src="images/reptiles-amphibians/11-rattlesnake.jpg" width="80"> `11-rattlesnake` — Rattlesnake
+- [x] <img src="images/reptiles-amphibians/12-green-tree-python.jpg" width="80"> `12-green-tree-python` — Green Tree Python
+- [x] <img src="images/reptiles-amphibians/13-bearded-dragon.jpg" width="80"> `13-bearded-dragon` — Bearded Dragon
+- [x] <img src="images/reptiles-amphibians/14-poison-dart-frog.jpg" width="80"> `14-poison-dart-frog` — Poison Dart Frog
+- [x] <img src="images/reptiles-amphibians/15-axolotl.jpg" width="80"> `15-axolotl` — Axolotl
+- [x] <img src="images/reptiles-amphibians/16-monitor-lizard.jpg" width="80"> `16-monitor-lizard` — Monitor Lizard
+- [x] <img src="images/reptiles-amphibians/17-garter-snake.jpg" width="80"> `17-garter-snake` — Garter Snake
+- [x] <img src="images/reptiles-amphibians/18-newt.jpg" width="80"> `18-newt` — Newt
+- [x] <img src="images/reptiles-amphibians/19-anaconda.jpg" width="80"> `19-anaconda` — Anaconda
+- [x] <img src="images/reptiles-amphibians/20-boa-constrictor.jpg" width="80"> `20-boa-constrictor` — Boa Constrictor
+- [x] <img src="images/reptiles-amphibians/21-snapping-turtle.jpg" width="80"> `21-snapping-turtle` — Snapping Turtle
+- [x] <img src="images/reptiles-amphibians/22-horned-lizard.jpg" width="80"> `22-horned-lizard` — Horned Lizard
+- [x] <img src="images/reptiles-amphibians/23-toad.jpg" width="80"> `23-toad` — Toad
+- [x] <img src="images/reptiles-amphibians/24-skink.jpg" width="80"> `24-skink` — Skink
+- [x] <img src="images/reptiles-amphibians/25-leatherback-sea-turtle.jpg" width="80"> `25-leatherback-sea-turtle` — Leatherback Sea Turtle
+- [x] <img src="images/reptiles-amphibians/26-copperhead-snake.jpg" width="80"> `26-copperhead-snake` — Copperhead Snake
+- [x] <img src="images/reptiles-amphibians/27-tuatara.jpg" width="80"> `27-tuatara` — Tuatara
+- [x] <img src="images/reptiles-amphibians/28-gila-monster.jpg" width="80"> `28-gila-monster` — Gila Monster
+- [x] <img src="images/reptiles-amphibians/29-flying-dragon-lizard.jpg" width="80"> `29-flying-dragon-lizard` — Flying Dragon Lizard
+- [x] <img src="images/reptiles-amphibians/30-basilisk-lizard.jpg" width="80"> `30-basilisk-lizard` — Basilisk Lizard
+- [x] <img src="images/reptiles-amphibians/31-bullfrog.jpg" width="80"> `31-bullfrog` — Bullfrog
+- [x] <img src="images/reptiles-amphibians/32-tree-frog.jpg" width="80"> `32-tree-frog` — Tree Frog
+- [x] <img src="images/reptiles-amphibians/33-anole.jpg" width="80"> `33-anole` — Anole
+- [x] <img src="images/reptiles-amphibians/34-chinese-water-dragon.jpg" width="80"> `34-chinese-water-dragon` — Chinese Water Dragon
+- [x] <img src="images/reptiles-amphibians/35-painted-turtle.jpg" width="80"> `35-painted-turtle` — Painted Turtle
+- [x] <img src="images/reptiles-amphibians/36-milk-snake.jpg" width="80"> `36-milk-snake` — Milk Snake
 
 ## Farm Animals (`images/farm-animals/`)
-- [ ] `1-cow` — Cow
-- [ ] `2-pig` — Pig
-- [ ] `3-sheep` — Sheep
-- [ ] `4-chicken` — Chicken
-- [ ] `5-horse` — Horse
-- [ ] `6-goat` — Goat
-- [ ] `7-duck` — Duck
-- [ ] `8-turkey` — Turkey
-- [ ] `9-donkey` — Donkey
-- [ ] `10-rooster` — Rooster
-- [ ] `11-goose` — Goose
-- [ ] `12-llama` — Llama
-- [ ] `13-alpaca` — Alpaca
-- [ ] `14-water-buffalo` — Water Buffalo
-- [ ] `15-bull` — Bull
-- [ ] `16-calf` — Calf
-- [ ] `17-piglet` — Piglet
-- [ ] `18-lamb` — Lamb
-- [ ] `19-baby-chick` — Baby Chick
-- [ ] `20-draft-horse` — Draft Horse
-- [ ] `21-mule` — Mule
-- [ ] `22-ox` — Ox
-- [ ] `23-guinea-fowl` — Guinea Fowl
-- [ ] `24-quail` — Quail
-- [ ] `25-shetland-pony` — Shetland Pony
-- [ ] `26-peacock` — Peacock
-- [ ] `27-pigeon` — Pigeon
-- [ ] `28-border-collie` — Border Collie
-- [ ] `29-barn-cat` — Barn Cat
-- [ ] `30-emu` — Emu
-- [ ] `31-ostrich` — Ostrich
-- [ ] `32-yak` — Yak
-- [ ] `33-bison` — Bison
-- [ ] `34-camel` — Camel
-- [ ] `35-zebu` — Zebu
-- [ ] `36-pony` — Pony
+- [x] <img src="images/farm-animals/1-cow.jpg" width="80"> `1-cow` — Cow
+- [x] <img src="images/farm-animals/2-pig.jpg" width="80"> `2-pig` — Pig
+- [x] <img src="images/farm-animals/3-sheep.jpg" width="80"> `3-sheep` — Sheep
+- [x] <img src="images/farm-animals/4-chicken.jpg" width="80"> `4-chicken` — Chicken
+- [x] <img src="images/farm-animals/5-horse.jpg" width="80"> `5-horse` — Horse
+- [x] <img src="images/farm-animals/6-goat.jpg" width="80"> `6-goat` — Goat
+- [x] <img src="images/farm-animals/7-duck.jpg" width="80"> `7-duck` — Duck
+- [x] <img src="images/farm-animals/8-turkey.jpg" width="80"> `8-turkey` — Turkey
+- [x] <img src="images/farm-animals/9-donkey.jpg" width="80"> `9-donkey` — Donkey
+- [x] <img src="images/farm-animals/10-rooster.jpg" width="80"> `10-rooster` — Rooster
+- [x] <img src="images/farm-animals/11-goose.jpg" width="80"> `11-goose` — Goose
+- [x] <img src="images/farm-animals/12-llama.jpg" width="80"> `12-llama` — Llama
+- [x] <img src="images/farm-animals/13-alpaca.jpg" width="80"> `13-alpaca` — Alpaca
+- [x] <img src="images/farm-animals/14-water-buffalo.jpg" width="80"> `14-water-buffalo` — Water Buffalo
+- [x] <img src="images/farm-animals/15-bull.jpg" width="80"> `15-bull` — Bull
+- [x] <img src="images/farm-animals/16-calf.jpg" width="80"> `16-calf` — Calf
+- [x] <img src="images/farm-animals/17-piglet.jpg" width="80"> `17-piglet` — Piglet
+- [x] <img src="images/farm-animals/18-lamb.jpg" width="80"> `18-lamb` — Lamb
+- [x] <img src="images/farm-animals/19-baby-chick.jpg" width="80"> `19-baby-chick` — Baby Chick
+- [x] <img src="images/farm-animals/20-draft-horse.jpg" width="80"> `20-draft-horse` — Draft Horse
+- [x] <img src="images/farm-animals/21-mule.jpg" width="80"> `21-mule` — Mule
+- [x] <img src="images/farm-animals/22-ox.jpg" width="80"> `22-ox` — Ox
+- [x] <img src="images/farm-animals/23-guinea-fowl.jpg" width="80"> `23-guinea-fowl` — Guinea Fowl
+- [x] <img src="images/farm-animals/24-quail.jpg" width="80"> `24-quail` — Quail
+- [x] <img src="images/farm-animals/25-shetland-pony.jpg" width="80"> `25-shetland-pony` — Shetland Pony
+- [x] <img src="images/farm-animals/26-peacock.jpg" width="80"> `26-peacock` — Peacock
+- [x] <img src="images/farm-animals/27-pigeon.jpg" width="80"> `27-pigeon` — Pigeon
+- [x] <img src="images/farm-animals/28-border-collie.jpg" width="80"> `28-border-collie` — Border Collie
+- [x] <img src="images/farm-animals/29-barn-cat.jpg" width="80"> `29-barn-cat` — Barn Cat
+- [x] <img src="images/farm-animals/30-emu.jpg" width="80"> `30-emu` — Emu
+- [x] <img src="images/farm-animals/31-ostrich.jpg" width="80"> `31-ostrich` — Ostrich
+- [x] <img src="images/farm-animals/32-yak.jpg" width="80"> `32-yak` — Yak
+- [x] <img src="images/farm-animals/33-bison.jpg" width="80"> `33-bison` — Bison
+- [x] <img src="images/farm-animals/34-camel.jpg" width="80"> `34-camel` — Camel
+- [x] <img src="images/farm-animals/35-zebu.jpg" width="80"> `35-zebu` — Zebu
+- [x] <img src="images/farm-animals/36-pony.jpg" width="80"> `36-pony` — Pony
 
 ## Pets (`images/pets/`)
-- [ ] `1-golden-retriever` — Golden Retriever
-- [ ] `2-tabby-cat` — Tabby Cat
-- [ ] `3-goldfish` — Goldfish
-- [ ] `4-hamster` — Hamster
-- [ ] `5-parakeet` — Parakeet
-- [ ] `6-rabbit` — Rabbit
-- [ ] `7-guinea-pig` — Guinea Pig
-- [ ] `8-poodle` — Poodle
-- [ ] `9-siamese-cat` — Siamese Cat
-- [ ] `10-pet-turtle` — Pet Turtle
-- [ ] `11-ferret` — Ferret
-- [ ] `12-chihuahua` — Chihuahua
-- [ ] `13-persian-cat` — Persian Cat
-- [ ] `14-bulldog` — Bulldog
-- [ ] `15-cockatiel` — Cockatiel
-- [ ] `16-betta-fish` — Betta Fish
-- [ ] `17-labrador-retriever` — Labrador Retriever
-- [ ] `18-german-shepherd` — German Shepherd
-- [ ] `19-maine-coon-cat` — Maine Coon Cat
-- [ ] `20-gerbil` — Gerbil
-- [ ] `21-chinchilla` — Chinchilla
-- [ ] `22-corgi` — Corgi
-- [ ] `23-dachshund` — Dachshund
-- [ ] `24-beagle` — Beagle
-- [ ] `25-sphynx-cat` — Sphynx Cat
-- [ ] `26-budgerigar` — Budgerigar
-- [ ] `27-cockatoo` — Cockatoo
-- [ ] `28-hermit-crab` — Hermit Crab
-- [ ] `29-leopard-gecko` — Leopard Gecko
-- [ ] `30-angelfish` — Angelfish
-- [ ] `31-pet-rat` — Pet Rat
-- [ ] `32-hedgehog` — Hedgehog
-- [ ] `33-pug` — Pug
-- [ ] `34-shih-tzu` — Shih Tzu
-- [ ] `35-great-dane` — Great Dane
-- [ ] `36-pet-tarantula` — Pet Tarantula
+- [x] <img src="images/pets/1-golden-retriever.jpg" width="80"> `1-golden-retriever` — Golden Retriever
+- [x] <img src="images/pets/2-tabby-cat.jpg" width="80"> `2-tabby-cat` — Tabby Cat
+- [x] <img src="images/pets/3-goldfish.jpg" width="80"> `3-goldfish` — Goldfish
+- [x] <img src="images/pets/4-hamster.jpg" width="80"> `4-hamster` — Hamster
+- [x] <img src="images/pets/5-parakeet.jpg" width="80"> `5-parakeet` — Parakeet
+- [x] <img src="images/pets/6-rabbit.jpg" width="80"> `6-rabbit` — Rabbit
+- [x] <img src="images/pets/7-guinea-pig.jpg" width="80"> `7-guinea-pig` — Guinea Pig
+- [x] <img src="images/pets/8-poodle.jpg" width="80"> `8-poodle` — Poodle
+- [x] <img src="images/pets/9-siamese-cat.jpg" width="80"> `9-siamese-cat` — Siamese Cat
+- [x] <img src="images/pets/10-pet-turtle.jpg" width="80"> `10-pet-turtle` — Pet Turtle
+- [x] <img src="images/pets/11-ferret.jpg" width="80"> `11-ferret` — Ferret
+- [x] <img src="images/pets/12-chihuahua.jpg" width="80"> `12-chihuahua` — Chihuahua
+- [x] <img src="images/pets/13-persian-cat.jpg" width="80"> `13-persian-cat` — Persian Cat
+- [x] <img src="images/pets/14-bulldog.jpg" width="80"> `14-bulldog` — Bulldog
+- [x] <img src="images/pets/15-cockatiel.jpg" width="80"> `15-cockatiel` — Cockatiel
+- [x] <img src="images/pets/16-betta-fish.jpg" width="80"> `16-betta-fish` — Betta Fish
+- [x] <img src="images/pets/17-labrador-retriever.jpg" width="80"> `17-labrador-retriever` — Labrador Retriever
+- [x] <img src="images/pets/18-german-shepherd.jpg" width="80"> `18-german-shepherd` — German Shepherd
+- [x] <img src="images/pets/19-maine-coon-cat.jpg" width="80"> `19-maine-coon-cat` — Maine Coon Cat
+- [x] <img src="images/pets/20-gerbil.jpg" width="80"> `20-gerbil` — Gerbil
+- [x] <img src="images/pets/21-chinchilla.jpg" width="80"> `21-chinchilla` — Chinchilla
+- [x] <img src="images/pets/22-corgi.jpg" width="80"> `22-corgi` — Corgi
+- [x] <img src="images/pets/23-dachshund.jpg" width="80"> `23-dachshund` — Dachshund
+- [x] <img src="images/pets/24-beagle.jpg" width="80"> `24-beagle` — Beagle
+- [x] <img src="images/pets/25-sphynx-cat.jpg" width="80"> `25-sphynx-cat` — Sphynx Cat
+- [x] <img src="images/pets/26-budgerigar.jpg" width="80"> `26-budgerigar` — Budgerigar
+- [x] <img src="images/pets/27-cockatoo.jpg" width="80"> `27-cockatoo` — Cockatoo
+- [x] <img src="images/pets/28-hermit-crab.jpg" width="80"> `28-hermit-crab` — Hermit Crab
+- [x] <img src="images/pets/29-leopard-gecko.jpg" width="80"> `29-leopard-gecko` — Leopard Gecko
+- [x] <img src="images/pets/30-angelfish.jpg" width="80"> `30-angelfish` — Angelfish
+- [x] <img src="images/pets/31-pet-rat.jpg" width="80"> `31-pet-rat` — Pet Rat
+- [x] <img src="images/pets/32-hedgehog.jpg" width="80"> `32-hedgehog` — Hedgehog
+- [x] <img src="images/pets/33-pug.jpg" width="80"> `33-pug` — Pug
+- [x] <img src="images/pets/34-shih-tzu.jpg" width="80"> `34-shih-tzu` — Shih Tzu
+- [x] <img src="images/pets/35-great-dane.jpg" width="80"> `35-great-dane` — Great Dane
+- [x] <img src="images/pets/36-pet-tarantula.jpg" width="80"> `36-pet-tarantula` — Pet Tarantula
 
 ## Flowers (`images/flowers/`)
-- [ ] `1-rose` — Rose
-- [ ] `2-sunflower` — Sunflower
-- [ ] `3-tulip` — Tulip
-- [ ] `4-daisy` — Daisy
-- [ ] `5-orchid` — Orchid
-- [ ] `6-lily` — Lily
-- [ ] `7-carnation` — Carnation
-- [ ] `8-marigold` — Marigold
-- [ ] `9-peony` — Peony
-- [ ] `10-hydrangea` — Hydrangea
-- [ ] `11-lavender` — Lavender
-- [ ] `12-daffodil` — Daffodil
-- [ ] `13-iris` — Iris
-- [ ] `14-chrysanthemum` — Chrysanthemum
-- [ ] `15-poppy` — Poppy
-- [ ] `16-hibiscus` — Hibiscus
-- [ ] `17-lotus-flower` — Lotus Flower
-- [ ] `18-dahlia` — Dahlia
-- [ ] `19-violet` — Violet
-- [ ] `20-snapdragon` — Snapdragon
-- [ ] `21-freesia` — Freesia
-- [ ] `22-gardenia` — Gardenia
-- [ ] `23-magnolia` — Magnolia
-- [ ] `24-jasmine` — Jasmine
-- [ ] `25-bluebell` — Bluebell
-- [ ] `26-zinnia` — Zinnia
-- [ ] `27-cosmos-flower` — Cosmos Flower
-- [ ] `28-anemone` — Anemone
-- [ ] `29-ranunculus` — Ranunculus
-- [ ] `30-wisteria` — Wisteria
-- [ ] `31-lilac` — Lilac
-- [ ] `32-foxglove` — Foxglove
-- [ ] `33-camellia` — Camellia
-- [ ] `34-amaryllis` — Amaryllis
-- [ ] `35-petunia` — Petunia
-- [ ] `36-bird-of-paradise-flower` — Bird of Paradise Flower
+- [x] <img src="images/flowers/1-rose.jpg" width="80"> `1-rose` — Rose
+- [x] <img src="images/flowers/2-sunflower.jpg" width="80"> `2-sunflower` — Sunflower
+- [x] <img src="images/flowers/3-tulip.jpg" width="80"> `3-tulip` — Tulip
+- [x] <img src="images/flowers/4-daisy.jpg" width="80"> `4-daisy` — Daisy
+- [x] <img src="images/flowers/5-orchid.jpg" width="80"> `5-orchid` — Orchid
+- [x] <img src="images/flowers/6-lily.jpg" width="80"> `6-lily` — Lily
+- [x] <img src="images/flowers/7-carnation.jpg" width="80"> `7-carnation` — Carnation
+- [x] <img src="images/flowers/8-marigold.jpg" width="80"> `8-marigold` — Marigold
+- [x] <img src="images/flowers/9-peony.jpg" width="80"> `9-peony` — Peony
+- [x] <img src="images/flowers/10-hydrangea.jpg" width="80"> `10-hydrangea` — Hydrangea
+- [x] <img src="images/flowers/11-lavender.jpg" width="80"> `11-lavender` — Lavender
+- [x] <img src="images/flowers/12-daffodil.jpg" width="80"> `12-daffodil` — Daffodil
+- [x] <img src="images/flowers/13-iris.jpg" width="80"> `13-iris` — Iris
+- [x] <img src="images/flowers/14-chrysanthemum.jpg" width="80"> `14-chrysanthemum` — Chrysanthemum
+- [x] <img src="images/flowers/15-poppy.jpg" width="80"> `15-poppy` — Poppy
+- [x] <img src="images/flowers/16-hibiscus.jpg" width="80"> `16-hibiscus` — Hibiscus
+- [x] <img src="images/flowers/17-lotus-flower.jpg" width="80"> `17-lotus-flower` — Lotus Flower
+- [x] <img src="images/flowers/18-dahlia.jpg" width="80"> `18-dahlia` — Dahlia
+- [x] <img src="images/flowers/19-violet.jpg" width="80"> `19-violet` — Violet
+- [x] <img src="images/flowers/20-snapdragon.jpg" width="80"> `20-snapdragon` — Snapdragon
+- [x] <img src="images/flowers/21-freesia.jpg" width="80"> `21-freesia` — Freesia
+- [x] <img src="images/flowers/22-gardenia.jpg" width="80"> `22-gardenia` — Gardenia
+- [x] <img src="images/flowers/23-magnolia.jpg" width="80"> `23-magnolia` — Magnolia
+- [x] <img src="images/flowers/24-jasmine.jpg" width="80"> `24-jasmine` — Jasmine
+- [x] <img src="images/flowers/25-bluebell.jpg" width="80"> `25-bluebell` — Bluebell
+- [x] <img src="images/flowers/26-zinnia.jpg" width="80"> `26-zinnia` — Zinnia
+- [x] <img src="images/flowers/27-cosmos-flower.jpg" width="80"> `27-cosmos-flower` — Cosmos Flower
+- [x] <img src="images/flowers/28-anemone.jpg" width="80"> `28-anemone` — Anemone
+- [x] <img src="images/flowers/29-ranunculus.jpg" width="80"> `29-ranunculus` — Ranunculus
+- [x] <img src="images/flowers/30-wisteria.jpg" width="80"> `30-wisteria` — Wisteria
+- [x] <img src="images/flowers/31-lilac.jpg" width="80"> `31-lilac` — Lilac
+- [x] <img src="images/flowers/32-foxglove.jpg" width="80"> `32-foxglove` — Foxglove
+- [x] <img src="images/flowers/33-camellia.jpg" width="80"> `33-camellia` — Camellia
+- [x] <img src="images/flowers/34-amaryllis.jpg" width="80"> `34-amaryllis` — Amaryllis
+- [x] <img src="images/flowers/35-petunia.jpg" width="80"> `35-petunia` — Petunia
+- [x] <img src="images/flowers/36-bird-of-paradise-flower.jpg" width="80"> `36-bird-of-paradise-flower` — Bird of Paradise Flower
 
 ## Actors & Actresses (`images/actors-actresses/`)
 - [ ] `1-tom-hanks` — Tom Hanks
@@ -1099,7 +1099,7 @@ these gradually and playtest as you go.
 - [ ] `15-dwayne-johnson` — Dwayne Johnson
 - [ ] `16-jennifer-lawrence` — Jennifer Lawrence
 - [ ] `17-samuel-l-jackson` — Samuel L. Jackson
-- [ ] `18-charlize-theron` — Charlize Theron
+- [ ] `18-rio-dewanto` — Rio Dewanto
 - [ ] `19-keanu-reeves` — Keanu Reeves
 - [ ] `20-natalie-portman` — Natalie Portman
 - [ ] `21-chris-hemsworth` — Chris Hemsworth
@@ -1108,92 +1108,92 @@ these gradually and playtest as you go.
 - [ ] `24-sandra-bullock` — Sandra Bullock
 - [ ] `25-ryan-reynolds` — Ryan Reynolds
 - [ ] `26-zendaya` — Zendaya
-- [ ] `27-idris-elba` — Idris Elba
-- [ ] `28-nicole-kidman` — Nicole Kidman
+- [ ] `27-dion-wiyoko` — Dion Wiyoko
+- [ ] `28-chicco-jerikho` — Chicco Jerikho
 - [ ] `29-chadwick-boseman` — Chadwick Boseman
-- [ ] `30-viola-davis` — Viola Davis
-- [ ] `31-al-pacino` — Al Pacino
-- [ ] `32-audrey-hepburn` — Audrey Hepburn
+- [ ] `30-sheila-dara` — Sheila Dara
+- [ ] `31-fedi-nuril` — Fedi Nuril
+- [ ] `32-nirina-zubir` — Nirina Zubir
 - [ ] `33-marilyn-monroe` — Marilyn Monroe
-- [ ] `34-amitabh-bachchan` — Amitabh Bachchan
-- [ ] `35-priyanka-chopra` — Priyanka Chopra
+- [ ] `34-reza-rahadian` — Reza Rahadian
+- [ ] `35-dian-sastro` — Dian Sastro
 - [ ] `36-jackie-chan` — Jackie Chan
 
 ## Fruits (`images/fruits/`)
-- [ ] `1-watermelon` — Watermelon
-- [ ] `2-pineapple` — Pineapple
-- [ ] `3-strawberry` — Strawberry
-- [ ] `4-banana` — Banana
-- [ ] `5-mango` — Mango
-- [ ] `6-dragon-fruit` — Dragon Fruit
-- [ ] `7-apple` — Apple
-- [ ] `8-orange` — Orange
-- [ ] `9-grapes` — Grapes
-- [ ] `10-kiwi` — Kiwi
-- [ ] `11-peach` — Peach
-- [ ] `12-pear` — Pear
-- [ ] `13-cherry` — Cherry
-- [ ] `14-blueberry` — Blueberry
-- [ ] `15-raspberry` — Raspberry
-- [ ] `16-blackberry` — Blackberry
-- [ ] `17-papaya` — Papaya
-- [ ] `18-passion-fruit` — Passion Fruit
-- [ ] `19-pomegranate` — Pomegranate
-- [ ] `20-fig` — Fig
-- [ ] `21-lychee` — Lychee
-- [ ] `22-guava` — Guava
-- [ ] `23-coconut` — Coconut
-- [ ] `24-lemon` — Lemon
-- [ ] `25-lime` — Lime
-- [ ] `26-grapefruit` — Grapefruit
-- [ ] `27-plum` — Plum
-- [ ] `28-apricot` — Apricot
-- [ ] `29-persimmon` — Persimmon
-- [ ] `30-starfruit` — Starfruit
-- [ ] `31-cantaloupe` — Cantaloupe
-- [ ] `32-honeydew-melon` — Honeydew Melon
-- [ ] `33-cranberry` — Cranberry
-- [ ] `34-durian` — Durian
-- [ ] `35-rambutan` — Rambutan
-- [ ] `36-tangerine` — Tangerine
+- [x] <img src="images/fruits/1-watermelon.jpg" width="80"> `1-watermelon` — Watermelon
+- [x] <img src="images/fruits/2-pineapple.jpg" width="80"> `2-pineapple` — Pineapple
+- [x] <img src="images/fruits/3-strawberry.jpg" width="80"> `3-strawberry` — Strawberry
+- [x] <img src="images/fruits/4-banana.jpg" width="80"> `4-banana` — Banana
+- [x] <img src="images/fruits/5-mango.jpg" width="80"> `5-mango` — Mango
+- [x] <img src="images/fruits/6-dragon-fruit.jpg" width="80"> `6-dragon-fruit` — Dragon Fruit
+- [x] <img src="images/fruits/7-apple.jpg" width="80"> `7-apple` — Apple
+- [x] <img src="images/fruits/8-orange.jpg" width="80"> `8-orange` — Orange
+- [x] <img src="images/fruits/9-grapes.jpg" width="80"> `9-grapes` — Grapes
+- [x] <img src="images/fruits/10-kiwi.jpg" width="80"> `10-kiwi` — Kiwi
+- [x] <img src="images/fruits/11-peach.jpg" width="80"> `11-peach` — Peach
+- [x] <img src="images/fruits/12-pear.jpg" width="80"> `12-pear` — Pear
+- [x] <img src="images/fruits/13-cherry.jpg" width="80"> `13-cherry` — Cherry
+- [x] <img src="images/fruits/14-blueberry.jpg" width="80"> `14-blueberry` — Blueberry
+- [x] <img src="images/fruits/15-raspberry.jpg" width="80"> `15-raspberry` — Raspberry
+- [x] <img src="images/fruits/16-blackberry.jpg" width="80"> `16-blackberry` — Blackberry
+- [x] <img src="images/fruits/17-papaya.jpg" width="80"> `17-papaya` — Papaya
+- [x] <img src="images/fruits/18-passion-fruit.jpg" width="80"> `18-passion-fruit` — Passion Fruit
+- [x] <img src="images/fruits/19-pomegranate.jpg" width="80"> `19-pomegranate` — Pomegranate
+- [x] <img src="images/fruits/20-fig.jpg" width="80"> `20-fig` — Fig
+- [x] <img src="images/fruits/21-lychee.jpg" width="80"> `21-lychee` — Lychee
+- [x] <img src="images/fruits/22-guava.jpg" width="80"> `22-guava` — Guava
+- [x] <img src="images/fruits/23-coconut.jpg" width="80"> `23-coconut` — Coconut
+- [x] <img src="images/fruits/24-lemon.jpg" width="80"> `24-lemon` — Lemon
+- [x] <img src="images/fruits/25-lime.jpg" width="80"> `25-lime` — Lime
+- [x] <img src="images/fruits/26-grapefruit.jpg" width="80"> `26-grapefruit` — Grapefruit
+- [x] <img src="images/fruits/27-plum.jpg" width="80"> `27-plum` — Plum
+- [x] <img src="images/fruits/28-apricot.jpg" width="80"> `28-apricot` — Apricot
+- [x] <img src="images/fruits/29-persimmon.jpg" width="80"> `29-persimmon` — Persimmon
+- [x] <img src="images/fruits/30-starfruit.jpg" width="80"> `30-starfruit` — Starfruit
+- [x] <img src="images/fruits/31-cantaloupe.jpg" width="80"> `31-cantaloupe` — Cantaloupe
+- [x] <img src="images/fruits/32-honeydew-melon.jpg" width="80"> `32-honeydew-melon` — Honeydew Melon
+- [x] <img src="images/fruits/33-cranberry.jpg" width="80"> `33-cranberry` — Cranberry
+- [x] <img src="images/fruits/34-durian.jpg" width="80"> `34-durian` — Durian
+- [x] <img src="images/fruits/35-rambutan.jpg" width="80"> `35-rambutan` — Rambutan
+- [x] <img src="images/fruits/36-tangerine.jpg" width="80"> `36-tangerine` — Tangerine
 
 ## Vegetables (`images/vegetables/`)
-- [ ] `1-carrot` — Carrot
-- [ ] `2-broccoli` — Broccoli
-- [ ] `3-pumpkin` — Pumpkin
-- [ ] `4-corn` — Corn
-- [ ] `5-bell-pepper` — Bell Pepper
-- [ ] `6-potato` — Potato
-- [ ] `7-tomato` — Tomato
-- [ ] `8-cucumber` — Cucumber
-- [ ] `9-onion` — Onion
-- [ ] `10-garlic` — Garlic
-- [ ] `11-lettuce` — Lettuce
-- [ ] `12-cabbage` — Cabbage
-- [ ] `13-cauliflower` — Cauliflower
-- [ ] `14-spinach` — Spinach
-- [ ] `15-zucchini` — Zucchini
-- [ ] `16-eggplant` — Eggplant
-- [ ] `17-radish` — Radish
-- [ ] `18-beetroot` — Beetroot
-- [ ] `19-celery` — Celery
-- [ ] `20-asparagus` — Asparagus
-- [ ] `21-green-beans` — Green Beans
-- [ ] `22-peas` — Peas
-- [ ] `23-brussels-sprouts` — Brussels Sprouts
-- [ ] `24-sweet-potato` — Sweet Potato
-- [ ] `25-turnip` — Turnip
-- [ ] `26-leek` — Leek
-- [ ] `27-artichoke` — Artichoke
-- [ ] `28-kale` — Kale
-- [ ] `29-chili-pepper` — Chili Pepper
-- [ ] `30-mushroom` — Mushroom
-- [ ] `31-okra` — Okra
-- [ ] `32-butternut-squash` — Butternut Squash
+- [x] <img src="images/vegetables/1-carrot.jpg" width="80"> `1-carrot` — Carrot
+- [x] <img src="images/vegetables/2-broccoli.jpg" width="80"> `2-broccoli` — Broccoli
+- [x] <img src="images/vegetables/3-pumpkin.jpg" width="80"> `3-pumpkin` — Pumpkin
+- [x] <img src="images/vegetables/4-corn.jpg" width="80"> `4-corn` — Corn
+- [x] <img src="images/vegetables/5-bell-pepper.jpg" width="80"> `5-bell-pepper` — Bell Pepper
+- [x] <img src="images/vegetables/6-potato.jpg" width="80"> `6-potato` — Potato
+- [x] <img src="images/vegetables/7-tomato.jpg" width="80"> `7-tomato` — Tomato
+- [x] <img src="images/vegetables/8-cucumber.jpg" width="80"> `8-cucumber` — Cucumber
+- [x] <img src="images/vegetables/9-onion.jpg" width="80"> `9-onion` — Onion
+- [x] <img src="images/vegetables/10-garlic.jpg" width="80"> `10-garlic` — Garlic
+- [x] <img src="images/vegetables/11-lettuce.jpg" width="80"> `11-lettuce` — Lettuce
+- [x] <img src="images/vegetables/12-cabbage.jpg" width="80"> `12-cabbage` — Cabbage
+- [x] <img src="images/vegetables/13-cauliflower.jpg" width="80"> `13-cauliflower` — Cauliflower
+- [x] <img src="images/vegetables/14-spinach.jpg" width="80"> `14-spinach` — Spinach
+- [x] <img src="images/vegetables/15-zucchini.jpg" width="80"> `15-zucchini` — Zucchini
+- [x] <img src="images/vegetables/16-eggplant.jpg" width="80"> `16-eggplant` — Eggplant
+- [x] <img src="images/vegetables/17-radish.jpg" width="80"> `17-radish` — Radish
+- [x] <img src="images/vegetables/18-beetroot.jpg" width="80"> `18-beetroot` — Beetroot
+- [x] <img src="images/vegetables/19-celery.jpg" width="80"> `19-celery` — Celery
+- [x] <img src="images/vegetables/20-asparagus.jpg" width="80"> `20-asparagus` — Asparagus
+- [x] <img src="images/vegetables/21-green-beans.jpg" width="80"> `21-green-beans` — Green Beans
+- [x] <img src="images/vegetables/22-peas.jpg" width="80"> `22-peas` — Peas
+- [x] <img src="images/vegetables/23-brussels-sprouts.jpg" width="80"> `23-brussels-sprouts` — Brussels Sprouts
+- [x] <img src="images/vegetables/24-sweet-potato.jpg" width="80"> `24-sweet-potato` — Sweet Potato
+- [x] <img src="images/vegetables/25-turnip.jpg" width="80"> `25-turnip` — Turnip
+- [x] <img src="images/vegetables/26-leek.jpg" width="80"> `26-leek` — Leek
+- [x] <img src="images/vegetables/27-artichoke.jpg" width="80"> `27-artichoke` — Artichoke
+- [x] <img src="images/vegetables/28-kale.jpg" width="80"> `28-kale` — Kale
+- [x] <img src="images/vegetables/29-chili-pepper.jpg" width="80"> `29-chili-pepper` — Chili Pepper
+- [x] <img src="images/vegetables/30-mushroom.jpg" width="80"> `30-mushroom` — Mushroom
+- [x] <img src="images/vegetables/31-okra.jpg" width="80"> `31-okra` — Okra
+- [x] <img src="images/vegetables/32-butternut-squash.jpg" width="80"> `32-butternut-squash` — Butternut Squash
 - [ ] `33-parsnip` — Parsnip
-- [ ] `34-bok-choy` — Bok Choy
-- [ ] `35-ginger-root` — Ginger Root
-- [ ] `36-rhubarb` — Rhubarb
+- [x] <img src="images/vegetables/34-bok-choy.jpg" width="80"> `34-bok-choy` — Bok Choy
+- [x] <img src="images/vegetables/35-ginger-root.jpg" width="80"> `35-ginger-root` — Ginger Root
+- [x] <img src="images/vegetables/36-rhubarb.jpg" width="80"> `36-rhubarb` — Rhubarb
 
 ## Desserts (`images/desserts/`)
 - [ ] `1-chocolate-cake` — Chocolate Cake
@@ -1243,27 +1243,27 @@ these gradually and playtest as you go.
 - [ ] `7-wendys` — Wendy's
 - [ ] `8-taco-bell` — Taco Bell
 - [ ] `9-pizza-hut` — Pizza Hut
-- [ ] `10-chick-fil-a` — Chick-fil-A
+- [ ] `10-almaz` — Almaz
 - [ ] `11-dunkin` — Dunkin'
-- [ ] `12-chipotle` — Chipotle
+- [ ] `12-j-co` — J.co
 - [ ] `13-popeyes` — Popeyes
-- [ ] `14-sonic-drive-in` — Sonic Drive-In
-- [ ] `15-arbys` — Arby's
+- [ ] `14-cold-stone` — Cold Stone
+- [ ] `15-burger-blenger` — Burger Blenger
 - [ ] `16-dairy-queen` — Dairy Queen
-- [ ] `17-in-n-out-burger` — In-N-Out Burger
-- [ ] `18-panera-bread` — Panera Bread
-- [ ] `19-panda-express` — Panda Express
-- [ ] `20-five-guys` — Five Guys
-- [ ] `21-papa-johns` — Papa John's
-- [ ] `22-little-caesars` — Little Caesars
-- [ ] `23-jack-in-the-box` — Jack in the Box
+- [ ] `17-flip-burger` — Flip Burger
+- [ ] `18-moons-chicken` — Moon's Chicken
+- [ ] `19-burger-bangor` — Burger Bangor
+- [ ] `20-aldis-burger` — Aldis Burger
+- [ ] `21-lawless-burger` — Lawless Burger
+- [ ] `22-mie-gacoan` — Mie Gacoan
+- [ ] `23-cfc` — CFC
 - [ ] `24-carls-jr` — Carl's Jr.
 - [ ] `25-krispy-kreme` — Krispy Kreme
 - [ ] `26-baskin-robbins` — Baskin-Robbins
-- [ ] `27-nandos` — Nando's
-- [ ] `28-shake-shack` — Shake Shack
-- [ ] `29-white-castle` — White Castle
-- [ ] `30-culvers` — Culver's
+- [ ] `27-richeese-factory` — Richeese Factory
+- [ ] `28-es-teler-77` — Es Teler 77
+- [ ] `29-kebab-turki-baba-rafi` — Kebab Turki Baba Rafi
+- [ ] `30-sabana` — Sabana
 - [ ] `31-whataburger` — Whataburger
 - [ ] `32-zaxbys` — Zaxby's
 - [ ] `33-wingstop` — Wingstop
@@ -1342,14 +1342,14 @@ these gradually and playtest as you go.
 - [ ] `30-breakfast-sandwich` — Breakfast Sandwich
 - [ ] `31-shakshuka` — Shakshuka
 - [ ] `32-crepes` — Crepes
-- [ ] `33-biscuits-and-gravy` — Biscuits and Gravy
-- [ ] `34-chia-pudding` — Chia Pudding
-- [ ] `35-toaster-pastry` — Toaster Pastry
-- [ ] `36-breakfast-potatoes` — Breakfast Potatoes
+- [ ] `33-ketoprak` — Ketoprak
+- [ ] `34-nasi-uduk` — Nasi Uduk
+- [ ] `35-bubur-kacang-ijo` — Bubur Kacang Ijo
+- [ ] `36-bubur-ayam` — Bubur Ayam
 
 ## Street Food (`images/street-food/`)
 - [ ] `1-hot-dog` — Hot Dog
-- [ ] `2-falafel` — Falafel
+- [ ] `2-risol` — Risol
 - [ ] `3-churros` — Churros
 - [ ] `4-kebab` — Kebab
 - [ ] `5-pretzel` — Pretzel
@@ -1357,53 +1357,53 @@ these gradually and playtest as you go.
 - [ ] `7-corn-dog` — Corn Dog
 - [ ] `8-nachos` — Nachos
 - [ ] `9-empanada` — Empanada
-- [ ] `10-samosa` — Samosa
-- [ ] `11-arepa` — Arepa
+- [ ] `10-hotteok` — Hotteok
+- [ ] `11-bungeoppang` — Bungeoppang
 - [ ] `12-street-crepe` — Street Crepe
 - [ ] `13-bao-bun` — Bao Bun
 - [ ] `14-street-taco` — Street Taco
 - [ ] `15-gyro` — Gyro
-- [ ] `16-poutine` — Poutine
+- [ ] `16-odeng` — Odeng
 - [ ] `17-fish-and-chips` — Fish and Chips
-- [ ] `18-roasted-chestnuts` — Roasted Chestnuts
+- [ ] `18-tteokbokki` — Tteokbokki
 - [ ] `19-cotton-candy` — Cotton Candy
-- [ ] `20-funnel-cake` — Funnel Cake
-- [ ] `21-shaved-ice` — Shaved Ice
+- [ ] `20-es-cendol` — Es Cendol
+- [ ] `21-es-podeng` — Es Podeng
 - [ ] `22-dumplings` — Dumplings
 - [ ] `23-spring-rolls` — Spring Rolls
 - [ ] `24-satay-skewers` — Satay Skewers
 - [ ] `25-banh-mi` — Bánh Mì
-- [ ] `26-currywurst` — Currywurst
-- [ ] `27-elote-mexican-street-corn` — Elote (Mexican Street Corn)
-- [ ] `28-kettle-corn` — Kettle Corn
-- [ ] `29-fried-plantains` — Fried Plantains
+- [ ] `26-bakso` — Bakso
+- [ ] `27-martabak-telor` — Martabak Telor
+- [ ] `28-martabak-manis` — Martabak Manis
+- [ ] `29-gorengan` — Gorengan
 - [ ] `30-onigiri` — Onigiri
 - [ ] `31-tempura` — Tempura
-- [ ] `32-chaat` — Chaat
+- [ ] `32-seblak` — Seblak
 - [ ] `33-kimchi-pancake` — Kimchi Pancake
-- [ ] `34-tamales` — Tamales
-- [ ] `35-gozleme` — Gözleme
+- [ ] `34-batagor` — Batagor
+- [ ] `35-siomay` — Siomay
 - [ ] `36-roti-canai` — Roti Canai
 
 ## Musicians (`images/musicians/`)
 - [ ] `1-michael-jackson` — Michael Jackson
 - [ ] `2-elvis-presley` — Elvis Presley
-- [ ] `3-the-beatles` — The Beatles
-- [ ] `4-beyonc` — Beyoncé
+- [ ] `3-raisa` — Raisa
+- [ ] `4-beyonce` — Beyoncé
 - [ ] `5-taylor-swift` — Taylor Swift
 - [ ] `6-elton-john` — Elton John
-- [ ] `7-madonna` — Madonna
+- [ ] `7-isyana` — Isyana Sarasvati
 - [ ] `8-freddie-mercury` — Freddie Mercury
 - [ ] `9-bob-marley` — Bob Marley
 - [ ] `10-whitney-houston` — Whitney Houston
-- [ ] `11-bob-dylan` — Bob Dylan
+- [ ] `11-niki` — Niki
 - [ ] `12-adele` — Adele
 - [ ] `13-ed-sheeran` — Ed Sheeran
 - [ ] `14-rihanna` — Rihanna
 - [ ] `15-justin-bieber` — Justin Bieber
 - [ ] `16-ariana-grande` — Ariana Grande
 - [ ] `17-lady-gaga` — Lady Gaga
-- [ ] `18-prince` — Prince
+- [ ] `18-rich-brian` — Rich Brian
 - [ ] `19-stevie-wonder` — Stevie Wonder
 - [ ] `20-mariah-carey` — Mariah Carey
 - [ ] `21-eminem` — Eminem
@@ -1413,24 +1413,24 @@ these gradually and playtest as you go.
 - [ ] `25-billie-eilish` — Billie Eilish
 - [ ] `26-drake` — Drake
 - [ ] `27-mick-jagger` — Mick Jagger
-- [ ] `28-david-bowie` — David Bowie
+- [ ] `28-hindia` — Hindia
 - [ ] `29-celine-dion` — Celine Dion
 - [ ] `30-shakira` — Shakira
-- [ ] `31-bts` — BTS
+- [ ] `31-tulus` — Tulus
 - [ ] `32-bad-bunny` — Bad Bunny
 - [ ] `33-frank-sinatra` — Frank Sinatra
-- [ ] `34-louis-armstrong` — Louis Armstrong
-- [ ] `35-aretha-franklin` — Aretha Franklin
+- [ ] `34-v` — V
+- [ ] `35-lisa` — Lisa
 - [ ] `36-john-lennon` — John Lennon
 
 ## Snacks (`images/snacks/`)
-- [ ] `1-potato-chips` — Potato Chips
+- [ ] `1-chitato` — Chitato
 - [ ] `2-pretzels` — Pretzels
 - [ ] `3-popcorn` — Popcorn
 - [ ] `4-nachos` — Nachos
-- [ ] `5-trail-mix` — Trail Mix
-- [ ] `6-granola-bar` — Granola Bar
-- [ ] `7-beef-jerky` — Beef Jerky
+- [ ] `5-taro` — Taro
+- [ ] `6-cheetos` — Cheetos
+- [ ] `7-chiki-balls` — Chiki Balls
 - [ ] `8-rice-cakes` — Rice Cakes
 - [ ] `9-crackers` — Crackers
 - [ ] `10-pita-chips` — Pita Chips
@@ -1451,15 +1451,15 @@ these gradually and playtest as you go.
 - [ ] `25-fruit-roll-up` — Fruit Roll-Up
 - [ ] `26-rice-krispie-treat` — Rice Krispie Treat
 - [ ] `27-granola` — Granola
-- [ ] `28-energy-bar` — Energy Bar
-- [ ] `29-protein-bar` — Protein Bar
-- [ ] `30-veggie-chips` — Veggie Chips
-- [ ] `31-seaweed-snacks` — Seaweed Snacks
-- [ ] `32-string-cheese` — String Cheese
-- [ ] `33-deviled-eggs` — Deviled Eggs
+- [ ] `28-soy-joy` — Soy Joy
+- [ ] `29-fit-bar` — Fit Bar
+- [ ] `30-lays` — Lays
+- [ ] `31-tao-kae-noi` — Tao Kae Noi
+- [ ] `32-ritz` — Ritz
+- [ ] `33-saltcheese` — Saltcheese
 - [ ] `34-pickles` — Pickles
 - [ ] `35-olives` — Olives
-- [ ] `36-salsa-and-chips` — Salsa and Chips
+- [ ] `36-doritos` — Doritos
 
 ## Grocery Store (`images/grocery-store/`)
 - [ ] `1-shopping-cart` — Shopping Cart
@@ -1652,36 +1652,36 @@ these gradually and playtest as you go.
 - [ ] `36-school-bell` — School Bell
 
 ## Rock Band (`images/rock-band/`)
-- [ ] `1-deep-purple` — Deep Purple
+- [ ] `1-the-beatles` — The Beatles
 - [ ] `2-the-rolling-stones` — The Rolling Stones
 - [ ] `3-queen` — Queen
-- [ ] `4-led-zeppelin` — Led Zeppelin
-- [ ] `5-pink-floyd` — Pink Floyd
-- [ ] `6-ac-dc` — AC/DC
+- [ ] `4-fall-out-boy` — Fall Out Boy
+- [ ] `5-system-of-a-down` — System of a Down
+- [ ] `6-the-white-stripes` — The White Stripes
 - [ ] `7-nirvana` — Nirvana
-- [ ] `8-metallica` — Metallica
+- [ ] `8-my-chemical-romance` — My Chemical Romance
 - [ ] `9-guns-n-roses` — Guns N' Roses
-- [ ] `10-the-who` — The Who
+- [ ] `10-koes-plus` — Koes Plus
 - [ ] `11-aerosmith` — Aerosmith
-- [ ] `12-van-halen` — Van Halen
-- [ ] `13-black-sabbath` — Black Sabbath
+- [ ] `12-oasis` — Oasis
+- [ ] `13-padi` — Padi
 - [ ] `14-bon-jovi` — Bon Jovi
 - [ ] `15-u2` — U2
 - [ ] `16-red-hot-chili-peppers` — Red Hot Chili Peppers
 - [ ] `17-foo-fighters` — Foo Fighters
 - [ ] `18-green-day` — Green Day
 - [ ] `19-linkin-park` — Linkin Park
-- [ ] `20-radiohead` — Radiohead
-- [ ] `21-the-eagles` — The Eagles
-- [ ] `22-fleetwood-mac` — Fleetwood Mac
-- [ ] `23-journey` — Journey
-- [ ] `24-iron-maiden` — Iron Maiden
-- [ ] `25-def-leppard` — Def Leppard
-- [ ] `26-pearl-jam` — Pearl Jam
-- [ ] `27-soundgarden` — Soundgarden
-- [ ] `28-the-doors` — The Doors
+- [ ] `20-the-changcuters` — The Changcuters
+- [ ] `21-paramore` — Paramore
+- [ ] `22-noah` — Noah
+- [ ] `23-gigi` — Gigi
+- [ ] `24-sheila-on-7` — Sheila on 7
+- [ ] `25-slank` — Slank
+- [ ] `26-dewa-19` — Dewa 19
+- [ ] `27-feast` — Feast
+- [ ] `28-avenged-sevenfold` — Avenged Sevenfold
 - [ ] `29-kiss` — KISS
-- [ ] `30-rage-against-the-machine` — Rage Against the Machine
+- [ ] `30-maroon-5` — Maroon 5
 - [ ] `31-coldplay` — Coldplay
 - [ ] `32-muse` — Muse
 - [ ] `33-arctic-monkeys` — Arctic Monkeys
@@ -2792,42 +2792,42 @@ these gradually and playtest as you go.
 - [ ] `36-hadrians-wall` — Hadrian's Wall
 
 ## National Flags (`images/national-flags/`)
-- [ ] `1-flag-of-the-united-states` — Flag of the United States
-- [ ] `2-flag-of-japan` — Flag of Japan
-- [ ] `3-flag-of-the-united-kingdom` — Flag of the United Kingdom
-- [ ] `4-flag-of-brazil` — Flag of Brazil
-- [ ] `5-flag-of-australia` — Flag of Australia
-- [ ] `6-flag-of-canada` — Flag of Canada
-- [ ] `7-flag-of-germany` — Flag of Germany
-- [ ] `8-flag-of-france` — Flag of France
-- [ ] `9-flag-of-italy` — Flag of Italy
-- [ ] `10-flag-of-spain` — Flag of Spain
-- [ ] `11-flag-of-china` — Flag of China
-- [ ] `12-flag-of-india` — Flag of India
-- [ ] `13-flag-of-south-korea` — Flag of South Korea
-- [ ] `14-flag-of-mexico` — Flag of Mexico
-- [ ] `15-flag-of-russia` — Flag of Russia
-- [ ] `16-flag-of-south-africa` — Flag of South Africa
-- [ ] `17-flag-of-egypt` — Flag of Egypt
-- [ ] `18-flag-of-nigeria` — Flag of Nigeria
-- [ ] `19-flag-of-argentina` — Flag of Argentina
-- [ ] `20-flag-of-chile` — Flag of Chile
-- [ ] `21-flag-of-new-zealand` — Flag of New Zealand
-- [ ] `22-flag-of-ireland` — Flag of Ireland
-- [ ] `23-flag-of-the-netherlands` — Flag of the Netherlands
-- [ ] `24-flag-of-sweden` — Flag of Sweden
-- [ ] `25-flag-of-norway` — Flag of Norway
-- [ ] `26-flag-of-switzerland` — Flag of Switzerland
-- [ ] `27-flag-of-greece` — Flag of Greece
-- [ ] `28-flag-of-turkey` — Flag of Turkey
-- [ ] `29-flag-of-saudi-arabia` — Flag of Saudi Arabia
-- [ ] `30-flag-of-the-united-arab-emirates` — Flag of the United Arab Emirates
-- [ ] `31-flag-of-israel` — Flag of Israel
-- [ ] `32-flag-of-indonesia` — Flag of Indonesia
-- [ ] `33-flag-of-thailand` — Flag of Thailand
-- [ ] `34-flag-of-vietnam` — Flag of Vietnam
-- [ ] `35-flag-of-nepal` — Flag of Nepal
-- [ ] `36-flag-of-vatican-city` — Flag of Vatican City
+- [x] <img src="images/national-flags/1-flag-of-the-united-states.png" width="80"> `1-flag-of-the-united-states` — Flag of the United States
+- [x] <img src="images/national-flags/2-flag-of-japan.png" width="80"> `2-flag-of-japan` — Flag of Japan
+- [x] <img src="images/national-flags/3-flag-of-the-united-kingdom.png" width="80"> `3-flag-of-the-united-kingdom` — Flag of the United Kingdom
+- [x] <img src="images/national-flags/4-flag-of-brazil.png" width="80"> `4-flag-of-brazil` — Flag of Brazil
+- [x] <img src="images/national-flags/5-flag-of-australia.png" width="80"> `5-flag-of-australia` — Flag of Australia
+- [x] <img src="images/national-flags/6-flag-of-canada.png" width="80"> `6-flag-of-canada` — Flag of Canada
+- [x] <img src="images/national-flags/7-flag-of-germany.png" width="80"> `7-flag-of-germany` — Flag of Germany
+- [x] <img src="images/national-flags/8-flag-of-france.png" width="80"> `8-flag-of-france` — Flag of France
+- [x] <img src="images/national-flags/9-flag-of-italy.png" width="80"> `9-flag-of-italy` — Flag of Italy
+- [x] <img src="images/national-flags/10-flag-of-spain.png" width="80"> `10-flag-of-spain` — Flag of Spain
+- [x] <img src="images/national-flags/11-flag-of-china.png" width="80"> `11-flag-of-china` — Flag of China
+- [x] <img src="images/national-flags/12-flag-of-india.png" width="80"> `12-flag-of-india` — Flag of India
+- [x] <img src="images/national-flags/13-flag-of-south-korea.png" width="80"> `13-flag-of-south-korea` — Flag of South Korea
+- [x] <img src="images/national-flags/14-flag-of-mexico.png" width="80"> `14-flag-of-mexico` — Flag of Mexico
+- [x] <img src="images/national-flags/15-flag-of-russia.png" width="80"> `15-flag-of-russia` — Flag of Russia
+- [x] <img src="images/national-flags/16-flag-of-south-africa.png" width="80"> `16-flag-of-south-africa` — Flag of South Africa
+- [x] <img src="images/national-flags/17-flag-of-egypt.png" width="80"> `17-flag-of-egypt` — Flag of Egypt
+- [x] <img src="images/national-flags/18-flag-of-nigeria.png" width="80"> `18-flag-of-nigeria` — Flag of Nigeria
+- [x] <img src="images/national-flags/19-flag-of-argentina.png" width="80"> `19-flag-of-argentina` — Flag of Argentina
+- [x] <img src="images/national-flags/20-flag-of-chile.png" width="80"> `20-flag-of-chile` — Flag of Chile
+- [x] <img src="images/national-flags/21-flag-of-new-zealand.png" width="80"> `21-flag-of-new-zealand` — Flag of New Zealand
+- [x] <img src="images/national-flags/22-flag-of-ireland.png" width="80"> `22-flag-of-ireland` — Flag of Ireland
+- [x] <img src="images/national-flags/23-flag-of-the-netherlands.png" width="80"> `23-flag-of-the-netherlands` — Flag of the Netherlands
+- [x] <img src="images/national-flags/24-flag-of-sweden.png" width="80"> `24-flag-of-sweden` — Flag of Sweden
+- [x] <img src="images/national-flags/25-flag-of-norway.png" width="80"> `25-flag-of-norway` — Flag of Norway
+- [x] <img src="images/national-flags/26-flag-of-switzerland.png" width="80"> `26-flag-of-switzerland` — Flag of Switzerland
+- [x] <img src="images/national-flags/27-flag-of-greece.png" width="80"> `27-flag-of-greece` — Flag of Greece
+- [x] <img src="images/national-flags/28-flag-of-turkey.png" width="80"> `28-flag-of-turkey` — Flag of Turkey
+- [x] <img src="images/national-flags/29-flag-of-saudi-arabia.png" width="80"> `29-flag-of-saudi-arabia` — Flag of Saudi Arabia
+- [x] <img src="images/national-flags/30-flag-of-the-united-arab-emirates.png" width="80"> `30-flag-of-the-united-arab-emirates` — Flag of the United Arab Emirates
+- [x] <img src="images/national-flags/31-flag-of-israel.png" width="80"> `31-flag-of-israel` — Flag of Israel
+- [x] <img src="images/national-flags/32-flag-of-indonesia.png" width="80"> `32-flag-of-indonesia` — Flag of Indonesia
+- [x] <img src="images/national-flags/33-flag-of-thailand.png" width="80"> `33-flag-of-thailand` — Flag of Thailand
+- [x] <img src="images/national-flags/34-flag-of-vietnam.png" width="80"> `34-flag-of-vietnam` — Flag of Vietnam
+- [x] <img src="images/national-flags/35-flag-of-nepal.png" width="80"> `35-flag-of-nepal` — Flag of Nepal
+- [x] <img src="images/national-flags/36-flag-of-vatican-city.png" width="80"> `36-flag-of-vatican-city` — Flag of Vatican City
 
 ## Currency & Coins (`images/currency-coins/`)
 - [ ] `1-us-dollar-bill` — US Dollar Bill

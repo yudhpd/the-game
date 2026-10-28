@@ -9,6 +9,17 @@
 <body>
   <div id="app">
 
+    <!-- PASSWORD GATE -->
+    <section id="gate-overlay" class="overlay">
+      <div class="duel-box gate-box">
+        <h1 class="menu-h1 gate-title">YUDH PD ARENA</h1>
+        <p class="subtitle">Enter password to continue</p>
+        <input type="password" id="gate-input" class="misc-target-input gate-input" placeholder="Password" autocomplete="off" />
+        <p id="gate-error" class="gate-error hidden">Incorrect password. Try again.</p>
+        <button id="gate-submit-btn" class="primary-btn gate-submit">Enter</button>
+      </div>
+    </section>
+
     <!-- MAIN MENU -->
     <section id="main-menu-screen" class="screen">
       <h1 class="menu-h1">YUDH PD ARENA</h1>
@@ -19,11 +30,11 @@
           <span class="game-card-desc">Multiplayer territory trivia showdown</span>
           <span class="game-card-badge play">Play</span>
         </button>
-        <div class="game-card disabled">
-          <span class="game-card-title">???</span>
-          <span class="game-card-desc">Another show is on the way</span>
-          <span class="game-card-badge">Coming Soon</span>
-        </div>
+        <button id="menu-misc-card" class="game-card">
+          <span class="game-card-title">QA Open</span>
+          <span class="game-card-desc">Build your own custom tournament from a mix of party-game duels</span>
+          <span class="game-card-badge play">Play</span>
+        </button>
         <div class="game-card disabled">
           <span class="game-card-title">???</span>
           <span class="game-card-desc">Another show is on the way</span>
@@ -223,9 +234,346 @@
       <button id="play-again-btn" class="primary-btn">Play Again</button>
     </section>
 
+    <!-- ============ MISCELLANEOUS ============ -->
+
+    <!-- MISC: SETUP CONFIG -->
+    <section id="misc-setup-screen" class="screen hidden">
+      <button id="misc-menu-back-btn" class="secondary-btn menu-back-btn">← Menu</button>
+      <h1>QA OPEN</h1>
+      <p class="subtitle">Build your own custom tournament</p>
+
+      <div class="misc-config">
+        <div class="misc-field">
+          <h3 class="setup-heading">How many players?</h3>
+          <div class="misc-stepper">
+            <button id="misc-count-minus" class="secondary-btn misc-step-btn" type="button">−</button>
+            <input type="number" id="misc-count-input" class="misc-count-input" min="2" max="32" value="8" />
+            <button id="misc-count-plus" class="secondary-btn misc-step-btn" type="button">+</button>
+          </div>
+          <p class="misc-field-hint">Choose between 2 and 32 players.</p>
+        </div>
+
+        <div class="misc-field">
+          <h3 class="setup-heading">Tournament format</h3>
+          <div class="misc-option-grid" id="misc-tournament-type-grid"></div>
+        </div>
+
+        <div class="misc-field">
+          <h3 class="setup-heading">Rounds per duel</h3>
+          <div class="misc-option-grid" id="misc-rounds-grid"></div>
+        </div>
+
+        <div class="misc-field">
+          <h3 class="setup-heading">Duel selections</h3>
+          <div class="misc-duel-type-list" id="misc-duel-type-list"></div>
+          <div class="misc-duel-mode hidden" id="misc-duel-mode-wrap">
+            <p class="misc-field-hint">Multiple duel types selected — how should each round's type be picked?</p>
+            <div class="misc-option-grid misc-mode-grid" id="misc-duel-mode-grid"></div>
+          </div>
+        </div>
+      </div>
+
+      <p class="setup-error hidden" id="misc-setup-error">Pick at least one duel type to continue.</p>
+      <div class="setup-actions">
+        <button id="misc-setup-continue-btn" class="primary-btn">Continue</button>
+      </div>
+    </section>
+
+    <!-- MISC: ROSTER -->
+    <section id="misc-roster-screen" class="screen hidden">
+      <h1>QA OPEN</h1>
+      <p class="subtitle">Enter each player's name</p>
+      <div class="misc-roster-form" id="misc-roster-form"></div>
+      <div class="setup-actions">
+        <button id="misc-roster-back-btn" class="secondary-btn">← Back</button>
+        <button id="misc-roster-start-btn" class="primary-btn">Start Tournament</button>
+      </div>
+    </section>
+
+    <!-- MISC: BRACKET / STANDINGS -->
+    <section id="misc-bracket-screen" class="screen hidden">
+      <h1>QA OPEN</h1>
+      <p class="subtitle" id="misc-bracket-subtitle">Tournament in progress</p>
+      <div class="misc-bracket-body" id="misc-bracket-body"></div>
+    </section>
+
+    <!-- MISC: MATCH INTRO OVERLAY -->
+    <section id="misc-intro-overlay" class="overlay hidden">
+      <div class="duel-box randomizer-box">
+        <div class="randomizer-title" id="misc-intro-title">Player A vs Player B</div>
+        <div class="misc-intro-score" id="misc-intro-score">0 – 0</div>
+        <div class="misc-intro-type hidden" id="misc-intro-type"></div>
+        <div class="misc-intro-picker hidden" id="misc-intro-picker"></div>
+        <button id="misc-intro-begin-btn" class="primary-btn hidden">Begin Round</button>
+      </div>
+    </section>
+
+    <!-- MISC: FLOOR MINI DUEL — HOST CATEGORY PICKER -->
+    <section id="misc-category-picker-overlay" class="overlay hidden">
+      <div class="duel-box final-picker-box">
+        <div class="final-picker-title">🎯 Choose a category</div>
+        <p class="final-picker-sub">Game Master: pick which category this Floor Mini Duel round will use.</p>
+        <div class="expertise-combo final-picker-combo">
+          <input type="text" id="misc-category-picker-input" class="expertise-input" autocomplete="off" placeholder="Search category..." />
+          <div id="misc-category-picker-dropdown" class="expertise-dropdown hidden"></div>
+        </div>
+        <button id="misc-category-picker-confirm-btn" class="primary-btn" disabled>Confirm & Begin</button>
+      </div>
+    </section>
+
+    <!-- MISC: FLOOR MINI DUEL -->
+    <section id="misc-floor-overlay" class="overlay hidden">
+      <div class="duel-box">
+        <div class="duel-header">
+          <div class="duel-category" id="misc-floor-category">Category</div>
+        </div>
+
+        <div class="life-timers">
+          <div class="life-timer" id="misc-floor-life-a">
+            <span class="life-name" id="misc-floor-name-a">Player A</span>
+            <div class="life-seconds-wrap"><span class="life-seconds" id="misc-floor-seconds-a">30.0</span></div>
+            <div class="life-track"><div class="life-fill" id="misc-floor-fill-a"></div></div>
+          </div>
+          <div class="life-timer" id="misc-floor-life-b">
+            <span class="life-name" id="misc-floor-name-b">Player B</span>
+            <div class="life-seconds-wrap"><span class="life-seconds" id="misc-floor-seconds-b">30.0</span></div>
+            <div class="life-track"><div class="life-fill" id="misc-floor-fill-b"></div></div>
+          </div>
+        </div>
+
+        <div class="clue-prompt">What is this?</div>
+        <div class="clue-media">
+          <img id="misc-floor-image" class="clue-image hidden" alt="Guess what this is" />
+          <div id="misc-floor-placeholder" class="image-placeholder hidden">
+            <span class="placeholder-icon">🖼️</span>
+            <span>Image not added yet</span>
+            <code id="misc-floor-placeholder-path"></code>
+          </div>
+        </div>
+
+        <div class="duel-log" id="misc-floor-log"></div>
+
+        <div class="host-panel">
+          <div class="host-panel-label">Game Master controls</div>
+          <div class="host-answer" id="misc-floor-answer" title="Click to reveal/hide">
+            <span class="host-answer-icon">🙈</span>
+            <span id="misc-floor-answer-text" class="host-answer-text blurred">Answer</span>
+          </div>
+          <div class="host-buttons">
+            <button id="misc-floor-correct-btn" class="host-btn correct-btn">✅ Correct <kbd>C</kbd></button>
+            <button id="misc-floor-pass-btn" class="host-btn pass-btn">⏭️ Pass (-3s) <kbd>P</kbd></button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- MISC: BRING ME SOMETHING -->
+    <section id="misc-bringme-overlay" class="overlay hidden">
+      <div class="duel-box">
+        <div class="duel-header">
+          <div class="duel-category">Bring Me Something</div>
+        </div>
+        <div class="misc-bringme-criteria" id="misc-bringme-criteria">Criteria</div>
+        <p class="misc-field-hint misc-bringme-hint">Game Master: judge whose item best matches the criteria above.</p>
+        <div class="misc-bringme-buttons">
+          <button id="misc-bringme-a-btn" class="host-btn correct-btn misc-bringme-btn"><span id="misc-bringme-a-label">Player A</span> wins</button>
+          <button id="misc-bringme-b-btn" class="host-btn correct-btn misc-bringme-btn"><span id="misc-bringme-b-label">Player B</span> wins</button>
+        </div>
+        <button id="misc-bringme-reroll-btn" class="secondary-btn misc-reroll-btn" type="button">🎲 Reroll criteria</button>
+      </div>
+    </section>
+
+    <!-- MISC: WEIGHT TARGET DUEL -->
+    <section id="misc-target-overlay" class="overlay hidden">
+      <div class="duel-box">
+        <div class="duel-header">
+          <div class="duel-category" id="misc-target-title">Weight Challenge</div>
+        </div>
+        <div class="misc-target-value" id="misc-target-value">0 g</div>
+        <p class="misc-field-hint" id="misc-target-hint">Closest to the target wins — over or under is fine.</p>
+        <div class="misc-target-inputs">
+          <label class="misc-target-input-label">
+            <span id="misc-target-name-a">Player A</span>
+            <input type="number" id="misc-target-input-a" class="misc-target-input" />
+          </label>
+          <label class="misc-target-input-label">
+            <span id="misc-target-name-b">Player B</span>
+            <input type="number" id="misc-target-input-b" class="misc-target-input" />
+          </label>
+        </div>
+        <button id="misc-target-submit-btn" class="primary-btn misc-target-submit">Determine Winner</button>
+      </div>
+    </section>
+
+    <!-- MISC: TIME CHALLENGE STOPWATCH -->
+    <section id="misc-stopwatch-overlay" class="overlay hidden">
+      <div class="duel-box">
+        <div class="duel-header">
+          <div class="duel-category">Time Challenge</div>
+        </div>
+        <div class="misc-target-value" id="misc-stopwatch-target">0.00 s</div>
+        <p class="misc-field-hint">Closest to the target wins — over or under is fine.</p>
+        <div class="misc-stopwatch-turn" id="misc-stopwatch-turn-name">Player A's turn — press Space to start</div>
+        <div class="misc-stopwatch-display" id="misc-stopwatch-display">0.00</div>
+        <p class="misc-field-hint">Press <kbd>Space</kbd> to start, <kbd>Space</kbd> again to stop.</p>
+        <div class="misc-stopwatch-results" id="misc-stopwatch-results"></div>
+        <button id="misc-stopwatch-continue-btn" class="primary-btn misc-stopwatch-continue hidden" type="button">Continue</button>
+      </div>
+    </section>
+
+    <!-- MISC: WEIGHT/LENGTH GUESS DUEL -->
+    <section id="misc-guess-overlay" class="overlay hidden">
+      <div class="duel-box">
+        <div class="duel-header">
+          <div class="duel-category" id="misc-guess-title">Guess Challenge</div>
+        </div>
+        <p class="misc-field-hint" id="misc-guess-hint">Game Master brings a mystery item. Each player guesses, then the Game Master enters the actual result.</p>
+        <div class="misc-guess-inputs">
+          <label class="misc-target-input-label">
+            <span id="misc-guess-name-a">Player A</span>
+            <input type="number" id="misc-guess-input-a" class="misc-target-input" />
+          </label>
+          <label class="misc-target-input-label">
+            <span id="misc-guess-name-b">Player B</span>
+            <input type="number" id="misc-guess-input-b" class="misc-target-input" />
+          </label>
+          <label class="misc-target-input-label">
+            <span id="misc-guess-actual-label">Actual result</span>
+            <input type="number" id="misc-guess-actual-input" class="misc-target-input" />
+          </label>
+        </div>
+        <button id="misc-guess-submit-btn" class="primary-btn misc-target-submit">Determine Winner</button>
+      </div>
+    </section>
+
+    <!-- MISC: TIME GUESS DUEL -->
+    <section id="misc-guesstime-overlay" class="overlay hidden">
+      <div class="duel-box">
+        <div class="duel-header">
+          <div class="duel-category">Time Challenge — Guess the Time</div>
+        </div>
+
+        <div id="misc-guesstime-stage-actual">
+          <p class="misc-field-hint">Game Master: privately time a mystery duration. Press <kbd>Space</kbd> to start, <kbd>Space</kbd> again to stop.</p>
+          <div class="misc-stopwatch-display" id="misc-guesstime-display">0.00</div>
+        </div>
+
+        <div id="misc-guesstime-stage-guess" class="hidden">
+          <p class="misc-field-hint">Actual time locked in. Ask each player to guess it, in seconds.</p>
+          <div class="misc-guess-inputs">
+            <label class="misc-target-input-label">
+              <span id="misc-guesstime-name-a">Player A</span>
+              <input type="number" step="0.01" id="misc-guesstime-input-a" class="misc-target-input" />
+            </label>
+            <label class="misc-target-input-label">
+              <span id="misc-guesstime-name-b">Player B</span>
+              <input type="number" step="0.01" id="misc-guesstime-input-b" class="misc-target-input" />
+            </label>
+          </div>
+          <button id="misc-guesstime-submit-btn" class="primary-btn misc-target-submit">Determine Winner</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- MISC: TIME ATTACK -->
+    <section id="misc-attack-overlay" class="overlay hidden">
+      <div class="duel-box">
+        <div class="duel-header">
+          <div class="duel-category">Time Challenge — Time Attack</div>
+        </div>
+
+        <div class="life-timers">
+          <div class="life-timer" id="misc-attack-life-a">
+            <span class="life-name" id="misc-attack-name-a">Player A</span>
+            <div class="life-seconds-wrap"><span class="life-seconds" id="misc-attack-seconds-a">30.0</span></div>
+            <div class="life-track"><div class="life-fill" id="misc-attack-fill-a"></div></div>
+          </div>
+          <div class="life-timer" id="misc-attack-life-b">
+            <span class="life-name" id="misc-attack-name-b">Player B</span>
+            <div class="life-seconds-wrap"><span class="life-seconds" id="misc-attack-seconds-b">30.0</span></div>
+            <div class="life-track"><div class="life-fill" id="misc-attack-fill-b"></div></div>
+          </div>
+        </div>
+
+        <p class="misc-field-hint">Only the active player's clock runs. Press <kbd>Space</kbd> (or the button below) to pass the turn.</p>
+        <div class="duel-log" id="misc-attack-log"></div>
+        <button id="misc-attack-pass-btn" class="primary-btn misc-target-submit" type="button">⏭ Pass Turn (Space)</button>
+      </div>
+    </section>
+
+    <!-- MISC: OVER/UNDER -->
+    <section id="misc-overunder-overlay" class="overlay hidden">
+      <div class="duel-box">
+        <div class="duel-header">
+          <div class="duel-category">Time Challenge — Over/Under</div>
+        </div>
+
+        <div id="misc-overunder-stage-target">
+          <p class="misc-field-hint"><span id="misc-overunder-caller-name">Player A</span> calls out a target time. Game Master: enter it below.</p>
+          <div class="misc-target-inputs">
+            <label class="misc-target-input-label">
+              <span>Target time (s)</span>
+              <input type="number" step="0.01" id="misc-overunder-target-input" class="misc-target-input" />
+            </label>
+          </div>
+          <button id="misc-overunder-target-submit-btn" class="primary-btn misc-target-submit">Lock In &amp; Start Attempt</button>
+        </div>
+
+        <div id="misc-overunder-stage-attempt" class="hidden">
+          <p class="misc-field-hint"><span id="misc-overunder-achiever-name">Player B</span> tries to hit the target. Press <kbd>Space</kbd> to start, <kbd>Space</kbd> again to stop.</p>
+          <div class="misc-stopwatch-display" id="misc-overunder-display">0.00</div>
+        </div>
+
+        <div id="misc-overunder-stage-guess" class="hidden">
+          <p class="misc-field-hint" id="misc-overunder-guess-summary">Actual time locked in.</p>
+          <p class="misc-field-hint">Ask <span id="misc-overunder-caller-name-2">Player A</span>: was it OVER or UNDER the target?</p>
+          <div class="misc-bringme-buttons">
+            <button id="misc-overunder-over-btn" class="host-btn correct-btn misc-bringme-btn">Over</button>
+            <button id="misc-overunder-under-btn" class="host-btn correct-btn misc-bringme-btn">Under</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- MISC: COIN TOSS (ties) -->
+    <section id="misc-coin-toss-overlay" class="overlay hidden">
+      <div class="duel-box randomizer-box">
+        <div class="randomizer-title">🪙 Tie! Flipping a coin...</div>
+        <div class="randomizer-name" id="misc-coin-toss-name">?</div>
+        <button id="misc-coin-toss-continue-btn" class="primary-btn hidden">Continue</button>
+      </div>
+    </section>
+
+    <!-- MISC: LIVE TIE-BREAK DRAW -->
+    <section id="misc-tiebreak-overlay" class="overlay hidden">
+      <div class="duel-box randomizer-box">
+        <div class="randomizer-title" id="misc-tiebreak-title">🎲 Tie-break draw</div>
+        <div class="randomizer-name" id="misc-tiebreak-name">?</div>
+        <button id="misc-tiebreak-continue-btn" class="primary-btn hidden">Continue</button>
+      </div>
+    </section>
+
+    <!-- MISC: ROUND / MATCH RESULT -->
+    <section id="misc-result-overlay" class="overlay hidden">
+      <div class="duel-box round2-confirm-box">
+        <div class="round2-confirm-title" id="misc-result-title">Player A wins the round!</div>
+        <p class="round2-confirm-category" id="misc-result-sub"></p>
+        <button id="misc-result-continue-btn" class="primary-btn">Continue</button>
+      </div>
+    </section>
+
+    <!-- MISC: GAME OVER -->
+    <section id="misc-gameover-screen" class="screen hidden">
+      <h1 id="misc-winner-title">Player wins!</h1>
+      <p id="misc-winner-sub">Champion of the tournament.</p>
+      <button id="misc-play-again-btn" class="primary-btn">Play Again</button>
+    </section>
+
   </div>
 
+  <script src="gate.js"></script>
   <script src="questions.js"></script>
   <script src="app.js"></script>
+  <script src="misc.js"></script>
 </body>
 </html>
