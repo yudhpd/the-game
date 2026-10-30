@@ -460,7 +460,11 @@
 
         <div id="misc-guesstime-stage-guess" class="hidden">
           <p class="misc-field-hint">Actual time locked in. Ask each player to guess it, in seconds.</p>
-          <div class="misc-guess-inputs">
+          <div class="host-answer misc-guesstime-actual" id="misc-guesstime-actual" title="Click to reveal/hide">
+            <span class="host-answer-icon">🙈</span>
+            <span id="misc-guesstime-actual-text" class="host-answer-text blurred">0.00 s</span>
+          </div>
+          <div class="misc-target-inputs">
             <label class="misc-target-input-label">
               <span id="misc-guesstime-name-a">Player A</span>
               <input type="number" step="0.01" id="misc-guesstime-input-a" class="misc-target-input" />
@@ -497,7 +501,8 @@
 
         <p class="misc-field-hint">Only the active player's clock runs. Press <kbd>Space</kbd> (or the button below) to pass the turn.</p>
         <div class="duel-log" id="misc-attack-log"></div>
-        <button id="misc-attack-pass-btn" class="primary-btn misc-target-submit" type="button">⏭ Pass Turn (Space)</button>
+        <button id="misc-attack-start-btn" class="primary-btn misc-target-submit" type="button">▶ Start</button>
+        <button id="misc-attack-pass-btn" class="primary-btn misc-target-submit hidden" type="button">⏭ Pass Turn (Space)</button>
       </div>
     </section>
 
@@ -520,16 +525,22 @@
         </div>
 
         <div id="misc-overunder-stage-attempt" class="hidden">
-          <p class="misc-field-hint"><span id="misc-overunder-achiever-name">Player B</span> tries to hit the target. Press <kbd>Space</kbd> to start, <kbd>Space</kbd> again to stop.</p>
-          <div class="misc-stopwatch-display" id="misc-overunder-display">0.00</div>
+          <p class="misc-field-hint"><span id="misc-overunder-achiever-name">Player B</span> tries to hit the target. Press <kbd>Space</kbd> to start, <kbd>Space</kbd> again to stop. The clock stays hidden so the time can't be read off the screen.</p>
+          <div class="misc-stopwatch-display" id="misc-overunder-display">Ready</div>
         </div>
 
         <div id="misc-overunder-stage-guess" class="hidden">
-          <p class="misc-field-hint" id="misc-overunder-guess-summary">Actual time locked in.</p>
-          <p class="misc-field-hint">Ask <span id="misc-overunder-caller-name-2">Player A</span>: was it OVER or UNDER the target?</p>
-          <div class="misc-bringme-buttons">
-            <button id="misc-overunder-over-btn" class="host-btn correct-btn misc-bringme-btn">Over</button>
-            <button id="misc-overunder-under-btn" class="host-btn correct-btn misc-bringme-btn">Under</button>
+          <p class="misc-field-hint" id="misc-overunder-guess-hint">Actual time locked in — it stays hidden until the guess is made.</p>
+          <div class="host-answer misc-overunder-summary" id="misc-overunder-summary">
+            <span class="host-answer-icon">🙈</span>
+            <span id="misc-overunder-guess-summary" class="host-answer-text blurred">Actual time</span>
+          </div>
+          <div id="misc-overunder-guess-controls">
+            <p class="misc-field-hint">Ask <span id="misc-overunder-caller-name-2">Player A</span>: was it OVER or UNDER the target?</p>
+            <div class="misc-bringme-buttons">
+              <button id="misc-overunder-over-btn" class="host-btn correct-btn misc-bringme-btn">Over</button>
+              <button id="misc-overunder-under-btn" class="host-btn correct-btn misc-bringme-btn">Under</button>
+            </div>
           </div>
         </div>
       </div>

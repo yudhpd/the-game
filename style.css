@@ -1162,14 +1162,25 @@ h1 {
 
 .misc-target-inputs {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 14px;
   margin: 18px 0;
 }
 
+.misc-guesstime-actual {
+  margin: 14px 0 0;
+}
+
+/* Not click-to-reveal like other host-answer boxes — it unblurs on its own
+   once the Over/Under call is made. */
+.misc-overunder-summary {
+  margin: 14px 0 0;
+  cursor: default;
+}
+
 .misc-guess-inputs {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 14px;
   margin: 18px 0;
 }
@@ -1184,6 +1195,8 @@ h1 {
 }
 
 .misc-target-input {
+  width: 100%;
+  min-width: 0;
   background: var(--panel-light);
   border: 1px solid #333c4f;
   border-radius: 8px;

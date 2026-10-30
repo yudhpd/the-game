@@ -5,6 +5,8 @@
   const IMAGE_EXTENSIONS = ["jpg", "jpeg", "png", "webp", "gif"];
   const COIN_TOSS_TICKS = 10;
   const COIN_TOSS_TICK_MS = 100;
+  const COUNTDOWN_START = 3;
+  const COUNTDOWN_TICK_MS = 1000;
 
   const DUEL_TYPES = {
     "floor-mini": {
@@ -91,6 +93,10 @@
     miscCategoryPickerDropdown: document.getElementById("misc-category-picker-dropdown"),
     miscCategoryPickerConfirmBtn: document.getElementById("misc-category-picker-confirm-btn"),
 
+    countdownOverlay: document.getElementById("countdown-overlay"),
+    countdownTitle: document.getElementById("countdown-title"),
+    countdownNumber: document.getElementById("countdown-number"),
+
     miscFloorOverlay: document.getElementById("misc-floor-overlay"),
     miscFloorCategory: document.getElementById("misc-floor-category"),
     miscFloorLifeA: document.getElementById("misc-floor-life-a"),
@@ -150,6 +156,8 @@
     miscGuesstimeStageActual: document.getElementById("misc-guesstime-stage-actual"),
     miscGuesstimeDisplay: document.getElementById("misc-guesstime-display"),
     miscGuesstimeStageGuess: document.getElementById("misc-guesstime-stage-guess"),
+    miscGuesstimeActual: document.getElementById("misc-guesstime-actual"),
+    miscGuesstimeActualText: document.getElementById("misc-guesstime-actual-text"),
     miscGuesstimeNameA: document.getElementById("misc-guesstime-name-a"),
     miscGuesstimeNameB: document.getElementById("misc-guesstime-name-b"),
     miscGuesstimeInputA: document.getElementById("misc-guesstime-input-a"),
@@ -166,6 +174,7 @@
     miscAttackFillB: document.getElementById("misc-attack-fill-b"),
     miscAttackLifeB: document.getElementById("misc-attack-life-b"),
     miscAttackLog: document.getElementById("misc-attack-log"),
+    miscAttackStartBtn: document.getElementById("misc-attack-start-btn"),
     miscAttackPassBtn: document.getElementById("misc-attack-pass-btn"),
 
     miscOverunderOverlay: document.getElementById("misc-overunder-overlay"),
@@ -178,6 +187,9 @@
     miscOverunderStageAttempt: document.getElementById("misc-overunder-stage-attempt"),
     miscOverunderDisplay: document.getElementById("misc-overunder-display"),
     miscOverunderStageGuess: document.getElementById("misc-overunder-stage-guess"),
+    miscOverunderGuessHint: document.getElementById("misc-overunder-guess-hint"),
+    miscOverunderGuessControls: document.getElementById("misc-overunder-guess-controls"),
+    miscOverunderSummary: document.getElementById("misc-overunder-summary"),
     miscOverunderGuessSummary: document.getElementById("misc-overunder-guess-summary"),
     miscOverunderOverBtn: document.getElementById("misc-overunder-over-btn"),
     miscOverunderUnderBtn: document.getElementById("misc-overunder-under-btn"),
@@ -964,6 +976,9 @@
     els.miscCoinTossOverlay.classList.add("hidden");
     els.miscResultOverlay.classList.add("hidden");
     els.miscTiebreakOverlay.classList.add("hidden");
+    els.countdownOverlay.classList.add("hidden");
+    if (miniCountdown) clearInterval(miniCountdown.handle);
+    miniCountdown = null;
     if (stopwatchTickHandle) clearInterval(stopwatchTickHandle);
     stopwatchTickHandle = null;
     stopwatch = null;
@@ -972,8 +987,6 @@
     guessTimeCapture = null;
     clearAttackTimer();
     attackDuel = null;
-    if (overUnderTickHandle) clearInterval(overUnderTickHandle);
-    overUnderTickHandle = null;
     overUnderState = null;
   }
 
@@ -1163,8 +1176,57 @@
     });
   }
 
+  // Resolves once every question image in the category has either loaded
+  // (and so sits in the browser cache) or been confirmed missing.
   function preloadMiniCategoryImages(catIndex) {
-    CATEGORIES[catIndex].questions.forEach((q) => resolveMiniClueImageUrl(q.image));
+    return Promise.all(CATEGORIES[catIndex].questions.map((q) => resolveMiniClueImageUrl(q.image)));
+  }
+
+  // ---------- 3-2-1 countdown (Floor Mini Duel) ----------
+  // Reuses The Floor's countdown overlay. The category's images load while it
+  // counts down; the duel only starts once both the countdown has finished and
+  // every image is ready, so the clock never runs while a clue is still loading.
+
+  let miniCountdown = null;
+
+  function runMiniCountdown(title, imagesReady, onDone) {
+    const cd = { handle: null, counted: false, loaded: false };
+    miniCountdown = cd;
+    els.countdownTitle.textContent = title;
+    els.countdownOverlay.classList.remove("hidden");
+
+    function finishIfReady() {
+      if (miniCountdown !== cd || !cd.counted || !cd.loaded) return;
+      miniCountdown = null;
+      els.countdownOverlay.classList.add("hidden");
+      onDone();
+    }
+
+    function showCount(n) {
+      els.countdownNumber.textContent = n;
+      els.countdownNumber.style.animation = "none";
+      void els.countdownNumber.offsetWidth; // reflow to restart the pop animation
+      els.countdownNumber.style.animation = "";
+    }
+
+    imagesReady.then(() => {
+      cd.loaded = true;
+      finishIfReady();
+    });
+
+    let count = COUNTDOWN_START;
+    showCount(count);
+    cd.handle = setInterval(() => {
+      count--;
+      if (count > 0) {
+        showCount(count);
+        return;
+      }
+      clearInterval(cd.handle);
+      cd.counted = true;
+      if (!cd.loaded) els.countdownTitle.textContent = "Loading images…";
+      finishIfReady();
+    }, COUNTDOWN_TICK_MS);
   }
 
   function loadMiniClueImage(basePath) {
@@ -1347,13 +1409,16 @@
     els.miscFloorSecondsA.classList.remove("passed");
     els.miscFloorSecondsB.classList.remove("passed");
     els.miscFloorLog.textContent = "";
-    els.miscFloorOverlay.classList.remove("hidden");
-    preloadMiniCategoryImages(catIndex);
-    showMiniQuestion();
-    if (miniDuel.ended) return;
-    miniDuel.lastTick = performance.now();
-    clearMiniTimer();
-    miniTimerHandle = setInterval(tickMiniClock, 100);
+    const nameA = tState.players[match.playerA].name;
+    const nameB = tState.players[match.playerB].name;
+    runMiniCountdown(`${nameA} vs ${nameB} — ${CATEGORIES[catIndex].name}`, preloadMiniCategoryImages(catIndex), () => {
+      els.miscFloorOverlay.classList.remove("hidden");
+      showMiniQuestion();
+      if (miniDuel.ended) return;
+      miniDuel.lastTick = performance.now();
+      clearMiniTimer();
+      miniTimerHandle = setInterval(tickMiniClock, 100);
+    });
   }
 
   function clearMiniTimer() {
@@ -1476,11 +1541,6 @@
       return `Bring something whose name has exactly ${n} letters.`;
     },
     () => `Bring something made of ${BRINGME_MATERIALS[randInt(0, BRINGME_MATERIALS.length - 1)]}.`,
-    () => {
-      const cm = randInt(5, 50);
-      const over = Math.random() < 0.5;
-      return `Bring something ${over ? "longer" : "shorter"} than ${cm} cm.`;
-    },
     () => {
       const kind = ["a letter", "a number", "a picture or image"][randInt(0, 2)];
       return `Bring something with ${kind} on it.`;
@@ -1791,6 +1851,9 @@
     guessTimeCapture.running = false;
     guessTimeCapture.actual = (performance.now() - guessTimeCapture.startPerf) / 1000;
     els.miscGuesstimeDisplay.textContent = guessTimeCapture.actual.toFixed(2);
+    els.miscGuesstimeActualText.textContent = `Actual time: ${guessTimeCapture.actual.toFixed(2)} s`;
+    els.miscGuesstimeActualText.classList.add("blurred");
+    els.miscGuesstimeActual.querySelector(".host-answer-icon").textContent = "\u{1F648}";
     els.miscGuesstimeStageActual.classList.add("hidden");
     els.miscGuesstimeStageGuess.classList.remove("hidden");
   }
@@ -1802,6 +1865,11 @@
       e.preventDefault();
       handleGuessTimeSpace();
     }
+  });
+
+  els.miscGuesstimeActual.addEventListener("click", () => {
+    const revealed = els.miscGuesstimeActualText.classList.toggle("blurred") === false;
+    els.miscGuesstimeActual.querySelector(".host-answer-icon").textContent = revealed ? "\u{1F441}️" : "\u{1F648}";
   });
 
   els.miscGuesstimeSubmitBtn.addEventListener("click", () => {
@@ -1818,7 +1886,9 @@
   // ---------- Duel engine: Time Attack ----------
   // A chess clock with no categories or questions: only the active player's
   // clock runs, Space (or the on-screen button) passes control to the other
-  // player, and whoever's clock hits zero first loses.
+  // player, and whoever's clock hits zero first loses. The overlay opens
+  // paused so everyone can read the title — the clock only starts once the
+  // Game Master clicks Start.
 
   const ATTACK_LIFE_SECONDS = 30;
 
@@ -1840,7 +1910,7 @@
       const pct = Math.max(0, (attackDuel.times[side] / ATTACK_LIFE_SECONDS) * 100);
       attackFillElFor(side).style.width = `${pct}%`;
       attackSecondsElFor(side).textContent = Math.max(0, attackDuel.times[side]).toFixed(1);
-      attackLifeElFor(side).classList.toggle("active", attackDuel.active === side);
+      attackLifeElFor(side).classList.toggle("active", attackDuel.started && attackDuel.active === side);
     });
   }
 
@@ -1850,16 +1920,30 @@
   }
 
   function startTimeAttackDuel() {
-    attackDuel = { times: { A: ATTACK_LIFE_SECONDS, B: ATTACK_LIFE_SECONDS }, active: "A", lastTick: null, ended: false };
+    attackDuel = { times: { A: ATTACK_LIFE_SECONDS, B: ATTACK_LIFE_SECONDS }, active: "A", lastTick: null, started: false, ended: false };
     els.miscAttackNameA.textContent = tState.players[match.playerA].name;
     els.miscAttackNameB.textContent = tState.players[match.playerB].name;
-    els.miscAttackLog.textContent = "";
+    els.miscAttackLog.textContent = `${tState.players[match.playerA].name} goes first. Press Start when both players are ready.`;
+    els.miscAttackStartBtn.classList.remove("hidden");
+    els.miscAttackPassBtn.classList.add("hidden");
+    clearAttackTimer();
     els.miscAttackOverlay.classList.remove("hidden");
+    updateAttackUI();
+  }
+
+  function beginAttackClock() {
+    if (!attackDuel || attackDuel.started || attackDuel.ended) return;
+    attackDuel.started = true;
+    els.miscAttackLog.textContent = "";
+    els.miscAttackStartBtn.classList.add("hidden");
+    els.miscAttackPassBtn.classList.remove("hidden");
     updateAttackUI();
     attackDuel.lastTick = performance.now();
     clearAttackTimer();
     attackTimerHandle = setInterval(tickAttackClock, 100);
   }
+
+  els.miscAttackStartBtn.addEventListener("click", beginAttackClock);
 
   function tickAttackClock() {
     if (!attackDuel) return;
@@ -1890,7 +1974,7 @@
   }
 
   function passAttackTurn() {
-    if (!attackDuel || attackDuel.ended) return;
+    if (!attackDuel || !attackDuel.started || attackDuel.ended) return;
     const fromIndex = attackDuel.active === "A" ? match.playerA : match.playerB;
     attackDuel.active = attackDuel.active === "A" ? "B" : "A";
     els.miscAttackLog.textContent = `${tState.players[fromIndex].name} passed the turn.`;
@@ -1900,7 +1984,7 @@
   els.miscAttackPassBtn.addEventListener("click", passAttackTurn);
 
   document.addEventListener("keydown", (e) => {
-    if (!attackDuel || attackDuel.ended || els.miscAttackOverlay.classList.contains("hidden")) return;
+    if (!attackDuel || !attackDuel.started || attackDuel.ended || els.miscAttackOverlay.classList.contains("hidden")) return;
     if (e.code === "Space" || e.key === " ") {
       e.preventDefault();
       passAttackTurn();
@@ -1910,11 +1994,13 @@
   // ---------- Duel engine: Over/Under ----------
   // Player A calls a target time, Player B attempts it on the stopwatch,
   // then Player A guesses whether B landed over or under — right guess wins.
-  // An exact tie (B hits the target on the nose) repeats the duel, since
-  // neither "over" nor "under" would be a correct call.
+  // Times are compared to 2 decimals only (what the screen shows), and if B
+  // hits the target exactly at that precision, B wins outright — there's no
+  // over/under to guess.
 
+  // The attempt shows no running numbers — only "Ready" / "Timing…" — so the
+  // caller can't read the result off the screen before making their call.
   let overUnderState = null;
-  let overUnderTickHandle = null;
 
   function startOverUnderDuel() {
     overUnderState = { target: null, running: false, startPerf: null, actual: null };
@@ -1924,7 +2010,7 @@
     els.miscOverunderCallerName2.textContent = callerName;
     els.miscOverunderAchieverName.textContent = achieverName;
     els.miscOverunderTargetInput.value = "";
-    els.miscOverunderDisplay.textContent = "0.00";
+    els.miscOverunderDisplay.textContent = "Ready";
     els.miscOverunderStageTarget.classList.remove("hidden");
     els.miscOverunderStageAttempt.classList.add("hidden");
     els.miscOverunderStageGuess.classList.add("hidden");
@@ -1934,14 +2020,19 @@
   els.miscOverunderTargetSubmitBtn.addEventListener("click", () => {
     const t = parseFloat(els.miscOverunderTargetInput.value);
     if (Number.isNaN(t)) return;
-    overUnderState.target = t;
+    overUnderState.target = toHundredths(t);
     els.miscOverunderStageTarget.classList.add("hidden");
     els.miscOverunderStageAttempt.classList.remove("hidden");
   });
 
-  function tickOverUnderDisplay() {
-    const elapsed = (performance.now() - overUnderState.startPerf) / 1000;
-    els.miscOverunderDisplay.textContent = elapsed.toFixed(2);
+  // Rounds seconds to a whole number of hundredths, so comparisons happen at
+  // exactly the precision shown on screen (and without float noise).
+  function toHundredths(seconds) {
+    return Math.round(seconds * 100);
+  }
+
+  function formatHundredths(h) {
+    return (h / 100).toFixed(2);
   }
 
   function handleOverUnderSpace() {
@@ -1949,17 +2040,42 @@
     if (!overUnderState.running) {
       overUnderState.running = true;
       overUnderState.startPerf = performance.now();
-      overUnderTickHandle = setInterval(tickOverUnderDisplay, 30);
+      els.miscOverunderDisplay.textContent = "Timing…";
       return;
     }
-    clearInterval(overUnderTickHandle);
-    overUnderTickHandle = null;
     overUnderState.running = false;
-    overUnderState.actual = (performance.now() - overUnderState.startPerf) / 1000;
-    els.miscOverunderDisplay.textContent = overUnderState.actual.toFixed(2);
-    els.miscOverunderGuessSummary.textContent = `Actual: ${overUnderState.actual.toFixed(2)}s — target was ${overUnderState.target.toFixed(2)}s`;
+    overUnderState.actual = toHundredths((performance.now() - overUnderState.startPerf) / 1000);
+    els.miscOverunderDisplay.textContent = "Stopped";
+    els.miscOverunderGuessSummary.textContent = `Actual: ${formatHundredths(overUnderState.actual)}s — target was ${formatHundredths(overUnderState.target)}s`;
     els.miscOverunderStageAttempt.classList.add("hidden");
     els.miscOverunderStageGuess.classList.remove("hidden");
+
+    if (overUnderState.actual === overUnderState.target) {
+      showOverUnderPerfectHit();
+      return;
+    }
+    els.miscOverunderGuessHint.textContent = "Actual time locked in — it stays hidden until the guess is made.";
+    els.miscOverunderGuessControls.classList.remove("hidden");
+    els.miscOverunderGuessSummary.classList.add("blurred");
+    els.miscOverunderSummary.querySelector(".host-answer-icon").textContent = "\u{1F648}";
+    els.miscOverunderOverBtn.disabled = false;
+    els.miscOverunderUnderBtn.disabled = false;
+  }
+
+  // B landed exactly on the target — no over/under call is possible, so the
+  // result is shown openly and B (the hitter) takes the round.
+  function showOverUnderPerfectHit() {
+    const hitterName = tState.players[match.playerB].name;
+    els.miscOverunderGuessHint.textContent = `\u{1F3AF} Perfect hit! ${hitterName} landed exactly on the target and wins outright.`;
+    els.miscOverunderGuessControls.classList.add("hidden");
+    els.miscOverunderGuessSummary.classList.remove("blurred");
+    els.miscOverunderSummary.querySelector(".host-answer-icon").textContent = "\u{1F3AF}";
+    const state = overUnderState;
+    setTimeout(() => {
+      if (overUnderState !== state) return; // overlay was torn down in the meantime
+      els.miscOverunderOverlay.classList.add("hidden");
+      onRoundDecided("B");
+    }, OVERUNDER_REVEAL_MS);
   }
 
   document.addEventListener("keydown", (e) => {
@@ -1971,18 +2087,27 @@
     }
   });
 
+  const OVERUNDER_REVEAL_MS = 2000;
+
+  // The actual time stays blurred while the caller decides; once they call it,
+  // it unblurs alongside the verdict for a moment before the round resolves.
   function resolveOverUnder(callerGuess) {
+    if (!overUnderState || overUnderState.actual === null || els.miscOverunderOverBtn.disabled) return;
+    els.miscOverunderOverBtn.disabled = true;
+    els.miscOverunderUnderBtn.disabled = true;
+    // Exact hits never reach here (showOverUnderPerfectHit handles them), so
+    // the time is strictly over or under the target.
     const isOver = overUnderState.actual > overUnderState.target;
-    const isUnder = overUnderState.actual < overUnderState.target;
-    if (!isOver && !isUnder) {
-      // Exact tie on the target — no valid over/under call, run it back.
+    const callerCorrect = (callerGuess === "over") === isOver;
+    els.miscOverunderGuessSummary.textContent += ` · ${callerGuess.toUpperCase()} — ${callerCorrect ? "correct!" : "wrong!"}`;
+    els.miscOverunderGuessSummary.classList.remove("blurred");
+    els.miscOverunderSummary.querySelector(".host-answer-icon").textContent = "\u{1F441}️";
+    const state = overUnderState;
+    setTimeout(() => {
+      if (overUnderState !== state) return; // overlay was torn down in the meantime
       els.miscOverunderOverlay.classList.add("hidden");
-      startOverUnderDuel();
-      return;
-    }
-    const callerCorrect = (callerGuess === "over" && isOver) || (callerGuess === "under" && isUnder);
-    els.miscOverunderOverlay.classList.add("hidden");
-    onRoundDecided(callerCorrect ? "A" : "B");
+      onRoundDecided(callerCorrect ? "A" : "B");
+    }, OVERUNDER_REVEAL_MS);
   }
 
   els.miscOverunderOverBtn.addEventListener("click", () => resolveOverUnder("over"));
