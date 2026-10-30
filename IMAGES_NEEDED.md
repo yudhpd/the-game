@@ -3020,37 +3020,37 @@ these gradually and playtest as you go.
 - [ ] `36-debris-flow` — Debris Flow
 
 ## Beauty (`images/beauty/`)
-- [ ] `1-lipstick` — Lipstick
-- [ ] `2-mascara` — Mascara
-- [ ] `3-foundation` — Foundation
-- [ ] `4-eyeshadow-palette` — Eyeshadow Palette
-- [ ] `5-blush` — Blush
-- [ ] `6-nail-polish` — Nail Polish
-- [ ] `7-makeup-brush-set` — Makeup Brush Set
-- [ ] `8-false-eyelashes` — False Eyelashes
-- [ ] `9-perfume-bottle` — Perfume Bottle
-- [ ] `10-hairbrush` — Hairbrush
-- [ ] `11-hair-dryer` — Hair Dryer
-- [ ] `12-curling-iron` — Curling Iron
-- [ ] `13-hair-straightener` — Hair Straightener
-- [ ] `14-face-mask` — Face Mask
-- [ ] `15-lip-gloss` — Lip Gloss
-- [ ] `16-concealer` — Concealer
-- [ ] `17-eyeliner` — Eyeliner
-- [ ] `18-bronzer` — Bronzer
-- [ ] `19-highlighter` — Highlighter
-- [ ] `20-setting-powder` — Setting Powder
-- [ ] `21-beauty-blender` — Beauty Blender
-- [ ] `22-makeup-mirror` — Makeup Mirror
-- [ ] `23-cotton-pads` — Cotton Pads
-- [ ] `24-nail-file` — Nail File
-- [ ] `25-manicure-set` — Manicure Set
-- [ ] `26-facial-cleanser` — Facial Cleanser
-- [ ] `27-moisturizer` — Moisturizer
-- [ ] `28-sunscreen` — Sunscreen
-- [ ] `29-lip-balm` — Lip Balm
-- [ ] `30-eyebrow-pencil` — Eyebrow Pencil
-- [ ] `31-hair-rollers` — Hair Rollers
+- [x] <img src="images/beauty/1-lipstick.jpg" width="80"> `1-lipstick` — Lipstick
+- [x] <img src="images/beauty/2-mascara.jpg" width="80"> `2-mascara` — Mascara
+- [x] <img src="images/beauty/3-foundation.webp" width="80"> `3-foundation` — Foundation
+- [x] <img src="images/beauty/4-eyeshadow-palette.webp" width="80"> `4-eyeshadow-palette` — Eyeshadow Palette
+- [x] <img src="images/beauty/5-blush.jpg" width="80"> `5-blush` — Blush
+- [x] <img src="images/beauty/6-nail-polish.jpg" width="80"> `6-nail-polish` — Nail Polish
+- [x] <img src="images/beauty/7-makeup-brush-set.jpg" width="80"> `7-makeup-brush-set` — Makeup Brush Set
+- [x] <img src="images/beauty/8-false-eyelashes.jpg" width="80"> `8-false-eyelashes` — False Eyelashes
+- [x] <img src="images/beauty/9-perfume-bottle.jpg" width="80"> `9-perfume-bottle` — Perfume Bottle
+- [x] <img src="images/beauty/10-hairbrush.jpg" width="80"> `10-hairbrush` — Hairbrush
+- [x] <img src="images/beauty/11-hair-dryer.webp" width="80"> `11-hair-dryer` — Hair Dryer
+- [x] <img src="images/beauty/12-curling-iron.jpg" width="80"> `12-curling-iron` — Curling Iron
+- [x] <img src="images/beauty/13-hair-straightener.jpg" width="80"> `13-hair-straightener` — Hair Straightener
+- [x] <img src="images/beauty/14-face-mask.jpg" width="80"> `14-face-mask` — Face Mask
+- [x] <img src="images/beauty/15-lip-gloss.jpg" width="80"> `15-lip-gloss` — Lip Gloss
+- [x] <img src="images/beauty/16-concealer.jpg" width="80"> `16-concealer` — Concealer
+- [x] <img src="images/beauty/17-eyeliner.jpg" width="80"> `17-eyeliner` — Eyeliner
+- [x] <img src="images/beauty/18-bronzer.png" width="80"> `18-bronzer` — Bronzer
+- [x] <img src="images/beauty/19-highlighter.jpg" width="80"> `19-highlighter` — Highlighter
+- [x] <img src="images/beauty/20-setting-powder.jpg" width="80"> `20-setting-powder` — Setting Powder
+- [x] <img src="images/beauty/21-beauty-blender.webp" width="80"> `21-beauty-blender` — Beauty Blender
+- [x] <img src="images/beauty/22-makeup-mirror.webp" width="80"> `22-makeup-mirror` — Makeup Mirror
+- [x] <img src="images/beauty/23-cotton-pads.jpg" width="80"> `23-cotton-pads` — Cotton Pads
+- [x] <img src="images/beauty/24-nail-file.jpg" width="80"> `24-nail-file` — Nail File
+- [x] <img src="images/beauty/25-manicure-set.jpg" width="80"> `25-manicure-set` — Manicure Set
+- [x] <img src="images/beauty/26-facial-cleanser.webp" width="80"> `26-facial-cleanser` — Facial Cleanser
+- [x] <img src="images/beauty/27-moisturizer.jpg" width="80"> `27-moisturizer` — Moisturizer
+- [x] <img src="images/beauty/28-sunscreen.jpg" width="80"> `28-sunscreen` — Sunscreen
+- [x] <img src="images/beauty/29-lip-balm.webp" width="80"> `29-lip-balm` — Lip Balm
+- [x] <img src="images/beauty/30-eyebrow-pencil.webp" width="80"> `30-eyebrow-pencil` — Eyebrow Pencil
+- [x] <img src="images/beauty/31-hair-rollers.jpg" width="80"> `31-hair-rollers` — Hair Rollers
 - [ ] `32-makeup-vanity-table` — Makeup Vanity Table
 - [ ] `33-cosmetic-bag` — Cosmetic Bag
 - [ ] `34-hand-cream` — Hand Cream
