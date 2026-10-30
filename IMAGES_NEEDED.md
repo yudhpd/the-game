@@ -1,7 +1,7 @@
 # Images needed
 
-The app shows an image as the only clue — no text question — then contestants
-guess what it is from 4 options. Drop your own image **files** into the paths
+The app shows an image as the only clue — no text question, no multiple choice —
+contestants call out their guess and the Game Master judges it. Drop your own image **files** into the paths
 below (create each category folder as you go).
 
 Checked items below already have a file in place — thumbnails are inlined so
@@ -9,7 +9,7 @@ you can eyeball them here without opening the folder. This checklist itself
 never contains image data; it just links to the real files sitting in
 `images/<category>/`.
 
-**Format:** any of `.jpg` `.jpeg` `.png` `.webp` `.gif` — just match the filename
+**Format:** any of `.jpg` `.jpeg` `.png` `.webp` `.gif` `.avif` — just match the filename
 before the extension. The app tries each extension in order and shows a
 "still needed" placeholder in-app until a match is found, so you can add
 these gradually and playtest as you go.
@@ -20,40 +20,40 @@ these gradually and playtest as you go.
 ## Movies (`images/movies/`)
 - [x] <img src="images/movies/1-star-wars.jpg" width="80"> `1-star-wars` — Star Wars
 - [x] <img src="images/movies/2-titanic.webp" width="80"> `2-titanic` — Titanic
-- [x] <img src="images/movies/3-wizard-of-oz.webp" width="80"> `3-agak-laen` — Agak Laen
+- [x] <img src="images/movies/3-agak-laen.webp" width="80"> `3-agak-laen` — Agak Laen
 - [x] <img src="images/movies/4-jurassic-park.jpg" width="80"> `4-jurassic-park` — Jurassic Park
 - [x] <img src="images/movies/5-lion-king.jpg" width="80"> `5-lion-king` — The Lion King
 - [x] <img src="images/movies/6-home-alone.jpg" width="80"> `6-home-alone` — Home Alone
-- [ ] `7-the-matrix` — The Matrix
-- [ ] `8-jumbo` — Jumbo
-- [ ] `9-et-the-extra-terrestrial` — E.T. the Extra-Terrestrial
-- [ ] `10-jaws` — Jaws
-- [ ] `11-the-godfather` — The Godfather
-- [ ] `12-forrest-gump` — Forrest Gump
-- [ ] `13-rocky` — Rocky
-- [ ] `14-frozen` — Frozen
-- [ ] `15-finding-nemo` — Finding Nemo
-- [ ] `16-toy-story` — Toy Story
-- [ ] `17-the-avengers` — The Avengers
-- [ ] `18-harry-potter-and-the-sorcerers-stone` — Harry Potter and the Sorcerer's Stone
-- [ ] `19-pirates-of-the-caribbean` — Pirates of the Caribbean
-- [ ] `20-the-dark-knight` — The Dark Knight
-- [ ] `21-avatar` — Avatar
-- [ ] `22-gladiator` — Gladiator
-- [ ] `23-king-kong` — King Kong
-- [ ] `24-pengabdi-setan` — Pengabdi Setan
-- [ ] `25-dilan-1990` — Dilan 1990
-- [ ] `26-miracle-in-cell-no-7` — Miracle in Cell No. 7
-- [ ] `27-indiana-jones` — Indiana Jones
-- [ ] `28-shrek` — Shrek
-- [ ] `29-spider-man` — Spider-Man
-- [ ] `30-the-terminator` — The Terminator
-- [ ] `31-alien` — Alien
-- [ ] `32-mary-poppins` — Mary Poppins
-- [ ] `33-batman` — Batman
-- [ ] `34-how-to-make-millions-before-grandma-dies` — How To Make Millions Before Grandma Dies
-- [ ] `35-the-shawshank-redemption` — The Shawshank Redemption
-- [ ] `36-up` — Up
+- [x] <img src="images/movies/7-the-matrix.jpg" width="80"> `7-the-matrix` — The Matrix
+- [x] <img src="images/movies/8-jumbo.jpg" width="80"> `8-jumbo` — Jumbo
+- [x] <img src="images/movies/9-et-the-extra-terrestrial.webp" width="80"> `9-et-the-extra-terrestrial` — E.T. the Extra-Terrestrial
+- [x] <img src="images/movies/10-jaws.jpg" width="80"> `10-jaws` — Jaws
+- [x] <img src="images/movies/11-the-godfather.jpg" width="80"> `11-the-godfather` — The Godfather
+- [x] <img src="images/movies/12-forrest-gump.webp" width="80"> `12-forrest-gump` — Forrest Gump
+- [x] <img src="images/movies/13-rocky.jpg" width="80"> `13-rocky` — Rocky
+- [x] <img src="images/movies/14-frozen.jpg" width="80"> `14-frozen` — Frozen
+- [x] <img src="images/movies/15-finding-nemo.jpg" width="80"> `15-finding-nemo` — Finding Nemo
+- [x] <img src="images/movies/16-toy-story.jpg" width="80"> `16-toy-story` — Toy Story
+- [x] <img src="images/movies/17-the-avengers.jpg" width="80"> `17-the-avengers` — The Avengers
+- [x] <img src="images/movies/18-harry-potter-and-the-sorcerers-stone.jpg" width="80"> `18-harry-potter-and-the-sorcerers-stone` — Harry Potter and the Sorcerer's Stone
+- [x] <img src="images/movies/19-pirates-of-the-caribbean.jpg" width="80"> `19-pirates-of-the-caribbean` — Pirates of the Caribbean
+- [x] <img src="images/movies/20-the-dark-knight.jpg" width="80"> `20-the-dark-knight` — The Dark Knight
+- [x] <img src="images/movies/21-avatar.jpg" width="80"> `21-avatar` — Avatar
+- [x] <img src="images/movies/22-gladiator.jpg" width="80"> `22-gladiator` — Gladiator
+- [x] <img src="images/movies/23-king-kong.jpg" width="80"> `23-king-kong` — King Kong
+- [x] <img src="images/movies/24-pengabdi-setan.jpg" width="80"> `24-pengabdi-setan` — Pengabdi Setan
+- [x] <img src="images/movies/25-dilan-1990.avif" width="80"> `25-dilan-1990` — Dilan 1990
+- [x] <img src="images/movies/26-miracle-in-cell-no-7.webp" width="80"> `26-miracle-in-cell-no-7` — Miracle in Cell No. 7
+- [x] <img src="images/movies/27-indiana-jones.jpg" width="80"> `27-indiana-jones` — Indiana Jones
+- [x] <img src="images/movies/28-shrek.jpg" width="80"> `28-shrek` — Shrek
+- [x] <img src="images/movies/29-spider-man.avif" width="80"> `29-spider-man` — Spider-Man
+- [x] <img src="images/movies/30-the-terminator.jpg" width="80"> `30-the-terminator` — The Terminator
+- [x] <img src="images/movies/31-alien.jpg" width="80"> `31-alien` — Alien
+- [x] <img src="images/movies/32-mary-poppins.jpg" width="80"> `32-mary-poppins` — Mary Poppins
+- [x] <img src="images/movies/33-man-of-steel.avif" width="80"> `33-man-of-steel` — Man of Steel
+- [x] <img src="images/movies/34-how-to-make-millions-before-grandma-dies.jpg" width="80"> `34-how-to-make-millions-before-grandma-dies` — How To Make Millions Before Grandma Dies
+- [x] <img src="images/movies/35-the-shawshank-redemption.jpg" width="80"> `35-the-shawshank-redemption` — The Shawshank Redemption
+- [x] <img src="images/movies/36-up.jpg" width="80"> `36-up` — Up
 
 ## Music (`images/music/`)
 - [x] <img src="images/music/1-electric-guitar.jpg" width="80"> `1-electric-guitar` — Electric guitar

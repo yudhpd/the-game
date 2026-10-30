@@ -3,7 +3,7 @@
 // the Game Master judges it correct or not.
 //
 // `image` is a path with NO extension, e.g. "images/animals/1-octopus".
-// The app tries common extensions (.jpg, .jpeg, .png, .webp, .gif) in order and
+// The app tries common extensions (.jpg, .jpeg, .png, .webp, .gif, .avif) in order and
 // falls back to a "still needed" placeholder if none exist yet.
 // See IMAGES_NEEDED.md for the full shot list.
 const CATEGORIES = [
@@ -43,7 +43,7 @@ const CATEGORIES = [
       { image: "images/movies/30-the-terminator", answer: "The Terminator" },
       { image: "images/movies/31-alien", answer: "Alien" },
       { image: "images/movies/32-mary-poppins", answer: "Mary Poppins" },
-      { image: "images/movies/33-batman", answer: "Batman" },
+      { image: "images/movies/33-man-of-steel", answer: "Man of Steel" },
       { image: "images/movies/34-how-to-make-millions-before-grandma-dies", answer: "How To Make Millions Before Grandma Dies" },
       { image: "images/movies/35-the-shawshank-redemption", answer: "The Shawshank Redemption" },
       { image: "images/movies/36-up", answer: "Up" },

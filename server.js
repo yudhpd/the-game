@@ -10,6 +10,13 @@ const MIME = {
   ".js": "text/javascript",
   ".css": "text/css",
   ".json": "application/json",
+  ".jpg": "image/jpeg",
+  ".jpeg": "image/jpeg",
+  ".png": "image/png",
+  ".webp": "image/webp",
+  ".gif": "image/gif",
+  ".avif": "image/avif",
+  ".svg": "image/svg+xml",
 };
 
 http

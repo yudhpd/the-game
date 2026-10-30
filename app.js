@@ -18,7 +18,7 @@
   const LIFE_SECONDS = 45;
   const PASS_PENALTY_SECONDS = 3;
   const IMAGE_CHANGE_DELAY_MS = 1000;
-  const IMAGE_EXTENSIONS = ["jpg", "jpeg", "png", "webp", "gif"];
+  const IMAGE_EXTENSIONS = ["jpg", "jpeg", "png", "webp", "gif", "avif"];
   const RANDOMIZER_TICK_MS = 100;
   const RANDOMIZER_TICKS = 15;
   const COIN_TOSS_TICKS = 10;
@@ -984,7 +984,7 @@
         els.questionImage.src = url;
         els.questionImage.classList.remove("hidden");
       } else {
-        els.placeholderPath.textContent = `${basePath}.(jpg|png|webp|gif)`;
+        els.placeholderPath.textContent = `${basePath}.(jpg|png|webp|gif|avif)`;
         els.imagePlaceholder.classList.remove("hidden");
       }
     });

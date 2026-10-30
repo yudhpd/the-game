@@ -2,7 +2,7 @@
   const MINI_LIFE_SECONDS = 15;
   const PASS_PENALTY_SECONDS = 1;
   const IMAGE_CHANGE_DELAY_MS = 1000;
-  const IMAGE_EXTENSIONS = ["jpg", "jpeg", "png", "webp", "gif"];
+  const IMAGE_EXTENSIONS = ["jpg", "jpeg", "png", "webp", "gif", "avif"];
   const COIN_TOSS_TICKS = 10;
   const COIN_TOSS_TICK_MS = 100;
   const COUNTDOWN_START = 3;
@@ -1238,7 +1238,7 @@
         els.miscFloorImage.src = url;
         els.miscFloorImage.classList.remove("hidden");
       } else {
-        els.miscFloorPlaceholderPath.textContent = `${basePath}.(jpg|png|webp|gif)`;
+        els.miscFloorPlaceholderPath.textContent = `${basePath}.(jpg|png|webp|gif|avif)`;
         els.miscFloorPlaceholder.classList.remove("hidden");
       }
     });

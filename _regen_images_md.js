@@ -6,15 +6,17 @@ const IMAGES_MD_PATH = path.join(ROOT, "IMAGES_NEEDED.md");
 const IMAGES_DIR = path.join(ROOT, "images");
 const { CATEGORIES } = require(path.join(ROOT, "questions.js"));
 
-function findExistingFile(slug, n) {
+// Same extensions, in the same order, that the app tries at runtime (see
+// IMAGE_EXTENSIONS in app.js / misc.js) — so a file only counts as "in place"
+// if the app would actually find it.
+const IMAGE_EXTENSIONS = ["jpg", "jpeg", "png", "webp", "gif", "avif"];
+
+function findExistingFile(slug, baseName) {
   const dir = path.join(IMAGES_DIR, slug);
   if (!fs.existsSync(dir)) return null;
-  const files = fs.readdirSync(dir);
-  const match = files.find((f) => {
-    const m = f.match(/^(\d+)-/);
-    return m && parseInt(m[1], 10) === n;
-  });
-  return match || null;
+  const files = new Set(fs.readdirSync(dir));
+  const ext = IMAGE_EXTENSIONS.find((e) => files.has(`${baseName}.${e}`));
+  return ext ? `${baseName}.${ext}` : null;
 }
 
 function baseNameFromImagePath(imagePath) {
@@ -23,8 +25,8 @@ function baseNameFromImagePath(imagePath) {
 
 let mdOut = `# Images needed
 
-The app shows an image as the only clue — no text question — then contestants
-guess what it is from 4 options. Drop your own image **files** into the paths
+The app shows an image as the only clue — no text question, no multiple choice —
+contestants call out their guess and the Game Master judges it. Drop your own image **files** into the paths
 below (create each category folder as you go).
 
 Checked items below already have a file in place — thumbnails are inlined so
@@ -32,7 +34,7 @@ you can eyeball them here without opening the folder. This checklist itself
 never contains image data; it just links to the real files sitting in
 \`images/<category>/\`.
 
-**Format:** any of \`.jpg\` \`.jpeg\` \`.png\` \`.webp\` \`.gif\` — just match the filename
+**Format:** any of \`.jpg\` \`.jpeg\` \`.png\` \`.webp\` \`.gif\` \`.avif\` — just match the filename
 before the extension. The app tries each extension in order and shows a
 "still needed" placeholder in-app until a match is found, so you can add
 these gradually and playtest as you go.
@@ -50,8 +52,7 @@ CATEGORIES.forEach((cat) => {
   cat.questions.forEach((q) => {
     totalQuestions++;
     const baseName = baseNameFromImagePath(q.image);
-    const n = parseInt(baseName.match(/^(\d+)-/)[1], 10);
-    const foundFile = findExistingFile(cat.slug, n);
+    const foundFile = findExistingFile(cat.slug, baseName);
     if (foundFile) {
       totalDone++;
       mdOut += `- [x] <img src="images/${cat.slug}/${foundFile}" width="80"> \`${baseName}\` — ${q.answer}\n`;
