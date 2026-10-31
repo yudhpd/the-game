@@ -3051,11 +3051,11 @@ these gradually and playtest as you go.
 - [x] <img src="images/beauty/29-lip-balm.webp" width="80"> `29-lip-balm` — Lip Balm
 - [x] <img src="images/beauty/30-eyebrow-pencil.webp" width="80"> `30-eyebrow-pencil` — Eyebrow Pencil
 - [x] <img src="images/beauty/31-hair-rollers.jpg" width="80"> `31-hair-rollers` — Hair Rollers
-- [ ] `32-makeup-vanity-table` — Makeup Vanity Table
-- [ ] `33-cosmetic-bag` — Cosmetic Bag
-- [ ] `34-hand-cream` — Hand Cream
-- [ ] `35-body-lotion` — Body Lotion
-- [ ] `36-shampoo-and-conditioner` — Shampoo and Conditioner
+- [x] <img src="images/beauty/32-makeup-vanity-table.jpg" width="80"> `32-makeup-vanity-table` — Makeup Vanity Table
+- [x] <img src="images/beauty/33-cosmetic-bag.jpg" width="80"> `33-cosmetic-bag` — Cosmetic Bag
+- [x] <img src="images/beauty/34-hand-cream.jpg" width="80"> `34-hand-cream` — Hand Cream
+- [x] <img src="images/beauty/35-body-lotion.jpg" width="80"> `35-body-lotion` — Body Lotion
+- [x] <img src="images/beauty/36-shampoo-and-conditioner.avif" width="80"> `36-shampoo-and-conditioner` — Shampoo and Conditioner
 
 ## Famous Hotel Logos (`images/famous-hotel-logos/`)
 - [ ] `1-marriott` — Marriott
