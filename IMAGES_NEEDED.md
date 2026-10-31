@@ -588,26 +588,26 @@ these gradually and playtest as you go.
 - [ ] `36-yggdrasil-world-tree` — Yggdrasil (World Tree)
 
 ## Cars (`images/cars/`)
-- [ ] `1-jaguar-logo` — Jaguar
-- [ ] `2-ford` — Ford
+- [x] <img src="images/cars/1-jaguar-logo.jpg" width="80"> `1-jaguar-logo` — Jaguar
+- [x] <img src="images/cars/2-ford.jpg" width="80"> `2-ford` — Ford
 - [ ] `3-bmw-logo` — BMW
-- [ ] `4-tesla` — Tesla
-- [ ] `5-ferrari-logo` — Ferrari
-- [ ] `6-vw-logo` — Volkswagen
-- [ ] `7-porsche` — Porsche
-- [ ] `8-lamborghini` — Lamborghini
-- [ ] `9-chevrolet` — Chevrolet
-- [ ] `10-audi` — Audi
-- [ ] `11-mercedes-benz` — Mercedes-Benz
-- [ ] `12-rolls-royce` — Rolls-Royce
-- [ ] `13-bentley` — Bentley
-- [ ] `14-aston-martin` — Aston Martin
-- [ ] `15-bugatti` — Bugatti
-- [ ] `16-toyota` — Toyota
-- [ ] `17-honda` — Honda
-- [ ] `18-nissan` — Nissan
-- [ ] `19-mazda` — Mazda
-- [ ] `20-subaru` — Subaru
+- [x] <img src="images/cars/4-tesla.png" width="80"> `4-tesla` — Tesla
+- [x] <img src="images/cars/5-ferrari-logo.jpg" width="80"> `5-ferrari-logo` — Ferrari
+- [x] <img src="images/cars/6-vw-logo.png" width="80"> `6-vw-logo` — Volkswagen
+- [x] <img src="images/cars/7-porsche.jpg" width="80"> `7-porsche` — Porsche
+- [x] <img src="images/cars/8-lamborghini.jpg" width="80"> `8-lamborghini` — Lamborghini
+- [x] <img src="images/cars/9-chevrolet.jpg" width="80"> `9-chevrolet` — Chevrolet
+- [x] <img src="images/cars/10-audi.webp" width="80"> `10-audi` — Audi
+- [x] <img src="images/cars/11-mercedes-benz.webp" width="80"> `11-mercedes-benz` — Mercedes-Benz
+- [x] <img src="images/cars/12-rolls-royce.png" width="80"> `12-rolls-royce` — Rolls-Royce
+- [x] <img src="images/cars/13-bentley.jpg" width="80"> `13-bentley` — Bentley
+- [x] <img src="images/cars/14-aston-martin.jpg" width="80"> `14-aston-martin` — Aston Martin
+- [x] <img src="images/cars/15-bugatti.jpg" width="80"> `15-bugatti` — Bugatti
+- [x] <img src="images/cars/16-toyota.jpg" width="80"> `16-toyota` — Toyota
+- [x] <img src="images/cars/17-honda.jpg" width="80"> `17-honda` — Honda
+- [x] <img src="images/cars/18-nissan.jpg" width="80"> `18-nissan` — Nissan
+- [x] <img src="images/cars/19-mazda.jpg" width="80"> `19-mazda` — Mazda
+- [x] <img src="images/cars/20-subaru.jpg" width="80"> `20-subaru` — Subaru
 - [ ] `21-mini-cooper` — Mini Cooper
 - [ ] `22-fiat` — Fiat
 - [ ] `23-jeep` — Jeep
