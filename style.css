@@ -713,6 +713,11 @@ h1 {
   overflow: hidden;
 }
 
+/* Floor Mini Duel shows its clue 1.1× larger (260px × 1.1). */
+.misc-floor-clue-media {
+  height: 286px;
+}
+
 .clue-image {
   max-width: 100%;
   max-height: 100%;

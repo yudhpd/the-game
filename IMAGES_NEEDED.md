@@ -288,38 +288,38 @@ these gradually and playtest as you go.
 - [x] <img src="images/animals/2-platypus.jpg" width="80"> `2-platypus` — Platypus
 - [x] <img src="images/animals/3-cheetah.jpg" width="80"> `3-cheetah` — Cheetah
 - [x] <img src="images/animals/4-parrot.jpg" width="80"> `4-parrot` — Parrot
-- [x] <img src="images/animals/5-whale-shark.jpg" width="80"> `5-whale-shark` — Whale shark
+- [x] <img src="images/animals/5-whale-shark.avif" width="80"> `5-whale-shark` — Whale shark
 - [x] <img src="images/animals/6-kangaroo.jpg" width="80"> `6-kangaroo` — Kangaroo
 - [x] <img src="images/animals/7-elephant.jpg" width="80"> `7-elephant` — Elephant
 - [x] <img src="images/animals/8-giraffe.jpg" width="80"> `8-giraffe` — Giraffe
 - [x] <img src="images/animals/9-lion.jpg" width="80"> `9-lion` — Lion
 - [x] <img src="images/animals/10-gorilla.jpg" width="80"> `10-gorilla` — Gorilla
-- [x] <img src="images/animals/11-panda.jpg" width="80"> `11-panda` — Panda
+- [x] <img src="images/animals/11-panda.avif" width="80"> `11-panda` — Panda
 - [x] <img src="images/animals/12-polar-bear.jpg" width="80"> `12-polar-bear` — Polar Bear
 - [x] <img src="images/animals/13-koala.jpg" width="80"> `13-koala` — Koala
 - [x] <img src="images/animals/14-sloth.jpg" width="80"> `14-sloth` — Sloth
 - [x] <img src="images/animals/15-zebra.jpg" width="80"> `15-zebra` — Zebra
 - [x] <img src="images/animals/16-rhinoceros.jpg" width="80"> `16-rhinoceros` — Rhinoceros
 - [x] <img src="images/animals/17-hippopotamus.jpg" width="80"> `17-hippopotamus` — Hippopotamus
-- [x] <img src="images/animals/18-wolf.jpg" width="80"> `18-wolf` — Wolf
+- [x] <img src="images/animals/18-wolf.webp" width="80"> `18-wolf` — Wolf
 - [x] <img src="images/animals/19-fox.jpg" width="80"> `19-fox` — Fox
-- [x] <img src="images/animals/20-raccoon.jpg" width="80"> `20-raccoon` — Raccoon
-- [x] <img src="images/animals/21-bat.jpg" width="80"> `21-bat` — Bat
+- [x] <img src="images/animals/20-raccoon.avif" width="80"> `20-raccoon` — Raccoon
+- [x] <img src="images/animals/21-bat.webp" width="80"> `21-bat` — Bat
 - [x] <img src="images/animals/22-armadillo.jpg" width="80"> `22-armadillo` — Armadillo
-- [x] <img src="images/animals/23-meerkat.jpg" width="80"> `23-meerkat` — Meerkat
+- [x] <img src="images/animals/23-eagle.jpg" width="80"> `23-eagle` — Eagle
 - [x] <img src="images/animals/24-otter.jpg" width="80"> `24-otter` — Otter
 - [x] <img src="images/animals/25-squirrel.jpg" width="80"> `25-squirrel` — Squirrel
 - [x] <img src="images/animals/26-hedgehog.jpg" width="80"> `26-hedgehog` — Hedgehog
 - [x] <img src="images/animals/27-camel.jpg" width="80"> `27-camel` — Camel
 - [x] <img src="images/animals/28-bison.jpg" width="80"> `28-bison` — Bison
 - [x] <img src="images/animals/29-moose.jpg" width="80"> `29-moose` — Moose
-- [x] <img src="images/animals/30-orangutan.jpg" width="80"> `30-orangutan` — Orangutan
+- [x] <img src="images/animals/30-orangutan.webp" width="80"> `30-orangutan` — Orangutan
 - [x] <img src="images/animals/31-chimpanzee.jpg" width="80"> `31-chimpanzee` — Chimpanzee
 - [x] <img src="images/animals/32-tiger.jpg" width="80"> `32-tiger` — Tiger
 - [x] <img src="images/animals/33-leopard.jpg" width="80"> `33-leopard` — Leopard
-- [x] <img src="images/animals/34-red-panda.jpg" width="80"> `34-red-panda` — Red Panda
-- [x] <img src="images/animals/35-wombat.jpg" width="80"> `35-wombat` — Wombat
-- [x] <img src="images/animals/36-tasmanian-devil.jpg" width="80"> `36-tasmanian-devil` — Tasmanian Devil
+- [x] <img src="images/animals/34-crocodile.jpg" width="80"> `34-crocodile` — Crocodile
+- [x] <img src="images/animals/35-komodo.jpg" width="80"> `35-komodo` — Komodo
+- [x] <img src="images/animals/36-peacock.webp" width="80"> `36-peacock` — Peacock
 
 ## TV Shows (`images/tv-shows/`)
 - [ ] `1-game-of-thrones` — Game of Thrones
@@ -590,7 +590,7 @@ these gradually and playtest as you go.
 ## Cars (`images/cars/`)
 - [x] <img src="images/cars/1-jaguar-logo.jpg" width="80"> `1-jaguar-logo` — Jaguar
 - [x] <img src="images/cars/2-ford.jpg" width="80"> `2-ford` — Ford
-- [ ] `3-bmw-logo` — BMW
+- [x] <img src="images/cars/3-daihatsu.png" width="80"> `3-daihatsu` — Daihatsu
 - [x] <img src="images/cars/4-tesla.png" width="80"> `4-tesla` — Tesla
 - [x] <img src="images/cars/5-ferrari-logo.jpg" width="80"> `5-ferrari-logo` — Ferrari
 - [x] <img src="images/cars/6-vw-logo.png" width="80"> `6-vw-logo` — Volkswagen
@@ -608,22 +608,22 @@ these gradually and playtest as you go.
 - [x] <img src="images/cars/18-nissan.jpg" width="80"> `18-nissan` — Nissan
 - [x] <img src="images/cars/19-mazda.jpg" width="80"> `19-mazda` — Mazda
 - [x] <img src="images/cars/20-subaru.jpg" width="80"> `20-subaru` — Subaru
-- [ ] `21-mini-cooper` — Mini Cooper
-- [ ] `22-fiat` — Fiat
-- [ ] `23-jeep` — Jeep
-- [ ] `24-land-rover` — Land Rover
-- [ ] `25-dodge` — Dodge
-- [ ] `26-wuling` — Wuling
-- [ ] `27-volvo` — Volvo
-- [ ] `28-peugeot` — Peugeot
-- [ ] `29-renault` — Renault
-- [ ] `30-maserati` — Maserati
-- [ ] `31-mclaren` — McLaren
-- [ ] `32-alfa-romeo` — Alfa Romeo
-- [ ] `33-cadillac` — Cadillac
-- [ ] `34-lincoln` — Lincoln
-- [ ] `35-geely` — Geely
-- [ ] `36-chery` — Chery
+- [x] <img src="images/cars/21-mini-cooper.jpg" width="80"> `21-mini-cooper` — Mini Cooper
+- [x] <img src="images/cars/22-kia.png" width="80"> `22-kia` — Kia
+- [x] <img src="images/cars/23-suzuki.jpg" width="80"> `23-suzuki` — Suzuki
+- [x] <img src="images/cars/24-land-rover.jpg" width="80"> `24-land-rover` — Land Rover
+- [x] <img src="images/cars/25-dodge.webp" width="80"> `25-dodge` — Dodge
+- [x] <img src="images/cars/26-wuling.png" width="80"> `26-wuling` — Wuling
+- [x] <img src="images/cars/27-volvo.jpg" width="80"> `27-volvo` — Volvo
+- [x] <img src="images/cars/28-peugeot.jpg" width="80"> `28-peugeot` — Peugeot
+- [x] <img src="images/cars/29-renault.gif" width="80"> `29-renault` — Renault
+- [x] <img src="images/cars/30-maserati.jpg" width="80"> `30-maserati` — Maserati
+- [x] <img src="images/cars/31-lexus.jpg" width="80"> `31-lexus` — Lexus
+- [x] <img src="images/cars/32-hyundai.png" width="80"> `32-hyundai` — Hyundai
+- [x] <img src="images/cars/33-mitsubishi.png" width="80"> `33-mitsubishi` — Mitsubishi
+- [x] <img src="images/cars/34-hino.png" width="80"> `34-hino` — Hino
+- [x] <img src="images/cars/35-geely.jpg" width="80"> `35-geely` — Geely
+- [x] <img src="images/cars/36-chery.png" width="80"> `36-chery` — Chery
 
 ## Fashion (`images/fashion/`)
 - [ ] `1-chanel-logo` — Chanel
@@ -3628,42 +3628,42 @@ these gradually and playtest as you go.
 - [ ] `36-volunteer-ambulance-van` — Volunteer Ambulance Van
 
 ## Athletes (`images/athletes/`)
-- [ ] `1-michael-jordan` — Michael Jordan
-- [ ] `2-lebron-james` — LeBron James
-- [ ] `3-kobe-bryant` — Kobe Bryant
-- [ ] `4-shaquille-o-neal` — Shaquille O'Neal
-- [ ] `5-lionel-messi` — Lionel Messi
-- [ ] `6-cristiano-ronaldo` — Cristiano Ronaldo
-- [ ] `7-pel` — Pelé
-- [ ] `8-diego-maradona` — Diego Maradona
-- [ ] `9-serena-williams` — Serena Williams
-- [ ] `10-roger-federer` — Roger Federer
-- [ ] `11-rafael-nadal` — Rafael Nadal
-- [ ] `12-novak-djokovic` — Novak Djokovic
-- [ ] `13-usain-bolt` — Usain Bolt
-- [ ] `14-carl-lewis` — Carl Lewis
-- [ ] `15-michael-phelps` — Michael Phelps
-- [ ] `16-katie-ledecky` — Katie Ledecky
-- [ ] `17-muhammad-ali` — Muhammad Ali
-- [ ] `18-mike-tyson` — Mike Tyson
-- [ ] `19-manny-pacquiao` — Manny Pacquiao
-- [ ] `20-tiger-woods` — Tiger Woods
-- [ ] `21-babe-ruth` — Babe Ruth
-- [ ] `22-tom-brady` — Tom Brady
-- [ ] `23-wayne-gretzky` — Wayne Gretzky
-- [ ] `24-simone-biles` — Simone Biles
-- [ ] `25-nadia-comaneci` — Nadia Comaneci
-- [ ] `26-lewis-hamilton` — Lewis Hamilton
-- [ ] `27-michael-schumacher` — Michael Schumacher
-- [ ] `28-virat-kohli` — Virat Kohli
-- [ ] `29-sachin-tendulkar` — Sachin Tendulkar
-- [ ] `30-conor-mcgregor` — Conor McGregor
-- [ ] `31-ronda-rousey` — Ronda Rousey
-- [ ] `32-jonah-lomu` — Jonah Lomu
-- [ ] `33-eliud-kipchoge` — Eliud Kipchoge
-- [ ] `34-yuna-kim` — Yuna Kim
-- [ ] `35-tony-hawk` — Tony Hawk
-- [ ] `36-misty-may-treanor` — Misty May-Treanor
+- [x] <img src="images/athletes/1-michael-jordan.png" width="80"> `1-michael-jordan` — Michael Jordan
+- [x] <img src="images/athletes/2-lebron-james.png" width="80"> `2-lebron-james` — LeBron James
+- [x] <img src="images/athletes/3-kobe-bryant.avif" width="80"> `3-kobe-bryant` — Kobe Bryant
+- [x] <img src="images/athletes/4-shaquille-o-neal.jpg" width="80"> `4-shaquille-o-neal` — Shaquille O'Neal
+- [x] <img src="images/athletes/5-lionel-messi.png" width="80"> `5-lionel-messi` — Lionel Messi
+- [x] <img src="images/athletes/6-cristiano-ronaldo.jpg" width="80"> `6-cristiano-ronaldo` — Cristiano Ronaldo
+- [x] <img src="images/athletes/7-pele.webp" width="80"> `7-pele` — Pelé
+- [x] <img src="images/athletes/8-diego-maradona.jpg" width="80"> `8-diego-maradona` — Diego Maradona
+- [x] <img src="images/athletes/9-serena-williams.jpg" width="80"> `9-serena-williams` — Serena Williams
+- [x] <img src="images/athletes/10-roger-federer.jpg" width="80"> `10-roger-federer` — Roger Federer
+- [x] <img src="images/athletes/11-rafael-nadal.jpg" width="80"> `11-rafael-nadal` — Rafael Nadal
+- [x] <img src="images/athletes/12-novak-djokovic.jpg" width="80"> `12-novak-djokovic` — Novak Djokovic
+- [x] <img src="images/athletes/13-usain-bolt.jpg" width="80"> `13-usain-bolt` — Usain Bolt
+- [x] <img src="images/athletes/14-erling-haaland.jpg" width="80"> `14-erling-haaland` — Erling Haaland
+- [x] <img src="images/athletes/15-michael-phelps.jpg" width="80"> `15-michael-phelps` — Michael Phelps
+- [x] <img src="images/athletes/16-harry-kane.webp" width="80"> `16-harry-kane` — Harry Kane
+- [x] <img src="images/athletes/17-muhammad-ali.webp" width="80"> `17-muhammad-ali` — Muhammad Ali
+- [x] <img src="images/athletes/18-mike-tyson.jpg" width="80"> `18-mike-tyson` — Mike Tyson
+- [x] <img src="images/athletes/19-manny-pacquiao.jpg" width="80"> `19-manny-pacquiao` — Manny Pacquiao
+- [x] <img src="images/athletes/20-tiger-woods.jpg" width="80"> `20-tiger-woods` — Tiger Woods
+- [x] <img src="images/athletes/21-neymar.avif" width="80"> `21-neymar` — Neymar
+- [x] <img src="images/athletes/22-alysa-liu.webp" width="80"> `22-alysa-liu` — Alysa Liu
+- [x] <img src="images/athletes/23-kylian-mbappe.avif" width="80"> `23-kylian-mbappe` — Kylian Mbappé
+- [x] <img src="images/athletes/24-lamine-yamal.jpg" width="80"> `24-lamine-yamal` — Lamine Yamal
+- [x] <img src="images/athletes/25-carlos-alcaraz.jpg" width="80"> `25-carlos-alcaraz` — Carlos Alcaraz
+- [x] <img src="images/athletes/26-lewis-hamilton.webp" width="80"> `26-lewis-hamilton` — Lewis Hamilton
+- [x] <img src="images/athletes/27-michael-schumacher.avif" width="80"> `27-michael-schumacher` — Michael Schumacher
+- [x] <img src="images/athletes/28-max-verstappen.jpg" width="80"> `28-max-verstappen` — Max Verstappen
+- [x] <img src="images/athletes/29-valentino-rossi.jpg" width="80"> `29-valentino-rossi` — Valentino Rossi
+- [x] <img src="images/athletes/30-conor-mcgregor.jpg" width="80"> `30-conor-mcgregor` — Conor McGregor
+- [x] <img src="images/athletes/31-ronda-rousey.jpg" width="80"> `31-ronda-rousey` — Ronda Rousey
+- [x] <img src="images/athletes/32-marc-marquez.jpg" width="80"> `32-marc-marquez` — Marc Marquez
+- [x] <img src="images/athletes/33-khabib-nurmagomedov.jpg" width="80"> `33-khabib-nurmagomedov` — Khabib Nurmagomedov
+- [x] <img src="images/athletes/34-taufik-hidayat.jpg" width="80"> `34-taufik-hidayat` — Taufik Hidayat
+- [x] <img src="images/athletes/35-susi-susanti.jpg" width="80"> `35-susi-susanti` — Susi Susanti
+- [x] <img src="images/athletes/36-jonatan-christie.jpg" width="80"> `36-jonatan-christie` — Jonatan Christie
 
 ## Fairy Tales (`images/fairy-tales/`)
 - [ ] `1-cinderellas-glass-slipper` — Cinderella's Glass Slipper
